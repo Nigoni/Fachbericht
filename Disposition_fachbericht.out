@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{1 Einleitung}{}% 1
+\BOOKMARK [1][-]{section.2}{2 Grundlagen}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{2.1 Phasenanschnittsteuerung}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Schwingungspaketsteuerung}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Leistungsfaktor}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{2.3.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{2.3.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.4}{2.4 Netzverunreinigungen}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.4.1}{2.4.1 Harmonische Oberwellen}{subsection.2.4}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.2}{2.4.2 Subharmonische}{subsection.2.4}% 10
+\BOOKMARK [3][-]{subsubsection.2.4.3}{2.4.3 Fast Fourier Transformation}{subsection.2.4}% 11
+\BOOKMARK [2][-]{subsection.2.5}{2.5 Total Harmonic Distortion}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{3 Simulation}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Plecs}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Matlab}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 16
+\BOOKMARK [1][-]{section.5}{5 Normen}{}% 17
+\BOOKMARK [1][-]{section.6}{6 Umsetzung}{}% 18
+\BOOKMARK [1][-]{section.7}{7 Validierung}{}% 19
+\BOOKMARK [1][-]{section.8}{8 Schlusswort}{}% 20
+\BOOKMARK [1][-]{section*.9}{Literatur}{}% 21
+\BOOKMARK [1][-]{section*.10}{Abbildungsverzeichnis}{}% 22
+\BOOKMARK [1][-]{section*.11}{Tabellenverzeichnis}{}% 23
