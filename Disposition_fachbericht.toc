@@ -1,0 +1,28 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Phasenanschnittsteuerung}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Schwingungspaketsteuerung}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Leistungsfaktor}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Leistungsfaktor Phasenanschnittsteuerung}{4}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Leistungsfaktor Schwingungspaketsteuerung}{4}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}Netzverunreinigungen}{5}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Harmonische Oberwellen}{5}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Subharmonische}{5}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Fast Fourier Transformation}{5}{subsubsection.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Total Harmonic Distortion}{5}{subsection.2.5}
+\contentsline {section}{\numberline {3}Simulation}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Simulation mit Plecs}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Simulation mit Matlab}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Messaufbau}{7}{section.4}
+\contentsline {section}{\numberline {5}Normen}{8}{section.5}
+\contentsline {section}{\numberline {6}Umsetzung}{9}{section.6}
+\contentsline {section}{\numberline {7}Validierung}{10}{section.7}
+\contentsline {section}{\numberline {8}Schlusswort}{11}{section.8}
+\contentsline {section}{Literatur}{13}{section*.9}
+\contentsline {section}{Abbildungsverzeichnis}{13}{section*.10}
+\contentsline {section}{Tabellenverzeichnis}{13}{section*.11}
