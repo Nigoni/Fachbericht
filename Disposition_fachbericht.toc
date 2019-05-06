@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {2.8}Tripel Oberschwingungen}{7}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Auswirkung von Oberschwingungen}{8}{subsection.2.9}
 \contentsline {subsubsection}{\numberline {2.9.1}Harmonische Oberwellen}{8}{subsubsection.2.9.1}
-\contentsline {subsubsection}{\numberline {2.9.2}Subharmonische}{8}{subsubsection.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.2}Subharmonische}{9}{subsubsection.2.9.2}
 \contentsline {subsubsection}{\numberline {2.9.3}Fast Fourier Transformation}{9}{subsubsection.2.9.3}
 \contentsline {subsection}{\numberline {2.10}Total Harmonic Distortion}{9}{subsection.2.10}
 \contentsline {subsection}{\numberline {2.11}Normen}{9}{subsection.2.11}
