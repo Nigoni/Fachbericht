@@ -64,7 +64,7 @@
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{progressi nei veicoli elettrici}
+      \field{title}{Schwingungspaketsteuerung}
       \field{urlday}{15}
       \field{urlmonth}{4}
       \field{urlyear}{2019}
@@ -75,6 +75,64 @@
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/Datei:Schwingungspaketsteuerung.png
+      \endverb
+    \endentry
+    \entry{TRIAC}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Circuit symbol for a triac}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Triac#/media/File:Triac.svg
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Triac#/media/File:Triac.svg
+      \endverb
+    \endentry
+    \entry{Oberwellen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8e80f193a197a475a816d6103f0149c4}{%
+           family={{Alexander Kamenka}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{fullhash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{bibnamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authorbibnamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authornamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authorfullhash}{8e80f193a197a475a816d6103f0149c4}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OBERSCHWINGUNGEN KAPITEL 1: OBERSCHWINGUNGEN – DIE GRUNDLAGEN}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ihks-fachjournal.de/sechs-themen-um-oberschwingungen-und-netzqualitaet-in-stromversorgungsnetzen/
+      \endverb
+      \verb{url}
+      \verb https://www.ihks-fachjournal.de/sechs-themen-um-oberschwingungen-und-netzqualitaet-in-stromversorgungsnetzen/
       \endverb
     \endentry
   \enddatalist

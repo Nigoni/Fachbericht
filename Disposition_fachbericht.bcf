@@ -2002,6 +2002,14 @@
     <bcf:citekey order="4">Phasenanschnittsteuerung</bcf:citekey>
     <bcf:citekey order="5">Schwingungspaketsteuerung</bcf:citekey>
     <bcf:citekey order="6">Schwingungspaketsteuerung</bcf:citekey>
+    <bcf:citekey order="7">TRIAC</bcf:citekey>
+    <bcf:citekey order="8">TRIAC</bcf:citekey>
+    <bcf:citekey order="9">Oberwellen</bcf:citekey>
+    <bcf:citekey order="10">Oberwellen</bcf:citekey>
+    <bcf:citekey order="11">Oberwellen</bcf:citekey>
+    <bcf:citekey order="12">Oberwellen</bcf:citekey>
+    <bcf:citekey order="13">Oberwellen</bcf:citekey>
+    <bcf:citekey order="14">Oberwellen</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
