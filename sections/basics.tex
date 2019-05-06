@@ -2,7 +2,6 @@
 
 \section{Grundlagen}
 In diesem Kapitel werden die verschiedenen Grundlagen für die Steuerungsarten erklärt.
-dsafadsf
 \subsection{Phasenanschnittsteuerung}
 Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündimpuls nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree bis 180\textdegree gewählt werden, wobei bei 0\textdegree die maximale Leistung und bei 180\textdegree keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen verursacht und so ungewünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf.  Der Strom verläuft zeitlich der Spannung nach wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren vom EW nur bei kleinen Leistungen toleriert. Bei grossen Leistungen wird deshalb die Schwinungspaketsteuerung benutzt. In der Abbildung \ref{fig:Phasenanschnitt} ist erischtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Grau gezeichnet ist die normale Netzspannung und rot ist die Spannung welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree gewählt und somit ist die Leistung an der Last kleiner als mit der normalen Netzspannung. 
 
@@ -146,16 +145,16 @@ Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinus
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=1.2]{Schwing_Zusammen.png}	
-	\caption{Zusammensetzung \cite{Oberwellen}}\label{fig:Schwing_Zusammen}
+	\includegraphics[scale=0.7]{verzerrtes_Signal_analysis.png}	
+	\caption{Addition der verschiedenen Oberwellen \cite{analysi3}}\label{fig:Addition Oberwellen}
 \end{figure}
-\todo{Bild beschreiben}
+
 
 Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation diese Bezeichnung. Mit diesem Zusammenhang kann die Überlagerung von einer perfekten Sinuskurve zu einer verzerrten Sinusschwingung führen. Dies Bedeutet so viel wie, eine verzerrte Sinusschwingung lässt sich immer als Überlagerung einer Grundschwingung mit anderen Oberschwingungen unterschiedlicher Frequenzen und unterschiedlichen Amplituden darstellen. Anhand eines Amplitudenspektrums lassen sich die Oberschwingungen gut visualisieren. (Erklärung Bild).
 Bei den Oberschwingungen handelt es sich um ungerade oder gerade harmonische Schwingungen.
 Die ungeraden Oberschwingungen sind die charakteristischen Oberschwingungsanteile in den heutigen Stromversorgungsnetzen. Sie stellen Wellenformen dar die bezogen auf die Zeitachse symmetrisch sind. Aufgrund der meist dreiphasigen Symmetrie der heutigen Infrastrukturen sind nahezu alle Signale symmetrisch, obwohl es zu Verzerrung kommt. Geradzahlige Oberschwingungen können nur aus Wellenformen entstehen, die nicht symmetrisch bezogen auf die Zeitachse sind.
 
-\subsection{Tripel Oberschwingungen}
+\subsection{Vorkommen der Oberschwingungen}
 Oberschwingungsströme erzeuget fast jedes elektrische Gerät. Doch welches Gerät welche Stromverzerrung erzeugt wird später erklärt. Ein wichtiger Bezugspunkt zu den individuellen Oberschwingungsgrössen ist die gesamte harmonische Verzerrung. Man nennt ihn auch den THD-Wert (Total Harmonic Distortion). Diesen Wert gilt es besonders zu verstehen, damit man ihn Rechnerisch analysieren kann. Er gibt ausserdem das Verhältnis des Effektivwertes aller Oberschwingungen zum Effektivwert der Grundschwingung an. Er wird üblicherweise in Nieder-, Mittel-, aber auch im Hochspannungsnetz verwendet. Normalerweise wird die Verzerrung des Stromes als THDi und die Verzerrung der Spannung als THDu angegeben. Der Total Harmonic Current (THC) ist der gesamte Oberschwingungsstrom. Er wird verwendet, um den Gesamteffektivwert der Oberschwingungsströme der Ordnung 2 bis 40 zu quantifizieren, die zu einer Verzerrung der Stromkurve beitragen. Diesen Wert braucht man vor allem, um die erforderlichen Eigenschaften zur Auswahl eines effizienten aktiven Oberschwingungsfilters zu bestimmen.
 
 \todo{Einfügen Formel THC}
@@ -172,6 +171,13 @@ Je nach Eigenschaft der Oberschwingungserzeuger und der Eigenschaft eines Gerät
 \subsection{Auswirkung von Oberschwingungen}
 
 Falls Oberschwingungen oder andere Netzrückwirkungen bei Betriebsmitteln auftreten, können die Funktionen von den Geräten beeinträchtigt oder sogar zerstört werden. Ein Beispiel dafür wäre, im Falle einer Kurzzeitunterberechnung bei Schaltnetzteile würden sie mit extrem hohen Einschaltspitzen reagieren. Diese Spitzen könnten das 20-fache der Nennlast erreichen. Im einphasigen Verbrauch in einem Dreiphasigen-Wechselstromsystem fliesst der ganze Rückleitstrom über den Sternpunkt des Transformators zurück. Gäbe es viele Schaltnetzteile in einem System, würden sich die Rückleiterströme nicht mehr aufheben, sondern sie würden sich addieren. Die Folgen davon wäre eine Sternpunktverschiebung. Oberschwingungen können bei Glühbirnen die Glühfadentemperatur erhöhen und somit die Lebensdauer verkürzen. Auch bei Dreh- oder Wechselstrommotoren und -generatoren führen Stromoberschwingungen zu zusätzlicher Erwärmung. Bei Schutzgeräten wie Distanzschutz, Überstromschutz oder Differentialschutz können Oberschwingungen den Aufbau und die Wirkungswiese des Schutzgerätes beeinflussen. Sind die Abstände zwischen Freileitungen und Telefonleitungen zu gering, können die Oberschwingungen die Sprachübertragung stören. Dabei gibt es vor allem ein Auge auf die 20. bis zur 30. Ordnung der Oberschwingung zu werfen.
+
+\subsection{Anforderung an die Netzqualität}
+
+Um die Anforderungen der Netzqualität zu gewährleisten müssen die Normen eingehalten werden. Auf welche Nomen bei dieser Arbeit genau geachtete wurden, wird zu einem späteren Zeitpunkt erläutert. Zweck der Normen sind es  die verschiedene Merkmale wie zum Beispiel Frequenz, Höhe, Kurvenform oder die Symmetrie der drei Leiterspannungen einzuhalten. Durch Lastspannung, Störeinflüsse von bestimmten Anlagen oder Auftreten von Fehlern können diese Merkmale während des Normalbetriebes des Netzes geändert werden. Ein erstes Beispiel einer Norm ist die EN 61000-3-2. In ihr werden unter anderem die Grenzwerte für die zulässigen Höchstwerte des Oberschwingungsstromes der Klasse A definiert. 
+
+
+\subsection{Gegenmassnahmen bei Oberschwingungen}
 
 \subsubsection{Harmonische Oberwellen}
 Um die einzelnen Vor- und Nachteile besser verstehen zu können, muss weiter erklärt werden, was die harmonische Oberwellen sind und wie sich diese im Netz verhalten.

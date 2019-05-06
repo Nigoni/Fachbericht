@@ -14,13 +14,15 @@
 \contentsline {subsection}{\numberline {2.5}Oberschwingungen}{5}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Grundlagen}{6}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Verzerrte Schwingung}{6}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Tripel Oberschwingungen}{7}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.8}Vorkommen der Oberschwingungen}{7}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Auswirkung von Oberschwingungen}{8}{subsection.2.9}
-\contentsline {subsubsection}{\numberline {2.9.1}Harmonische Oberwellen}{8}{subsubsection.2.9.1}
-\contentsline {subsubsection}{\numberline {2.9.2}Subharmonische}{9}{subsubsection.2.9.2}
-\contentsline {subsubsection}{\numberline {2.9.3}Fast Fourier Transformation}{9}{subsubsection.2.9.3}
-\contentsline {subsection}{\numberline {2.10}Total Harmonic Distortion}{9}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Normen}{9}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{8}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Gegenmassnahmen bei Oberschwingungen}{9}{subsection.2.11}
+\contentsline {subsubsection}{\numberline {2.11.1}Harmonische Oberwellen}{9}{subsubsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.2}Subharmonische}{9}{subsubsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.3}Fast Fourier Transformation}{9}{subsubsection.2.11.3}
+\contentsline {subsection}{\numberline {2.12}Total Harmonic Distortion}{9}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}Normen}{9}{subsection.2.13}
 \contentsline {section}{\numberline {3}Simulation}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Plecs}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Simulation mit Matlab}{10}{subsection.3.2}
@@ -29,6 +31,6 @@
 \contentsline {section}{\numberline {6}Umsetzung}{13}{section.6}
 \contentsline {section}{\numberline {7}Validierung}{14}{section.7}
 \contentsline {section}{\numberline {8}Schlusswort}{15}{section.8}
-\contentsline {section}{Literatur}{17}{section*.17}
-\contentsline {section}{Abbildungsverzeichnis}{17}{section*.18}
-\contentsline {section}{Tabellenverzeichnis}{17}{section*.19}
+\contentsline {section}{Literatur}{17}{section*.16}
+\contentsline {section}{Abbildungsverzeichnis}{17}{section*.17}
+\contentsline {section}{Tabellenverzeichnis}{17}{section*.18}

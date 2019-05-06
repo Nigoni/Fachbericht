@@ -135,6 +135,29 @@
       \verb https://www.ihks-fachjournal.de/sechs-themen-um-oberschwingungen-und-netzqualitaet-in-stromversorgungsnetzen/
       \endverb
     \endentry
+    \entry{analysi3}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b9a29742fb9562816bcf724dce3d0d4}{%
+           family={C.Beneduce},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{fullhash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{bibnamehash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{authorbibnamehash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{authornamehash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{authorfullhash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{5}
+      \field{title}{Analysis 3, Vorlesungsscript Teil 3}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'analysi3'}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
