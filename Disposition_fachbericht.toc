@@ -16,13 +16,13 @@
 \contentsline {subsection}{\numberline {2.7}Verzerrte Schwingung}{6}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Vorkommen der Oberschwingungen}{7}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}Auswirkung von Oberschwingungen}{8}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{9}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{8}{subsection.2.10}
 \contentsline {subsection}{\numberline {2.11}Gegenmassnahmen bei Oberschwingungen}{9}{subsection.2.11}
 \contentsline {subsubsection}{\numberline {2.11.1}Vermeidung von St\IeC {\"o}rungen}{9}{subsubsection.2.11.1}
 \contentsline {subsubsection}{\numberline {2.11.2}Stromnetzeigenschaften}{9}{subsubsection.2.11.2}
 \contentsline {subsubsection}{\numberline {2.11.3}Oberschwingungsfilter}{9}{subsubsection.2.11.3}
 \contentsline {subsubsection}{\numberline {2.11.4}\IeC {\"A}nderung der Energieversorgung}{9}{subsubsection.2.11.4}
-\contentsline {subsubsection}{\numberline {2.11.5}EMV vertr\IeC {\"a}gliche Geb\IeC {\"a}udeinstallation}{10}{subsubsection.2.11.5}
+\contentsline {subsubsection}{\numberline {2.11.5}EMV vertr\IeC {\"a}gliche Geb\IeC {\"a}udeinstallation}{9}{subsubsection.2.11.5}
 \contentsline {subsubsection}{\numberline {2.11.6}Harmonische Oberwellen}{10}{subsubsection.2.11.6}
 \contentsline {subsubsection}{\numberline {2.11.7}Subharmonische}{10}{subsubsection.2.11.7}
 \contentsline {subsubsection}{\numberline {2.11.8}Fast Fourier Transformation}{10}{subsubsection.2.11.8}
