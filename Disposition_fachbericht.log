@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  6 MAY 2019 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  7 MAY 2019 17:09
 entering extended mode
 **./Disposition_fachbericht.tex
 (Disposition_fachbericht.tex
@@ -2447,14 +2447,14 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 9.
 ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<fhnwlogo.pdf, id=130, 183.81773pt x 28.4543pt>
+<fhnwlogo.pdf, id=150, 183.81773pt x 28.4543pt>
 File: fhnwlogo.pdf Graphic file (type pdf)
 <use fhnwlogo.pdf>
 Package pdftex.def Info: fhnwlogo.pdf  used on input line 14.
 (pdftex.def)             Requested size: 220.57736pt x 34.1433pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 14.
-<./graphics/Thyristor.png, id=131, 1204.5pt x 1078.0275pt>
+<./graphics/Thyristor.png, id=151, 1204.5pt x 1078.0275pt>
 File: ./graphics/Thyristor.png Graphic file (type png)
 <use ./graphics/Thyristor.png>
 Package pdftex.def Info: ./graphics/Thyristor.png  used on input line 19.
@@ -2482,13 +2482,13 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [3
 
 
-] (Disposition_fachbericht.toc)
+] (Disposition_fachbericht.toc [1
+
+])
 \tf@toc=\write7
 \openout7 = `Disposition_fachbericht.toc'.
 
- [1
-
-] [2]
+ [2]
 \openout2 = `sections/einleitung.aux'.
 
  (sections/einleitung.tex)pdfTeX warning (ext4): destination with the same iden
@@ -2512,7 +2512,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Warning: Reference `fig:Phasenanschnitt' on page 2 undefined on input lin
 e 6.
 
-<./graphics/phasenanschnittsteuerung1.png, id=212, 521.95pt x 281.05pt>
+<./graphics/phasenanschnittsteuerung1.png, id=237, 521.95pt x 281.05pt>
 File: ./graphics/phasenanschnittsteuerung1.png Graphic file (type png)
 <use ./graphics/phasenanschnittsteuerung1.png>
 Package pdftex.def Info: ./graphics/phasenanschnittsteuerung1.png  used on inpu
@@ -2527,13 +2527,13 @@ l.13 \newpage
 
 
  <./graphics/phasenanschnittsteuerung1.png (PNG copy)>]
-<./graphics/phasenanschnittsteuerung2.png, id=222, 521.95pt x 281.05pt>
+<./graphics/phasenanschnittsteuerung2.png, id=247, 521.95pt x 281.05pt>
 File: ./graphics/phasenanschnittsteuerung2.png Graphic file (type png)
 <use ./graphics/phasenanschnittsteuerung2.png>
 Package pdftex.def Info: ./graphics/phasenanschnittsteuerung2.png  used on inpu
 t line 16.
 (pdftex.def)             Requested size: 391.46153pt x 210.78697pt.
-<./graphics/Schwingungspaketsteuerung.png, id=227, 803.0pt x 301.125pt>
+<./graphics/Schwingungspaketsteuerung.png, id=252, 803.0pt x 301.125pt>
 File: ./graphics/Schwingungspaketsteuerung.png Graphic file (type png)
 <use ./graphics/Schwingungspaketsteuerung.png>
 Package pdftex.def Info: ./graphics/Schwingungspaketsteuerung.png  used on inpu
@@ -2545,7 +2545,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 27.
-<./graphics/TRIAC.png, id=230, 803.0pt x 1204.5pt>
+<./graphics/TRIAC.png, id=255, 803.0pt x 1204.5pt>
 File: ./graphics/TRIAC.png Graphic file (type png)
 <use ./graphics/TRIAC.png>
 Package pdftex.def Info: ./graphics/TRIAC.png  used on input line 41.
@@ -2557,14 +2557,14 @@ been already used, duplicate ignored
 l.43 \end{figure}
                   [3 <./graphics/phasenanschnittsteuerung2.png (PNG copy)> <./g
 raphics/Schwingungspaketsteuerung.png>]
-<./graphics/Leistungsfaktor.png, id=245, 1156.32pt x 562.35094pt>
+<./graphics/Leistungsfaktor.png, id=270, 1156.32pt x 562.35094pt>
 File: ./graphics/Leistungsfaktor.png Graphic file (type png)
 <use ./graphics/Leistungsfaktor.png>
 Package pdftex.def Info: ./graphics/Leistungsfaktor.png  used on input line 54.
 
 (pdftex.def)             Requested size: 455.58572pt x 221.56415pt.
  [4 <./graphics/TRIAC.png> <./graphics/Leistungsfaktor.png (PNG copy)>] [5]
-<./graphics/Schwing_3.jpg, id=272, 103.51172pt x 61.73062pt>
+<./graphics/Schwing_3.jpg, id=297, 103.51172pt x 61.73062pt>
 File: ./graphics/Schwing_3.jpg Graphic file (type jpg)
 <use ./graphics/Schwing_3.jpg>
 Package pdftex.def Info: ./graphics/Schwing_3.jpg  used on input line 130.
@@ -2574,60 +2574,56 @@ Underfull \hbox (badness 1286) in paragraph at lines 131--131
 []\T1/lmr/bx/n/10 Abbildung 2.6: |\T1/lmr/m/n/10 Grund-schwin-gung mit 3.
  []
 
-<./graphics/Schwing_11.jpg, id=275, 104.26453pt x 62.48344pt>
+<./graphics/Schwing_11.jpg, id=300, 104.26453pt x 62.48344pt>
 File: ./graphics/Schwing_11.jpg Graphic file (type jpg)
 <use ./graphics/Schwing_11.jpg>
 Package pdftex.def Info: ./graphics/Schwing_11.jpg  used on input line 136.
 (pdftex.def)             Requested size: 208.52853pt x 124.96655pt.
 [6 <./graphics/Schwing_3.jpg> <./graphics/Schwing_11.jpg>]
-<./graphics/verzerrtes_Signal_analysis.png, id=288, 483.30562pt x 294.72609pt>
+<./graphics/verzerrtes_Signal_analysis.png, id=313, 483.30562pt x 294.72609pt>
 File: ./graphics/verzerrtes_Signal_analysis.png Graphic file (type png)
 <use ./graphics/verzerrtes_Signal_analysis.png>
 Package pdftex.def Info: ./graphics/verzerrtes_Signal_analysis.png  used on inp
 ut line 148.
 (pdftex.def)             Requested size: 338.31163pt x 206.30685pt.
+ [7 <./graphics/verzerrtes_Signal_analysis.png>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 160.
- [7 <./graphics/verzerrtes_Signal_analysis.png>]
-
-LaTeX Warning: Marginpar on page 8 moved.
-
-[8]) [9]
+ [8] [9]) [10]
 \openout2 = `sections/konzept.aux'.
 
- (sections/konzept.tex) [10
+ (sections/konzept.tex) [11
 
 
 ]
 \openout2 = `sections/history.aux'.
 
- (sections/history.tex) [11
+
+(sections/history.tex) [12
 
 
 ]
 \openout2 = `sections/normen.aux'.
 
-
-(sections/normen.tex) [12
+ (sections/normen.tex) [13
 
 
 ]
 \openout2 = `sections/umsetzung.aux'.
 
- (sections/umsetzung.tex) [13
+ (sections/umsetzung.tex) [14
 
 
 ]
 \openout2 = `sections/validierung.aux'.
 
-
-(sections/validierung.tex) [14
+ (sections/validierung.tex) [15
 
 
 ]
 \openout2 = `sections/schlusswort.aux'.
 
- (sections/schlusswort.tex) [15
+ (sections/schlusswort.tex) [16
 
 
 ]
@@ -2659,7 +2655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-) [16
+) [17
 
 
 ]
@@ -2679,7 +2675,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@lot=\write9
 \openout9 = `Disposition_fachbericht.lot'.
 
- [17
+ [18
 
 
 
@@ -2700,7 +2696,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `Disposition_fachbericht.out' has not changed
 .
-(rerunfilecheck)             Checksum: 625B7DCE70051078736DB5F6E3962A68;2185.
+(rerunfilecheck)             Checksum: 8D7399FED657CD3CA5E432D07F1DBFEA;2680.
 
 
 LaTeX Warning: There were undefined references.
@@ -2711,13 +2707,13 @@ Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 49849 strings out of 493305
- 1042021 string characters out of 3129802
- 1582515 words of memory out of 3000000
- 52486 multiletter control sequences out of 15000+200000
+ 49869 strings out of 493305
+ 1042434 string characters out of 3129802
+ 1582656 words of memory out of 3000000
+ 52499 multiletter control sequences out of 15000+200000
  620451 words of font info for 78 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 64i,15n,81p,1688b,2636s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,15n,81p,1688b,3270s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
 x.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
@@ -2739,9 +2735,9 @@ ograms/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/nando/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/nando/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/nando/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Disposition_fachbericht.pdf (22 pages, 1101699 bytes).
+Output written on Disposition_fachbericht.pdf (23 pages, 1111917 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
