@@ -1,9 +1,11 @@
 
 
 \section{Grundlagen}
-In diesem Kapitel werden die verschiedenen Grundlagen für die Steuerungsarten erklärt.
+In diesem Kapitel werden die verschiedenen Steuerungsarten erläutert, sowie deren Vor- \& Nachteile. Durch die Normen welche eingehalten werden müssen, sind bei den Verfahren gewisse Grenzen gesetzt. Damit diese Normen verständlich werden, wird auch beschrieben wie verschiedene Grenzwerte berechnet werden und was diese aussagen.
+
+
 \subsection{Phasenanschnittsteuerung}
-Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündimpuls nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree bis 180\textdegree gewählt werden, wobei bei 0\textdegree die maximale Leistung und bei 180\textdegree keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen verursacht und so ungewünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf.  Der Strom verläuft zeitlich der Spannung nach wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren vom EW nur bei kleinen Leistungen toleriert. Bei grossen Leistungen wird deshalb die Schwinungspaketsteuerung benutzt. In der Abbildung \ref{fig:Phasenanschnitt} ist erischtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Grau gezeichnet ist die normale Netzspannung und rot ist die Spannung welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree gewählt und somit ist die Leistung an der Last kleiner als mit der normalen Netzspannung. 
+Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündwinkel nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} gewählt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen verursacht und so ungewünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf.  Der Strom verläuft zeitlich der Spannung nach und wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren vom EW nur bei kleinen Leistungen toleriert. Bei grossen Leistungen wird deshalb die Schwinungspaketsteuerung benutzt. Auf der Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Grau gezeichnet ist die normale Netzspannung und rot ist die Spannung welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree \hspace{0.02cm} gewählt und somit ist die Leistung an der Last kleiner als mit der normalen Netzspannung. 
 
 \begin{figure}[ht!]
 	\centering
@@ -19,7 +21,7 @@ Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt
 Bei der Abbildung \ref{fig:Phasenanschnitt2} ist gut ersichtlich, wie früher gezündet wurde. Somit wird die Leistung an der Last grösser.
 
 \subsection{Schwingungspaketsteuerung}
-In diesem Verfahren wird nicht wie der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer. Dabei wird immer von der Paketzeit und der Einschaltzeit ausgegangen, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und die Einschaltdauer 5 Halbwellen ist, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlicht, wie vier von den total sechs pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist wie die Leistung mit der normalen Netzspannung.
+In diesem Verfahren wird nicht wie der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Wichtig sind dabei die Paketdauer $T_0$ und die Einschaltzeit $T_E$, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und die Einschaltdauer 5 Halbwellen ist, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlicht, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist wie die Leistung mit der normalen Netzspannung.
 
 \begin{figure}[ht!]
 	\centering
@@ -33,20 +35,19 @@ Dabei ergibt sich aus dem Verhältnis von Einschaltdauer zu Periodendauer das Ta
 a = \frac{T_E}{T_0}
 \end{equation}
 
-\subsection{TRIAC}
-Der TRIAC beseht aus zwei anti-parallele Thyristoren und kann über das Gate gezündet werden. Der TRIAC bleibt solange leitend bis der Haltestrom unterschritten wird. 
 
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.1]{TRIAC.png}	
-	\caption{Schaltzeichen eines TRIACs \cite{TRIAC}}\label{fig:TRIAC}
-\end{figure}
+%\subsection{TRIAC}
+%Der TRIAC beseht aus zwei anti-parallele Thyristoren und kann über das Gate gezündet werden. Der TRIAC bleibt solange leitend bis der Haltestrom unterschritten wird. 
 
-
+%\begin{figure}[ht!]
+%	\centering
+%	\includegraphics[scale=0.1]{TRIAC.png}	
+%	\caption{Schaltzeichen eines TRIACs \cite{TRIAC}}\label{fig:TRIAC}
+%\end{figure}
 
 
 \subsection{Leistungsfaktor}
-Bei beiden Verfahren ist der Leistungsfaktor vom Zündwinkel oder dem Einschaltverhältnis abhängig. 
+Um die zwei Ansteuerungsverfahren miteinander vergleichen zu können, wird der Leistungsfaktor benötigt. Bei der Phasenanschnittsteuerung ist der Leistungsfaktor abhängig von Zündwinkel. Bei der Schwingungspaketsteuerung ist der Leistungsfaktor abhängig vom Einschaltverhältniss. Die genaueren Berechnungen der Faktoren wird in der Formel \ref{eq:lamda_p_n} \& \ref{eq:lamda_s_n} beschrieben. 
 
 In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich wie der Leistungsfaktor bei den beiden Steuerungsarten aussieht. Bei der Phasenanschnittsteuerung auf der linken Seite sieht man, wie bei einem kleinem Zündwinkel der Leistungsfaktor sehr gross ist. Je grösser der Zündwinkel gewählt wird, desto kleiner wird der Leistungsfaktor. Auf der rechten Seite sieht man den Leistungsfaktor in Abhängigkeit des Einschaltverhältnisses. Je grösser das Einschaltzeitverhältnis, desto grösser der Leistungsfaktor.  
 \begin{figure}[ht!]
@@ -75,7 +76,7 @@ Der Laststrom wird mit folgender Formel beschrieben.
 I_L = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)} \cdot \frac{U_{UN}}{R_L}
 \end{equation}
 Wenn die Formel für den Laststrom in die Gleichung \ref{eq:Phas_1} eingesetzt wird, lassen sich die Spannung und der Widerstand wegkürzen und übrig bleibt folgende Formel.
-\begin{equation}
+\begin{equation}\label{eq:lamda_p_n}
 \lambda = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)}
 \end{equation}
 
@@ -92,7 +93,7 @@ Wenn die beiden Formeln für die Wirk-und Scheinleistung in die Gleichung für d
 \lambda = \frac{P_a }{S_a} = \frac{a \cdot P}{\sqrt{a} \cdot P}
 \end{equation}
 Die Wirkleistung lässt sich wegkürzen und so ergibt sich folgende Formel.
-\begin{equation}
+\begin{equation}\label{eq:lamda_s_n}
 \lambda = \sqrt{a}
 \end{equation}
 
