@@ -252,18 +252,48 @@ Auch die Energieversorgung bei der Gebäudeinstallation sollte EMV-verträglich 
 \end{itemize}  
 
 
-\subsubsection{Harmonische Oberwellen}
-Um die einzelnen Vor- und Nachteile besser verstehen zu können, muss weiter erklärt werden, was die harmonische Oberwellen sind und wie sich diese im Netz verhalten.
 \subsubsection{Subharmonische}
 Da nicht nur harmonische Oberwellen verglichen werden, werden hier noch die Subharmonische erklärt und was der Unterschied zu den harmonischen Oberwellen ist. 
 \subsubsection{Fast Fourier Transformation}
 Damit die beiden Spektren der Oberwellen verglichen werden können, wird diese in einem FFT Diagram aufgezeigt. Wie diese zu lesen sind und was sie aussagen, wird hier beschrieben. 
 
-\subsection{Total Harmonic Distortion}
-Um die beiden Steuerungsarten vergleichen zu können, wird der THD benötigt. Wie dieser berechnet wird, wird in diesem Kapitel aufgezeigt. 
-\todo{Andere Kapitel rauslöschen? Oder Titel anpassen}
-
 
 \subsection{Normen}
+Im folgenden Text werden auf alle Normen eingegangen, welche für diese Arbeit als wichtig empfunden wurde. Es sind dies vor allem Normen für die Elektromagnetische Verträglichkeit. Dazu gehören auch die Grenzwerte der Oberschwingungsströme, die Begrenzung von Spannungsänderungen, Spannungsschwankungen in öffentlichen Niederspannungsnetzen...
+
+
+\subsubsection{EN 61000-3-2}
+Bei dieser Norm handelt es sich um Grenzwerte für Oberschwingungsströme von (Geräten mit einem Eingangsstrom $ \leq\ $  16 A je Leiter)
+Der Zweck dieser Norm ist es, die Grenzwerte für Oberschwingungen von Geräten festzulegen, die in den Anwendungsbereich dieser Norm fallen. Es sollte sichergestellt werden, dass unter Berücksichtigung der Aussendungen anderer Geräte bei Übereinstimmung mit den Grenzwerten, die Oberschwingungs-Störpegel nicht die festgelegten Verträglichkeitspegel überschreiten. Falls Geräte diese Anforderungen der Norm nicht erfüllen, kann der Anschluss an bestimmten Arten ans Niederspannungsnetz gleichwohl erlaubt werden, dann wenn die Bedienungsanleitung eine Anforderung enthält, dass das jeweils zuständige Energieversorgungsunternehmen nach einer Anschlussgenehmigung gefragt werden muss.  
+
+\subsubsection*{Anwendungsbereich}
+Dieser Teil gilt für die Begrenzung der Oberschwingungsströmen, die in das öffentliche Niederspannungsnetz eingespeist werden. Ausserdem legen sie die Grenzwerte der Oberschwingungsanteile des Eingansstromes fest , die durch ein Gerät hervorgerufen werden Können, das unter festgelegten Bedingungen geprüft wird.
+Die Oberschwingungsanteile wie im Anhang A gezeigt gemessen.
+Die Prüfbedingung für die Messung von Oberschwingungsströme sind für die verwendeten Geräten in Anhang C angegeben.
+
+\subsubsection*{Klassifizierung von Geräten}
+
+Um zu unterscheiden welche Betriebsmittel welche Oberschwingungsströme zu Begrenzen haben, wurden die Geräte in vier verschiedene Klassen von A bis D unterteilt. Da es sich bei dem Projekt um ein symmetrische, dreiphasige, ohmsche Last handelt fällt dies unter die Klasse A. Dazu kommen folgende Einrichtungen die die Klasse A auch noch beinhaltet:
+\begin{itemize}
+\item Haushaltsgeräte, ausgenommen Geräte, die in die Klasse D fallen
+\item Elektrowerkzeuge, ausgenommen tragbare Elektrowerkzeuge
+\item Beleuchtungsregler
+\item Audio-Einrichtung
+\end{itemize} 
+
+Die weiteren drei Klassen werden hier nicht weiter aufgezählt, da sie für die Projektarbeit nicht relevant sind. Ausserdem fallen alle Geräte die nicht speziell aufgelistet sind sowieso in die Klasse A.
+
+\subsubsection*{Allgemeine Anforderung}
+Alle Anforderungen und Grenzwerte sind auf die Klemmen des Leistungseingangs von Geräten anzuwenden, die zum Anschluss an 50-Hz oder 60-Hz-Netze mit 220/380 V, 230/400 V, 240/415 V vorgesehen sind. Für alle anderen Fälle liegen derzeit keine Anforderungen und Grenzwerte vor.
+
+Für symmetrische Steuerprinzipien, die wahrscheinlich Oberschwingungen niedriger Ordnung (n $ \leq\ $ 40) im Eingangsstrom verursachen, dürfen unter der Bedingung für die Leistungssteuerung von Heizelemente verwendet werden, dass die Vollschwingungs-Eingangsleistung kleiner oder gleich 200 W ist oder dass die Grenzwerte der Tabelle 3 nicht überschreiten.
+
+Für die Prüfanordnung muss eine Aussendungsmessung durchgeführt werden. Dabei muss das Bedienelement für den Benutzer so eingestellt werden, dass der erwartete höchste gesamt Oberschwingungsstrom (THC) unter üblichen Betriebsbedingungen erreicht wird. Der Versuch muss nicht so aufgebaut werden, dass es den ungünstigsten Fall für den gesamt Oberschwingungsstrom (THC) abdeckt. Die Grenzwerte für Oberschwingungsströme gelten nur für die Aussenleiter-Netzströme und nicht für die Ströme im Nullleiter.  
+
+   
+
+  
+
+
 
 
