@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  20 MAY 2019 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  17 JUN 2019 18:11
 entering extended mode
 **./Disposition_fachbericht.tex
 (Disposition_fachbericht.tex
@@ -2580,42 +2580,46 @@ ut line 165.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 171.
 [6 <./graphics/Schwing_3.jpg> <./graphics/Schwing_11.jpg>] [7 <./graphics/verze
-rrtes_Signal_analysis.png>] [8] [9] [10] [11]
-Overfull \hbox (6.53836pt too wide) in paragraph at lines 306--308
-\T1/lmr/m/n/10.95 Ein-ganss-trom bis zu 16 A pro Lei-ter ha-ben und zum An-schl
-uss an das öf-fent-li-che Niederspannungs-|
+rrtes_Signal_analysis.png>] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 276--283
+
  []
 
-[12]) [13]
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 317--329
+
+ []
+
+[12] [13]) [14]
 \openout2 = `sections/konzept.aux'.
 
- (sections/konzept.tex) [14
+ (sections/konzept.tex) [15
 
 
 ]
 \openout2 = `sections/history.aux'.
 
- (sections/history.tex) [15
+ (sections/history.tex) [16
 
 
 ]
 \openout2 = `sections/umsetzung.aux'.
 
 
-(sections/umsetzung.tex) [16
+(sections/umsetzung.tex) [17
 
 
 ]
 \openout2 = `sections/validierung.aux'.
 
- (sections/validierung.tex) [17
+ (sections/validierung.tex) [18
 
 
 ]
 \openout2 = `sections/schlusswort.aux'.
 
 
-(sections/schlusswort.tex) [18
+(sections/schlusswort.tex) [19
 
 
 ]
@@ -2646,7 +2650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-) [19
+) [20
 
 
 ]
@@ -2666,7 +2670,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@lot=\write9
 \openout9 = `Disposition_fachbericht.lot'.
 
- [20
+ [21
 
 
 
@@ -2687,24 +2691,24 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `Disposition_fachbericht.out' has not changed
 .
-(rerunfilecheck)             Checksum: 92E1A76FBCDBEC3F6B34D99842BB4A29;2563.
+(rerunfilecheck)             Checksum: C7FF075671CE2D4835CE2B6974705180;2563.
 Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 \openout1 = `Disposition_fachbericht.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 49842 strings out of 493305
- 1041544 string characters out of 3129802
- 1580933 words of memory out of 3000000
- 52474 multiletter control sequences out of 15000+200000
+ 49850 strings out of 493305
+ 1041769 string characters out of 3129802
+ 1584148 words of memory out of 3000000
+ 52483 multiletter control sequences out of 15000+200000
  620451 words of font info for 78 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,15n,81p,1774b,3270s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
-x.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
-athsy.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+c}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
+y.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
+athex.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-rm.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-mathit.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
 /lm/lm-ts1.enc}<C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
@@ -2721,10 +2725,11 @@ ms/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/nando/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/nando/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/nando/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/nando/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Disposition_fachbericht.pdf (25 pages, 1108965 bytes).
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/nando
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Disposition_fachbericht.pdf (26 pages, 1117899 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
