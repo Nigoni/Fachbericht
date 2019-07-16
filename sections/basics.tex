@@ -167,7 +167,26 @@ Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinus
 \end{figure}
 
 
-Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation diese Bezeichnung. Mit diesem Zusammenhang kann die Überlagerung von einer perfekten Sinuskurve zu einer verzerrten Sinusschwingung führen. Dies Bedeutet so viel wie, eine verzerrte Sinusschwingung lässt sich immer als Überlagerung einer Grundschwingung mit anderen Oberschwingungen unterschiedlicher Frequenzen und unterschiedlichen Amplituden darstellen. Anhand eines Amplitudenspektrums lassen sich die Oberschwingungen gut visualisieren. 
+Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation diese Bezeichnung. Mit diesem Zusammenhang kann die Überlagerung von einer perfekten Sinuskurve zu einer verzerrten Sinusschwingung führen. Dies Bedeutet so viel wie, eine verzerrte Sinusschwingung lässt sich immer als Überlagerung einer Grundschwingung mit anderen Oberschwingungen unterschiedlicher Frequenzen und unterschiedlichen Amplituden darstellen. Anhand eines Amplitudenspektrums lassen sich die Oberschwingungen gut visualisieren. Da das Amplitudenspektrum keine Informationen über die Phasenlage der einzelnen Harmonischen enthält wird zusätzlich noch ein Phasenspektrum betrachtet. In der Praxis wird dieses Spektrum jedoch oft einfach weggelassen. Mit der folgenden Fourier-Reihe lässt sich eine periodische Funktion als Summe von Sinus- und Cosinus-Funktionen schreiben:
+\todo{Formel}
+
+Mathematisch berechnet man die Fourierkoeffizienten $a\textsubscript{0}$,$b\textsubscript{n}$ und $a\textsubscript{n}$ mit Hilfe der untenstehenden Formeln.
+
+\begin{equation}
+a\textsubscript{0} =  {\frac{1}{2\pi}*\int_{0}^{2\pi} f(x) dx}
+\end{equation}
+
+\begin{equation}
+a\textsubscript{n} =  {\frac{1}{\pi}*\int_{0}^{2\pi} f(x)*cos(n*w0*x) dx}
+\end{equation}
+
+\begin{equation}
+b\textsubscript{n} =  {\frac{1}{\pi}*\int_{0}^{2\pi} f(x)*sin(n*w0*x) dx}
+\end{equation}
+
+
+
+ 
 \todo {evt. noch Bild mit Amplitudenspektrum einfügen}
 Bei den Oberschwingungen gibt es ungerade oder gerade harmonische Schwingungen.
 Die ungeraden Oberwellen sind die charakteristischen Oberschwingungsanteile in den heutigen Stromversorgungsnetzen. Sie stellen Wellenformen dar, die bezogen auf die Zeitachse symmetrisch sind. Aufgrund der meist dreiphasigen Symmetrie der heutigen Infrastrukturen sind nahezu alle Signale symmetrisch, obwohl es zu Verzerrung kommt. Geradzahlige Oberschwingungen können nur aus Wellenformen entstehen, die nicht symmetrisch bezogen auf die Zeitachse sind.
@@ -254,9 +273,7 @@ Auch die Energieversorgung bei der Gebäudeinstallation sollte EMV-verträglich 
 
 
 \subsubsection{Subharmonische}
-Da nicht nur harmonische Oberwellen verglichen werden, werden hier noch die Subharmonische erklärt und was der Unterschied zu den harmonischen Oberwellen ist. 
-\subsubsection{Fast Fourier Transformation}
-Damit die beiden Spektren der Oberwellen verglichen werden können, wird diese in einem FFT Diagram aufgezeigt. Wie diese zu lesen sind und was sie aussagen, wird hier beschrieben. 
+Die Subharmonischen Schwingungen oder auch Zwischenharmonische genannt, sind Sinusförmige Schwingungen, deren Frequenz kein ganzzahliges Vielfaches der Grundfrequenz ist. Ein Beispiel dafür wären Schwingungen bei Frequenzen von 1, 2, oder 10 Hz bei einer Grundfrequenz von 50 Hz. Dies ist im unteren Bild ersichtlich\todo{bild einfügen}. Die Zwischenharmonischen-Frequenzen und den damit verbunden Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomen erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von Zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von 50 Hz ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden.  
 
 
 \subsection{Normen}
@@ -350,7 +367,7 @@ P_{lt} = {\sqrt[3]{\frac{\sum_{i=1}^{N} {P_{st,i}}^3}{N}}}
 \end{equation}
 
 
-Die Quellenspannung Ul10, Ul20, Ul30 entspricht der Nennspannung. Alle Spannungen werden auf die Nennspannung Un normiert: Der Prüfkreis besteht aus der Prüfspannungsquelle, dem zu prüfenden Gerät (Prüfling) und einer Messeinrichtung z.B. Strommesser, Spannungszange oder einem Flickermeter.\\
+Die drei Quellenspannungen G entsprechen der Nennspannung. Alle Spannungen werden auf die Nennspannung Un normiert: Der Prüfkreis besteht aus der Prüfspannungsquelle, dem zu prüfenden Gerät (Prüfling) und einer Messeinrichtung z.B. Strommesser, Spannungszange oder einem Flickermeter (M).\\
 
 relative Spannungsänderung:
 \begin{equation}\label{eq:relative Spannungsänderung}
