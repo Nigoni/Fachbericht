@@ -18,42 +18,24 @@
 \BOOKMARK [3][-]{subsubsection.2.10.4}{2.10.4 \304nderung der Energieversorgung}{subsection.2.10}% 18
 \BOOKMARK [3][-]{subsubsection.2.10.5}{2.10.5 EMV vertr\344gliche Geb\344udeinstallation}{subsection.2.10}% 19
 \BOOKMARK [3][-]{subsubsection.2.10.6}{2.10.6 Subharmonische}{subsection.2.10}% 20
-<<<<<<< HEAD
 \BOOKMARK [2][-]{subsection.2.11}{2.11 Normen}{section.2}% 21
 \BOOKMARK [3][-]{subsubsection.2.11.1}{2.11.1 EN 61000-3-2}{subsection.2.11}% 22
 \BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 EN 61000-3-3}{subsection.2.11}% 23
 \BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 EN 61000-2-2}{subsection.2.11}% 24
 \BOOKMARK [1][-]{section.3}{3 Simulation}{}% 25
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 26
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 27
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 28
-\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 29
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 30
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 31
-\BOOKMARK [1][-]{section*.31}{Literatur}{}% 32
-\BOOKMARK [1][-]{section*.32}{Abbildungsverzeichnis}{}% 33
-\BOOKMARK [1][-]{section*.33}{Tabellenverzeichnis}{}% 34
-=======
-\BOOKMARK [3][-]{subsubsection.2.10.7}{2.10.7 Fast Fourier Transformation}{subsection.2.10}% 21
-\BOOKMARK [2][-]{subsection.2.11}{2.11 Normen}{section.2}% 22
-\BOOKMARK [3][-]{subsubsection.2.11.1}{2.11.1 EN 61000-3-2}{subsection.2.11}% 23
-\BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 EN 61000-3-3}{subsection.2.11}% 24
-\BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 EN 61000-2-2}{subsection.2.11}% 25
-\BOOKMARK [1][-]{section.3}{3 Simulation}{}% 26
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Plecs}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Einphasige Phasenanschnittsteuerung}{subsection.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Matlab}{section.3}% 29
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 30
-\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 31
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Laboraufbau}{section.5}% 32
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Filter}{subsection.5.1}% 33
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Verst\344rkerschaltung}{subsection.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Arduino}{section.5}% 35
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 36
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 37
-\BOOKMARK [1][-]{section*.23}{Literatur}{}% 38
-\BOOKMARK [1][-]{section*.24}{Abbildungsverzeichnis}{}% 39
-\BOOKMARK [1][-]{section*.25}{Tabellenverzeichnis}{}% 40
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 41
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 42
->>>>>>> master
+\BOOKMARK [2][-]{subsubsection.3.0.1}{3.0.1 Einphasige Phasenanschnittsteuerung}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 28
+\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 29
+\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 30
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Laboraufbau}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Filter}{subsection.5.1}% 32
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Verst\344rkerschaltung}{subsection.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Arduino}{section.5}% 34
+\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 35
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 36
+\BOOKMARK [1][-]{section*.34}{Literatur}{}% 37
+\BOOKMARK [1][-]{section*.35}{Abbildungsverzeichnis}{}% 38
+\BOOKMARK [1][-]{section*.36}{Tabellenverzeichnis}{}% 39
+\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 40
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 41
