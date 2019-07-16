@@ -27,6 +27,7 @@
 \contentsline {subsection}{\numberline {2.11}Normen}{10}{subsection.2.11}
 \contentsline {subsubsection}{\numberline {2.11.1}EN 61000-3-2}{11}{subsubsection.2.11.1}
 \contentsline {subsubsection}{\numberline {2.11.2}EN 61000-3-3}{12}{subsubsection.2.11.2}
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {2.11.3}EN 61000-2-2}{15}{subsubsection.2.11.3}
 \contentsline {section}{\numberline {3}Simulation}{16}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Plecs}{16}{subsection.3.1}
@@ -38,3 +39,22 @@
 \contentsline {section}{Literatur}{22}{section*.20}
 \contentsline {section}{Abbildungsverzeichnis}{22}{section*.21}
 \contentsline {section}{Tabellenverzeichnis}{22}{section*.22}
+=======
+\contentsline {section}{\numberline {3}Simulation}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Simulation mit Plecs}{15}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung}{15}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}Simulation mit Matlab}{15}{subsection.3.2}
+\contentsline {section}{\numberline {4}Messaufbau}{16}{section.4}
+\contentsline {section}{\numberline {5}Umsetzung}{17}{section.5}
+\contentsline {subsection}{\numberline {5.1}Laboraufbau}{17}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Filter}{17}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{17}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Arduino}{18}{subsection.5.2}
+\contentsline {section}{\numberline {6}Validierung}{19}{section.6}
+\contentsline {section}{\numberline {7}Schlusswort}{20}{section.7}
+\contentsline {section}{Literatur}{22}{section*.16}
+\contentsline {section}{Abbildungsverzeichnis}{22}{section*.17}
+\contentsline {section}{Tabellenverzeichnis}{22}{section*.18}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{23}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{23}{subsection.A.1}
+>>>>>>> Disposition_Bastian
