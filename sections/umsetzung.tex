@@ -1,3 +1,60 @@
 \section{Umsetzung}
-In diesem Kapitel wird geziegt, wie das fertige Produkt aufgebaut ist. 
+
+
+\subsection{Laboraufbau}
+Um die Simulationen in die Praxis umzusetzen, wurde ein \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.03cm} von der Firma Chemtronic, vom Dozenten zur Verfügung gestellt. Wie der Name des Produktes schon sagt, arbeitet dieser Thyristorschaltung mit 3 Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer benutzt werden, dies hat jedoch den Nachteil, dass der Zündwinkel von Hand umgestellt werden muss. Jedoch kann die Ansteuerung auch über ein Spannungssignal von 0V - 10V benutzt werden. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Das Problem dabei ist, dass der Arduino nur eine Ausgangsspannung von 5V erzeugen kann. Deshalb wurde eine Spannungsverstärkungsschaltung designt, welche die Spannung verdoppelt. Um die variable Spannung zu erzeugen, wurde im Arduino die PWM-Funktion genutzt. Diese läuft mit einer Frequenz von 490 Hz. Für die Ansteuerung sollte aber eine reine DC-Spannung geliefert werden. Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Cut-off Frequenz von 1 Hz.  
+
+
+\subsubsection{Filter}
+Um die Elemente des Tiefpassfilters zu berechnen, wurde folgende Formel verwendet.
+\begin{equation}
+f = \frac{1}{2 \cdot \pi \cdot R_1 \cdot C_1}
+\end{equation}
+Dabei wurde $f = 1 Hz$ eingesetzt und so kann die Kapazität oder der Widerstand frei gewählt werden. Für die Kapazität wurde 10$\mu$F ausgesucht. Somit ergab sich einen Widerstand von 16k$\Omega$. 
+
+
+\subsubsection{Verstärkerschaltung}
+Die Verstärkung einer nicht invertierenden Verstärkungsschaltung wird wie folgt berechnet.
+\begin{equation}
+V_u = 1 + \frac{R_3}{R_2}
+\end{equation}
+Um die Ströme klein zu halten, wurden Widerstände von 12k$\Omega$ ausgewählt. Um eine Verstärkung von zwei zu erreichen, wurden die beiden Widerstände gleich gross gewählt. 
+
+
+
+
+Diese Schaltung wurde zusätzlich noch im Plecs simuliert.
+
+\todo{evt. einfügen Schema Plecs}
+
+\newpage
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.7]{Schema_Verstaerkerschaltung.png}	
+	\caption{Schema Verstärkerschaltung}\label{fig:Verstaerkerschaltung}
+\end{figure}
+
+Werte:
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		R$_1$ & 16k$\Omega$ \\ \hline
+		R$_2$ & 12k$\Omega$ \\ \hline
+		R$_3$ & 12k$\Omega$ \\	\hline
+		C$_1$ & 10$\mu$F 	\\	\hline
+	\end{tabular}
+	\caption{Werte der Bauteile}
+	\label{tab:Verstaerkerschaltung}
+\end{table}
+
+
+\subsection{Arduino}
+Das Arduino-Programm, welches den Thyristorsteller ansteuert, wurde mit der Arduinosoftware geschrieben. Dabei werden die Steuerungsspannung mit einem PWM generiert. Dieser fährt mit einer for-Schleife von 0V bis 5V hoch. Danach bleibt der PWM für eine Zeit auf dem Maximum und fährt dann wieder runter. Zusätzlich wurde eine for-Schleife gemacht, welche die Schwingungspaketsteuerung macht. Dazu werden eine gewisse Anzahl vom PWM eingeschaltet und andere werden gesperrt. 
+
+
+
+
+
+
 
