@@ -309,7 +309,97 @@ In der Norm 61000-3-2 sind 4 Geräteklassen definiert, bei denen die Oberschwing
 \end{itemize} 
 Falls es Geräte gibt, die nicht in die Klassen B bis D fallen, müssen sie automatisch als Geräte der Klasse A definiert werden.\\
 Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Geräte sind wie folgt definiert:
-\todo{Siehe Tabelle Basti}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{Oberschwingungsordnung} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Zuverlässiger Höchstwert des \\ Oberschwingungsstromes\end{tabular}} \\
+		\multicolumn{1}{|c|}{\textit{n}}                      & \multicolumn{1}{c|}{A}                                                                                              \\ \hline
+		\multicolumn{2}{|c|}{Ungeradzahlige Oberschwingungen}                                                                                                              \\ \hline
+		3                                            & 2.30                                                                                                                \\
+		5                                            & 1.14                                                                                                                \\
+		7                                            & 0.77                                                                                                                \\
+		9                                            & 0.40                                                                                                                \\
+		11                                           & 0.33                                                                                                                \\
+		13                                           & 0.21                                                                                                                \\
+		15 $\leq$ \textit{n} $\leq$ 39               & 0.15 x 15/\textit{n}                                                                                                \\ \hline
+		\multicolumn{2}{|c|}{Geradzahlige Oberschwingungen}                                                                                                                \\ \hline
+		2                                            & 1.08                                                                                                                \\
+		4                                            & 0.43                                                                                                                \\
+		6                                            & 0.30                                                                                                                \\
+		8 $\leq$ \textit{n} $\leq$ 40                & 0.23 x 8/\textit{n}                                                                                                 \\ \hline
+	\end{tabular}
+\caption{Tabelle Basti}\label{Test}
+\end{table}
+
+\begin{table}[ht!]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		\multicolumn{2}{|c|}{\begin{tabular}[c]{@{}c@{}}Ungeradzahlige \\ Harmonische \\ nicht-vielfache von 3\end{tabular}}                                                            & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Ungeradzahlige \\ Harmonische \\ Vielfache von 3\end{tabular}}                                                                     & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Geradzahlige \\ Harmonische\end{tabular}}                                                                                          \\ \hline
+		\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} \\
+		\multicolumn{1}{|c|}{\textit{h}}                                                                  & \multicolumn{1}{c|}{\%}                                                              & \multicolumn{1}{c|}{\textit{h}}                                                                     & \multicolumn{1}{c|}{\%}                                                              & \multicolumn{1}{c|}{\textit{h}}                                                                     & \multicolumn{1}{c|}{\%}                                                              \\ \hline
+5
+		5                                                         & 6                                                     & 3                                                       & 5                                                & 2                                           & 2                                         \\
+		7                                                         & 5                                                     & 9                                                       & 1.5                                              & 4                                           & 1                                         \\
+		11                                                        & 3.5                                                   & 15                                                      & 0.4                                              & 6                                           & 0.5                                       \\
+		13                                                        & 3                                                     & 21                                                      & 0.3                                              & 8                                           & 0.5                                       \\
+		17 $\leq$\textit{h}$\leq$ 49                                                   & 2.27x(17/\textit{h})-0.27                                   & 21<h$\leq$45                                                 & 0.2                                              & 10$\leq$\textit{h}$\leq$50                                     & 0.25x(10/\textit{h})+0.25                       \\ \hline
+	\end{tabular}}
+\caption{Sorry weiss nömme wo die Tabelle anemuess}\label{Test1}
+\end{table}
+
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{Art des Geräteveraltens}                      & \multicolumn{1}{c|}{Beobachtungsdauer}                                                                                                                                                                                   \\ \hline \hline
+		quasi-stationär                                                    & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ von ausreichender Dauer, um die Anforderungen\\ zur Wiederholpräzision einzuhalten\end{tabular}                                                                                          \\ \hline
+		kurzer Zyklus (T$_{cycle}$ $\leq$ 2.5min)                                    & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ $\geq$ 10 Zyklen (Bezugsverfahren) oder T$_{obs}$ von \\ ausreichender Dauer oder Synochronisation, um \\ die Anforderungen zur Wiederholpräzision\\ einzuhalten \hspace{0.1cm}$^a$\end{tabular}                      \\ \hline
+		zufällig                                                           & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ von ausreichender Dauer, um die Anforderungen\\ zur Wiederholpräzision einzuhalten\end{tabular}                                                                                          \\ \hline
+		langer Zyklus (T$_{cycle}$ \textgreater 2.5 min)                        & \begin{tabular}[c]{@{}l@{}}voller Programmzyklus des Gerätes (Bezugsverfahren)\\ oder ein repräsentives 2.5 min -Intervall mit dem \\ höchsten THC angesehen wird\end{tabular}                                           \\ \hline
+		\multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}} $^a$ \grqq Synchronisation\grqq \hspace{0.08cm} bedeutet, dass die gesamte Beobachtungsdauer hinreichend gut eine\\ exakte ganzzahlige Anzahl von Betriebszyklen des Gerätes umfasst, so dass die\\Anforderungen zur Wiederholpräzision eingehalten wird.\end{tabular}} \\ \hline
+	\end{tabular}
+\caption{Sorry weiss nömme wo die Tabelle anemuess}\label{Test2}
+\end{table}
+
+
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Ordnung\\   {[}m{]}\end{tabular}}} & \multicolumn{2}{c|}{50 Hz System}                                                                                                                    \\ \cline{2-3} 
+		\multicolumn{1}{|c|}{}                                                                             & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Subharmonische\\   Frequenzen fm {[}Hz{]}\end{tabular}}} & \multicolumn{1}{c|}{Um \%} \\ \cline{3-3} 
+		\multicolumn{1}{|c|}{}                                                                             & \multicolumn{1}{c|}{}                                                                                                   & \multicolumn{1}{c|}{230V}  \\ \hline
+		0.2 < m $\leq$ 0.6                                                                              & 10 < fm $\leq$ 30                                                                                                    & 0.5                        \\ \hline
+		0.6 < m $\leq$ 0.64                                                                             & 30 < fm $\leq$ 32                                                                                                    & 0.4                        \\ \hline
+		0.64 < m $\leq$0.68                                                                            & 32 < fm $\leq$ 34                                                                                                    & 0.4                        \\ \hline
+		0.68 < m $\leq$ 0.72                                                                            & 34 < fm $\leq$ 36                                                                                                    & 0.3                        \\ \hline
+		0.72 < m $\leq$ 0.76                                                                            & 36 < fm $\leq$ 38                                                                                                    & 0.2                        \\ \hline
+		0.76 < m $\leq$ 0.84                                                                            & 38 < fm $\leq$ 42                                                                                                    & 0.2                        \\ \hline
+		0.84 < m $\leq$ 0.88                                                                            & 42 < fm $\leq$ 44                                                                                                    & 0.2                        \\ \hline
+		0.88 < m $\leq$ 0.92                                                                            & 44 < fm $\leq$ 46                                                                                                    & 0.2                        \\ \hline
+		0.92 < m $\leq$ 0.96                                                                            & 46 < fm $\leq$ 48                                                                                                    & 0.4                        \\ \hline
+		0.96 < m $\leq$ 1.04                                                                            & 48 < fm $\leq$ 52                                                                                                    & 0.6                        \\ \hline
+		1.04 < m $\leq$ 1.08                                                                            & 52 < fm $\leq$ 54                                                                                                    & 0.4                        \\ \hline
+		1.08 < m $\leq$ 1.12                                                                            & 54 < fm $\leq$ 56                                                                                                    & 0.2                        \\ \hline
+		1.12 < m $\leq$ 1.16                                                                            & 56 < fm $\leq$ 58                                                                                                    & 0.2                        \\ \hline
+		1.16 < m $\leq$ 1.24                                                                            & 58 < fm $\leq$ 62                                                                                                    & 0.2                        \\ \hline
+		1.24 < m $\leq$ 1.28                                                                            & 62 < fm $\leq$ 64                                                                                                    & 0.2                        \\ \hline
+		1.28 < m $\leq$ 1.32                                                                            & 64 < fm $\leq$ 66                                                                                                    & 0.3                        \\ \hline
+		1.32 < m $\leq$ 1.36                                                                            & 66 < fm $\leq$ 68                                                                                                    & 0.4                        \\ \hline
+		1.36 < m $\leq$ 1.4                                                                             & 68 < fm $\leq$ 70                                                                                                    & 0.4                        \\ \hline
+		1.4 < m $\leq$ 1.8                                                                              & 70 < fm $\leq$ 90                                                                                                    & 0.5                        \\ \hline
+	\end{tabular}
+\caption{Sorry weiss nömme wo die Tabelle anemuess}\label{Test3}
+\end{table}
+
+
+
 
 Ein weiterer wichtiger Wert, ist die jeweilige Beobachtungsdauer der Endgeräte. Es wurden 4 verschiedene Arten von Geräteverhalten definiert und dabei die Beobachtungsdauer bestimmt. Dies sieht man in der folgenden Tabelle:
 \todo{Siehe Tabelle Beobachtungsdauer,61000-3-2-2 S.18}
