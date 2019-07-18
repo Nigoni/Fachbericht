@@ -1,11 +1,11 @@
 
 
 \section{Grundlagen}
-In diesem Kapitel werden die verschiedenen Steuerungsarten erläutert, sowie deren Vor- \& Nachteile. Durch die Normen welche eingehalten werden müssen, sind bei den Verfahren gewisse Grenzen gesetzt. Damit diese Normen verständlich werden, wird auch beschrieben wie verschiedene Grenzwerte berechnet werden und was diese aussagen.
+Im diesem erste Kapitel sollen die Grundlagen, die für diese Arbeit als Wichtig empfunden wurde, aufgelistet werden. Das Hauptaugenmerk wird dabei auf die beiden Steuerverfahren, Phasenanschnitt- und Schwingungspaketsteuerung, sowie auf deren Vor- \& Nachteile gerichtet. Da bei solchen Methoden das auftreten von verzerrten Signalen fast nicht zu vermeiden ist, enthält der folgende Abschnitt einige Details über das Vorkommen und die Auswirkungen von Ober-, Zwischen und Subharmonischen Schwingungen. Durch Normen welche zwingend eingehalten werden müssen, sind bei den beiden Verfahren gewisse Grenzen gesetzt. Damit man versteht auf welche Normen geachtete wurde, sind schlussendlich die drei wichtigsten zusammengefasst.      
 
 
 \subsection{Phasenanschnittsteuerung}
-Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündwinkel nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} gewählt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen verursacht und so ungewünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf.  Der Strom verläuft zeitlich der Spannung nach und wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren vom EW nur bei kleinen Leistungen toleriert. Bei grossen Leistungen wird deshalb die Schwinungspaketsteuerung benutzt. Auf der Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Grau gezeichnet ist die normale Netzspannung und rot ist die Spannung welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree \hspace{0.02cm} gewählt und somit ist die Leistung an der Last kleiner als mit der normalen Netzspannung. 
+Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündwinkel nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} eingestellt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen produziert und so unerwünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf. Der Strom verläuft zeitlich der Spannung nach und wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren von den Elektrizitätswerk nur bei kleinen Leistungen bis zu 200 Watt, bei symmetrischen Anschnittsteuerung von Wärmegeräten toleriert. Bei grösseren Leistungen wird deshalb die Schwinungspaketsteuerung verwendet. Auf der Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Die Grau gezeichnete Kurve ist die normale Netzspannung und die rote ist die Spannung, welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree \hspace{0.02cm} eingestellt. Die Leistung an der Last ist somit kleiner, als wenn die normale graue Netzspannung anliegen würde. 
 
 \begin{figure}[ht!]
 	\centering
@@ -18,10 +18,11 @@ Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt
 	\includegraphics[scale=0.75]{phasenanschnittsteuerung2.png}	
 	\caption{Phasenanschnitt mit einem Winkel von 45\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt2}
 \end{figure}
-Bei der Abbildung \ref{fig:Phasenanschnitt2} ist gut ersichtlich, wie früher gezündet wurde. Somit wird die Leistung an der Last grösser.
+
+In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde. Somit erhält man eine an der Last eine grössere Leistung.
 
 \subsection{Schwingungspaketsteuerung}
-In diesem Verfahren wird nicht wie der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Wichtig sind dabei die Paketdauer $T_0$ und die Einschaltzeit $T_E$, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und die Einschaltdauer 5 Halbwellen ist, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlicht, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist wie die Leistung mit der normalen Netzspannung.
+In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Wichtig sind dabei die Paketdauer $T_0$ und die Einschaltzeit $T_E$, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und 5 Halbwellen eingeschaltet sind, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlich, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist, wie die der normalen Netzspannung.
 
 \begin{figure}[ht!]
 	\centering
@@ -57,7 +58,7 @@ In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich wie der Leistungsfakt
 \end{figure}
 
 \subsubsection{Leistungsfaktor Phasenanschnittsteuerung}
-Der Leistungsfaktor ist definiert als das Verhältnis von Wirkleistung zu Scheinleistung. 
+Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung. 
 \begin{equation}\label{eq:lamda_p}
 \lambda = \frac{P_{\alpha}}{S}
 \end{equation}
@@ -81,14 +82,14 @@ Wenn die Formel für den Laststrom in die Gleichung \ref{eq:Phas_1} eingesetzt w
 \end{equation}
 
 \subsubsection{Leistungsfaktor Schwingungspaketsteuerung}
-Das Einschaltsverhältnis wird mit $a$ beschrieben und wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
-Die Schein- und Wirkleistung werden mit den folgenden Formeln beschrieben.
+Das Einschaltsverhältnis wird als $a$ definiert und wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
+Die Schein- und Wirkleistung werden mit den folgenden Formeln bezeichnet.
 \begin{equation}\label{eq:Schw_Schein-&Wirkleistung}
 \begin{array}{cc} 
 S_a = \sqrt{a} \cdot P  &   P_a = a \cdot P \\
 \end{array}
 \end{equation} 
-Wenn die beiden Formeln für die Wirk-und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt wird ergibt sich daraus folgende Gleichung.  
+Wenn die beiden Formeln für die Wirk- und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt werden ergibt sich daraus folgende Gleichung.  
 \begin{equation}
 \lambda = \frac{P_a }{S_a} = \frac{a \cdot P}{\sqrt{a} \cdot P}
 \end{equation}
@@ -97,13 +98,12 @@ Die Wirkleistung lässt sich wegkürzen und so ergibt sich folgende Formel.
 \lambda = \sqrt{a}
 \end{equation}
 
-\subsection{Oberschwingungen}
-Im Idealfall würde bei einer Stromversorgung überall eine perfekte sinusförmige Spannung vorliegen. Jedoch sieht dies in der Realität anders aus. Die Kurve der Spannung und des Stromes weichen massiv von einer Sinusfunktion ab. Man bezeichnet diese verzerrten Schwingungsformen im Allgemeinen als oberschwingungsbehaftetes Signal. 
-
+\subsection{Auftretende von verzerrten Sinusschwingungen}
+Im Idealfall würde bei einer Stromversorgung überall eine perfekte sinusförmige Spannung vorliegen. Jedoch sieht dies in der Realität anders aus. Die Kurve der Spannung und des Stromes weichen massiv von einer Sinusfunktion ab. Man bezeichnet diese verzerrten Schwingungsformen im Allgemeinen als oberschwingungsbehaftetes Signal. \\
 Schon früh erkannte man diese Oberschwingungsverzerrungen am Netz, jedoch ist es erst heute ein ernstzunehmendes Problem für die Versorgungsbetriebe, die Verteilnetzbetreiber und für den Endkunden. Früher waren die grössten Herausforderungen, die Auswirkungen von Oberschwingungsverzerrungen auf elektrische Maschinen zu erkennen. Man stellte ausserdem fest, dass Störungen in den Telefonleitungen auftraten, welche den Ton der Sprache beeinträchtigte. Allerdings kann man sagen, dass Oberschwingungsverzerrungen früher ein geringeres Gefahrenpotential darstellten als heute. Die heutigen Maschinen wurden neuerdings so konstruiert, dass sie weniger Oberwellen erzeugen. Auch bei den Verteilnetzen wurde darauf geachtet, dass sie nicht mehr an der Lastobergrenze arbeiten und so ein reineres Sinussignal verwenden. Seit einigen Jahren steigt, die weltweite Nachfrage nach energieeffizienten Lösungen, die nur über vermehrten Einsatz von Leistungselektronik realisierbar sind. 
-\subsection{Grundlagen}
+\subsection{Oberschwingungen}
 Die Bedeutung Oberschwingung kommt aus dem Themenbereich «physische Eigenwertprobleme» also Wellen, deren Frequenz ganzzahlige Vielfache der Grundschwingungen sind. In der Musikwelt kann man Oberschwingungsfrequenzen vor allem bei Saiteninstrumenten, wie zum Beispiel bei einer Gitarre oder einer Geige beobachten.\\
-Die meisten elektrischen Geräte halten sich nach der perfekten Welle Ausschau. Bei Wechselstrom definiert die Perfektion einen perfekte Sinuskurve. Die daraus verwendete elektrische Spannung wechselt gleichmässig zwischen der positiven un negativen Halbwelle hin und her. Bei einer Frequenz von 50 Hz beträgt dies genau 50-mal pro Sekunde. Der Begriff Welle ist mit dem Zusammenhang von Oberschwingungen nicht ganz korrekt. Eine Welle hat eine räumliche und zeitliche Ausdehnung, jedoch haben die hier betrachteten Schwingungen nur eine zeitliche Ausdehnung. Die Oberschwingungsanteile in einem Wechselstromsystem sind also definiert als sinusförmige Anteile einer periodischen Schwingung, deren Frequenz einem ganzzahligen Vielfachen (Ordnungszahl) der Grundfrequenz entspricht. In der unteren Tabelle erkennt man, welche Ordnungszahl $(n)$  zu welcher Frequenz $(fh)$ gehört. Es ist ersichtlich, dass zum Beispiel die 5. Oberschwingung eine Frequenz von 250 Hz hat. Die Berechnung der Oberschwingungsfrequenz ist in der unterstehenden Formel \ref{eq:Oberschwingungsfrequenz} dargestellt.
+Die meisten elektrischen Geräte halten nach der perfekten Welle Ausschau. Bei Wechselstrom definiert die Perfektion eine perfekte Sinuskurve. Die daraus verwendete elektrische Spannung wechselt gleichmässig zwischen der positiven un negativen Halbwelle hin und her. Bei einer Frequenz von 50 Hz beträgt dies genau 50-mal pro Sekunde. Der Begriff Welle ist mit dem Zusammenhang von Oberschwingungen nicht ganz korrekt. Eine Welle hat eine räumliche und zeitliche Ausdehnung, jedoch haben die hier betrachteten Schwingungen nur eine zeitliche Ausdehnung. Die Oberschwingungsanteile in einem Wechselstromsystem sind also definiert als sinusförmige Anteile einer periodischen Schwingung, deren Frequenz einem ganzzahligen Vielfachen (Ordnungszahl) der Grundfrequenz entspricht. In der unteren Tabelle erkennt man, welche Ordnungszahl $(n)$  zu welcher Frequenz $(fh)$ gehört. Es ist ersichtlich, dass zum Beispiel die 5. Oberschwingung eine Frequenz von 250 Hz hat. Die Berechnung der Oberschwingungsfrequenz ist in der unterstehenden Formel \ref{eq:Oberschwingungsfrequenz} dargestellt.
 
 \begin{equation}\label{eq:Oberschwingungsfrequenz}
 f_h = n \cdot Grundfrequenz
@@ -141,6 +141,8 @@ f_h = n \cdot Grundfrequenz
 	
 \end{table}
 
+Die folgenden zwei Abbildungen \ref{fig:Schwing3} \& \ref{fig:Schwing11} zeigen eine Grundschwingung bei 50 Hz (blau) und die jeweilige 3. und 11. Ordnung der Grundfrequenz (gelb).
+
 \begin{figure}[ht!]
 	\begin{minipage}[t]{0.49\textwidth}
 		\centering
@@ -155,60 +157,68 @@ f_h = n \cdot Grundfrequenz
 	\end{minipage}
 \end{figure}
 	
-Die folgenden zwei Abbildungen \ref{fig:Schwing3} \& \ref{fig:Schwing11} zeigen eine Grundschwingung bei 50 Hz (blau) und die jeweilige 3. und 11. Ordnung der Grundfrequenz (gelb).
+
 
 \subsection{Verzerrte Schwingung}
-Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinusförmigen Wellen mit unterschiedlichen Frequenzen und Amplituden. Man kann eine solche Schwingung mit unterschiedlichen Oberschwingungskomponenten, auch Komposition genannt, zusammensetzen, indem man eine Sinusschwingung mit mehreren Oberschwingungen zusammenaddiert. Das folgende wellenförmige verzerrte Signal lässt sich zu einer Grundschwingung mit ihren mehreren harmonischen Oberschwingungen zerlegen. Bei der untenstehenden Graphik \ref{fig:Addition Oberwellen} ist diese ersichtlich, wobei die rote Kurve das verzerrte Signal ist. Die blauen Sinusschwingungen sind die Zerlegungen in die Grundschwingung der 3. und 5. harmonische Oberschwingung. Addiert man wiederum die drei blauen Kurven miteinander erhält man das verzerrte rote Signal.   
-
+Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinusförmigen Wellen mit unterschiedlichen Frequenzen und Amplituden. Man kann eine solche Schwingung mit den unterschiedlichen Oberschwingungskomponenten zusammensetzen, indem man eine Sinusschwingung mit mehreren Oberschwingungen zusammenaddiert. Ein wellenförmiges verzerrtes Signal lässt sich so zu einer Grundschwingung mit ihren mehreren harmonischen Oberschwingungen zerlegen. Bei der untenstehenden Graphik \ref{fig:Addition Oberwellen} ist diese ersichtlich, wobei die rote Kurve das verzerrte Signal darstellt. Die drei blauen Sinusschwingungen sind die Zerlegungen zur Grundschwingung, zur 3. und 5. harmonische Oberschwingung. Addiert man die drei blauen Kurven zusammen, so erhält man wiederum das verzerrte rote Signal.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.7]{verzerrtes_Signal_analysis.png}	
 	\caption{Addition der verschiedenen Oberwellen \cite{analysi3}}\label{fig:Addition Oberwellen}
 \end{figure}
 
-
-Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation diese Bezeichnung. Mit diesem Zusammenhang kann die Überlagerung von einer perfekten Sinuskurve zu einer verzerrten Sinusschwingung führen. Dies Bedeutet so viel wie, eine verzerrte Sinusschwingung lässt sich immer als Überlagerung einer Grundschwingung mit anderen Oberschwingungen unterschiedlicher Frequenzen und unterschiedlichen Amplituden darstellen. Anhand eines Amplitudenspektrums lassen sich die Oberschwingungen gut visualisieren. Da das Amplitudenspektrum keine Informationen über die Phasenlage der einzelnen Harmonischen enthält wird zusätzlich noch ein Phasenspektrum betrachtet. In der Praxis wird dieses Spektrum jedoch oft einfach weggelassen. Mit der folgenden Fourier-Reihe lässt sich eine periodische Funktion als Summe von Sinus- und Cosinus-Funktionen schreiben:
-\todo{Formel}
-
-Mathematisch berechnet man die Fourierkoeffizienten $a\textsubscript{0}$,$b\textsubscript{n}$ und $a\textsubscript{n}$ mit Hilfe der untenstehenden Formeln.
+Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation dessen Namen. Anhand eines Amplitudenspektrums lassen sich die Sinuskurven bei den verschiedenen harmonischen Frequenzen übersichtlich visualisieren. Da das Amplitudenspektrum jedoch keine Informationen über die Phasenlage der einzelnen Harmonischen enthält wird zusätzlich noch ein Phasenspektrum betrachtet. In der Praxis wird dieses Spektrum jedoch oft einfach weggelassen. Mit der folgenden Fourier-Reihe lässt sich eine beliebige periodische Funktion als Summe von Sinus- und Cosinus-Funktionen darstellen:
 
 \begin{equation}
-a\textsubscript{0} =  {\frac{1}{2\pi}*\int_{0}^{2\pi} f(x) dx}
-\end{equation}
-
-\begin{equation}
-a\textsubscript{n} =  {\frac{1}{\pi}*\int_{0}^{2\pi} f(x)*cos(n*w0*x) dx}
-\end{equation}
-
-\begin{equation}
-b\textsubscript{n} =  {\frac{1}{\pi}*\int_{0}^{2\pi} f(x)*sin(n*w0*x) dx}
+f(x) = {\frac{a\textsubscript{0}}{2}}+\sum_{n=1}^\infty[a\textsubscript{n} \cdot cos(nx)+b\textsubscript{n} \cdot sin(nx)]
 \end{equation}
 
 
+Mathematisch berechnet man die dazu benötigten Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ mit Hilfe der untenstehenden Formeln.
 
+\begin{equation}
+a\textsubscript{0} =  {\frac{1}{2\pi} \cdot \int_{0}^{2\pi} f(x) dx}
+\end{equation}
+
+\begin{equation}
+a\textsubscript{n} =  {\frac{1}{\pi} \cdot \int_{0}^{2\pi} f(x) \cdot cos(n \cdot w0 \cdot x) dx}
+\end{equation}
+
+\begin{equation}
+b\textsubscript{n} =  {\frac{1}{\pi} \cdot \int_{0}^{2\pi} f(x) \cdot sin(n \cdot w0 \cdot x) dx}
+\end{equation}
+
+Mit den oben genannten Fourier-Koeffizienten lassen sich nun das Amplituden- und Phasenspektrum berechnen.
  
-\todo {evt. noch Bild mit Amplitudenspektrum einfügen}
+\begin{equation}
+A\textsubscript{n} = {\sqrt{a\textsubscript{n}^2+b\textsubscript{n}^2}}
+\end{equation}
+
+\begin{equation}
+\varphi = \arctan\left( \frac{a\textsubscript{n}}{b\textsubscript{n}}\right) 
+\end{equation}
+
 Bei den Oberschwingungen gibt es ungerade oder gerade harmonische Schwingungen.
 Die ungeraden Oberwellen sind die charakteristischen Oberschwingungsanteile in den heutigen Stromversorgungsnetzen. Sie stellen Wellenformen dar, die bezogen auf die Zeitachse symmetrisch sind. Aufgrund der meist dreiphasigen Symmetrie der heutigen Infrastrukturen sind nahezu alle Signale symmetrisch, obwohl es zu Verzerrung kommt. Geradzahlige Oberschwingungen können nur aus Wellenformen entstehen, die nicht symmetrisch bezogen auf die Zeitachse sind.
 
 \subsection{Vorkommen der Oberschwingungen}
-Oberschwingungsströme erzeuget fast jedes elektrische Gerät. Doch welches Gerät welche Stromverzerrung erzeugt wird später erklärt. Ein wichtiger Bezugspunkt zu den individuellen Oberschwingungsgrössen ist die gesamte harmonische Verzerrung. Man nennt ihn auch den THD-Wert (Total Harmonic Distortion). Diesen Wert gilt es besonders zu verstehen, damit man ihn rechnerisch analysieren kann. Er gibt das Verhältnis des Effektivwertes aller Oberschwingungen zum Effektivwert der Grundschwingung an. Man verwendet ihn üblicherweise im Nieder-, Mittel-, aber auch im Hochspannungsnetz. Normalerweise wird die Verzerrung des Stromes als THDi, beschrieben in der Formel \ref{eq:THDi} und die Verzerrung der Spannung als THDu, ersichtlich in der Formel \ref{eq:THDu} angegeben. Der Total Harmonic Current (THC) ist der gesamte Oberschwingungsstrom. Er wird verwendet, um den Gesamteffektivwert der Oberschwingungsströme der Ordnung 2 bis 40 zu quantifizieren, die zu einer Verzerrung der Stromkurve beitragen. Man erkennt dies in der Formel \ref{eq:THC}. Diesen Wert braucht man vor allem, um die erforderlichen Eigenschaften zur Auswahl eines effizienten aktiven Oberschwingungsfilters zu bestimmen.
-Bei der folgenden Formel handelt es sich um den Gesamten Oberschwingungsstrom.
+Oberschwingungsströme erzeugt fast jedes elektrische Gerät. Ein wichtiger Bezugspunkt zu den individuellen Oberschwingungsgrössen ist die gesamte harmonische Verzerrung. Man nennt ihn auch den THD-Wert (Total Harmonic Distortion). Diesen Wert gilt es besonders zu verstehen, damit man ihn rechnerisch analysieren kann. Er gibt das Verhältnis des Effektivwertes aller Oberschwingungen zum Effektivwert der Grundschwingung an. Man verwendet ihn üblicherweise im Nieder-, Mittel-, aber auch im Hochspannungsnetz. Normalerweise wird die Verzerrung des Stromes als $THDi$, beschrieben in der Formel \ref{eq:THDi} und die Verzerrung der Spannung als $THDu$, ersichtlich in der Formel \ref{eq:THDu}, angegeben. Der Total Harmonic Current $THC$ ist der gesamte Oberschwingungsstrom. Er wird verwendet, um den Gesamteffektivwert der Oberschwingungsströme der Ordnung 2 bis 40 zu quantifizieren, die zu einer Verzerrung der Stromkurve beitragen. Man erkennt dies in der Formel \ref{eq:THC}. Diesen Wert braucht man vor allem, um die erforderlichen Eigenschaften zur Auswahl eines effizienten aktiven Oberschwingungsfilters zu bestimmen.
+
 \begin{equation}\label{eq:THC}
 THC = {\sqrt{\sum_{n=2}^{40} I_n^2}}
 \end{equation}
 
 
 
-Die gesamte harmonische Verzerrung des Stromes gibt, wie der Name schon sagt, die gesamte Verzerrung des Stromes an. Der Wert ist definiert als Quotient des Effektivwerts der Oberschwingungsströme im Verhältnis zum Grundschwingungsstrom. Typischerweise wird die Summe aller Stromoberschwingungsanteile in Bezug auf den Grundschwingungsstrom bis einschliesslich der 40. Oberschwingung berechnet. Die Oberschwingungsströme, welche durch Lasten in Netzwerken erzeugt werden, müssen durch die Impedanzen der Transformatoren oder Drosseln fliessen. An diesen Impedanzen kommt es zu nichtlinearen Spannungsabfällen. Es werden Oberschwingungsspannungen erzeugt die im ganzen Netz verbreitet werden. Diese können an Endgeräten eine Verzerrung der Versorgungsspannung verursachen. Somit ist die harmonische Verzerrung des Stromes (THDi) eine direkte Ursache für die Verzerrung der Spannung (THDu = Total Harmonic Distortion of Voltage). Sie gibt das Ausmass der Verzerrung der Versorgungsspannung an. Auch dieser Wert ist definiert als Quotient des Effektivwertes der Spannungsoberschwingungsanteile bis zur 40. Oberschwingung bezogen auf den Effektivwert der Grundschwingung. 
-Folgende Formel zeigt wie man die Totale Verzerrung des Stromes in Prozent berechnet ist.
+Die gesamte harmonische Verzerrung des Stromes gibt, wie der Name schon sagt, die gesamte Verzerrung des Stromes an. Der Wert ist definiert als Quotient des Effektivwerts der Oberschwingungsströme im Verhältnis zum Grundschwingungsstrom. Typischerweise wird die Summe aller Stromoberschwingungsanteile in Bezug auf den Grundschwingungsstrom bis einschliesslich der 40. Oberschwingung berechnet. Die Oberschwingungsströme, welche durch Lasten in Netzwerken erzeugt werden, müssen durch die Impedanzen der Transformatoren oder Drosseln fliessen. An diesen Impedanzen kommt es zu nichtlinearen Spannungsabfällen. Es werden Oberschwingungsspannungen erzeugt die im ganzen Netz verbreitet werden. Diese können an Endgeräten eine Verzerrung der Versorgungsspannung verursachen. Somit ist die harmonische Verzerrung des Stromes $THDi$ eine direkte Ursache für die Verzerrung der Spannung $THDu$ .Sie gibt das Ausmass der Verzerrung der Versorgungsspannung an. Auch dieser Wert ist definiert als Quotient des Effektivwertes der Spannungsoberschwingungsanteile bis zur 40. Oberschwingung bezogen auf den Effektivwert der Grundschwingung. 
+Folgende Formel zeigt, wie die Totale Verzerrung des Stromes in Prozent berechnet ist.
 \begin{equation}\label{eq:THDi}
-THDi = \frac{\sqrt{\sum_{n=2}^{40} I_n^2}}{I_{(1)}} * 100 \%
+THDi = \frac{\sqrt{\sum_{n=2}^{40} I_n^2}}{I_{(1)}} \cdot 100 \%
 \end{equation}
 
 Parallel dazu zeigt die untere Formel die Totale Verzerrung der Spannung in Prozent.
 \begin{equation}\label{eq:THDu}
-	THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} * 100\%
+	THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} \cdot 100\%
 \end{equation}
 
 
@@ -216,8 +226,7 @@ Parallel dazu zeigt die untere Formel die Totale Verzerrung der Spannung in Proz
 
 
 
-Je niedriger der THDu-Wert ist, desto besser ist die Spannungsqualität. Die Norm besagt, dass der gesamte Oberschwingungsgehalt den Wert von 8\% nicht überschreiten darf. Dazu kommt, dass heute üblicherweise für die Verzerrung die THD-Werte angegeben sind und nicht wie früher die Oberschwingungsgehalte (Klirrfaktore).
-
+Je niedriger der THDu-Wert ist, desto besser ist die Spannungsqualität. Die Norm besagt, dass der gesamte Oberschwingungsgehalt den Wert von 8\% nicht überschreiten darf. Dazu kommt, dass heute üblicherweise für die Verzerrung die THD-Werte angegeben sind und nicht wie früher die Oberschwingungsgehalte (Klirrfaktore).\\
 Wenn man sich mit den Oberschwingungsproblematik befasst, ist es wichtig, den Zusammenhang zwischen Strom und Spannung zu verstehen. Dadurch ist es möglich eine geeignete Lösung für das reduzieren von Oberschwingungen zu finden. 
 Je nach Eigenschaft der Oberschwingungserzeuger und der Eigenschaft eines Gerätes am elektrischen Netz, verbreiten sich Oberschwingungsströme in einem System unterschiedlich. Verschiedene Spannungsverzerrungen sind die Folgen. 
 
@@ -272,8 +281,17 @@ Auch die Energieversorgung bei der Gebäudeinstallation sollte EMV-verträglich 
 \end{itemize}  
 
 
-\subsubsection{Subharmonische}
-Die Subharmonischen Schwingungen oder auch Zwischenharmonische genannt, sind Sinusförmige Schwingungen, deren Frequenz kein ganzzahliges Vielfaches der Grundfrequenz ist. Ein Beispiel dafür wären Schwingungen bei Frequenzen von 1, 2, oder 10 Hz bei einer Grundfrequenz von 50 Hz. Dies ist im unteren Bild ersichtlich\todo{bild einfügen}. Die Zwischenharmonischen-Frequenzen und den damit verbunden Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomen erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von Zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von 50 Hz ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden.  
+\subsection{Zwischen- und Subharmonischen Schwingungen}
+
+Die Subharmonischen sind Sinusförmige Schwingungen, deren Frequenz unterhalb der Grundfrequenz entstehen. Ein Beispiel dafür wären Schwingungen bei Frequenzen von 5, 10, oder 20 Hz bei einer Grundfrequenz von 50 Hz. Bei den Zwischenharmonischen handelt es sich um Sinusschwingungen welche zwischen den Harmonischen Schwingungen entstehen. Ihre Frequenz ist kein ganzzahliges Vielfaches der Grundfrequenz von 50 Hz. Diese zwei Schwingungsarten erkennt bei der Abbildung \ref{fig:Sub und Zwischenharmonische} Die Zwischenharmonischen-Frequenzen und den damit verbunden Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomen erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von Zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von 50 Hz ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden. Eine weitere negative Auswirkung die Zwischenharmonische hervorrufen sind Fehlverhalten auf die Funktion von Dimmerschaltungen. Die Thyristoren können zu früh oder zu spät zünden und so zu unfreiwilligem lichtflackern der Beleuchtung führen. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.5]{sub_und_zwischenharmonische.png}	
+	\caption{Sub- und Zwischenharmonische mit einer Grundfrequenz von 50 Hz}
+	\label{fig:Sub und Zwischenharmonische}
+\end{figure}
+
 
 
 \subsection{Normen}
