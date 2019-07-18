@@ -19,7 +19,7 @@ Die ersten Funktionen, die man simulierte, waren periodische Sinusfunktionen im 
 \end{figure} 
 
 
-Als nächstes nahm man die Zerlegung der Funktion in verschiedene Frequenzanteile vor. Dies wird auch als Fourier-Analyse bezeichnet. Man berechnete zuerst die Fourier-Koeffizienten $a\textsubscript{0}$,$b\textsubscript{n}$ und $a\textsubscript{n}$ und konnte danach mit den folgenden Formeln das Amplituden- und Phasenspektrum berechnen.
+Als nächstes nahm man die Zerlegung der Funktion in verschiedene Frequenzanteile vor. Dies wird auch als Fourier-Analyse bezeichnet. Man berechnete zuerst die Fourier-Koeffizienten $a\textsubscript{0}$, $b\textsubscript{n}$ und $a\textsubscript{n}$ und konnte danach mit den folgenden Formeln das Amplituden- und Phasenspektrum berechnen.
 
 
 
@@ -55,7 +55,7 @@ Nach dem man das Phasenanschnittsignal, das Amplitudenspektrum,  das Phasenspekt
 
 Bei der zweiten Funktion, die zu überprüfen und simulieren war, handelte es sich um eine Schwingungspaketsteuerungen. Die komplette Paketdauer beträgt bei den abgebildeten Funktionen 20 Halbwellen \ref{fig:Schwingungspaket Matlab}. Es wurden nun verschiedene Einschaltverfahren untersucht. In der Grafik  erkennt man links \ref{fig:Schwingungspacket 0.5} einen duty cycle von 0.5, es sind dementsprechend immer 10 Halbwellen  ausgeschaltet und die anderen 10 eingeschaltet. Auf der rechten Seite \ref{fig:Schwingungspacket 0.8} beträgt der Wert des duty cycle 0.8. Es sind also zuerst 4 Halbwellen ausgeschaltet und die restlichen 16 Halbwellen werden angesteuert. Für einen sinnvollen Vergleich mit der Plec-Simulation untersuchte man 5 Schwingungspakete. Die Leistungen der rechten Funktion ist somit 1/2 und die der linken 8/10 so gross wie die der normalen Netzspannung.
 
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{Schwingungspaket_0_5.png}\label{fig:Schwingungspacket 0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{Schwingungspaket_0_8.png}\label{fig:Schwingungspacket 0.8}}
@@ -65,7 +65,7 @@ Bei der zweiten Funktion, die zu überprüfen und simulieren war, handelte es si
 
 Um auch hier die Plecs-Simulation zu überprüfen, stellte man das absolute lineare Spektrum dar \ref{fig:Schwingungspaketspektrum Matlab}. Die unteren  Abbildungen zeigen die Spektren, links mit einem duty cycle von 0.5 \ref{fig:Schwingungspacketspektrum 0.5} und rechts mit einem von 0.8 \ref{fig:Schwingungspacketspektrum 0.8}. Interessant sind da vor allem die Subharmonischen Schwingungen, welche sich unterhalb der Grundfrequenz von 50 Hz befinden. Sie sind jeweils auf der linken Seite der Grafiken veranschaulicht. Damit man einen besseren Überblick über die Oberschwingungen erhält, wurde das Spektrum bis auf 1000 Hz erweitert. Dies ist auf der rechten Seite des jeweiligen Bildes ersichtlich. Vergleicht man die zwei Bilder erkennt man, dass je höher der duty cycle ist, desto höher ist der Peak-Wert bei der Grundfrequenz von 50 Hz. 
 
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{Oberwellen_0_5.png}\label{fig:Schwingungspacketspektrum 0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{Oberwellen_0_8.png}\label{fig:Schwingungspacketspektrum 0.8}}
@@ -73,10 +73,10 @@ Um auch hier die Plecs-Simulation zu überprüfen, stellte man das absolute line
 	\label{fig:Schwingungspaketspektrum Matlab}
 \end{figure}
 
-Schlussendlich untersuchte man noch den absoluten Logarithmus der beiden Funktionen. Die ist in der Abbildung \ref{fig:absolut_logaritmic_matlab} zu erkennen. Die y-Achse zeigt das Verhältnis der Spannungen an, dies wird immer in Dezibel angegeben. Bei der x-Achse handelt es sich um die Frequenz welche man untersucht hat. Auch hier wurde der absolute Logarithmus mit den zwei duty cycle 0.5 \ref{fig:absolut_logarithmic_0.5} und 0.8\ref{fig:absolut_logarithmic_0.8} untersucht.
+Schlussendlich untersuchte man noch den absoluten Logarithmus der beiden Funktionen. Die ist in der Abbildung \ref{fig:absolut_logaritmic_matlab} zu erkennen. Die y-Achse zeigt das Verhältnis der Spannungen an, dies wird immer in Dezibel angegeben. Bei der x-Achse handelt es sich um die Frequenz welche man untersucht hat. Auch hier wurde der absolute Logarithmus mit den zwei duty cycle 0.5 \ref{fig:absolut_logarithmic_0.5} und 0.8 \ref{fig:absolut_logarithmic_0.8} untersucht.
 
 
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{absolut_logaritmic_0_5.png}\label{fig:absolut_logarithmic_0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{absolut_logaritmic_0_8.png}\label{fig:absolut_logarithmic_0.8}}
@@ -92,7 +92,7 @@ Mit dem Simulationsprogramm Plecs konnte man alle gewünschten Ansteuerungen sim
 
 Auch bei der Plecs-Simulationen wurde als erstes die Phasenanschnittsteuerung untersucht. Gleich wie bei der Matlab-Simulation konnten die verschiedenen Winkeln des Anschnittes nach Belieben eingestellt werden. Um die Resultate verifizieren zu könne wählte man die selben Winkel wie in der Abbildung \ref{fig:eingangssignal_mit_Matlab}. In der unteren Grafik, erkennt man ein Sinussignal mit einem Phasenanschnitt von $60^\circ$ \ref{fig:plecs_eingangssignal_60} und einen mit $90^\circ$ \ref{fig:plecs_eingangssignal_90}. Um die Spektren mit den Matlab-Simulationen vergleichen zu können wurde die Amplitude des Sinussignales wieder auf ± 1 eingestellt. 
 
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{plecs_phasenanschnitt_pi_3_funktion.png}\label{fig:plecs_eingangssignal_60}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{plecs_phasenanschnitt_pi_2_funktion.png}\label{fig:plecs_eingangssignal_90}}
@@ -102,7 +102,7 @@ Auch bei der Plecs-Simulationen wurde als erstes die Phasenanschnittsteuerung un
 
 Die folgenden Bilder \ref{fig:plecs_Amplitudenspektrum} zeigen das Amplitudenspektrum der Phasenanschnittsteuerung mit den zwei bereits verwendeten Winkeln. Die Grafik musst nicht wie bei der Matlab-Funktion von Hand berechnet, sondern konnte mit Hilfe des Plecs Scope direkt analysiert werden. Plecs macht auch eine Fourier-Analyse um das Spektrum anzuzeigen. Vergleicht man die Amplitudenspektren der beiden Simulationen miteinander sehen die Grafiken, nach erster Einschätzung von Auge, sehr ähnlich aus. Der genau Vergleich der Werte wird weiter unten im Kapitel XX beschrieben.   
      
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{plecs_phasenanschnitt_pi_3.png}\label{fig:plecs_Amplitudenspektrum_60}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{plecs_phasenanschnitt_pi_2.png}\label{fig:plecs_Amplitudenspektrum_90}}
@@ -111,7 +111,7 @@ Die folgenden Bilder \ref{fig:plecs_Amplitudenspektrum} zeigen das Amplitudenspe
 \end{figure}
 
 Als nächstes wurde eine Simulation für die Schwingungspaketsteuerung aufgebaut. Auch hier verwendete man einen duty cycle von 0.5 \ref{fig:plecs_Schwingungspaket_0_5} beziehungsweise 0.8 \ref{fig:plecs_Schwingungspaket_0_8}. Die untere Abbildung \ref{fig:plecs_Schwingungspakete} zeigt beiden Signale.  
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_schwingungen.PNG}\label{fig:plecs_Schwingungspaket_0_5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_8_schwingungen.PNG}\label{fig:plecs_Schwingungspaket_0_8}}
@@ -120,7 +120,7 @@ Als nächstes wurde eine Simulation für die Schwingungspaketsteuerung aufgebaut
 \end{figure}
 
 In der folgende Abbildung \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0_5_100_1000} wurde das Amplitudenspektrum des Schwingungspaketes mit einem duty cycle von 0.5 dargestellt. Auf der linken Seite \ref{fig:plecs_Schwingungspaket_0_5_100} der Abbildung erkennt man das bekannte Spektrum von 0- 100 Hz mit den Subharmonischen Werten unterhalb von 50 Hz. Rechts \ref{fig:plecs_Schwingungspaket_0_5_1000} davon ist das Spektrum bis zu 1000 Hz erweitert worden. Auch hier ist eine optische Ähnlichkeit zur  Matlab-Funktion ersichtlich.     
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_100.PNG}\label{fig:plecs_Schwingungspaket_0_5_100}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_1000.PNG}\label{fig:plecs_Schwingungspaket_0_5_1000}}
@@ -129,7 +129,7 @@ In der folgende Abbildung \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0
 \end{figure}
 
 Anschliessend wurde das gleiche noch mit dem duty cycle von 0.8 \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0_8_100_1000} realisiert. Links \ref{fig:plecs_Schwingungspaket_0_8_100} wieder mit einer Frequenz von 0 - 100 Hz und rechts \ref{fig:plecs_Schwingungspaket_0_8_1000} das Spektrum bis 1000 Hz.
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_8.PNG}\label{fig:plecs_Schwingungspaket_0_8_100}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_8_1000.PNG}\label{fig:plecs_Schwingungspaket_0_8_1000}}
@@ -141,7 +141,7 @@ Anschliessend wurde das gleiche noch mit dem duty cycle von 0.8 \ref{fig:plecs_S
 Letztlich wurde noch das lineare absolute Spektrum mit den beiden duty cycle 0.5\ref{fig:plecs_Schwingungspaket_0_5_absolut_log} und 0.8\ref{fig:plecs_Schwingungspaket_0_8_absolut_log} veranschaulicht. Damit man die Grafiken mit der Matlab-Simulation vergleichen konnte, entschied man sich das Spektrum nur bis zu einer Frequenz von 100 Hz anzuzeigen. Auch hier erkennt man eine Ähnlichkeit zur Matlab-Simulation. 
 
 
-\begin{figure}[h]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_absolut_log.PNG}\label{fig:plecs_Schwingungspaket_0_5_absolut_log}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_8_absolut_log.PNG}\label{fig:plecs_Schwingungspaket_0_8_absolut_log}}
@@ -149,9 +149,27 @@ Letztlich wurde noch das lineare absolute Spektrum mit den beiden duty cycle 0.5
 	\label{fig:plecs_Schwingungspakete_absolut log}
 \end{figure}
 
+\subsubsection{Alternative Ansteuerungen}
+In der Praxis werden nicht immer alle 3 Phasen angesteuert, sogenannte Sparansteuerungen. Dabei können nur zwei oder auch nur eine Phase angesteuert werden. Das heisst, dass zum Beispiel bei der Zwei-Phasen-Ansteuerung bei einer Phase der Thyristor überbrückt wird beziehungsweise der Thyristor gar nicht vorhanden ist. Dabei dient die überbrückte Phase als Ausgleichs- und Rückleiter. Diese Fälle wurden mit Plecs simuliert wobei die Last in Stern und in Dreieck geschaltet werden kann. Wie bei der 3-Phasen Ansteuerung, wurde für die alternativen Ansteuerung auch der Sanft-Anlass, die Kombination mit Phasenanschnitts- und Schwingungspaketsteuerung, simuliert.
 
-
+\subsubsection*{2-Phasen Ansteuerung mit Last in Stern}
+\todo{Bild Simulation}
 
  
+\subsubsection*{2-Phasen Ansteuerung mit Last in Dreieck}
+\todo{Bild Simulation}
+
+
+\subsubsection*{1-Phasen Ansteuerung mit Last in Stern}
+\todo{Bild Simulation}
+
+
+\subsubsection*{1-Phasen Ansteuerung mit Last in Dreieck}
+\todo{Bild Simulation}
+
+
+\subsubsection*{Halbwellensteuerung}
+Eine weitere Möglichkeit, die Thyristoren anzusteuern, ist die Halbwellensteuerung. Dabei wird die positive Halbwelle einer Phasen und zwei negative Halbwellen der anderen Phasen auf die Last geführt. Dies ist mit dem Thyristorsteller, welcher für das Projekt benutzt wurde nicht möglich, da dieser alle 3 Phasen gleich ansteuert. Deshalb wurde dieser Fall nur mit Plecs simuliert. \todo{Einfügen Bild Simulation} Das Problem bei dieser Steuerung ist, dass wenn der Sternpunkt nicht mit dem Nullpunkt verbunden ist, der Phasenverlauf im Plecs schwer zu kontrollieren ist. Da die Summe der Spannungen immer 0 geben muss und die Spannungen phasenverschoben sind gibt es einen sehr unschönen Spannungsverlauf. Wenn das FFT analysiert wird, fällt schnell auf, das die Grundschwingung von 50 Hz nicht den höchsten Peak hat.
+
 
 

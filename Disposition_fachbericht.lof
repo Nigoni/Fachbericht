@@ -24,4 +24,6 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.5 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{24}{figure.caption.35}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.8 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{25}{figure.caption.36}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{25}{figure.caption.37}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{28}{figure.caption.39}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{29}{figure.caption.49}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schema Messaufbau\relax }}{30}{figure.caption.51}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{31}{figure.caption.53}

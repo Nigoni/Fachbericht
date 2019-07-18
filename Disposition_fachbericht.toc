@@ -30,16 +30,23 @@
 \contentsline {section}{\numberline {3}Simulation}{18}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{18}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{22}{subsection.3.2}
-\contentsline {section}{\numberline {4}Messaufbau}{26}{section.4}
-\contentsline {section}{\numberline {5}Umsetzung}{27}{section.5}
-\contentsline {subsection}{\numberline {5.1}Laboraufbau}{27}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Filter}{27}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{27}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Arduino}{28}{subsection.5.2}
-\contentsline {section}{\numberline {6}Validierung}{29}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{30}{section.7}
-\contentsline {section}{Literatur}{32}{section*.42}
-\contentsline {section}{Abbildungsverzeichnis}{32}{section*.43}
-\contentsline {section}{Tabellenverzeichnis}{33}{section*.44}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{34}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{34}{subsection.A.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Alternative Ansteuerungen}{26}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}Messaufbau}{27}{section.4}
+\contentsline {section}{\numberline {5}Umsetzung}{28}{section.5}
+\contentsline {subsection}{\numberline {5.1}Laboraufbau}{28}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Filter}{28}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{28}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Laboraufbau mit Widerstand}{29}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Arduino}{30}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Schwingungspaketsteuerung mit Arduino}{30}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Phasenanschnittssteuerung mit Arduino}{30}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Messungen}{31}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Schwingungspaketsteuerung mit Last in Stern}{31}{subsubsection.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{31}{subsection.5.5}
+\contentsline {section}{\numberline {6}Validierung}{32}{section.6}
+\contentsline {section}{\numberline {7}Schlusswort}{33}{section.7}
+\contentsline {section}{Literatur}{35}{section*.55}
+\contentsline {section}{Abbildungsverzeichnis}{35}{section*.56}
+\contentsline {section}{Tabellenverzeichnis}{36}{section*.57}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{37}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{37}{subsection.A.1}
