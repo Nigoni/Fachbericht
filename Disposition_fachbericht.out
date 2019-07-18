@@ -5,8 +5,8 @@
 \BOOKMARK [2][-]{subsection.2.3}{2.3 Leistungsfaktor}{section.2}% 5
 \BOOKMARK [3][-]{subsubsection.2.3.1}{2.3.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.3}% 6
 \BOOKMARK [3][-]{subsubsection.2.3.2}{2.3.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.4}{2.4 Oberschwingungen}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.5}{2.5 Grundlagen}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{2.4 Auftretende von verzerrten Sinusschwingungen}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{2.5 Oberschwingungen}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.6}{2.6 Verzerrte Schwingung}{section.2}% 10
 \BOOKMARK [2][-]{subsection.2.7}{2.7 Vorkommen der Oberschwingungen}{section.2}% 11
 \BOOKMARK [2][-]{subsection.2.8}{2.8 Auswirkung von Oberschwingungen}{section.2}% 12
@@ -17,11 +17,11 @@
 \BOOKMARK [3][-]{subsubsection.2.10.3}{2.10.3 Oberschwingungsfilter}{subsection.2.10}% 17
 \BOOKMARK [3][-]{subsubsection.2.10.4}{2.10.4 \304nderung der Energieversorgung}{subsection.2.10}% 18
 \BOOKMARK [3][-]{subsubsection.2.10.5}{2.10.5 EMV vertr\344gliche Geb\344udeinstallation}{subsection.2.10}% 19
-\BOOKMARK [3][-]{subsubsection.2.10.6}{2.10.6 Subharmonische}{subsection.2.10}% 20
-\BOOKMARK [2][-]{subsection.2.11}{2.11 Normen}{section.2}% 21
-\BOOKMARK [3][-]{subsubsection.2.11.1}{2.11.1 EN 61000-3-2}{subsection.2.11}% 22
-\BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 EN 61000-3-3}{subsection.2.11}% 23
-\BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 EN 61000-2-2}{subsection.2.11}% 24
+\BOOKMARK [2][-]{subsection.2.11}{2.11 Zwischen- und Subharmonischen Schwingungen}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.12}{2.12 Normen}{section.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.12.1}{2.12.1 EN 61000-3-2}{subsection.2.12}% 22
+\BOOKMARK [3][-]{subsubsection.2.12.2}{2.12.2 EN 61000-3-3}{subsection.2.12}% 23
+\BOOKMARK [3][-]{subsubsection.2.12.3}{2.12.3 EN 61000-2-2}{subsection.2.12}% 24
 \BOOKMARK [1][-]{section.3}{3 Simulation}{}% 25
 \BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 26
 \BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 27
@@ -33,8 +33,8 @@
 \BOOKMARK [2][-]{subsection.5.2}{5.2 Arduino}{section.5}% 33
 \BOOKMARK [1][-]{section.6}{6 Validierung}{}% 34
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 35
-\BOOKMARK [1][-]{section*.42}{Literatur}{}% 36
-\BOOKMARK [1][-]{section*.43}{Abbildungsverzeichnis}{}% 37
-\BOOKMARK [1][-]{section*.44}{Tabellenverzeichnis}{}% 38
+\BOOKMARK [1][-]{section*.40}{Literatur}{}% 36
+\BOOKMARK [1][-]{section*.41}{Abbildungsverzeichnis}{}% 37
+\BOOKMARK [1][-]{section*.42}{Tabellenverzeichnis}{}% 38
 \BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 39
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 40
