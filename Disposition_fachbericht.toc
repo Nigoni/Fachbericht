@@ -26,41 +26,20 @@
 \contentsline {subsection}{\numberline {2.11}Normen}{11}{subsection.2.11}
 \contentsline {subsubsection}{\numberline {2.11.1}EN 61000-3-2}{11}{subsubsection.2.11.1}
 \contentsline {subsubsection}{\numberline {2.11.2}EN 61000-3-3}{12}{subsubsection.2.11.2}
-<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {2.11.3}EN 61000-2-2}{17}{subsubsection.2.11.3}
 \contentsline {section}{\numberline {3}Simulation}{18}{section.3}
-\contentsline {subsubsection}{\numberline {3.0.1}Einphasige Phasenanschnittsteuerung}{18}{subsubsection.3.0.1}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{18}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{22}{subsection.3.2}
-\contentsline {section}{\numberline {4}Messaufbau}{23}{section.4}
-\contentsline {section}{\numberline {5}Umsetzung}{24}{section.5}
-\contentsline {subsection}{\numberline {5.1}Laboraufbau}{24}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Filter}{24}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{24}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Arduino}{25}{subsection.5.2}
-\contentsline {section}{\numberline {6}Validierung}{26}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{27}{section.7}
-\contentsline {section}{Literatur}{29}{section*.37}
-\contentsline {section}{Abbildungsverzeichnis}{29}{section*.38}
-\contentsline {section}{Tabellenverzeichnis}{29}{section*.39}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{30}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{30}{subsection.A.1}
-=======
-\contentsline {subsubsection}{\numberline {2.11.3}EN 61000-2-2}{15}{subsubsection.2.11.3}
-\contentsline {section}{\numberline {3}Simulation}{17}{section.3}
-\contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{17}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{21}{subsection.3.2}
-\contentsline {section}{\numberline {4}Messaufbau}{25}{section.4}
-\contentsline {section}{\numberline {5}Umsetzung}{26}{section.5}
-\contentsline {subsection}{\numberline {5.1}Laboraufbau}{26}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Filter}{26}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{26}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Arduino}{27}{subsection.5.2}
-\contentsline {section}{\numberline {6}Validierung}{28}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{29}{section.7}
-\contentsline {section}{Literatur}{31}{section*.39}
-\contentsline {section}{Abbildungsverzeichnis}{31}{section*.40}
-\contentsline {section}{Tabellenverzeichnis}{31}{section*.41}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{32}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{32}{subsection.A.1}
->>>>>>> nando_Fachbericht
+\contentsline {section}{\numberline {4}Messaufbau}{26}{section.4}
+\contentsline {section}{\numberline {5}Umsetzung}{27}{section.5}
+\contentsline {subsection}{\numberline {5.1}Laboraufbau}{27}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Filter}{27}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{27}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Arduino}{28}{subsection.5.2}
+\contentsline {section}{\numberline {6}Validierung}{29}{section.6}
+\contentsline {section}{\numberline {7}Schlusswort}{30}{section.7}
+\contentsline {section}{Literatur}{32}{section*.42}
+\contentsline {section}{Abbildungsverzeichnis}{32}{section*.43}
+\contentsline {section}{Tabellenverzeichnis}{33}{section*.44}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{34}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{34}{subsection.A.1}
