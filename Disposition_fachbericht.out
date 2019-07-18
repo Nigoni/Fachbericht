@@ -23,6 +23,7 @@
 \BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 EN 61000-3-3}{subsection.2.11}% 23
 \BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 EN 61000-2-2}{subsection.2.11}% 24
 \BOOKMARK [1][-]{section.3}{3 Simulation}{}% 25
+<<<<<<< HEAD
 \BOOKMARK [2][-]{subsubsection.3.0.1}{3.0.1 Einphasige Phasenanschnittsteuerung}{section.3}% 26
 \BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 27
 \BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 28
@@ -39,3 +40,20 @@
 \BOOKMARK [1][-]{section*.39}{Tabellenverzeichnis}{}% 39
 \BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 40
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 41
+=======
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 27
+\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 28
+\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Laboraufbau}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Filter}{subsection.5.1}% 31
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Verst\344rkerschaltung}{subsection.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Arduino}{section.5}% 33
+\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 34
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 35
+\BOOKMARK [1][-]{section*.39}{Literatur}{}% 36
+\BOOKMARK [1][-]{section*.40}{Abbildungsverzeichnis}{}% 37
+\BOOKMARK [1][-]{section*.41}{Tabellenverzeichnis}{}% 38
+\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 39
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 40
+>>>>>>> nando_Fachbericht

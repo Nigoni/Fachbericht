@@ -10,6 +10,7 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Grundschwingung mit 3. Ordnung \cite {Oberwellen}\relax }}{6}{figure.caption.9}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Grundschwingung mit 11. Ordnung \cite {Oberwellen}\relax }}{6}{figure.caption.9}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Addition der verschiedenen Oberwellen \cite {analysi3}\relax }}{7}{figure.caption.10}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{15}{figure.caption.19}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Einganssignal mit Phasenanschnitt a) $60^\circ $ (b) $90^\circ $\relax }}{18}{figure.caption.24}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Amplituden- und Phasenspektrum (a) $60^\circ $ (b) $90^\circ $\relax }}{19}{figure.caption.25}
@@ -20,3 +21,20 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{21}{figure.caption.30}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Eingangssignal mit Phasenanschnitt (a) 60\IeC {\textdegree } (b) 90\IeC {\textdegree }\relax }}{22}{figure.caption.32}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{25}{figure.caption.34}
+=======
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Einganssignal mit Phasenanschnitt (a) $60^\circ $ (b) $90^\circ $\relax }}{17}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Amplituden- und Phasenspektrum (a) $60^\circ $ (b) $90^\circ $\relax }}{18}{figure.caption.22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Rekonstruiertes Signal (a) $60^\circ $ (b) $90^\circ $\relax }}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces FFT mit Hilfe der Matlabfunktion\relax }}{19}{figure.caption.24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schwingungspaket mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Eingangssignal mit Phasenanschnitt (a) 60\IeC {\textdegree } (b) 90\IeC {\textdegree }\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Amplitudenspektrum (a) 60\IeC {\textdegree } (b) 90\IeC {\textdegree }\relax }}{22}{figure.caption.30}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schwingungspaket mit einem duty cycle (a) 0.5 (b) 0.8\relax }}{23}{figure.caption.31}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.5 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{23}{figure.caption.32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.8 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{24}{figure.caption.33}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{24}{figure.caption.34}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{27}{figure.caption.36}
+>>>>>>> nando_Fachbericht
