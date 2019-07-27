@@ -49,6 +49,6 @@
 \contentsline {section}{Literatur}{39}{section*.58}
 \contentsline {section}{Abbildungsverzeichnis}{39}{section*.59}
 \contentsline {section}{Tabellenverzeichnis}{40}{section*.60}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{41}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{41}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Vergleich der Resultate von Plecs und Matlab}{41}{subsection.A.2}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{42}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{42}{subsection.A.1}
+\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{43}{appendix.B}
