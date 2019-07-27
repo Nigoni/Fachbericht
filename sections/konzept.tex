@@ -158,16 +158,33 @@ Letztlich wurde noch das lineare absolute Spektrum der beiden duty cyclen, 0.5 i
 
 \subsubsection{Vergleich der einphasigen Resultate mit Plecs und Matlab}
 
-Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkreten Bestätigung der Analyse zu erhalten, wurden alle Werte der einphasigen Simulationen nummerisch miteinander verglichen. Man erkannte, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1 \% haben. Dies wurde als sehr niedrig empfunden. Somit konnten die beiden Simulationen auch nummerisch auf ihre Richtigkeit geprüft werden.  Alle Vergleiche, optisch und nummerisch sind im Anhang dargestellt.
-\todo{Bilder in den Anhang schmeissen evt. no ei do ane}
+Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkrete Bestätigung der Analyse zu erhalten, wurden alle Werte der einphasigen Simulationen nummerisch miteinander verglichen. Man erkannte, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1 \% haben. Dies wurde als sehr niedrig empfunden. Somit konnten die beiden Simulationen auch nummerisch auf ihre Richtigkeit geprüft werden. In der Abbildung \ref{fig:Amplitudenspektrum mit Phasenwinkel 90grad} ist der Vergleich des Amplitudenspektrum mit einem Phasenanschnittwinkel von 90\textdegree ersichtlich. Die anderen Aufnahmen sind optisch und nummerisch im Anhang dargestellt.
 
 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.55]{Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png}	
+	\caption{Amplitudenspektrum mit Phasenwinkel 90\textdegree}
+	\label{fig:Amplitudenspektrum mit Phasenwinkel 90grad}
+\end{figure}
+
+
+
+
+
+
+
+
+\todo{Bilder in den Anhang schmeissen evt. no eis do ane}
+
+\newpage
 
 \subsubsection*{dreiphasige Phasenanschnittsteuerung mit 60\textdegree und 90\textdegree}
 
 
 Bei den folgenden Abbildungen \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_60} und \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_90} handelt es sich um die Simulation der dreiphasigen Phasenanschnittsteuerung, mit den bekannten Winkel von 60\textdegree  und 90\textdegree.
-In den linken Bildern \ref{fig:3_phasiges_Phasenanschnitt_60_Signal} und \ref{fig:3_phasiges_Phasenanschnitt_90_Signal} ist im  unteren Bereich, dass Eingangssignal mit der verketteten Nennspannung von 400 Volt dargestellt. Die oberen Grafiken zeigen die Spannungen, welche über den Widerständen abfallen, nachdem der jeweilige Triac, mit dem eingestellten Winkel, gezündet hat. Die Werte der Widerstände stellte man auf 150 $\omega$ ein, da der Culatti im Messaufbau den gleichen Wert hat. Anhand von Cursor 1 erkennt man, dass zuerst eine positive Halbwelle der Eingangsspannung, des ersten Aussenleiter (grün), anliegt. Der positive Thyristor des ersten Triacs zündet somit bei 90\textdegree beziehungsweise bei 60\textdegree. Da der Sternpunkt bei dieser Schaltung nicht mit dem Neutralleiter verbunden wurde, tritt eine negative Spannung über dem Thyristor des zweiten Triac auf (rot). Beim Cursor 2 hat es eine negative Eingangsspannung des zweiten Aussenleiters (blau). Somit zündet der negative Thyristor des dritten Triacs und die entgegengesetzte positive Spannung ensteht über dem ersten Thyristor (grün) des ersten Triacs. Diese Abfolge wird beliebig weiter geführt. Da es sich nur um eine Ohmsche Last handelt, verhält sich das Stromsignal phasengleich wie die Spannungskurve. \\
+In den linken Bildern \ref{fig:3_phasiges_Phasenanschnitt_60_Signal} und \ref{fig:3_phasiges_Phasenanschnitt_90_Signal} ist im  unteren Bereich, dass Eingangssignal mit der verketteten Nennspannung von 230 Volt dargestellt. Die oberen Grafiken zeigen die Spannungen, welche über den Widerständen abfallen, nachdem der jeweilige Triac, mit dem eingestellten Winkel, gezündet hat. Die Werte der Widerstände stellte man auf 150 $\Omega$ ein, da der Culatti im Messaufbau den gleichen Wert hat. Anhand von Cursor 1 erkennt man, dass zuerst eine positive Halbwelle der Eingangsspannung, des ersten Aussenleiter (grün), anliegt. Der positive Thyristor des ersten Triacs zündet somit bei 90\textdegree beziehungsweise bei 60\textdegree. Da der Sternpunkt bei dieser Schaltung nicht mit dem Neutralleiter verbunden wurde, tritt eine negative Spannung über dem Thyristor des zweiten Triac auf (rot). Beim Cursor 2 hat es eine negative Eingangsspannung des zweiten Aussenleiters (blau). Somit zündet der negative Thyristor des dritten Triacs und die entgegengesetzte positive Spannung ensteht über dem ersten Thyristor (grün) des ersten Triacs. Diese Abfolge wird beliebig weiter geführt. Da es sich nur um eine Ohmsche Last handelt, verhält sich das Stromsignal phasengleich wie die Spannungskurve. \\
 Auf der Abbildung \ref{fig:3_phasiges_Phasenanschnitt_60_FTT} und \ref{fig:3_phasiges_Phasenanschnitt_90_FTT} erkennt man die beiden  FFTs der jeweiligen Phasenanschnittstuerungen. Es ist ersichtlich, dass auch bei dreiphasigen Phasenanschnittsteuerungen nur Harmonische Oberwellen vorkommen und keine Sub- oder Zwischenharmonische. 
 
 \begin{figure}[ht!]
@@ -203,6 +220,7 @@ In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phas
 \end{figure}
 
 
+
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{3_phasiges_Schwingungspaket_Signal_0_8.png}\label{fig:3_phasiges_Schwingungspaket_Signal_0_8}}\qquad
@@ -210,6 +228,30 @@ In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phas
 	\caption{dreiphasige Schwingungspaketsteuerung mit duty cycle 0.8 (a) Signal (b) FFT}
 	\label{fig:3_phasiges_Schwingungspaket_0_8}
 \end{figure}
+
+\newpage
+
+
+Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simuliert hat entwickelte man ein Kombination der beiden Verfahren. In der Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} erkennt man ein sanftes Anlassen der Spannung bis auf die volle Leistung und nach einiger Zeit wieder ein sanftes herunterfahern bis die Leistung wieder null beträgt. Im Bild \ref{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5} ist der duty cycle auf 0.5 eingestellt. Die einzelnen Pakete verhalten sich nun so wie das sanfte Anlassen und Runterfahren der in Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} gezeigten Spannung. Vergleicht man das FFT in der Grafik \ref{fig:1_phasig_sanftanlaser_FFT} mit dem FFT des Schwingungspaketes mit hartem zu- und Wegschalten \ref{fig:plecs_Schwingungspaket_0_5_1000} ist eine Verringerung der Subharmonischen Oberschwingungen ersichtlich. Der Sanft-Anlass hat aber zufolge, dass es bei den Harmonischen einige Oberwellen hinzugekommen sind. 
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[][]{\includegraphics[width=0.45\linewidth]{1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5}}\qquad
+	\subfloat[][]{\includegraphics[width=0.45\linewidth]{1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt}}
+	\caption{einphasiges Sanft anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt }
+	\label{fig:einphasiges_Sanft_anlassen_Einganssignal}
+\end{figure}
+
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[][]{\includegraphics[width=0.45\linewidth]{1_phasig_sanftanlaser_FFT.png}\label{fig:1_phasig_sanftanlaser_FFT}}\qquad
+	\subfloat[][]{\includegraphics[width=0.45\linewidth]{1_phasig_sanftanlaser_FFT_Ausschnitt.png}\label{fig:1_phasig_sanftanlaser_FFT_Ausschnitt}}
+	\caption{FTT des einphasigen Sanft anlassen mit einem duty cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 Hz - 170 Hz}
+	\label{fig:einphasiges_Sanft_anlassen FTT}
+\end{figure}
+
+
 
 \newpage
 
