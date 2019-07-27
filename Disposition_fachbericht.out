@@ -25,7 +25,6 @@
 \BOOKMARK [1][-]{section.3}{3 Simulation}{}% 25
 \BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 26
 \BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 27
-<<<<<<< Updated upstream
 \BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 28
 \BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Alternative Ansteuerungen}{subsection.3.2}% 29
 \BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 30
@@ -40,30 +39,12 @@
 \BOOKMARK [2][-]{subsection.5.4}{5.4 Messungen}{section.5}% 39
 \BOOKMARK [3][-]{subsubsection.5.4.1}{5.4.1 Schwingungspaketsteuerung mit Last in Stern}{subsection.5.4}% 40
 \BOOKMARK [2][-]{subsection.5.5}{5.5 Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{section.5}% 41
-=======
-\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Alternative Ansteuerungen}{subsection.3.2}% 28
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 29
-\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 30
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Laboraufbau}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Filter}{subsection.5.1}% 32
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Verst\344rkerschaltung}{subsection.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Laboraufbau mit Widerstand}{section.5}% 34
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Arduino}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Schwingungspaketsteuerung mit Arduino}{subsection.5.3}% 36
-\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Phasenanschnittssteuerung mit Arduino}{subsection.5.3}% 37
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Messungen}{section.5}% 38
-\BOOKMARK [3][-]{subsubsection.5.4.1}{5.4.1 Schwingungspaketsteuerung mit Last in Stern}{subsection.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.5}{5.5 Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{section.5}% 40
-\BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 41
->>>>>>> Stashed changes
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 42
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 43
-\BOOKMARK [1][-]{section*.55}{Literatur}{}% 44
-\BOOKMARK [1][-]{section*.56}{Abbildungsverzeichnis}{}% 45
-\BOOKMARK [1][-]{section*.57}{Tabellenverzeichnis}{}% 46
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 47
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 48
-<<<<<<< Updated upstream
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Vergleich der Resultate von Plecs und Matlab}{appendix.A}% 49
-=======
->>>>>>> Stashed changes
+\BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 42
+\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 43
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 44
+\BOOKMARK [1][-]{section*.57}{Literatur}{}% 45
+\BOOKMARK [1][-]{section*.58}{Abbildungsverzeichnis}{}% 46
+\BOOKMARK [1][-]{section*.59}{Tabellenverzeichnis}{}% 47
+\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 48
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 49
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Vergleich der Resultate von Plecs und Matlab}{appendix.A}% 50
