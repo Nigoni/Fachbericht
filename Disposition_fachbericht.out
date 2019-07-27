@@ -39,16 +39,6 @@
 \BOOKMARK [2][-]{subsection.5.4}{5.4 Messungen}{section.5}% 39
 \BOOKMARK [3][-]{subsubsection.5.4.1}{5.4.1 Schwingungspaketsteuerung mit Last in Stern}{subsection.5.4}% 40
 \BOOKMARK [2][-]{subsection.5.5}{5.5 Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{section.5}% 41
-<<<<<<< HEAD
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 42
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 43
-\BOOKMARK [1][-]{section*.58}{Literatur}{}% 44
-\BOOKMARK [1][-]{section*.59}{Abbildungsverzeichnis}{}% 45
-\BOOKMARK [1][-]{section*.60}{Tabellenverzeichnis}{}% 46
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 47
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 48
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 49
-=======
 \BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 42
 \BOOKMARK [1][-]{section.6}{6 Validierung}{}% 43
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 44
@@ -57,5 +47,4 @@
 \BOOKMARK [1][-]{section*.61}{Tabellenverzeichnis}{}% 47
 \BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 48
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 49
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Vergleich der Resultate von Plecs und Matlab}{appendix.A}% 50
->>>>>>> master
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 50
