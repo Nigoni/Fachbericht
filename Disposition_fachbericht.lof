@@ -13,37 +13,28 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Sub- und Zwischenharmonische mit einer Grundfrequenz von 50 Hz\relax }}{11}{figure.caption.11}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{15}{figure.caption.14}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Einganssignal mit Phasenanschnitt (a) $60^\circ $ (b) $90^\circ $\relax }}{19}{figure.caption.18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Amplituden- und Phasenspektrum (a) $60^\circ $ (b) $90^\circ $\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Rekonstruiertes Signal (a) $60^\circ $ (b) $90^\circ $\relax }}{20}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Amplituden- und Phasenspektrum (a) 60\textdegree \hspace {0.02cm} (b) 90\textdegree \relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Rekonstruiertes Signal (a) 60\textdegree \hspace {0.02cm} (b) 90\textdegree \relax }}{20}{figure.caption.20}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces FFT mit der Matlabfunktion dargestellt\relax }}{21}{figure.caption.21}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Schwingungspaket mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{21}{figure.caption.22}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{22}{figure.caption.23}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Eingangssignal mit Phasenanschnitt (a) 60\IeC {\textdegree } (b) 90\IeC {\textdegree }\relax }}{23}{figure.caption.26}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Amplitudenspektrum (a) 60\IeC {\textdegree } (b) 90\IeC {\textdegree }\relax }}{24}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Eingangssignal mit Phasenanschnitt (a) 60\textdegree (b) 90\textdegree \relax }}{23}{figure.caption.26}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Amplitudenspektrum (a) 60\textdegree (b) 90\textdegree \relax }}{24}{figure.caption.27}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Schwingungspaket mit einem duty cycle (a) 0.5 (b) 0.8\relax }}{24}{figure.caption.28}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.5 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{25}{figure.caption.29}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.8 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Amplitudenspektrum mit einem duty cycle 0.8 von (a) \SI {0}{Hz} - \SI {100}{Hz} (b) \SI {0}{Hz} - \SI {1000}{Hz}\relax }}{25}{figure.caption.30}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8\relax }}{26}{figure.caption.31}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.14}{\ignorespaces dreiphasige Phasenanschnittsteuerung mit 60\textdegree (a) Signal (b) FFT\relax }}{27}{figure.caption.34}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces dreiphasige Phasenanschnittsteuerung mit 90\textdegree (a) Signal (b) FFT\relax }}{27}{figure.caption.35}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces dreiphasige Schwingungspaketsteuerung mit duty cycle 0.5 (a) Signal (b) FFT\relax }}{28}{figure.caption.36}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces dreiphasige Schwingungspaketsteuerung mit duty cycle 0.8 (a) Signal (b) FFT\relax }}{28}{figure.caption.37}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{32}{figure.caption.49}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schema Messaufbau\relax }}{33}{figure.caption.51}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{34}{figure.caption.53}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.54}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.55}
-=======
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Amplitudenspektrum mit Phasenwinkel 90\textdegree \relax }}{26}{figure.caption.32}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces dreiphasige Phasenanschnittsteuerung mit 60\textdegree (a) Signal (b) FFT\relax }}{27}{figure.caption.35}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces dreiphasige Phasenanschnittsteuerung mit 90\textdegree (a) Signal (b) FFT\relax }}{28}{figure.caption.36}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces dreiphasige Schwingungspaketsteuerung mit duty cycle 0.5 (a) Signal (b) FFT\relax }}{28}{figure.caption.37}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces dreiphasige Schwingungspaketsteuerung mit duty cycle 0.8 (a) Signal (b) FFT\relax }}{29}{figure.caption.38}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces einphasiges Sanft anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt \relax }}{29}{figure.caption.39}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Einphasiges Sanft anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt \relax }}{29}{figure.caption.39}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces FTT des einphasigen Sanft anlassen mit einem duty cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 Hz - 170 Hz\relax }}{30}{figure.caption.40}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{33}{figure.caption.52}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schema Messaufbau\relax }}{34}{figure.caption.54}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.56}
->>>>>>> master
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{32}{figure.caption.52}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Werte der Bauteile\relax }}{32}{figure.caption.52}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schema Messaufbau\relax }}{33}{figure.caption.53}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.55}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{36}{figure.caption.56}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{36}{figure.caption.57}
