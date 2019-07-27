@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  25 JUL 2019 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  27 JUL 2019 11:03
 entering extended mode
 **./Disposition_fachbericht.tex
 (Disposition_fachbericht.tex
@@ -2499,18 +2499,8 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
  [2]
 \openout2 = `sections/einleitung.aux'.
 
- (sections/einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+ (sections/einleitung.tex)pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 \include{sections/einleitung}
@@ -2814,130 +2804,176 @@ File: ./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG Graphic file (type
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG
   used on input line 154.
 (pdftex.def)             Requested size: 204.85844pt x 204.85304pt.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 166
+<./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png, id=602, 569.9
+694pt x 314.1336pt>
+File: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png Graphic f
+ile (type png)
+<use ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png>
+Package pdftex.def Info: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwink
+el_90.png  used on input line 167.
+(pdftex.def)             Requested size: 313.48415pt x 172.774pt.
+ [26 <./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG> <./graphics/plecs
+_schwingungspacket_0_8_absolut_log.PNG> <./graphics/Vergleich_Amplitudenspektru
+m_mit_Phasenwinkel_90.png>]
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 183
 .
 
 ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[26 <./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG> <./graphics/plecs_
-schwingungspacket_0_8_absolut_log.PNG>]
-<./graphics/3_phasiges_Phasenanschnit_60_Signal.png, id=624, 282.30469pt x 282.
+<./graphics/3_phasiges_Phasenanschnit_60_Signal.png, id=622, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Phasenanschnit_60_Signal.png Graphic file (type png
 )
 <use ./graphics/3_phasiges_Phasenanschnit_60_Signal.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_60_Signal.png  us
-ed on input line 175.
+ed on input line 192.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_60_FFT.png, id=625, 282.30469pt x 282.304
+<./graphics/3_phasiges_Phasenanschnit_60_FFT.png, id=623, 282.30469pt x 282.304
 69pt>
 File: ./graphics/3_phasiges_Phasenanschnit_60_FFT.png Graphic file (type png)
 <use ./graphics/3_phasiges_Phasenanschnit_60_FFT.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_60_FFT.png  used 
-on input line 176.
+on input line 193.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_90_Signal.png, id=626, 282.30469pt x 282.
+<./graphics/3_phasiges_Phasenanschnit_90_Signal.png, id=624, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Phasenanschnit_90_Signal.png Graphic file (type png
 )
 <use ./graphics/3_phasiges_Phasenanschnit_90_Signal.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_90_Signal.png  us
-ed on input line 185.
+ed on input line 202.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_90_FFT.png, id=627, 282.30469pt x 282.304
+<./graphics/3_phasiges_Phasenanschnit_90_FFT.png, id=625, 282.30469pt x 282.304
 69pt>
 File: ./graphics/3_phasiges_Phasenanschnit_90_FFT.png Graphic file (type png)
 <use ./graphics/3_phasiges_Phasenanschnit_90_FFT.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_90_FFT.png  used 
-on input line 186.
+on input line 203.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png, id=632, 282.30469pt x 2
+<./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png, id=630, 282.30469pt x 2
 82.30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png Graphic file (type 
 png)
 <use ./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png 
- used on input line 199.
+ used on input line 216.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png, id=633, 282.30469pt x 282.
+<./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png, id=631, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png Graphic file (type png
 )
 <use ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png  us
-ed on input line 200.
+ed on input line 217.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
- [27 <./graphics/3_phasiges_Phasenanschnit_60_Signal.png> <./graphics/3_phasige
-s_Phasenanschnit_60_FFT.png> <./graphics/3_phasiges_Phasenanschnit_90_Signal.pn
-g> <./graphics/3_phasiges_Phasenanschnit_90_FFT.png>]
-<./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png, id=648, 282.30469pt x 2
+<./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png, id=632, 282.30469pt x 2
 82.30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png Graphic file (type 
 png)
 <use ./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png 
- used on input line 208.
+ used on input line 226.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png, id=649, 282.30469pt x 282.
+<./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png, id=633, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png Graphic file (type png
 )
 <use ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png  us
-ed on input line 209.
+ed on input line 227.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
- [28 <./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png> <./graphics/3_phas
-iges_Schwingungspaket_FTT_0_5.png> <./graphics/3_phasiges_Schwingungspaket_Sign
-al_0_8.png> <./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png>]) [29]
+
+[27 <./graphics/3_phasiges_Phasenanschnit_60_Signal.png> <./graphics/3_phasiges
+_Phasenanschnit_60_FFT.png>]
+<./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png, id=657, 28
+2.30469pt x 282.30469pt>
+File: ./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png Graphi
+c file (type png)
+<use ./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png>
+Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_c
+ycle_0_5.png  used on input line 239.
+(pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
+<./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png, id=658, 361.35
+pt x 361.35pt>
+File: ./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png Graphic fi
+le (type png)
+<use ./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png>
+Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_Eingangssignal_Aussch
+nitt.png  used on input line 240.
+(pdftex.def)             Requested size: 204.85844pt x 204.85786pt.
+<./graphics/1_phasig_sanftanlaser_FFT.png, id=659, 282.30469pt x 282.30469pt>
+File: ./graphics/1_phasig_sanftanlaser_FFT.png Graphic file (type png)
+<use ./graphics/1_phasig_sanftanlaser_FFT.png>
+Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_FFT.png  used on inpu
+t line 248.
+(pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
+<./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png, id=660, 282.30469pt x 282
+.30469pt>
+File: ./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png Graphic file (type pn
+g)
+<use ./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png>
+Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png  u
+sed on input line 249.
+(pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
+ [28 <./graphics/3_phasiges_Phasenanschnit_90_Signal.png> <./graphics/3_phasige
+s_Phasenanschnit_90_FFT.png> <./graphics/3_phasiges_Schwingungspaket_Signal_0_5
+.png> <./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png>] [29 <./graphics/3_p
+hasiges_Schwingungspaket_Signal_0_8.png> <./graphics/3_phasiges_Schwingungspake
+t_FTT_0_8.png> <./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.
+png> <./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png>]) [30 <./
+graphics/1_phasig_sanftanlaser_FFT.png> <./graphics/1_phasig_sanftanlaser_FFT_A
+usschnitt.png>]
 \openout2 = `sections/history.aux'.
 
- (sections/history.tex) [30
+ (sections/history.tex) [31
 
 
 ]
 \openout2 = `sections/umsetzung.aux'.
 
- (sections/umsetzung.tex [31
+
+(sections/umsetzung.tex [32
 
 
 ]
-<./graphics/Schema_Verstaerkerschaltung.png, id=685, 619.31375pt x 277.035pt>
+<./graphics/Schema_Verstaerkerschaltung.png, id=712, 619.31375pt x 277.035pt>
 File: ./graphics/Schema_Verstaerkerschaltung.png Graphic file (type png)
 <use ./graphics/Schema_Verstaerkerschaltung.png>
 Package pdftex.def Info: ./graphics/Schema_Verstaerkerschaltung.png  used on in
 put line 30.
 (pdftex.def)             Requested size: 433.51668pt x 193.92317pt.
- [32 <./graphics/Schema_Verstaerkerschaltung.png>]
-<./graphics/Messaufbau.png, id=698, 878.28125pt x 382.42876pt>
+ [33 <./graphics/Schema_Verstaerkerschaltung.png>]
+<./graphics/Messaufbau.png, id=724, 878.28125pt x 382.42876pt>
 File: ./graphics/Messaufbau.png Graphic file (type png)
 <use ./graphics/Messaufbau.png>
 Package pdftex.def Info: ./graphics/Messaufbau.png  used on input line 64.
 (pdftex.def)             Requested size: 455.24408pt x 198.22803pt.
- [33 <./graphics/Messaufbau.png>]
-<./graphics/Schwingungspaket_kurz.png, id=705, 803.0pt x 513.92pt>
+
+[34 <./graphics/Messaufbau.png>]
+<./graphics/Schwingungspaket_kurz.png, id=731, 803.0pt x 513.92pt>
 File: ./graphics/Schwingungspaket_kurz.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_kurz.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_kurz.png  used on input li
 ne 88.
 (pdftex.def)             Requested size: 318.66946pt x 203.94894pt.
-) [34 <./graphics/Schwingungspaket_kurz.png (PNG copy)>]
+) [35 <./graphics/Schwingungspaket_kurz.png (PNG copy)>]
 \openout2 = `sections/validierung.aux'.
 
- (sections/validierung.tex) [35
+ (sections/validierung.tex) [36
 
 
 ]
 \openout2 = `sections/schlusswort.aux'.
 
-
-(sections/schlusswort.tex) [36
+ (sections/schlusswort.tex) [37
 
 
 ]
 \openout2 = `sections/ehrlichkeitserklaerung.aux'.
 
- (sections/ehrlichkeitserklaerung.tex
+
+(sections/ehrlichkeitserklaerung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -2962,7 +2998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-) [37
+) [38
 
 
 ]
@@ -2974,7 +3010,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 64.
 ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(Disposition_fachbericht.lof [38
+(Disposition_fachbericht.lof [39
 
 
 
@@ -2986,14 +3022,14 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@lot=\write9
 \openout9 = `Disposition_fachbericht.lot'.
 
- [39]
+ [40]
 \openout2 = `sections/appendix.aux'.
 
 
 (sections/appendix.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
- (appendix/code/Leistungsfaktor.m)) [40
+ (appendix/code/Leistungsfaktor.m)) [41
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
@@ -3008,7 +3044,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `Disposition_fachbericht.out' has not changed
 .
-(rerunfilecheck)             Checksum: 89324B6E89AD2A2EC57C4DD2EB72DC68;3910.
+(rerunfilecheck)             Checksum: E096786C9E53601B201FE578163326FE;3910.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3019,10 +3055,10 @@ Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 51240 strings out of 493305
- 1066372 string characters out of 3129802
- 1604839 words of memory out of 3000000
- 53670 multiletter control sequences out of 15000+200000
+ 51284 strings out of 493305
+ 1068456 string characters out of 3129802
+ 1598535 words of memory out of 3000000
+ 53701 multiletter control sequences out of 15000+200000
  630122 words of font info for 83 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,17n,94p,1914b,3290s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3053,9 +3089,9 @@ nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:
 /Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb>
 
-Output written on Disposition_fachbericht.pdf (45 pages, 5933010 bytes).
+Output written on Disposition_fachbericht.pdf (46 pages, 6145835 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 244 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 977 PDF objects out of 1000 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 
