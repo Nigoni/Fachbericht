@@ -32,30 +32,24 @@
 \contentsline {figure}{\numberline {3.18}{\ignorespaces dreiphasige Schwingungspaketsteuerung mit duty cycle 0.8 (a) Signal (b) FFT\relax }}{29}{figure.caption.38}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Einphasiges Sanft anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt \relax }}{29}{figure.caption.39}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces FTT des einphasigen Sanft anlassen mit einem duty cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 Hz - 170 Hz\relax }}{30}{figure.caption.40}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{33}{figure.caption.52}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schema Messaufbau\relax }}{34}{figure.caption.54}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.56}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{43}{figure.caption.61}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{43}{figure.caption.62}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Phasenanschnittsteuerung mit 120\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{43}{figure.caption.63}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.64}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.65}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Phasenanschnitt mit 30\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.66}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Phasenanschnitt mit 45\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{45}{figure.caption.67}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Phasenanschnitt mit 120\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{45}{figure.caption.68}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.2 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{45}{figure.caption.69}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.4 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{46}{figure.caption.70}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Vergleich der Amplitudenspektrum mit Phasenwinkel von 90\textdegree \relax }}{46}{figure.caption.71}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.5\relax }}{46}{figure.caption.72}
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{47}{figure.caption.73}
-\contentsline {figure}{\numberline {B.14}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{47}{figure.caption.74}
-\contentsline {figure}{\numberline {B.15}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{47}{figure.caption.75}
-=======
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{32}{figure.caption.52}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Werte der Bauteile\relax }}{32}{figure.caption.52}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Schema Messaufbau\relax }}{33}{figure.caption.53}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{35}{figure.caption.55}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{36}{figure.caption.56}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Das Spannungssignal aller Phasen bei Schwingungspaketsteuerung mit FFT\relax }}{36}{figure.caption.57}
->>>>>>> master
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.62}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.63}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Phasenanschnittsteuerung mit 120\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{44}{figure.caption.64}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{45}{figure.caption.65}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{45}{figure.caption.66}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Phasenanschnitt mit 30\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{45}{figure.caption.67}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Phasenanschnitt mit 45\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{46}{figure.caption.68}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Phasenanschnitt mit 120\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{46}{figure.caption.69}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.2 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{46}{figure.caption.70}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Schwingungspaketsteuerung mit duty cycle 0.4 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{47}{figure.caption.71}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Vergleich der Amplitudenspektrum mit Phasenwinkel von 90\textdegree \relax }}{47}{figure.caption.72}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.5\relax }}{47}{figure.caption.73}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{48}{figure.caption.74}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{48}{figure.caption.75}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Vergleich des Schwingungspaket mit duty cycle von 0.8\relax }}{48}{figure.caption.76}
