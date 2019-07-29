@@ -4,6 +4,50 @@
 \lstinputlisting{appendix/code/Leistungsfaktor.m}
 
 \newpage
+\subsection{Arduino-Programm}
+\begin{lstlisting}[language=Arduino]
+const int Switch_PO = 3;         // Output fuer den EIN- und AUSSCHALTER
+const int Controll_P = 2;   // Output fuer Steuersignal
+const int Switch_PI = 5; // Input fuer den EIN- und AUSSCHALTER
+int buttonState = 0;                 // Zustand Schalter auf 0
+int anzahl_Schwinwungspakete = 5;        // Anzahl Schwingungspakete
+
+void setup() {
+pinMode (Switch_PO, OUTPUT);        // Schalter auf Output
+pinMode (Controll_P, OUTPUT);              // PWM auf Output
+pinMode (Switch_PI, INPUT_PULLUP);      // Schalter Eingang
+}
+
+void loop() {
+buttonState =! digitalRead(Switch_PI);      // Da Pullup wird das Signal negiert
+if(buttonState == HIGH){          // if-Schleife falls Zustand Schalter auf EIN
+for(int z=0; z<10; z++){             // for-Schleife fuer Schwingungspaketsteuerung
+if(z<anzahl_Schwinwungspakete){                 // Anzahl Schwingungen EIN
+for(int i=0; i<255; i++){                     // Hochfahren mit PWM
+analogWrite(Controll_P, i);  // Die Variable wird auf den Steuersignalausgang geschrieben
+delay(5);// Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter hochfaehrt       
+}
+delay(200);     // Warten waehrend volle Leistung
+for(int i=255; i>0; i--){                     // Runterfahren mit PWM
+analogWrite(Controll_P, i);                 // Die Variable wird auf den Steuersignalausgang geschrieben
+delay(5); // Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter runterfaehrt
+}
+delay(100);   // Warten waehrend keiner Leistung
+}else{
+digitalWrite(Controll_P, LOW); // Ausschalten fuer Schwingungspakete keine Leistung
+delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingeschaltet werden soll
+			}
+}
+}
+}
+
+
+
+
+
+\end{lstlisting}
+
+\newpage
 \section{Vergleich der Resultate von Plecs und Matlab}
 
 \begin{figure}[ht!]
@@ -36,7 +80,7 @@
 	\centering
 	\subfloat[][]{\includegraphics[width=0.4\linewidth]{Schwingungspaket_0_2.png}\label{fig:Schwingungspaket_0_2}}\qquad
 	\subfloat[][]{\includegraphics[width=0.4\linewidth]{Oberwellen_0_2.png}\label{fig:Oberwellen_0_2}}
-	\caption{Schwingungspaketsteuerung mit duty cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum}
+	\caption{Schwingungspaket mit duty cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum}
 	\label{fig:Schwingungspaketsteuerung_mit_duty_cycle_0_2}
 \end{figure}
 
@@ -45,7 +89,7 @@
 	\centering
 	\subfloat[][]{\includegraphics[width=0.4\linewidth]{Schwingungspaket_0_4.png}\label{fig:Schwingungspaket_0_4}}\qquad
 	\subfloat[][]{\includegraphics[width=0.4\linewidth]{Oberwellen_0_4.png}\label{fig:Oberwellen_0_4}}
-	\caption{Schwingungspaketsteuerung mit duty cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum}
+	\caption{Schwingungspaket mit duty cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum}
 	\label{fig:Schwingungspaketsteuerung_mit_duty_cycle_0_4}
 \end{figure}
 
