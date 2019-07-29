@@ -3,108 +3,14 @@
 \section{Grundlagen}
 Im diesem erste Kapitel sollen die Grundlagen, die für diese Arbeit als Wichtig empfunden wurde, aufgelistet werden. Das Hauptaugenmerk wird dabei auf die beiden Steuerverfahren, Phasenanschnitt- und Schwingungspaketsteuerung, sowie auf deren Vor- \& Nachteile gerichtet. Da bei solchen Methoden das auftreten von verzerrten Signalen fast nicht zu vermeiden ist, enthält der folgende Abschnitt einige Details über das Vorkommen und die Auswirkungen von Ober-, Zwischen und Subharmonischen Schwingungen. Durch Normen welche zwingend eingehalten werden müssen, sind bei den beiden Verfahren gewisse Grenzen gesetzt. Damit man versteht auf welche Normen geachtete wurde, sind schlussendlich die drei wichtigsten zusammengefasst.      
 
-
-\subsection{Phasenanschnittsteuerung}
-Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündwinkel nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} eingestellt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen produziert und so unerwünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf. Der Strom verläuft zeitlich der Spannung nach und wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren von den Elektrizitätswerk nur bei kleinen Leistungen bis zu 200 Watt, bei symmetrischen Anschnittsteuerung von Wärmegeräten toleriert. Bei grösseren Leistungen wird deshalb die Schwinungspaketsteuerung verwendet. Auf der Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Die Grau gezeichnete Kurve ist die normale Netzspannung und die rote ist die Spannung, welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree \hspace{0.02cm} eingestellt. Die Leistung an der Last ist somit kleiner, als wenn die normale graue Netzspannung anliegen würde. 
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.75]{phasenanschnittsteuerung1.png}	
-	\caption{Phasenanschnitt mit einem Winkel von 135\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt1}
-\end{figure}
-\newpage
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.75]{phasenanschnittsteuerung2.png}	
-	\caption{Phasenanschnitt mit einem Winkel von 45\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt2}
-\end{figure}
-
-In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde. Somit erhält man eine an der Last eine grössere Leistung.
-
-\subsection{Schwingungspaketsteuerung}
-In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Wichtig sind dabei die Paketdauer $T_0$ und die Einschaltzeit $T_E$, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und 5 Halbwellen eingeschaltet sind, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlich, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist, wie die der normalen Netzspannung.
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.5]{Schwingungspaketsteuerung.png}	
-	\caption{Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite{Schwingungspaketsteuerung}}\label{fig:Schwingungspaketsteuerung}
-\end{figure}
-
-Dabei ergibt sich aus dem Verhältnis von Einschaltdauer zu Periodendauer das Tastverhältnis.
-
-\begin{equation}\label{eq:Einschaltverhältnis}
-a = \frac{T_E}{T_0}
-\end{equation}
-
-
-%\subsection{TRIAC}
-%Der TRIAC beseht aus zwei anti-parallele Thyristoren und kann über das Gate gezündet werden. Der TRIAC bleibt solange leitend bis der Haltestrom unterschritten wird. 
-
-%\begin{figure}[ht!]
-%	\centering
-%	\includegraphics[scale=0.1]{TRIAC.png}	
-%	\caption{Schaltzeichen eines TRIACs \cite{TRIAC}}\label{fig:TRIAC}
-%\end{figure}
-
-
-\subsection{Leistungsfaktor}
-Um die zwei Ansteuerungsverfahren miteinander vergleichen zu können, wird der Leistungsfaktor benötigt. Bei der Phasenanschnittsteuerung ist der Leistungsfaktor abhängig von Zündwinkel. Bei der Schwingungspaketsteuerung ist der Leistungsfaktor abhängig vom Einschaltverhältniss. Die genaueren Berechnungen der Faktoren wird in der Formel \ref{eq:lamda_p_n} \& \ref{eq:lamda_s_n} beschrieben. 
-
-In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich wie der Leistungsfaktor bei den beiden Steuerungsarten aussieht. Bei der Phasenanschnittsteuerung auf der linken Seite sieht man, wie bei einem kleinem Zündwinkel der Leistungsfaktor sehr gross ist. Je grösser der Zündwinkel gewählt wird, desto kleiner wird der Leistungsfaktor. Auf der rechten Seite sieht man den Leistungsfaktor in Abhängigkeit des Einschaltverhältnisses. Je grösser das Einschaltzeitverhältnis, desto grösser der Leistungsfaktor.  
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.394]{Leistungsfaktor.png}	
-	\caption{Leistungsfaktor von Phasenanschnitt- und Schwingungspaketsteuerung}\label{fig:Leistungsfaktor}
-\end{figure}
-
-\subsubsection{Leistungsfaktor Phasenanschnittsteuerung}
-Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung. 
-\begin{equation}\label{eq:lamda_p}
-\lambda = \frac{P_{\alpha}}{S}
-\end{equation}
-Die Schein- und Wirkleistung können mit den folgenden Formeln beschrieben werden.
-\begin{equation}\label{eq:Schein-&Wirkleistung}
-\begin{array}{cc} 
-S = I_L \cdot U_{UN}   &   P_{\alpha} = I_L^2 \cdot R_L  \\
-\end{array}
-\end{equation}
-Werden die Formeln \ref{eq:Schein-&Wirkleistung} in die Formel \ref{eq:lamda_p} eingesetzt ergibt sich folgende Gleichung. 
-\begin{equation} \label{eq:Phas_1}
-\frac{P_{\alpha}}{S} = \frac{I_L \cdot R_L}{U_{UN}}
-\end{equation}
-Der Laststrom wird mit folgender Formel beschrieben.
-\begin{equation}
-I_L = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)} \cdot \frac{U_{UN}}{R_L}
-\end{equation}
-Wenn die Formel für den Laststrom in die Gleichung \ref{eq:Phas_1} eingesetzt wird, lassen sich die Spannung und der Widerstand wegkürzen und übrig bleibt folgende Formel.
-\begin{equation}\label{eq:lamda_p_n}
-\lambda = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)}
-\end{equation}
-
-\subsubsection{Leistungsfaktor Schwingungspaketsteuerung}
-Das Einschaltsverhältnis wird als $a$ definiert und wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
-Die Schein- und Wirkleistung werden mit den folgenden Formeln bezeichnet.
-\begin{equation}\label{eq:Schw_Schein-&Wirkleistung}
-\begin{array}{cc} 
-S_a = \sqrt{a} \cdot P  &   P_a = a \cdot P \\
-\end{array}
-\end{equation} 
-Wenn die beiden Formeln für die Wirk- und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt werden ergibt sich daraus folgende Gleichung.  
-\begin{equation}
-\lambda = \frac{P_a }{S_a} = \frac{a \cdot P}{\sqrt{a} \cdot P}
-\end{equation}
-Die Wirkleistung lässt sich wegkürzen und so ergibt sich folgende Formel.
-\begin{equation}\label{eq:lamda_s_n}
-\lambda = \sqrt{a}
-\end{equation}
-
 \subsection{Auftretende von verzerrten Sinusschwingungen}
 Im Idealfall würde bei einer Stromversorgung überall eine perfekte sinusförmige Spannung vorliegen. Jedoch sieht dies in der Realität anders aus. Die Kurve der Spannung und des Stromes weichen massiv von einer Sinusfunktion ab. Man bezeichnet diese verzerrten Schwingungsformen im Allgemeinen als oberschwingungsbehaftetes Signal. \\
 Schon früh erkannte man diese Oberschwingungsverzerrungen am Netz, jedoch ist es erst heute ein ernstzunehmendes Problem für die Versorgungsbetriebe, die Verteilnetzbetreiber und für den Endkunden. Früher waren die grössten Herausforderungen, die Auswirkungen von Oberschwingungsverzerrungen auf elektrische Maschinen zu erkennen. Man stellte ausserdem fest, dass Störungen in den Telefonleitungen auftraten, welche den Ton der Sprache beeinträchtigte. Allerdings kann man sagen, dass Oberschwingungsverzerrungen früher ein geringeres Gefahrenpotential darstellten als heute. Die heutigen Maschinen wurden neuerdings so konstruiert, dass sie weniger Oberwellen erzeugen. Auch bei den Verteilnetzen wurde darauf geachtet, dass sie nicht mehr an der Lastobergrenze arbeiten und so ein reineres Sinussignal verwenden. Seit einigen Jahren steigt, die weltweite Nachfrage nach energieeffizienten Lösungen, die nur über vermehrten Einsatz von Leistungselektronik realisierbar sind. 
 \subsection{Oberschwingungen}
 Die Bedeutung Oberschwingung kommt aus dem Themenbereich «physische Eigenwertprobleme» also Wellen, deren Frequenz ganzzahlige Vielfache der Grundschwingungen sind. In der Musikwelt kann man Oberschwingungsfrequenzen vor allem bei Saiteninstrumenten, wie zum Beispiel bei einer Gitarre oder einer Geige beobachten.\\
-Die meisten elektrischen Geräte halten nach der perfekten Welle Ausschau. Bei Wechselstrom definiert die Perfektion eine perfekte Sinuskurve. Die daraus verwendete elektrische Spannung wechselt gleichmässig zwischen der positiven un negativen Halbwelle hin und her. Bei einer Frequenz von \SI{50}{Hz} beträgt dies genau 50-mal pro Sekunde. Der Begriff Welle ist mit dem Zusammenhang von Oberschwingungen nicht ganz korrekt. Eine Welle hat eine räumliche und zeitliche Ausdehnung, jedoch haben die hier betrachteten Schwingungen nur eine zeitliche Ausdehnung. Die Oberschwingungsanteile in einem Wechselstromsystem sind also definiert als sinusförmige Anteile einer periodischen Schwingung, deren Frequenz einem ganzzahligen Vielfachen (Ordnungszahl) der Grundfrequenz entspricht. In der unteren Tabelle erkennt man, welche Ordnungszahl $(n)$  zu welcher Frequenz $(fh)$ gehört. Es ist ersichtlich, dass zum Beispiel die 5. Oberschwingung eine Frequenz von \SI{250}{Hz} hat. Die Berechnung der Oberschwingungsfrequenz ist in der unterstehenden Formel \ref{eq:Oberschwingungsfrequenz} dargestellt.
+Die meisten elektrischen Geräte halten nach der perfekten Welle Ausschau. Bei Wechselstrom definiert die Perfektion eine perfekte Sinuskurve. Die daraus verwendete elektrische Spannung wechselt gleichmässig zwischen der positiven un negativen Halbwelle hin und her. Bei einer Frequenz von \SI{50}{Hz} beträgt dies genau 50-mal pro Sekunde. Der Begriff Welle ist mit dem Zusammenhang von Oberschwingungen nicht ganz korrekt. Eine Welle hat eine räumliche und zeitliche Ausdehnung, jedoch haben die hier betrachteten Schwingungen nur eine zeitliche Ausdehnung. Die Oberschwingungsanteile in einem Wechselstromsystem sind also definiert als sinusförmige Anteile einer periodischen Schwingung, deren Frequenz einem ganzzahligen Vielfachen (Ordnungszahl) der Grundfrequenz entspricht. In der unteren Tabelle \ref{tab:Oberschwingungfrequenz} erkennt man, welche Ordnungszahl $(n)$  zu welcher Frequenz $(fh)$ gehört. Es ist ersichtlich, dass zum Beispiel die 5. Oberschwingung eine Frequenz von \SI{250}{Hz} hat. Die Berechnung der Oberschwingungsfrequenz ist in der unterstehenden Formel \ref{eq:Oberschwingungsfrequenz} dargestellt.
 
+\newpage
 \begin{equation}\label{eq:Oberschwingungsfrequenz}
 f_h = n \cdot Grundfrequenz
 \end{equation}
@@ -149,25 +55,26 @@ Die folgenden zwei Abbildungen \ref{fig:Schwing3} \& \ref{fig:Schwing11} zeigen 
 		\includegraphics[scale=2]{Schwing_3.jpg}	
 		\caption{Grundschwingung mit 3. Ordnung \cite{Oberwellen}}\label{fig:Schwing3}
 	\end{minipage}	
-		%
+	%
 	\begin{minipage}[t]{0.49\textwidth}	
 		\centering	
 		\includegraphics[scale=2]{Schwing_11.jpg}	
 		\caption{Grundschwingung mit 11. Ordnung \cite{Oberwellen}}\label{fig:Schwing11}
 	\end{minipage}
 \end{figure}
-	
+
 
 
 \subsection{Verzerrte Schwingung}\label{sec:Verzerrte_Schwingung}
 Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinusförmigen Wellen mit unterschiedlichen Frequenzen und Amplituden. Man kann eine solche Schwingung mit den unterschiedlichen Oberschwingungskomponenten zusammensetzen, indem man eine Sinusschwingung mit mehreren Oberschwingungen zusammenaddiert. Ein wellenförmiges verzerrtes Signal lässt sich so zu einer Grundschwingung mit ihren mehreren harmonischen Oberschwingungen zerlegen. Bei der untenstehenden Graphik \ref{fig:Addition Oberwellen} ist diese ersichtlich, wobei die rote Kurve das verzerrte Signal darstellt. Die drei blauen Sinusschwingungen sind die Zerlegungen zur Grundschwingung, zur 3. und 5. harmonische Oberschwingung. Addiert man die drei blauen Kurven zusammen, so erhält man wiederum das verzerrte rote Signal.
+\newpage
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.7]{verzerrtes_Signal_analysis.png}	
 	\caption{Addition der verschiedenen Oberwellen \cite{analysi3}}\label{fig:Addition Oberwellen}
 \end{figure}
 
-Die erste Person, welcher diese Methode vorgestellt hat, war der französische Mathematiker Jean Baptiste Fourier. Noch heute trägt die Fourier-Transformation dessen Namen. Anhand eines Amplitudenspektrums lassen sich die Sinuskurven bei den verschiedenen harmonischen Frequenzen übersichtlich visualisieren. Da das Amplitudenspektrum jedoch keine Informationen über die Phasenlage der einzelnen Harmonischen enthält wird zusätzlich noch ein Phasenspektrum betrachtet. In der Praxis wird dieses Spektrum jedoch oft einfach weggelassen. Mit der folgenden Fourier-Reihe lässt sich eine beliebige periodische Funktion als Summe von Sinus- und Cosinus-Funktionen darstellen:
+Noch heute trägt die Fourier-Transformation dessen Namen. Anhand eines Amplitudenspektrums lassen sich die Sinuskurven bei den verschiedenen harmonischen Frequenzen übersichtlich visualisieren. Da das Amplitudenspektrum jedoch keine Informationen über die Phasenlage der einzelnen Harmonischen enthält wird zusätzlich noch ein Phasenspektrum betrachtet. In der Praxis wird dieses Spektrum jedoch oft einfach weggelassen. Mit der folgenden Fourier-Reihe lässt sich eine beliebige periodische Funktion als Summe von Sinus- und Cosinus-Funktionen darstellen:
 
 \begin{equation}
 f(x) = {\frac{a\textsubscript{0}}{2}}+\sum_{n=1}^\infty[a\textsubscript{n} \cdot cos(nx)+b\textsubscript{n} \cdot sin(nx)]
@@ -189,7 +96,7 @@ b\textsubscript{n} =  {\frac{1}{\pi} \cdot \int_{0}^{2\pi} f(x) \cdot sin(n \cdo
 \end{equation}
 
 Mit den oben genannten Fourier-Koeffizienten lassen sich nun das Amplituden- und Phasenspektrum berechnen.
- 
+
 \begin{equation}
 A\textsubscript{n} = {\sqrt{a\textsubscript{n}^2+b\textsubscript{n}^2}}
 \end{equation}
@@ -218,7 +125,7 @@ THDi = \frac{\sqrt{\sum_{n=2}^{40} I_n^2}}{I_{(1)}} \cdot 100 \%
 
 Parallel dazu zeigt die untere Formel die Totale Verzerrung der Spannung in Prozent.
 \begin{equation}\label{eq:THDu}
-	THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} \cdot 100\%
+THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} \cdot 100\%
 \end{equation}
 
 
@@ -233,6 +140,117 @@ Je nach Eigenschaft der Oberschwingungserzeuger und der Eigenschaft eines Gerät
 \subsection{Auswirkung von Oberschwingungen}
 
 Falls Oberschwingungen oder andere Netzrückwirkungen bei Betriebsmitteln auftreten, können die Funktionen von den Geräten beeinträchtigt oder sogar zerstört werden. Ein Beispiel dafür wäre, im Falle einer Kurzzeitunterberechnung bei Schaltnetzteile, würden sie mit extrem hohen Einschaltspitzen reagieren. Diese Spitzen könnten das 20-fache der Nennlast erreichen. Im einphasigen Verbrauch in einem Dreiphasigen-Wechselstromsystem fliesst der ganze Rückleitstrom über den Sternpunkt des Transformators zurück. Gäbe es viele Schaltnetzteile in einem System, würden sich die Rückleiterströme nicht mehr aufheben, sondern sie würden sich addieren. Die Folgen davon wäre eine Sternpunktverschiebung. Oberschwingungen können bei Glühbirnen die Glühfadentemperatur erhöhen und somit die Lebensdauer verkürzen. Auch bei Dreh- oder Wechselstrommotoren und -generatoren führen Stromoberschwingungen zu zusätzlicher Erwärmung. Bei Schutzgeräten wie Distanzschutz, Überstromschutz oder Differentialschutz können Oberschwingungen den Aufbau und die Wirkungswiese des Schutzgerätes beeinflussen. Sind die Abstände zwischen Freileitungen und Telefonleitungen zu gering, können die Oberschwingungen die Sprachübertragung stören. Dabei gibt es vor allem ein Auge auf die 20. bis zur 30. Ordnung der Oberschwingung zu werfen.
+
+\subsection{Zwischen- und Subharmonischen Schwingungen}
+
+Die Subharmonischen sind Sinusförmige Schwingungen, deren Frequenz unterhalb der Grundfrequenz entstehen. Ein Beispiel dafür wären Schwingungen bei Frequenzen von 5, 10, oder 20 Hz bei einer Grundfrequenz von \SI{50}{Hz}. Bei den Zwischenharmonischen handelt es sich um Sinusschwingungen welche zwischen den Harmonischen Schwingungen entstehen. Ihre Frequenz ist kein ganzzahliges Vielfaches der Grundfrequenz von \SI{50}{Hz}. Diese zwei Schwingungsarten erkennt bei der Abbildung \ref{fig:Sub und Zwischenharmonische} Die Zwischenharmonischen-Frequenzen und den damit verbunden Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomen erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von Zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von \SI{50}{Hz} ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden. Eine weitere negative Auswirkung die Zwischenharmonische hervorrufen sind Fehlverhalten auf die Funktion von Dimmerschaltungen. Die Thyristoren können zu früh oder zu spät zünden und so zu unfreiwilligem lichtflackern der Beleuchtung führen. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.5]{sub_und_zwischenharmonische.png}	
+	\caption{Sub- und Zwischenharmonische mit einer Grundfrequenz von 50 Hz}
+	\label{fig:Sub und Zwischenharmonische}
+\end{figure}
+
+\newpage
+\subsection{Phasenanschnittsteuerung}
+Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC sind zwei antiparallel geführt Thyristoren. Dieser zündet ab einem gewissen Zündwinkel nach jedem Nulldurchgang. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Ein Vorteil gegenüber einem Spannungsteiler ist, dass weniger Leistung gebraucht wird. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} eingestellt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung Oberwellen produziert und so unerwünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt eine Verzerrungsblindleistung auf. Der Strom verläuft zeitlich der Spannung nach und wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren von den Elektrizitätswerk nur bei kleinen Leistungen bis zu 200 Watt, bei symmetrischen Anschnittsteuerung von Wärmegeräten toleriert. Bei grösseren Leistungen wird deshalb die Schwinungspaketsteuerung verwendet. Auf der Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Die Grau gezeichnete Kurve ist die normale Netzspannung und die rote ist die Spannung, welcher an der Last anliegt. In dieser Abbildung wurde ein Winkel von 135\textdegree \hspace{0.02cm} eingestellt. Die Leistung an der Last ist somit kleiner, als wenn die normale graue Netzspannung anliegen würde. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.75]{phasenanschnittsteuerung1.png}	
+	\caption{Phasenanschnitt mit einem Winkel von 135\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt1}
+\end{figure}
+\newpage
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.75]{phasenanschnittsteuerung2.png}	
+	\caption{Phasenanschnitt mit einem Winkel von 45\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt2}
+\end{figure}
+
+In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde. Somit erhält man eine an der Last eine grössere Leistung.
+
+
+\newpage
+\subsection{Schwingungspaketsteuerung}
+In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Wichtig sind dabei die Paketdauer $T_0$ und die Einschaltzeit $T_E$, wobei letzteres verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und 5 Halbwellen eingeschaltet sind, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung enstehen bei dieser Ansteuerungsart keine harmonische Oberwellen, dafür aber Sub- und Zwischenharmonische. Auf der Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlich, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung welche ${2}/{3}$ so gross ist, wie die der normalen Netzspannung.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.5]{Schwingungspaketsteuerung.png}	
+	\caption{Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite{Schwingungspaketsteuerung}}\label{fig:Schwingungspaketsteuerung}
+\end{figure}
+
+Dabei ergibt sich aus dem Verhältnis von Einschaltdauer zu Periodendauer das Tastverhältnis.
+
+\begin{equation}\label{eq:Einschaltverhältnis}
+a = \frac{T_E}{T_0}
+\end{equation}
+
+
+%\subsection{TRIAC}
+%Der TRIAC beseht aus zwei anti-parallele Thyristoren und kann über das Gate gezündet werden. Der TRIAC bleibt solange leitend bis der Haltestrom unterschritten wird. 
+
+%\begin{figure}[ht!]
+%	\centering
+%	\includegraphics[scale=0.1]{TRIAC.png}	
+%	\caption{Schaltzeichen eines TRIACs \cite{TRIAC}}\label{fig:TRIAC}
+%\end{figure}
+
+
+\subsection{Leistungsfaktor}
+Um die zwei Ansteuerungsverfahren miteinander vergleichen zu können, wird der Leistungsfaktor benötigt. Bei der Phasenanschnittsteuerung ist der Leistungsfaktor abhängig von Zündwinkel. Bei der Schwingungspaketsteuerung ist der Leistungsfaktor abhängig vom Einschaltverhältniss. Die genaueren Berechnungen der Faktoren wird in der Formel \ref{eq:lamda_p_n} \& \ref{eq:lamda_s_n} beschrieben. 
+
+In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich wie der Leistungsfaktor bei den beiden Steuerungsarten aussieht. Bei der Phasenanschnittsteuerung auf der linken Seite sieht man, wie bei einem kleinem Zündwinkel der Leistungsfaktor sehr gross ist. Je grösser der Zündwinkel gewählt wird, desto kleiner wird der Leistungsfaktor. Auf der rechten Seite sieht man den Leistungsfaktor in Abhängigkeit des Einschaltverhältnisses. Je grösser das Einschaltzeitverhältnis, desto grösser der Leistungsfaktor \cite{Leistungselektronik}.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Leistungsfaktor.png}	
+	\caption{Leistungsfaktor von Phasenanschnitt- und Schwingungspaketsteuerung}\label{fig:Leistungsfaktor}
+\end{figure}
+\newpage
+\subsubsection{Leistungsfaktor Phasenanschnittsteuerung}
+Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung. 
+\begin{equation}\label{eq:lamda_p}
+\lambda = \frac{P_{\alpha}}{S}
+\end{equation}
+Die Schein- und Wirkleistung können mit den folgenden Formeln beschrieben werden:
+\begin{equation}\label{eq:Schein-&Wirkleistung}
+\begin{array}{cc} 
+S = I_L \cdot U_{UN}   &   P_{\alpha} = I_L^2 \cdot R_L  \\
+\end{array}
+\end{equation}
+Werden die Formeln \ref{eq:Schein-&Wirkleistung} in die Formel \ref{eq:lamda_p} eingesetzt ergibt sich folgende Gleichung:
+\begin{equation} \label{eq:Phas_1}
+\frac{P_{\alpha}}{S} = \frac{I_L \cdot R_L}{U_{UN}}
+\end{equation}
+Der Laststrom wird mit folgender Formel beschrieben:
+\begin{equation}
+I_L = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)} \cdot \frac{U_{UN}}{R_L}
+\end{equation}
+Wenn die Formel für den Laststrom in die Gleichung \ref{eq:Phas_1} eingesetzt wird, lassen sich die Spannung und der Widerstand wegkürzen und übrig bleibt folgende Formel:
+\begin{equation}\label{eq:lamda_p_n}
+\lambda = \sqrt{1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)}
+\end{equation}
+
+\newpage
+\subsubsection{Leistungsfaktor Schwingungspaketsteuerung}
+Das Einschaltsverhältnis wird als $a$ definiert und wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
+Die Schein- und Wirkleistung haben das folgendem Verhältnis zum Einschaltverhältnis:
+\begin{equation}\label{eq:Schw_Schein-&Wirkleistung}
+\begin{array}{cc} 
+S_a = \sqrt{a} \cdot P  &   P_a = a \cdot P \\
+\end{array}
+\end{equation} 
+Wenn die beiden Formeln für die Wirk- und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt werden ergibt sich daraus folgende Gleichung: 
+\begin{equation}
+\lambda = \frac{P_a }{S_a} = \frac{a \cdot P}{\sqrt{a} \cdot P}
+\end{equation}
+Die Wirkleistung lässt sich wegkürzen und so ergibt sich folgende Formel:
+\begin{equation}\label{eq:lamda_s_n}
+\lambda = \sqrt{a}
+\end{equation}
+
+\todo{Einfügen was damit gemacht werden kann}
 
 \subsection{Anforderung an die Netzqualität}
 
@@ -281,16 +299,7 @@ Auch die Energieversorgung bei der Gebäudeinstallation sollte EMV-verträglich 
 \end{itemize}  
 
 
-\subsection{Zwischen- und Subharmonischen Schwingungen}
 
-Die Subharmonischen sind Sinusförmige Schwingungen, deren Frequenz unterhalb der Grundfrequenz entstehen. Ein Beispiel dafür wären Schwingungen bei Frequenzen von 5, 10, oder 20 Hz bei einer Grundfrequenz von \SI{50}{Hz}. Bei den Zwischenharmonischen handelt es sich um Sinusschwingungen welche zwischen den Harmonischen Schwingungen entstehen. Ihre Frequenz ist kein ganzzahliges Vielfaches der Grundfrequenz von \SI{50}{Hz}. Diese zwei Schwingungsarten erkennt bei der Abbildung \ref{fig:Sub und Zwischenharmonische} Die Zwischenharmonischen-Frequenzen und den damit verbunden Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomen erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von Zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von \SI{50}{Hz} ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden. Eine weitere negative Auswirkung die Zwischenharmonische hervorrufen sind Fehlverhalten auf die Funktion von Dimmerschaltungen. Die Thyristoren können zu früh oder zu spät zünden und so zu unfreiwilligem lichtflackern der Beleuchtung führen. 
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.5]{sub_und_zwischenharmonische.png}	
-	\caption{Sub- und Zwischenharmonische mit einer Grundfrequenz von 50 Hz}
-	\label{fig:Sub und Zwischenharmonische}
-\end{figure}
 
 
 

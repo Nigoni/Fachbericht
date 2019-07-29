@@ -1,23 +1,23 @@
 \BOOKMARK [1][-]{section.1}{1 Einleitung}{}% 1
 \BOOKMARK [1][-]{section.2}{2 Grundlagen}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{2.1 Phasenanschnittsteuerung}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{2.2 Schwingungspaketsteuerung}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{2.3 Leistungsfaktor}{section.2}% 5
-\BOOKMARK [3][-]{subsubsection.2.3.1}{2.3.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.3}% 6
-\BOOKMARK [3][-]{subsubsection.2.3.2}{2.3.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.4}{2.4 Auftretende von verzerrten Sinusschwingungen}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.5}{2.5 Oberschwingungen}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.6}{2.6 Verzerrte Schwingung}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.7}{2.7 Vorkommen der Oberschwingungen}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.8}{2.8 Auswirkung von Oberschwingungen}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.9}{2.9 Anforderung an die Netzqualit\344t}{section.2}% 13
-\BOOKMARK [2][-]{subsection.2.10}{2.10 Gegenmassnahmen bei Oberschwingungen}{section.2}% 14
-\BOOKMARK [3][-]{subsubsection.2.10.1}{2.10.1 Vermeidung von St\366rungen}{subsection.2.10}% 15
-\BOOKMARK [3][-]{subsubsection.2.10.2}{2.10.2 Stromnetzeigenschaften}{subsection.2.10}% 16
-\BOOKMARK [3][-]{subsubsection.2.10.3}{2.10.3 Oberschwingungsfilter}{subsection.2.10}% 17
-\BOOKMARK [3][-]{subsubsection.2.10.4}{2.10.4 \304nderung der Energieversorgung}{subsection.2.10}% 18
-\BOOKMARK [3][-]{subsubsection.2.10.5}{2.10.5 EMV vertr\344gliche Geb\344udeinstallation}{subsection.2.10}% 19
-\BOOKMARK [2][-]{subsection.2.11}{2.11 Zwischen- und Subharmonischen Schwingungen}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.1}{2.1 Auftretende von verzerrten Sinusschwingungen}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Oberschwingungen}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Verzerrte Schwingung}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{2.4 Vorkommen der Oberschwingungen}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{2.5 Auswirkung von Oberschwingungen}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{2.6 Zwischen- und Subharmonischen Schwingungen}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.7}{2.7 Phasenanschnittsteuerung}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.8}{2.8 Schwingungspaketsteuerung}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.9}{2.9 Leistungsfaktor}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.9.1}{2.9.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.9}% 12
+\BOOKMARK [3][-]{subsubsection.2.9.2}{2.9.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.9}% 13
+\BOOKMARK [2][-]{subsection.2.10}{2.10 Anforderung an die Netzqualit\344t}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.11}{2.11 Gegenmassnahmen bei Oberschwingungen}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.11.1}{2.11.1 Vermeidung von St\366rungen}{subsection.2.11}% 16
+\BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 Stromnetzeigenschaften}{subsection.2.11}% 17
+\BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 Oberschwingungsfilter}{subsection.2.11}% 18
+\BOOKMARK [3][-]{subsubsection.2.11.4}{2.11.4 \304nderung der Energieversorgung}{subsection.2.11}% 19
+\BOOKMARK [3][-]{subsubsection.2.11.5}{2.11.5 EMV vertr\344gliche Geb\344udeinstallation}{subsection.2.11}% 20
 \BOOKMARK [2][-]{subsection.2.12}{2.12 Normen}{section.2}% 21
 \BOOKMARK [3][-]{subsubsection.2.12.1}{2.12.1 EN 61000-3-2}{subsection.2.12}% 22
 \BOOKMARK [3][-]{subsubsection.2.12.2}{2.12.2 EN 61000-3-3}{subsection.2.12}% 23
@@ -42,9 +42,10 @@
 \BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 42
 \BOOKMARK [1][-]{section.6}{6 Validierung}{}% 43
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 44
-\BOOKMARK [1][-]{section*.59}{Literatur}{}% 45
-\BOOKMARK [1][-]{section*.60}{Abbildungsverzeichnis}{}% 46
-\BOOKMARK [1][-]{section*.61}{Tabellenverzeichnis}{}% 47
+\BOOKMARK [1][-]{section*.60}{Literatur}{}% 45
+\BOOKMARK [1][-]{section*.61}{Abbildungsverzeichnis}{}% 46
+\BOOKMARK [1][-]{section*.62}{Tabellenverzeichnis}{}% 47
 \BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 48
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 49
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 50
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 50
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 51
