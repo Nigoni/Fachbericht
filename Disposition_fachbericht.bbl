@@ -19,64 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{Phasenanschnittsteuerung}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bf64c22c29909f220a3edb2af13ecc36}{%
-           family={{Dr. Rüdiger Paschotta}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{bf64c22c29909f220a3edb2af13ecc36}
-      \strng{fullhash}{bf64c22c29909f220a3edb2af13ecc36}
-      \strng{bibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
-      \strng{authorbibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
-      \strng{authornamehash}{bf64c22c29909f220a3edb2af13ecc36}
-      \strng{authorfullhash}{bf64c22c29909f220a3edb2af13ecc36}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Phasenanschnittsteuerung}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.energie-lexikon.info/phasenanschnittsteuerung.html
-      \endverb
-      \verb{url}
-      \verb https://www.energie-lexikon.info/phasenanschnittsteuerung.html
-      \endverb
-    \endentry
-    \entry{Schwingungspaketsteuerung}{online}{}
-      \name{author}{1}{}{%
-        {{hash=7dfde45855e3c1036f708808aeeda1d9}{%
-           family={{WolfgangS}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{fullhash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{bibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authorbibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authornamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authorfullhash}{7dfde45855e3c1036f708808aeeda1d9}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Schwingungspaketsteuerung}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Datei:Schwingungspaketsteuerung.png
-      \endverb
-      \verb{url}
-      \verb https://de.wikipedia.org/wiki/Datei:Schwingungspaketsteuerung.png
-      \endverb
-    \endentry
     \entry{Oberwellen}{online}{}
       \name{author}{1}{}{%
         {{hash=8e80f193a197a475a816d6103f0149c4}{%
@@ -89,8 +31,8 @@
       \strng{authorbibnamehash}{8e80f193a197a475a816d6103f0149c4}
       \strng{authornamehash}{8e80f193a197a475a816d6103f0149c4}
       \strng{authorfullhash}{8e80f193a197a475a816d6103f0149c4}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{OBERSCHWINGUNGEN KAPITEL 1: OBERSCHWINGUNGEN – DIE GRUNDLAGEN}
@@ -118,8 +60,8 @@
       \strng{authorbibnamehash}{8b510c6c0b00e48a229952040e5dfcfa}
       \strng{authornamehash}{8b510c6c0b00e48a229952040e5dfcfa}
       \strng{authorfullhash}{8b510c6c0b00e48a229952040e5dfcfa}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{6}
@@ -128,6 +70,88 @@
       \field{year}{2019}
       \field{dateera}{ce}
       \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'analysi3'}
+    \endentry
+    \entry{Phasenanschnittsteuerung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bf64c22c29909f220a3edb2af13ecc36}{%
+           family={{Dr. Rüdiger Paschotta}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{fullhash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{bibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authorbibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authornamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authorfullhash}{bf64c22c29909f220a3edb2af13ecc36}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phasenanschnittsteuerung}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.energie-lexikon.info/phasenanschnittsteuerung.html
+      \endverb
+      \verb{url}
+      \verb https://www.energie-lexikon.info/phasenanschnittsteuerung.html
+      \endverb
+    \endentry
+    \entry{Schwingungspaketsteuerung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7dfde45855e3c1036f708808aeeda1d9}{%
+           family={{WolfgangS}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{fullhash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{bibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{authorbibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{authornamehash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{authorfullhash}{7dfde45855e3c1036f708808aeeda1d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schwingungspaketsteuerung}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Datei:Schwingungspaketsteuerung.png
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Datei:Schwingungspaketsteuerung.png
+      \endverb
+    \endentry
+    \entry{Leistungselektronik}{book}{}
+      \name{author}{1}{}{%
+        {{hash=485df3f926f96d147cac52c554f9248a}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{485df3f926f96d147cac52c554f9248a}
+      \strng{fullhash}{485df3f926f96d147cac52c554f9248a}
+      \strng{bibnamehash}{485df3f926f96d147cac52c554f9248a}
+      \strng{authorbibnamehash}{485df3f926f96d147cac52c554f9248a}
+      \strng{authornamehash}{485df3f926f96d147cac52c554f9248a}
+      \strng{authorfullhash}{485df3f926f96d147cac52c554f9248a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Leistungselektronik Einführung, Grundlagen, Überblick}
+      \field{year}{1990}
     \endentry
   \enddatalist
 \endrefsection
