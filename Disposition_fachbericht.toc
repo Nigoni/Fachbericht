@@ -27,41 +27,37 @@
 \contentsline {subsubsection}{\numberline {2.12.1}EN 61000-3-2}{12}{subsubsection.2.12.1}
 \contentsline {subsubsection}{\numberline {2.12.2}EN 61000-3-3}{15}{subsubsection.2.12.2}
 \contentsline {subsubsection}{\numberline {2.12.3}EN 61000-2-2}{17}{subsubsection.2.12.3}
-\contentsline {section}{\numberline {3}Simulation}{19}{section.3}
+\contentsline {section}{\numberline {3}Simulationen}{19}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{19}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{23}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Vergleich der einphasigen Resultate mit Plecs und Matlab}{26}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Alternative Ansteuerungen}{29}{subsubsection.3.2.2}
-\contentsline {section}{\numberline {4}Messaufbau}{31}{section.4}
-\contentsline {section}{\numberline {5}Umsetzung}{32}{section.5}
-\contentsline {subsection}{\numberline {5.1}Laboraufbau}{32}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Filter}{32}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{32}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Laboraufbau mit Widerstand}{33}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Arduino}{33}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Schwingungspaketsteuerung mit Arduino}{34}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Phasenanschnittssteuerung mit Arduino}{34}{subsubsection.5.3.2}
-\contentsline {subsection}{\numberline {5.4}Messungen}{35}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Schwingungspaketsteuerung mit Last in Stern}{35}{subsubsection.5.4.1}
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {5.5}Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{35}{subsection.5.5}
-\contentsline {section}{\numberline {6}Validierung}{36}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{37}{section.7}
-\contentsline {section}{Literatur}{39}{section*.58}
-\contentsline {section}{Abbildungsverzeichnis}{39}{section*.59}
-\contentsline {section}{Tabellenverzeichnis}{40}{section*.60}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{42}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{42}{subsection.A.1}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{43}{appendix.B}
-=======
-\contentsline {subsection}{\numberline {5.5}Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{36}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{36}{subsection.5.6}
-\contentsline {section}{\numberline {6}Validierung}{37}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{38}{section.7}
-\contentsline {section}{Literatur}{40}{section*.59}
-\contentsline {section}{Abbildungsverzeichnis}{40}{section*.60}
-\contentsline {section}{Tabellenverzeichnis}{41}{section*.61}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{42}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{42}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Vergleich der Resultate von Plecs und Matlab}{42}{subsection.A.2}
->>>>>>> master
+\contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree und 90\textdegree }{19}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{22}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{24}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Einphasige Phasenanschnittsteuerung mit 60 \textdegree \hspace {0.02cm} und 90 \textdegree }{24}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{25}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Vergleich der einphasigen Resultate mit Plecs und Matlab}{27}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}dreiphasige Phasenanschnittsteuerung mit 60\textdegree und 90\textdegree }{28}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{30}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Einphasige Kombination des Sanft-Anlassen}{31}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Dreiphasige Kombination des Sanft-Anlassen}{32}{subsubsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.8}Alternative Ansteuerungen}{33}{subsubsection.3.2.8}
+\contentsline {section}{\numberline {4}Messaufbau}{34}{section.4}
+\contentsline {section}{\numberline {5}Umsetzung}{35}{section.5}
+\contentsline {subsection}{\numberline {5.1}Laboraufbau}{35}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Filter}{35}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Verst\IeC {\"a}rkerschaltung}{35}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Laboraufbau mit Widerstand}{36}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Arduino}{36}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Schwingungspaketsteuerung mit Arduino}{37}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Phasenanschnittssteuerung mit Arduino}{37}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Messungen}{38}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Schwingungspaketsteuerung mit Last in Stern}{38}{subsubsection.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{39}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{39}{subsection.5.6}
+\contentsline {section}{\numberline {6}Validierung}{40}{section.6}
+\contentsline {section}{\numberline {7}Schlusswort}{41}{section.7}
+\contentsline {section}{Literatur}{43}{section*.60}
+\contentsline {section}{Abbildungsverzeichnis}{43}{section*.61}
+\contentsline {section}{Tabellenverzeichnis}{45}{section*.62}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{46}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{46}{subsection.A.1}
+\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{47}{appendix.B}
