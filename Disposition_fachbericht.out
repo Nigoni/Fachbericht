@@ -5,7 +5,7 @@
 \BOOKMARK [2][-]{subsection.2.3}{2.3 Verzerrte Schwingung}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{2.4 Vorkommen der Oberschwingungen}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.5}{2.5 Auswirkung von Oberschwingungen}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.6}{2.6 Zwischen- und Subharmonischen Schwingungen}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.6}{2.6 Zwischen- und Subharmonische Schwingungen}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.7}{2.7 Phasenanschnittsteuerung}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.8}{2.8 Schwingungspaketsteuerung}{section.2}% 10
 \BOOKMARK [2][-]{subsection.2.9}{2.9 Leistungsfaktor}{section.2}% 11
@@ -24,14 +24,13 @@
 \BOOKMARK [3][-]{subsubsection.2.12.3}{2.12.3 EN 61000-2-2}{subsection.2.12}% 24
 \BOOKMARK [1][-]{section.3}{3 Simulationen}{}% 25
 \BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 26
-<<<<<<< HEAD
 \BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Einphasige Phasenanschnittsteuerung mit 60\260und 90\260}{subsection.3.1}% 27
 \BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{subsection.3.1}% 28
 \BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 29
 \BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Einphasige Phasenanschnittsteuerung mit 60 \260 \040und 90 \260}{subsection.3.2}% 30
 \BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{subsection.3.2}% 31
 \BOOKMARK [3][-]{subsubsection.3.2.3}{3.2.3 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 32
-\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 dreiphasige Phasenanschnittsteuerung mit 60\260und 90\260}{subsection.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260 }{subsection.3.2}% 33
 \BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{subsection.3.2}% 34
 \BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Einphasige Kombination des Sanft-Anlassen}{subsection.3.2}% 35
 \BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Dreiphasige Kombination des Sanft-Anlassen}{subsection.3.2}% 36
@@ -51,36 +50,10 @@
 \BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 50
 \BOOKMARK [1][-]{section.6}{6 Validierung}{}% 51
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 52
-\BOOKMARK [1][-]{section*.60}{Literatur}{}% 53
-\BOOKMARK [1][-]{section*.61}{Abbildungsverzeichnis}{}% 54
-\BOOKMARK [1][-]{section*.62}{Tabellenverzeichnis}{}% 55
+\BOOKMARK [1][-]{section*.59}{Literatur}{}% 53
+\BOOKMARK [1][-]{section*.60}{Abbildungsverzeichnis}{}% 54
+\BOOKMARK [1][-]{section*.61}{Tabellenverzeichnis}{}% 55
 \BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 56
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 57
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 58
-=======
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 28
-\BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Alternative Ansteuerungen}{subsection.3.2}% 29
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 30
-\BOOKMARK [1][-]{section.5}{5 Umsetzung}{}% 31
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Laboraufbau}{section.5}% 32
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Filter}{subsection.5.1}% 33
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Verst\344rkerschaltung}{subsection.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Laboraufbau mit Widerstand}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Arduino}{section.5}% 36
-\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Schwingungspaketsteuerung mit Arduino}{subsection.5.3}% 37
-\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Phasenanschnittssteuerung mit Arduino}{subsection.5.3}% 38
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Messungen}{section.5}% 39
-\BOOKMARK [3][-]{subsubsection.5.4.1}{5.4.1 Schwingungspaketsteuerung mit Last in Stern}{subsection.5.4}% 40
-\BOOKMARK [2][-]{subsection.5.5}{5.5 Phasenanschnittsteuerung mit 2 Thyristoren mit Last in Stern}{section.5}% 41
-\BOOKMARK [2][-]{subsection.5.6}{5.6 Phasenanschnittsteuerung mit 1 Thyristor mit Last in Stern}{section.5}% 42
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 43
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 44
-\BOOKMARK [1][-]{section*.60}{Literatur}{}% 45
-\BOOKMARK [1][-]{section*.61}{Abbildungsverzeichnis}{}% 46
-\BOOKMARK [1][-]{section*.62}{Tabellenverzeichnis}{}% 47
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 48
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 49
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 50
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 51
->>>>>>> master
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 58
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 59
