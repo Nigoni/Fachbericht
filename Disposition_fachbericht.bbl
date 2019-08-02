@@ -51,7 +51,7 @@
     \entry{analysi3}{misc}{}
       \name{author}{1}{}{%
         {{hash=8b510c6c0b00e48a229952040e5dfcfa}{%
-           family={C.Beneduce},
+           family={{C Beneduce}},
            familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{8b510c6c0b00e48a229952040e5dfcfa}
@@ -69,7 +69,6 @@
       \field{title}{Analysis 3, Vorlesungsscript Teil 3}
       \field{year}{2019}
       \field{dateera}{ce}
-      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'analysi3'}
     \endentry
     \entry{Phasenanschnittsteuerung}{online}{}
       \name{author}{1}{}{%
@@ -152,6 +151,83 @@
       \field{labeltitlesource}{title}
       \field{title}{Leistungselektronik Einführung, Grundlagen, Überblick}
       \field{year}{1990}
+    \endentry
+    \entry{Quelle_Marco}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3ad3103b587c1093838486f9dcae1681}{%
+           family={{Manish Bhardwaj}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ad3103b587c1093838486f9dcae1681}
+      \strng{fullhash}{3ad3103b587c1093838486f9dcae1681}
+      \strng{bibnamehash}{3ad3103b587c1093838486f9dcae1681}
+      \strng{authorbibnamehash}{3ad3103b587c1093838486f9dcae1681}
+      \strng{authornamehash}{3ad3103b587c1093838486f9dcae1681}
+      \strng{authorfullhash}{3ad3103b587c1093838486f9dcae1681}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Phase Locked Loop Design Using C2000 Microcontrollers for Single Phase Grid Connected Inverter}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ti.com/lit/an/sprabt3a/sprabt3a.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ti.com/lit/an/sprabt3a/sprabt3a.pdf
+      \endverb
+    \endentry
+    \entry{PI_Regler}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7453610b845265213504904647662f4c}{%
+           family={Wassmer},
+           familyi={W\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7453610b845265213504904647662f4c}
+      \strng{fullhash}{7453610b845265213504904647662f4c}
+      \strng{bibnamehash}{7453610b845265213504904647662f4c}
+      \strng{authorbibnamehash}{7453610b845265213504904647662f4c}
+      \strng{authornamehash}{7453610b845265213504904647662f4c}
+      \strng{authorfullhash}{7453610b845265213504904647662f4c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{1}
+      \field{title}{Funktionsmuster eines Dreiphasigen PFC Gleichrichters}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Regelungstechnik_Buch}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4229949aab4df09799280ea8dfc50322}{%
+           family={Lunze},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{4229949aab4df09799280ea8dfc50322}
+      \strng{fullhash}{4229949aab4df09799280ea8dfc50322}
+      \strng{bibnamehash}{4229949aab4df09799280ea8dfc50322}
+      \strng{authorbibnamehash}{4229949aab4df09799280ea8dfc50322}
+      \strng{authornamehash}{4229949aab4df09799280ea8dfc50322}
+      \strng{authorfullhash}{4229949aab4df09799280ea8dfc50322}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regelungstechnik 1}
+      \field{year}{2014}
     \endentry
   \enddatalist
 \endrefsection

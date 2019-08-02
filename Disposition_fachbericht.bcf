@@ -2009,6 +2009,11 @@
     <bcf:citekey order="11">Schwingungspaketsteuerung</bcf:citekey>
     <bcf:citekey order="12">Schwingungspaketsteuerung</bcf:citekey>
     <bcf:citekey order="13">Leistungselektronik</bcf:citekey>
+    <bcf:citekey order="14">Leistungselektronik</bcf:citekey>
+    <bcf:citekey order="15">Leistungselektronik</bcf:citekey>
+    <bcf:citekey order="16">Quelle_Marco</bcf:citekey>
+    <bcf:citekey order="17">PI_Regler</bcf:citekey>
+    <bcf:citekey order="18">Regelungstechnik_Buch</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
