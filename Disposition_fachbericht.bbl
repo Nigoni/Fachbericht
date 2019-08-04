@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,16 +21,16 @@
   \datalist[entry]{none/global//global/global}
     \entry{Oberwellen}{online}{}
       \name{author}{1}{}{%
-        {{hash=83e26ac3cb3e32f2a4e58bbdb80a32be}{%
+        {{hash=8e80f193a197a475a816d6103f0149c4}{%
            family={{Alexander Kamenka}},
            familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{fullhash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{bibnamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authorbibnamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authornamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authorfullhash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
+      \strng{namehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{fullhash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{bibnamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authorbibnamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authornamehash}{8e80f193a197a475a816d6103f0149c4}
+      \strng{authorfullhash}{8e80f193a197a475a816d6103f0149c4}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -50,21 +50,16 @@
     \endentry
     \entry{analysi3}{misc}{}
       \name{author}{1}{}{%
-<<<<<<< HEAD
         {{hash=8b510c6c0b00e48a229952040e5dfcfa}{%
            family={{C Beneduce}},
-=======
-        {{hash=5b9a29742fb9562816bcf724dce3d0d4}{%
-           family={C.Beneduce},
->>>>>>> master
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{5b9a29742fb9562816bcf724dce3d0d4}
-      \strng{fullhash}{5b9a29742fb9562816bcf724dce3d0d4}
-      \strng{bibnamehash}{5b9a29742fb9562816bcf724dce3d0d4}
-      \strng{authorbibnamehash}{5b9a29742fb9562816bcf724dce3d0d4}
-      \strng{authornamehash}{5b9a29742fb9562816bcf724dce3d0d4}
-      \strng{authorfullhash}{5b9a29742fb9562816bcf724dce3d0d4}
+      \strng{namehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{fullhash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{bibnamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authorbibnamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authornamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authorfullhash}{8b510c6c0b00e48a229952040e5dfcfa}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -77,16 +72,16 @@
     \endentry
     \entry{Phasenanschnittsteuerung}{online}{}
       \name{author}{1}{}{%
-        {{hash=286e8455941062a3bd5c2bc7971313ca}{%
+        {{hash=bf64c22c29909f220a3edb2af13ecc36}{%
            family={{Dr. Rüdiger Paschotta}},
            familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{fullhash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{bibnamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authorbibnamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authornamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authorfullhash}{286e8455941062a3bd5c2bc7971313ca}
+      \strng{namehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{fullhash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{bibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authorbibnamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authornamehash}{bf64c22c29909f220a3edb2af13ecc36}
+      \strng{authorfullhash}{bf64c22c29909f220a3edb2af13ecc36}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
