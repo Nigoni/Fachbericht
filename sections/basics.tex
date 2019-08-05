@@ -210,7 +210,7 @@ Der Leistungsfaktor wird meistens in der Leistungselektronik dafür verwendet, u
 Der Vergleich zeigt, dass für beide Verfahren bei gleicher Reduzierung der gebrauchten Leistung gegenüber der maximalen möglichen auch die gleichen Leistungsfaktoren ergeben. Bei der Schwingungspaketsteuerung wird die verzerrte Leistung hauptsächlich durch die Subharmonischen Schwingungen verursacht, wobei bei der Anschnittsteuerung die Harmonischen die Ursachen für die Verzerrleistung sind. Dies bedeutet, dass beide Verfahren eine gewissen Einfluss auf die Stabilität des Stromnetzes, die sogenannte Netzrückwirkung haben.
 \newpage
 \subsubsection{Leistungsfaktor Phasenanschnittsteuerung}
-Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung. 
+Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung \cite{Leistungselektronik}. 
 \begin{equation}\label{eq:lamda_p}
 \lambda = \frac{P_{\alpha}}{S}
 \end{equation}
@@ -264,6 +264,10 @@ Man erkennt, dass der Leistungsfaktor bei rein ohmscher Belastung nur vom Einsch
 
 \newpage
 \subsubsection{Leistungsfaktor Schwingungspaketsteuerung}
+Das Einschaltsverhältnis wird als $a$ definiert und wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
+Die Schein- und Wirkleistung haben das folgendem Verhältnis zum Einschaltverhältnis: \cite{Leistungselektronik}
+Wenn die beiden Formeln für die Wirk- und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt werden ergibt sich daraus folgende Gleichung: 
+
 Das Einschaltverhältnis wird als $a$ definiert und mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
 Die Schein- und Wirkleistung haben den folgenden Bezug zum Einschaltverhältnis:
 
@@ -276,6 +280,7 @@ P_a = a \cdot P
 \end{equation}
 
 Wenn die beiden Formeln \ref{eq:Schw_Scheinleistung} und \ref{eq:Schw_Wirkleistung} für die Wirk- und Scheinleistung in die Gleichung für den Leistungsfaktor eingesetzt werden, ergibt sich daraus folgende Gleichung: 
+
 \begin{equation}
 \lambda = \frac{P_a }{S_a} = \frac{a \cdot P}{\sqrt{a} \cdot P}
 \end{equation}
