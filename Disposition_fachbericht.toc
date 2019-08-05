@@ -10,66 +10,6 @@
 \contentsline {subsection}{\numberline {2.3}Verzerrte Schwingung}{3}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Total Harmonic Distortion}{5}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Auswirkung von Oberschwingungen}{5}{subsection.2.5}
-<<<<<<< Updated upstream
-\contentsline {subsection}{\numberline {2.6}Zwischen- und Subharmonische Schwingungen}{7}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Phasenanschnittsteuerung}{8}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Schwingungspaketsteuerung}{9}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Leistungsfaktor}{10}{subsection.2.9}
-\contentsline {subsubsection}{\numberline {2.9.1}Leistungsfaktor Phasenanschnittsteuerung}{11}{subsubsection.2.9.1}
-\contentsline {subsubsection}{\numberline {2.9.2}Leistungsfaktor Schwingungspaketsteuerung}{12}{subsubsection.2.9.2}
-\contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{12}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Gegenmassnahmen bei Oberschwingungen}{12}{subsection.2.11}
-\contentsline {subsubsection}{\numberline {2.11.1}Vermeidung von St\IeC {\"o}rungen}{13}{subsubsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.2}Stromnetzeigenschaften}{13}{subsubsection.2.11.2}
-\contentsline {subsubsection}{\numberline {2.11.3}Oberschwingungsfilter}{13}{subsubsection.2.11.3}
-\contentsline {subsubsection}{\numberline {2.11.4}\IeC {\"A}nderung der Energieversorgung}{13}{subsubsection.2.11.4}
-\contentsline {subsubsection}{\numberline {2.11.5}EMV vertr\IeC {\"a}gliche Geb\IeC {\"a}udeinstallation}{13}{subsubsection.2.11.5}
-\contentsline {subsection}{\numberline {2.12}Normen}{14}{subsection.2.12}
-\contentsline {subsubsection}{\numberline {2.12.1}EN 61000-3-2}{14}{subsubsection.2.12.1}
-\contentsline {subsubsection}{\numberline {2.12.2}EN 61000-3-3}{17}{subsubsection.2.12.2}
-\contentsline {subsubsection}{\numberline {2.12.3}EN 61000-2-2}{19}{subsubsection.2.12.3}
-\contentsline {section}{\numberline {3}Simulationen}{21}{section.3}
-\contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{21}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree und 90\textdegree }{21}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{24}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{26}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Einphasige Phasenanschnittsteuerung mit 60 \textdegree \hspace {0.02cm} und 90 \textdegree }{26}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{27}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Vergleich der einphasigen Resultate mit Plecs und Matlab}{29}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Dreiphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree \hspace {0.02cm}}{30}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{32}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}Einphasige Kombination des Sanft-Anlassen}{33}{subsubsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.7}Dreiphasige Kombination des Sanft-Anlassen}{34}{subsubsection.3.2.7}
-\contentsline {subsubsection}{\numberline {3.2.8}Alternative Ansteuerungen}{35}{subsubsection.3.2.8}
-\contentsline {section}{\numberline {4}Messaufbau}{36}{section.4}
-\contentsline {subsection}{\numberline {4.1}Laboraufbau}{36}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Filter}{36}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Verst\IeC {\"a}rkerschaltung}{36}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}Laboraufbau mit einem Widerstand}{37}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Laboraufbau mit einer ASM}{38}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Arduino}{38}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Phasenanschnittssteuerung mit Arduino}{38}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Schwingungspaketsteuerung mit Arduino}{38}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Sanft-Anlasser}{38}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Sanft-Anlasser lanngsam}{39}{subsubsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.5}Drehzahlmessung f\IeC {\"u}r eine Reglerauslegung}{39}{subsubsection.4.4.5}
-\contentsline {section}{\numberline {5}Messaufbau Resultate}{41}{section.5}
-\contentsline {subsection}{\numberline {5.1}Messungen Spannungen}{41}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Messungen Widerstand}{41}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Messungen ASM}{47}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Messungen Str\IeC {\"o}me}{53}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Messungen Widerstand}{53}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{57}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}Validierung}{60}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{61}{section.7}
-\contentsline {section}{Literatur}{63}{section*.97}
-\contentsline {section}{Abbildungsverzeichnis}{63}{section*.98}
-\contentsline {section}{Tabellenverzeichnis}{65}{section*.99}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{66}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{66}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{67}{subsection.A.2}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{68}{appendix.B}
-=======
 \contentsline {subsection}{\numberline {2.6}Zwischen- und Subharmonische Schwingungen}{6}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Phasenanschnittsteuerung}{7}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Schwingungspaketsteuerung}{8}{subsection.2.8}
@@ -108,27 +48,18 @@
 \contentsline {subsubsection}{\numberline {4.4.4}Sanft-Anlasser lanngsam}{38}{subsubsection.4.4.4}
 \contentsline {subsubsection}{\numberline {4.4.5}Drehzahlmessung f\IeC {\"u}r eine Reglerauslegung}{38}{subsubsection.4.4.5}
 \contentsline {section}{\numberline {5}Messaufbau Resultate}{40}{section.5}
-\contentsline {subsection}{\numberline {5.1}Messungen Widerstand}{40}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Phasenanschnitt 60\textdegree }{40}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Phasenanschnitt 90\textdegree }{41}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Schwingungspaket 50\%}{42}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Schwingungspaket 80\%}{43}{subsubsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.5}Sanft-Anlasser}{44}{subsubsection.5.1.5}
-\contentsline {subsubsection}{\numberline {5.1.6}Sanft-Anlasser Langsam}{45}{subsubsection.5.1.6}
-\contentsline {subsection}{\numberline {5.2}Messungen ASM}{46}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Phasenanschnitt 60\textdegree }{46}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Phasenanschnitt 90\textdegree }{47}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Schwingungspaket 50\%}{48}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Schwingungspaket 80\%}{49}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Sanft-Anlasser Langsam}{50}{subsubsection.5.2.5}
-\contentsline {subsubsection}{\numberline {5.2.6}Sanft-Anlasser Langsam}{51}{subsubsection.5.2.6}
-\contentsline {section}{\numberline {6}Validierung}{52}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{53}{section.7}
-\contentsline {section}{Literatur}{55}{section*.76}
-\contentsline {section}{Abbildungsverzeichnis}{55}{section*.77}
-\contentsline {section}{Tabellenverzeichnis}{57}{section*.78}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{58}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{58}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{59}{subsection.A.2}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{60}{appendix.B}
->>>>>>> Stashed changes
+\contentsline {subsection}{\numberline {5.1}Messungen Spannungen}{40}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Messungen Widerstand}{40}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Messungen ASM}{46}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Messungen Str\IeC {\"o}me}{52}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Messungen Widerstand}{52}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{56}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Validierung}{59}{section.6}
+\contentsline {section}{\numberline {7}Schlusswort}{60}{section.7}
+\contentsline {section}{Literatur}{62}{section*.102}
+\contentsline {section}{Abbildungsverzeichnis}{62}{section*.103}
+\contentsline {section}{Tabellenverzeichnis}{64}{section*.104}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{65}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{65}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{66}{subsection.A.2}
+\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{67}{appendix.B}
