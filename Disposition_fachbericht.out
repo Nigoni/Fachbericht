@@ -48,26 +48,18 @@
 \BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanft-Anlasser lanngsam}{subsection.4.4}% 48
 \BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 49
 \BOOKMARK [1][-]{section.5}{5 Messaufbau Resultate}{}% 50
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Widerstand}{section.5}% 51
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Phasenanschnitt 60\260}{subsection.5.1}% 52
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Phasenanschnitt 90\260}{subsection.5.1}% 53
-\BOOKMARK [3][-]{subsubsection.5.1.3}{5.1.3 Schwingungspaket 50\045}{subsection.5.1}% 54
-\BOOKMARK [3][-]{subsubsection.5.1.4}{5.1.4 Schwingungspaket 80\045}{subsection.5.1}% 55
-\BOOKMARK [3][-]{subsubsection.5.1.5}{5.1.5 Sanft-Anlasser}{subsection.5.1}% 56
-\BOOKMARK [3][-]{subsubsection.5.1.6}{5.1.6 Sanft-Anlasser Langsam}{subsection.5.1}% 57
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen ASM}{section.5}% 58
-\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Phasenanschnitt 60\260}{subsection.5.2}% 59
-\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Phasenanschnitt 90\260}{subsection.5.2}% 60
-\BOOKMARK [3][-]{subsubsection.5.2.3}{5.2.3 Schwingungspaket 50\045}{subsection.5.2}% 61
-\BOOKMARK [3][-]{subsubsection.5.2.4}{5.2.4 Schwingungspaket 80\045}{subsection.5.2}% 62
-\BOOKMARK [3][-]{subsubsection.5.2.5}{5.2.5 Sanft-Anlasser Langsam}{subsection.5.2}% 63
-\BOOKMARK [3][-]{subsubsection.5.2.6}{5.2.6 Sanft-Anlasser Langsam}{subsection.5.2}% 64
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 65
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 66
-\BOOKMARK [1][-]{section*.71}{Literatur}{}% 67
-\BOOKMARK [1][-]{section*.72}{Abbildungsverzeichnis}{}% 68
-\BOOKMARK [1][-]{section*.73}{Tabellenverzeichnis}{}% 69
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 70
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 71
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 72
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 73
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Spannungen}{section.5}% 51
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 52
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 53
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Str\366me}{section.5}% 54
+\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 55
+\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 56
+\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 57
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 58
+\BOOKMARK [1][-]{section*.97}{Literatur}{}% 59
+\BOOKMARK [1][-]{section*.98}{Abbildungsverzeichnis}{}% 60
+\BOOKMARK [1][-]{section*.99}{Tabellenverzeichnis}{}% 61
+\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 62
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 63
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 64
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 65

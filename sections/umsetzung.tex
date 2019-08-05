@@ -1,9 +1,14 @@
 \section{Messaufbau Resultate}
 In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als .csv Datei gespeichert um mit Matlab die Signale schön darstellen zu können und das FFT berechnen zu können. 
 
-\subsection{Messungen Widerstand}
+\subsection{Messungen Spannungen}
+Um die Werte des Laboraufbaues mit den Simulationen vergleichen zu können, wurden die Spannungen beim Widerstand und bei der ASM gemessen. Dafür wurden die Spannungssignale als Grafik und als Tabelle mit den Werte des FFTs bei den Harmonischen Oberwellen dargestellt.
+
+\subsubsection{Messungen Widerstand}
 Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung die Winkel 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm} mit den Simulationen verglichen. Für die Schwingungspaketsteuerung wurde ein Duty cycle von 0.5 und 0.8 verglichen. Desweiteren werden noch der normale und der Langsame Sanft-Anlasser analysiert.
-\subsubsection{Phasenanschnitt 60\textdegree}
+
+
+\subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht!]
 	\centering
@@ -11,7 +16,7 @@ Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung d
 	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60}
 \end{figure}
 \newpage
-\subsubsection{Phasenanschnitt 90\textdegree}
+\subsubsection*{Phasenanschnitt 90\textdegree}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_90grad.png}	
@@ -19,41 +24,41 @@ Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung d
 \end{figure}
 
 \newpage
-\subsubsection{Schwingungspaket 50\%}
+\subsubsection*{Schwingungspaket 50\%}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_5.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Schwing_50}
+	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_Schwing_50}
 \end{figure}
 
 \newpage
-\subsubsection{Schwingungspaket 80\%}
+\subsubsection*{Schwingungspaket 80\%}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_8.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Schwing_80}
+	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_Schwing_80}
 \end{figure}
 
 \newpage
-\subsubsection{Sanft-Anlasser}
+\subsubsection*{Sanft-Anlasser}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Sanft}
+	\caption{Messung mit Sanft-Anlasser}\label{fig:Mess_Sanft}
 \end{figure}
 
 \newpage
-\subsubsection{Sanft-Anlasser Langsam}
+\subsubsection*{Sanft-Anlasser Langsam}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_langsam.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Sanft_langsam}
+	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Sanft_langsam}
 \end{figure}
 
 \newpage
-\subsection{Messungen ASM}
+\subsubsection{Messungen ASM}
 
-\subsubsection{Phasenanschnitt 60\textdegree}
+\subsubsection*{Phasenanschnitt 60\textdegree}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad.png}	
@@ -61,7 +66,7 @@ Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung d
 \end{figure}
 
 \newpage
-\subsubsection{Phasenanschnitt 90\textdegree}
+\subsubsection*{Phasenanschnitt 90\textdegree}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad.png}	
@@ -69,36 +74,103 @@ Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung d
 \end{figure}
 
 \newpage
-\subsubsection{Schwingungspaket 50\%}
+\subsubsection*{Schwingungspaket 50\%}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_5.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Schwing_0_5}
+	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_ASM_Schwing_0_5}
 \end{figure}
 
 \newpage
-\subsubsection{Schwingungspaket 80\%}
+\subsubsection*{Schwingungspaket 80\%}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_8.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Schwing_0_8}
+	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_ASM_Schwing_0_8}
 \end{figure}
 
 \newpage
-\subsubsection{Sanft-Anlasser Langsam}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Sanft_langsam}
-\end{figure}
-
-\newpage
-\subsubsection{Sanft-Anlasser Langsam}
+\subsubsection*{Sanft-Anlasser}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Sanft.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Sanft}
+	\caption{Messung mit Sanft Anlasser}\label{fig:Mess_ASM_Sanft}
 \end{figure}
+
+\newpage
+\subsubsection*{Sanft-Anlasser Langsam}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam.png}	
+	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_ASM_Sanft_langsam}
+\end{figure}
+
+\newpage
+\subsection{Messungen Ströme}
+Um die Messungen mit den Normen vergleichen zu können, wurden die Ströme bei den verschiedenen Ansteuerungsarten gemessen. Da aber durch den Widerstand keine \SI{16}{A} Effektivstrom durchgelassen werden können, da der Widerstand bei \SI{150}{\Omega} nur bis zu \SI{2.4}{A} verträgt, mussten die gemessenen Werte auf \SI{16}{A} hochgerechnet werden.
+Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplituden mit den Normen verglichen werden. Dazu wurden die Werte des FFTs in eine Tabelle aufgetragen.
+\subsubsection{Messungen Widerstand}
+
+\subsubsection*{Phasenanschnitt 90\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_90grad_stroeme.png}	
+	\caption{Phasenanschnitt 90\textdegree}\label{fig:Mess_Widerstand_Phas_90grad_stroeme}
+\end{figure}
+
+\newpage
+\subsubsection*{Phasenanschnitt 60\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_60grad_stroeme.png}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Widerstand_Phas_60grad_stroeme}
+\end{figure}
+
+\newpage
+\subsubsection*{Sanft-Anlasser}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_stroeme.png}	
+	\caption{Messung mit Sanft-Anlasser}\label{fig:Mess_Widerstand_Sanft_stroeme}
+\end{figure}
+
+\newpage
+\subsubsection*{Sanft-Anlasser langsam}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_langsam_stroeme.png}	
+	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Widerstand_Sanft_langsam_stroeme}
+\end{figure}
+
+
+\newpage
+\subsubsection{Messungen ASM}
+
+\subsubsection*{Phasenaschnitt 60\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad_stroeme}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60grad_stroeme}
+\end{figure}
+
+\newpage
+\subsubsection*{Phasenaschnitt 90\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad_stroeme}	
+	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Phas_90grad_stroeme}
+\end{figure}
+
+\newpage
+\subsubsection*{Sanft-Anlasser langsam}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam_stroeme}	
+	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Sanft_langsam_stroeme}
+\end{figure}
+
+
+
 
 %\subsubsection{Schwingungspaketsteuerung mit Last in Stern}
 %Für die Messung mit der Schwingungspaketsteuerung wurde eine Einschaltzeit von 0.5 Sekunden und eine Ausschaltzeit von 0.2 Sekunden gewählt. Die Ausschaltzeit darf nicht kürzer sein, da die Spannungsverstärkerschaltung und den Thyristorsteller eine Zeitverzögerung darstellen und so die Spannung nicht sofort ein- oder ausgeschaltet wird. Wenn die Ausschaltzeit kürzer ist, geht die Spannung zwischen den Paketen nicht auf \SI{0}{V}. 
