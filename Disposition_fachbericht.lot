@@ -4,7 +4,17 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \contentsline {table}{\numberline {2.1}{\ignorespaces Oberschwingungsfrequenzen\relax }}{3}{table.caption.3}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {2.2}{\ignorespaces Grenzwerte f\IeC {\"u}r Ger\IeC {\"a}te der Klasse A\relax }}{15}{table.caption.16}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Beobachtungsdauer f\IeC {\"u}r die Pr\IeC {\"u}fung\relax }}{15}{table.caption.17}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Kompatibilit\IeC {\"a}tsstufen f\IeC {\"u}r einzelne Oberschwingungsspannungen im Niederspannungsnetz\relax }}{18}{table.caption.20}
 \contentsline {table}{\numberline {2.5}{\ignorespaces Erforderlichen Werte der Subharmonischen Spannungen\relax }}{19}{table.caption.21}
+=======
+\contentsline {table}{\numberline {2.2}{\ignorespaces Grenzwerte f\IeC {\"u}r Ger\IeC {\"a}te der Klasse A\relax }}{16}{table.caption.11}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Beobachtungsdauer f\IeC {\"u}r die Pr\IeC {\"u}fung\relax }}{16}{table.caption.12}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Kompatibilit\IeC {\"a}tsstufen f\IeC {\"u}r einzelne Oberschwingungsspannungen im Niederspannungsnetz\relax }}{19}{table.caption.15}
+\contentsline {table}{\numberline {2.5}{\ignorespaces \relax }}{20}{table.caption.16}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree \relax }}{53}{table.caption.85}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree \relax }}{54}{table.caption.88}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree \relax }}{55}{table.caption.91}
+>>>>>>> master

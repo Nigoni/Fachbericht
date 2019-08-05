@@ -1993,6 +1993,7 @@
     <bcf:citekey order="16">Quelle_Marco</bcf:citekey>
     <bcf:citekey order="17">PI_Regler</bcf:citekey>
     <bcf:citekey order="18">Regelungstechnik_Buch</bcf:citekey>
+    <bcf:citekey order="19">PI_Regler</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
