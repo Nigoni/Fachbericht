@@ -57,6 +57,8 @@ Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung d
 
 \newpage
 \subsubsection{Messungen ASM}
+Um zu analysieren, wie sich der Thyristorsteller bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einer ASM gemacht. Auch hier wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit 50\% und 80\%, und dem normalen und langsamen Sanft-Anlasser. Dabei wurde schnell festgestellt, dass die Schwingungspaketsteuerung und der normale Sanft-Anlasser sich nicht für eine ASM eignen. \todo{Begründen wieso nicht}
+
 
 \subsubsection*{Phasenanschnitt 60\textdegree}
 \begin{figure}[ht!]
@@ -111,6 +113,33 @@ Um die Messungen mit den Normen vergleichen zu können, wurden die Ströme bei d
 Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplituden mit den Normen verglichen werden. Dazu wurden die Werte des FFTs in eine Tabelle aufgetragen.
 \subsubsection{Messungen Widerstand}
 
+
+\subsubsection*{Phasenanschnitt 60\textdegree}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_60grad_stroeme.png}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Widerstand_Phas_60grad_stroeme}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Oberschwingungsordnung & Amplitude \\ \hline
+		1                      & 21.1996   \\ \hline
+		5                      & 3.7851    \\ \hline
+		7                      & 2.6127    \\ \hline
+		11                     & 1.2267    \\ \hline
+		13                     & 1.0988    \\ \hline
+		17                     & 0.9366    \\ \hline
+		19                     & 0.7342    \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_Stroeme}
+\end{table}
+
+
+\newpage
 \subsubsection*{Phasenanschnitt 90\textdegree}
 \begin{figure}[ht!]
 	\centering
@@ -118,13 +147,23 @@ Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplit
 	\caption{Phasenanschnitt 90\textdegree}\label{fig:Mess_Widerstand_Phas_90grad_stroeme}
 \end{figure}
 
-\newpage
-\subsubsection*{Phasenanschnitt 60\textdegree}
-\begin{figure}[ht!]
+\begin{table}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_60grad_stroeme.png}	
-	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Widerstand_Phas_60grad_stroeme}
-\end{figure}
+	\begin{tabular}{|l|l|}
+		\hline
+		Oberschwingungsordnung & Amplitude [A] \\ \hline
+		1       & 14.6470   \\ \hline
+		5      & 6.3481    \\ \hline
+		7      & 3.2571    \\ \hline
+		11      & 2.2730    \\ \hline
+		13      & 1.6960    \\ \hline
+		17      & 1.3474    \\ \hline
+		19      & 1.1247    \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_Stroeme}
+\end{table}
+Wenn die Werte mit der Werte der Tabelle \ref{tab:Grenzwerte_Normen} verglichen werden, ist ersichtlich, dass die Amplituden bei der Oberschwingungsordung 5 bis 19 zu hoch sind. So kann gesagt werden, dass sich der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht eignet um Widerstände anzusteuern, da diese nicht den Normen entsprechen. Auf der Abbildung \ref{fig:Mess_Widerstand_Phas_90grad_stroeme} ist ersichtlich, dass bei den Oberschwingungsordnungen 3, 9 und 15 die Amplitude 0 ist, deswegen wurde diese nicht in der Tabelle \ref{tab:Phas_60_Stroeme} aufgeführt.
+
 
 \newpage
 \subsubsection*{Sanft-Anlasser}
@@ -133,6 +172,29 @@ Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplit
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_stroeme.png}	
 	\caption{Messung mit Sanft-Anlasser}\label{fig:Mess_Widerstand_Sanft_stroeme}
 \end{figure}
+Da beim Sanft-Anlasser ab der fünften Harmonischen die Amplitude unter \SI{0.3}{A} sind, wurde bei dieser Messung auf eine Tabelle mit den Oberschwingungen verzichtet. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. 
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} \\ \hline
+		49.3              & 1.5146            \\ \hline
+		49.6              & 4.4853            \\ \hline
+		49.7              & 2.618             \\ \hline
+		50                & 7.3857            \\ \hline
+		50.05             & 3.73              \\ \hline
+		50.35             & 4.662             \\ \hline
+		50.7              & 1.5504            \\ \hline
+		248.65            & 0.6226            \\ \hline
+		250               & 0.0883            \\ \hline
+		251.45            & 0.6               \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Sanft_stroeme}
+\end{table}
+
+
+
 
 \newpage
 \subsubsection*{Sanft-Anlasser langsam}

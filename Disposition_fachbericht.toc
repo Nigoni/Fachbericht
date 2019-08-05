@@ -61,10 +61,10 @@
 \contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{57}{subsubsection.5.2.2}
 \contentsline {section}{\numberline {6}Validierung}{60}{section.6}
 \contentsline {section}{\numberline {7}Schlusswort}{61}{section.7}
-\contentsline {section}{Literatur}{63}{section*.97}
-\contentsline {section}{Abbildungsverzeichnis}{63}{section*.98}
-\contentsline {section}{Tabellenverzeichnis}{65}{section*.99}
-\contentsline {section}{\numberline {A}Matlab-Berechnungen}{66}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{66}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{67}{subsection.A.2}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{68}{appendix.B}
+\contentsline {section}{Literatur}{63}{section*.101}
+\contentsline {section}{Abbildungsverzeichnis}{63}{section*.102}
+\contentsline {section}{Tabellenverzeichnis}{65}{section*.103}
+\contentsline {section}{\numberline {A}Matlab-Berechnungen}{67}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Leistungsfaktor}{67}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{68}{subsection.A.2}
+\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{69}{appendix.B}
