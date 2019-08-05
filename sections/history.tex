@@ -109,15 +109,15 @@ B_0 = \left(K_p + \frac{K_iT}{2}\right)
 B_1 = -\left(K_p - \frac{K_iT}{2}\right) 
 \end{equation}
 
-Nachdem dies berechnet ist, muss die Spannungsdifferenz von der Ausgangsspannung subtrahiert werden. Das Resultat muss danach in die 0 bis 255 Werte umgerechnet werden. Die Werte der Ausgangsspannung und der Differenzspannung werden nach der Ausgabe in den Laufparameter $k-1$ geladen. Das Problem mit dem PI-Regler ist, dass der Thyristorsteller und die Spannungsverstärkung eine Totzeit besitzen. Dadurch ist das Auslegen eines guten Reglers nicht möglich. Durch das Gespräch mit anderen Studenten, wurde festgestellt das ein Smithprädiktor \cite{Regelungstechnik_Buch} Abhilfe verschaffen könnte. Dieser rechnet die Totzeiten in das System und das System kann so besser geregelt werden. Jedoch wurde der Smithprädikator nicht mehr implementiert. Der Code für die Drehzahlregelung befindet sich im Anhang. \todo{Kapitel angeben}
+Nachdem dies berechnet ist, muss die Spannungsdifferenz von der Ausgangsspannung subtrahiert werden. Das Resultat muss danach in die 0 bis 255 Werte umgerechnet werden. Die Werte der Ausgangsspannung und der Differenzspannung werden nach der Ausgabe in den Laufparameter $k-1$ geladen. Das Problem mit dem PI-Regler ist, dass der Thyristorsteller und die Spannungsverstärkung eine Totzeit besitzen. Dadurch ist das Auslegen eines guten Reglers nicht möglich. Durch das Gespräch mit anderen Studenten, wurde festgestellt das ein Smithprädiktor \cite{Regelungstechnik_Buch} Abhilfe verschaffen könnte. Dieser rechnet die Totzeiten in das System und dieses kann so genauer geregelt werden. Jedoch wurde der Smithprädikator nicht mehr implementiert. Der Code für die Drehzahlregelung befindet sich im Anhang. \todo{Kapitel angeben}
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{BlockdiagrammPI.png}	
-	\caption{Blockdiagramm eines digitalen PI-Reglers}\label{fig:PIRegler}
+	\caption{Blockdiagramm eines digitalen PI-Reglers}\label{fig:PIRegler}\cite{PI_Regler}
 \end{figure}
 
-Die Komination aus beiden Verfahren wurde im Labor aufgebaut um das Verhalten in Realität beobachten zu können. Hierbei wird das Schema und der Messaufbau aufgezeigt. 
+
 
 
 
