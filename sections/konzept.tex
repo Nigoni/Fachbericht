@@ -172,7 +172,7 @@ Letztlich wurde noch das lineare absolute Spektrum der beiden duty cyclen, 0.5 i
 
 \subsubsection{Vergleich der einphasigen Resultate mit Plecs und Matlab}
 
-Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkrete Bestätigung der Analyse zu erhalten, wurden alle Werte der einphasigen Simulationen nummerisch und visuell miteinander verglichen. Man erkannte, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1 \% haben. Dies Abweichung entsteht, da man die Auflösung der Plecs-Simulation bewusst niedriger eingestellt hat, um die Darstellungszeit der Funktion zu verkürzen. Mit den Resultaten darf man trotzdem zufrieden sein, da sich die Werte, nur minimal von denen der Matlab-Funktion unterscheiden. In der Abbildung \ref{fig:Amplitudenspektrum mit Phasenwinkel 90grad} ist der Vergleich des Amplitudenspektrum mit einem Phasenanschnittswinkel von 90\textdegree ersichtlich. Die anderen Aufnahmen sind optisch und nummerisch im Anhang dargestellt.
+Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkrete Bestätigung der Analyse zu erhalten, wurden alle Werte der einphasigen Simulationen nummerisch und visuell miteinander verglichen. Man erkannte, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1\% haben. Dies Abweichung entsteht, da man die Auflösung der Plecs-Simulation bewusst niedriger eingestellt hat, um die Darstellungszeit der Funktion zu verkürzen. Diese Abweichung konnte somit der Auflösung zugeschrieben werden. Die Resultaten sind gleichwohl für den Vergleich mit den Matlabwerten brauchbar. In der Abbildung \ref{fig:Amplitudenspektrum mit Phasenwinkel 90grad} ist der Vergleich des Amplitudenspektrum mit einem Phasenanschnittswinkel von 90\textdegree ersichtlich. Die anderen Aufnahmen sind optisch und nummerisch im Anhang dargestellt.
 
 
 
@@ -245,7 +245,7 @@ In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phas
 \end{figure}
 
 \newpage
-\subsubsection{Einphasige Kombination des Sanft-Anlassen}
+\subsubsection{Einphasige Kombination des Auf- und Absteuern}
 
 Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simuliert hat, wurde eine Kombination der beiden Verfahren entwickelt. In der Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} erkennt man ein sanftes Anlassen der Spannung bis auf die volle Leistung und nach einiger Zeit wieder ein sanftes herunterfahren der Spannung bis die Leistung null beträgt. Im Bild \ref{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5} ist der duty cycle auf 0.5 eingestellt. Die einzelnen Pakete verhalten sich nun so wie das sanfte Anlassen und Runterfahren der in Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} gezeigten Spannung. Vergleicht man das FFT in der Grafik \ref{fig:1_phasig_sanftanlaser_FFT} mit dem FFT des Schwingungspaketes mit hartem zu- und Wegschalten \ref{fig:plecs_Schwingungspaket_0_5_1000} ist eine Verringerung der Subharmonischen Schwingungen ersichtlich. Der Sanft-Anlass hat aber zufolge, dass  es bei den Harmonischen einige Oberwellen hinzugekommen sind. 
 
@@ -253,7 +253,7 @@ Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simu
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt}}
-	\caption{Einphasiges Sanft-Anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt}
+	\caption{Einphasiges Auf- und Absteuern mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt}
 	\label{fig:einphasiges_Sanft_anlassen_Einganssignal}
 \end{figure}
 
@@ -268,16 +268,16 @@ Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simu
 
 
 
-\subsubsection{Dreiphasige Kombination des Sanft-Anlassen}
+\subsubsection{Dreiphasige Kombination des Auf- und Absteuern}
 
-In der folgenden Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} handelt es sich um eine dreiphasige Sanft-Anlasser Steuerung. Das dargestellte Spannungssignal hat einen duty cycle von 0.5 erkennbar in Bild \ref{fig:3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5}. Die Kurve und die Funktion der Spannung verhält sich ähnlich, wie die Kombination des einphasigen Sanft-Anlassen. Die drei Farben grün, rot und blau zeigen die verschiedenen Spannungen über den drei Widerständen an. Da es sich hier um eine rein ohmsche Last handelt, sind die Ströme phasengleich  mit der Spannungen. Bei dem FFT erkennbar in Abbildung \ref{fig:dreiphasiges_Sanft_anlassen_FTT} von \SI{0}{Hz} - \SI{2000}{Hz} erkennt man den grössten Peak bei der Grundschwingung von \SI{50}{Hz}. Die Sub- und Zwischenharmonischen Schwingungen fallen bei der sanftanlasser Steuerung viel mehr ins Gewicht als die Harmonischen. Sie sind nur noch minimal vorhanden.   
+In der folgenden Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} handelt es sich um ein dreiphasige Auf- und Absteuern. Das dargestellte Spannungssignal hat einen duty cycle von 0.5 erkennbar in Bild \ref{fig:3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5}. Die Kurve und die Funktion der Spannung verhält sich ähnlich, wie die Kombination des einphasigen Auf- und Absteuern. Die drei Farben grün, rot und blau zeigen die verschiedenen Spannungen über den drei Widerständen an. Da es sich hier um eine rein ohmsche Last handelt, sind die Ströme phasengleich  mit der Spannungen. Bei dem FFT erkennbar in Abbildung \ref{fig:dreiphasiges_Sanft_anlassen_FTT} von \SI{0}{Hz} - \SI{2000}{Hz} erkennt man den grössten Peak bei der Grundschwingung von \SI{50}{Hz}. Die Sub- und Zwischenharmonischen Schwingungen fallen bei der sanftanlasser Steuerung viel mehr ins Gewicht als die Harmonischen. Sie sind nur noch minimal vorhanden.   
 
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png}\label{fig:3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5.png}\label{fig:3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5}}
-	\caption{Dreiphasiges Sanft-Anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt}
+	\caption{Dreiphasiges Auf- und Absteuern mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt}
 	\label{fig:drei_phasiges_Sanft_anlassen}
 \end{figure}
 
@@ -295,7 +295,7 @@ In der folgenden Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} handelt es sic
 
 \newpage
 
-\subsubsection{Alternative Ansteuerungen}
+\subsubsection{Alternative Ansteuerungen}\label{Spar-Ansteuerung}
 In der Praxis werden nicht immer alle 3 Phasen angesteuert, sogenannte Sparansteuerungen. Dabei können nur zwei oder auch nur eine Phase angesteuert werden. Das heisst, dass zum Beispiel bei der Zwei-Phasen-Ansteuerung bei einer Phase der Thyristor überbrückt wird beziehungsweise der Thyristor gar nicht vorhanden ist. Dabei dient die überbrückte Phase als Ausgleichs- und Rückleiter. Diese Fälle wurden mit Plecs simuliert wobei die Last in Stern und in Dreieck geschaltet werden kann. Wie bei der 3-Phasen Ansteuerung, wurde für die alternativen Ansteuerung auch der Sanft-Anlass, die Kombination mit Phasenanschnitts- und Schwingungspaketsteuerung, simuliert.
 
 \subsubsection*{2-Phasen Ansteuerung mit Last in Stern}

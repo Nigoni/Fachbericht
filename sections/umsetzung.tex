@@ -1,118 +1,12 @@
 \section{Messaufbau Resultate}
 In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als .csv Datei gespeichert um mit Matlab die Signale schön darstellen zu können und das FFT berechnen zu können. 
+Zudem befinden sich in diesem Kapitel nur die Messungen des Widerstandes und der ASM welche in Stern geschaltet sind. Die Messungen in Dreieckschaltung wurden gemacht aber nicht hier aufgeführt, da dies den Rahmen dieses Kapitels sprengen würde.
 
-\subsection{Messungen Spannungen}
-Um die Werte des Laboraufbaues mit den Simulationen vergleichen zu können, wurden die Spannungen beim Widerstand und bei der ASM gemessen. Dafür wurden die Spannungssignale als Grafik und als Tabelle mit den Werte des FFTs bei den Harmonischen Oberwellen dargestellt.
-
-\subsubsection{Messungen Widerstand}
-Für die Messungen mit dem Widerstand, werden bei der Phasenanschnittsteuerung die Winkel 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm} mit den Simulationen verglichen. Für die Schwingungspaketsteuerung wurde ein Duty cycle von 0.5 und 0.8 verglichen. Desweiteren werden noch der normale und der Langsame Sanft-Anlasser analysiert.
-
-
-\subsubsection*{Phasenanschnitt 60\textdegree}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_60grad.png}	
-	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60}
-\end{figure}
-\newpage
-\subsubsection*{Phasenanschnitt 90\textdegree}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_90grad.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Phas_90}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaket 50\%}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_5.png}	
-	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_Schwing_50}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaket 80\%}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_8.png}	
-	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_Schwing_80}
-\end{figure}
-
-\newpage
-\subsubsection*{Sanft-Anlasser}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft.png}	
-	\caption{Messung mit Sanft-Anlasser}\label{fig:Mess_Sanft}
-\end{figure}
-
-\newpage
-\subsubsection*{Sanft-Anlasser Langsam}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_langsam.png}	
-	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Sanft_langsam}
-\end{figure}
-
-\newpage
-\subsubsection{Messungen ASM}
-Um zu analysieren, wie sich der Thyristorsteller bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einer ASM gemacht. Auch hier wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit 50\% und 80\%, und dem normalen und langsamen Sanft-Anlasser. Dabei wurde schnell festgestellt, dass die Schwingungspaketsteuerung und der normale Sanft-Anlasser sich nicht für eine ASM eignen. \todo{Begründen wieso nicht}
-
-
-\subsubsection*{Phasenanschnitt 60\textdegree}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad.png}	
-	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_ASM_Phas60}
-\end{figure}
-
-\newpage
-\subsubsection*{Phasenanschnitt 90\textdegree}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Phas90}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaket 50\%}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_5.png}	
-	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_ASM_Schwing_0_5}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaket 80\%}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_8.png}	
-	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_ASM_Schwing_0_8}
-\end{figure}
-
-\newpage
-\subsubsection*{Sanft-Anlasser}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Sanft.png}	
-	\caption{Messung mit Sanft Anlasser}\label{fig:Mess_ASM_Sanft}
-\end{figure}
-
-\newpage
-\subsubsection*{Sanft-Anlasser Langsam}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam.png}	
-	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_ASM_Sanft_langsam}
-\end{figure}
-
-\newpage
 \subsection{Messungen Ströme}
-Um die Messungen mit den Normen vergleichen zu können, wurden die Ströme bei den verschiedenen Ansteuerungsarten gemessen. Da aber durch den Widerstand keine \SI{16}{A} Effektivstrom durchgelassen werden können, da der Widerstand bei \SI{150}{\Omega} nur bis zu \SI{2.4}{A} verträgt, mussten die gemessenen Werte auf \SI{16}{A} hochgerechnet werden.
-Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplituden mit den Normen verglichen werden. Dazu wurden die Werte des FFTs in eine Tabelle aufgetragen.
-\subsubsection{Messungen Widerstand}
+Um die Messungen mit den Normen vergleichen zu können, wurden die Ströme bei den verschiedenen Ansteuerungsarten gemessen. Von den gemessenen Signalen wurde anschliessend das FFT mit Matlab gemacht.
 
+\subsubsection{Messungen Widerstand}
+Weil durch den Widerstand keine \SI{16}{A} Effektivstrom durchgelassen werden können, da der Widerstand bei \SI{150}{\Omega} nur bis zu \SI{2.4}{A} verträgt, mussten die gemessenen Werte auf \SI{16}{A} hochgerechnet werden. Von den berechneten Werten wird ebenfalls das FFT mit Matlab gemacht und die Amplituden können mit den Normen verglichen werden. Dazu wurden die Werte der Oberschwingungsordungen des FFTs in eine Tabelle aufgetragen. Falls die die Amplituden der Oberschwingungsordnungen sehr klein und diese für den Vergleich nicht geeignet sind, wurden Amplituden der Sub- und Zwischenharmonischen in der Tabelle aufgetragen.
 
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
@@ -124,22 +18,21 @@ Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplit
 
 \begin{table}[ht!]
 	\centering
-	\begin{tabular}{|l|l|}
+	\begin{tabular}{|l|l|l|}
 		\hline
-		Oberschwingungsordnung & Amplitude \\ \hline
-		1                      & 21.1996   \\ \hline
-		5                      & 3.7851    \\ \hline
-		7                      & 2.6127    \\ \hline
-		11                     & 1.2267    \\ \hline
-		13                     & 1.0988    \\ \hline
-		17                     & 0.9366    \\ \hline
-		19                     & 0.7342    \\ \hline
+		Oberschwingungsordnung & Amplitude [A] 	& Verhältniss zur Grundschwingung	\\ \hline
+		1                      & 21.1996   		& 100\%								\\ \hline
+		5                      & 3.7851    		& 17.86\%							\\ \hline
+		7                      & 2.6127    		& 12.32\%							\\ \hline
+		11                     & 1.2267    		& 5.79\%							\\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_Stroeme}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_Stroeme}
 \end{table}
+%Die Höhe der Amplituden der Oberschwingungen der Tabelle \ref{tab:Phas_60_Stroeme} können mit den Normen in der Tabelle \ref{tab:Grenzwerte_Normen} verglichen werden. Dabei wird festgestellt, dass die Werte der Messung höher sind als die Normen zulassen.
+
+Wenn die Werte mit der Werte der Tabelle \ref{tab:Grenzwerte_Normen} verglichen werden, ist ersichtlich, dass die Amplituden bei der Oberschwingungsordung 5 bis 19 zu hoch sind. So kann gesagt werden, dass sich der Phasenanschnitt mit 60\textdegree \hspace{0.02cm} nicht eignet um Widerstände anzusteuern, da diese nicht den Normen entsprechen. Auf der Abbildung \ref{fig:Mess_Widerstand_Phas_60grad_stroeme} ist ersichtlich, dass bei den Oberschwingungsordnungen 3, 9 und 15 die Amplitude 0 ist, deswegen wurde diese nicht in der Tabelle \ref{tab:Phas_90_Stroeme} aufgeführt.
 
 
-\newpage
 \subsubsection*{Phasenanschnitt 90\textdegree}
 \begin{figure}[ht!]
 	\centering
@@ -149,71 +42,112 @@ Von den berechneten Werten kann das FFT mit Matlab gemacht werden und die Amplit
 
 \begin{table}[ht!]
 	\centering
-	\begin{tabular}{|l|l|}
+	\begin{tabular}{|l|l|l|}
 		\hline
-		Oberschwingungsordnung & Amplitude [A] \\ \hline
-		1       & 14.6470   \\ \hline
-		5      & 6.3481    \\ \hline
-		7      & 3.2571    \\ \hline
-		11      & 2.2730    \\ \hline
-		13      & 1.6960    \\ \hline
-		17      & 1.3474    \\ \hline
-		19      & 1.1247    \\ \hline
+		Oberschwingungsordnung 	& Amplitude [A] & Verhältniss zur Grundschwingung	\\ \hline
+		1       				& 14.647   		& 100\%								\\ \hline
+		5      					& 6.3481    	& 43.34\%							\\ \hline
+		7      					& 3.2571    	& 22.24\%							\\ \hline
+		11      				& 2.273    		& 15.52\%							\\ \hline
 	\end{tabular}
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_Stroeme}
 \end{table}
-Wenn die Werte mit der Werte der Tabelle \ref{tab:Grenzwerte_Normen} verglichen werden, ist ersichtlich, dass die Amplituden bei der Oberschwingungsordung 5 bis 19 zu hoch sind. So kann gesagt werden, dass sich der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht eignet um Widerstände anzusteuern, da diese nicht den Normen entsprechen. Auf der Abbildung \ref{fig:Mess_Widerstand_Phas_90grad_stroeme} ist ersichtlich, dass bei den Oberschwingungsordnungen 3, 9 und 15 die Amplitude 0 ist, deswegen wurde diese nicht in der Tabelle \ref{tab:Phas_60_Stroeme} aufgeführt.
+
+Wie auch beim Phasenanschnitt mit 60\textdegree, sind die Werte der Messungen deutlich über den erlaubten Grenzwerten der Normen. Somit eignet sich auch der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht Widerstände anzusteuern. 
+
+%Wenn die Werte mit der Werte der Tabelle \ref{tab:Grenzwerte_Normen} verglichen werden, ist ersichtlich, dass die Amplituden bei der Oberschwingungsordung 5 bis 19 zu hoch sind. So kann gesagt werden, dass sich der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht eignet um Widerstände anzusteuern, da diese nicht den Normen entsprechen. Auf der Abbildung \ref{fig:Mess_Widerstand_Phas_90grad_stroeme} ist ersichtlich, dass bei den Oberschwingungsordnungen 3, 9 und 15 die Amplitude 0 ist, deswegen wurde diese nicht in der Tabelle \ref{tab:Phas_60_Stroeme} aufgeführt.
 
 
 \newpage
-\subsubsection*{Sanft-Anlasser}
+\subsubsection*{Auf- und Absteuern}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_stroeme.png}	
-	\caption{Messung mit Sanft-Anlasser}\label{fig:Mess_Widerstand_Sanft_stroeme}
+	\caption{Messung mit Auf- und Absteuern}\label{fig:Mess_Widerstand_Sanft_stroeme}
 \end{figure}
-Da beim Sanft-Anlasser ab der fünften Harmonischen die Amplitude unter \SI{0.3}{A} sind, wurde bei dieser Messung auf eine Tabelle mit den Oberschwingungen verzichtet. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. 
+Da beim Auf- und Absteuern ab der fünften Harmonischen die Amplitude unter \SI{0.1}{A} sind, wurde bei dieser Messung auf eine Tabelle mit den Oberschwingungen verzichtet. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. Diese sind in der Tabelle \ref{tab:Sanft_stroeme} aufgeführt.
 
 \begin{table}[ht!]
 	\centering
-	\begin{tabular}{|l|l|}
+	\begin{tabular}{|l|l|l|}
 		\hline
-		Frequenz {[}Hz{]} & Amplitude {[}A{]} \\ \hline
-		49.3              & 1.5146            \\ \hline
-		49.6              & 4.4853            \\ \hline
-		49.7              & 2.618             \\ \hline
-		50                & 7.3857            \\ \hline
-		50.05             & 3.73              \\ \hline
-		50.35             & 4.662             \\ \hline
-		50.7              & 1.5504            \\ \hline
-		248.65            & 0.6226            \\ \hline
-		250               & 0.0883            \\ \hline
-		251.45            & 0.6               \\ \hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} & Verhältniss zur Grundschwingung	\\ \hline
+		49.3              & 1.5146            & 20.51\%							\\ \hline
+		49.6              & 4.4853            & 60.73\%							\\ \hline
+		49.7              & 2.618             & 35.45\%							\\ \hline
+		50                & 7.3857            & 100\%							\\ \hline
+		50.05             & 3.73              & 50.5\%							\\ \hline
+		50.35             & 4.662             & 63.12\%							\\ \hline
+		50.7              & 1.5504            & 21\%							\\ \hline
+		248.65            & 0.6226            & 8.43\%							\\ \hline
+		250               & 0.0883            & 1.2\%							\\ \hline
+		251.45            & 0.6               & 8.12\%							\\ \hline
 	\end{tabular}
-	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Sanft_stroeme}
+	\caption{Amplitudenwerte bei verschiedenen Frequenzen bei Auf- und Absteuern}\label{tab:Sanft_stroeme}
 \end{table}
 
-
+Es ist ersichtlich, dass die Werte der Sub- und Zwischenharmonischen um \SI{50}{Hz}, mehr als der Hälfte der Grundschwingung entsprechen. Diese Trägerbänder existieren auch um die harmonischen Oberwellen, sind jedoch sehr klein. So kann gesagt werden, dass das Auf- und Absteuern den Normen enspricht.
 
 
 \newpage
-\subsubsection*{Sanft-Anlasser langsam}
+\subsubsection*{Auf- und Absteuern langsam}\label{sec:Sanft_Widerstand_stroeme}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_langsam_stroeme.png}	
-	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Widerstand_Sanft_langsam_stroeme}
+	\caption{Messung mit Auf- und Absteuern langsam}\label{fig:Mess_Widerstand_Sanft_langsam_stroeme}
 \end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} & Verhältniss zur Grundschwingung	\\ \hline
+		49.8              & 1.148             & 9.8\%							\\ \hline
+		49.85             & 1.786             & 15.25\%							\\ \hline
+		49.9              & 1.519             & 12.97\%							\\ \hline
+		49.95             & 6.703             & 57.22\%							\\ \hline
+		50                & 11.715            & 100\%							\\ \hline
+		50.05             & 7.136             & 60.91\%							\\ \hline
+		50.1              & 1.473             & 12.57\%							\\ \hline
+		50.15             & 1.923             & 16.41\%							\\ \hline
+		249.65            & 0.563             & 4.81\%							\\ \hline
+		250               & 0.186             & 1.59\%							\\ \hline
+		250.35            & 0.559             & 4.77\%							\\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Auf- und Absteuern langsam}\label{tab:Sanft_langsam_stroeme}
+\end{table}
+
+Wie auch beim normalen Auf- und Absteuern, sind beim langsamen Auf- und Absteuern fast keine harmonische Oberwellen vorhanden. Die Amplitude der Grundschwingung ist höher als beim normalen Auf- und Absteuern. Dies hat den Grund, dass länger auf der vollen Leistung gefahren wird. Weil beim langsamen Auf- und Absteuern langsamer hoch- und runtergefahren wird, ist das Trägerband um \SI{50}{Hz} kleiner. Dies zeigt auch schon der visuelle Vergleich der Abbildungen \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme} und \ref{fig:Mess_Widerstand_Sanft_stroeme}.
+
 
 
 \newpage
 \subsubsection{Messungen ASM}
-
+Für die Strommessungen mit der ASM wurde mit dem Phasenanschnitt und mit dem langsamen Auf- und Absteuern gemessen. Dies hat den Grund, dass keine Anwendung für das normale Auf- und Absteuern oder die Schwingungspaketsteuerung gefunden wurde. Ausserdem wird in der Praxis meistens der Phasenanschnitt verwendet. 
 \subsubsection*{Phasenaschnitt 60\textdegree}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad_stroeme}	
 	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60grad_stroeme}
 \end{figure}
+Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM keine Harmonischen Oberwellen sondern Sub- und Zwischenharmonische. Dies hat den Grund, dass die Maschine auf die maximale Drehzahl fährt und so ist in der Maschine ein ungestörter Sinus mit einer Frequenz von \SI{50}{Hz}.
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} & Verhältniss zur Grundschwingung	\\ \hline
+		49.7              & 0.76              & 35.53\%							\\ \hline
+		49.9              & 1.317             & 61.57\%							\\ \hline
+		50                & 2.139             & 100\%							\\ \hline
+		50.1              & 1.53              & 71.53\%							\\ \hline
+		50.3              & 0.675             & 31.56\%							\\ \hline
+		250               & 0.07              & 3.27\%							\\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_ASM_stroeme}
+\end{table}
+
+
 
 \newpage
 \subsubsection*{Phasenaschnitt 90\textdegree}
@@ -222,17 +156,352 @@ Da beim Sanft-Anlasser ab der fünften Harmonischen die Amplitude unter \SI{0.3}
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad_stroeme}	
 	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Phas_90grad_stroeme}
 \end{figure}
+Anders als bei der Ansteuerung mit dem Phasennaschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der fünften Harmonischen grössere Harmonische Oberwellen auf. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_60grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine nicht sauber rund dreht. Dies wurde auch beim Testen festgestellt, da die ASM nicht konstant auf der gleichen Drehzahl drehte.  
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} & Verhältniss zur Grundschwingung	\\ \hline
+		49.7              & 1.399             & 42.6\%							\\ \hline
+		49.9              & 2.023             & 61.61\%							\\ \hline
+		50                & 3.2839            & 100\%							\\ \hline
+		50.1              & 2.567             & 78.17\%							\\ \hline
+		50.3              & 1.468             & 44.71\%							\\ \hline
+		250               & 0.673             & 20.5\%							\\ \hline
+		250.1             & 0.959             & 29.2\%							\\ \hline
+		250.2             & 0.687             & 20.92\%							\\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_ASM_stroeme}
+\end{table}
+
+
+
 
 \newpage
-\subsubsection*{Sanft-Anlasser langsam}
+\subsubsection*{Auf- und Absteuern langsam}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam_stroeme}	
-	\caption{Messung mit Sanft-Anlasser langsam}\label{fig:Mess_Sanft_langsam_stroeme}
+	\caption{Messung mit Auf- und Absteuern langsam}\label{fig:Mess_Sanft_langsam_stroeme}
 \end{figure}
 
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}A{]} & Verhältniss zur Grundschwingung	\\ \hline
+		49.8              & 0.823             & 20.51\%							\\ \hline
+		49.9              & 1.064             & 26.51\%							\\ \hline
+		49.95             & 1.716             & 42.76\%							\\ \hline
+		50                & 4.013             & 100\%							\\ \hline
+		50.05             & 1.613             & 40.19\%							\\ \hline
+		50.1              & 1.141             & 28.43\%							\\ \hline
+		50.2              & 0.878             & 21.88\%							\\ \hline
+		250               & 0.28              & 6.98\%							\\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Auf- und Absteuern langsam}\label{tab:Sanft_langsam_ASM_stroeme}
+\end{table}
+Wie auch schon bei der Widerstandsmessung mit dem langsamen Auf- und Absteuern im Kapitel \ref{sec:Sanft_Widerstand_stroeme} beschrieben, sind auch bei der Messung mit der ASM \todo{weiter schreiben}
+
+\newpage
+\subsection{Messungen Spannungen}
+Um die Werte des Laboraufbaues mit den Simulationen vergleichen zu können, wurden die Spannungen beim Widerstand und bei der ASM gemessen. Dafür wurden die Spannungssignale als Grafik und als Tabelle mit den Werte des FFTs bei den Harmonischen Oberwellen dargestellt. Jene Messungen welche den Normen im Kapitel \todo{Kapitel Stromnormen} nicht erfüllen, wurden bereits aussortiert und befinden sich im Anhang im Kapitel \todo{Kapitel Messungen Spannungen Anhang}.
+
+\subsubsection{Messungen Widerstand}
+Für die Spannungsmessung beim Widerstand wurden die Schwingungspaketsteuerung mit einem Duty-cycle von 50\% und 80\%, das harte und sanfte Auf- und Absteuern. Der Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm} wurden nicht mehr in diesem Kapitel aufgeführt.
 
 
+\subsubsection*{Schwingungspaket 50\%}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_5.png}	
+	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_Schwing_50}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		46                & 14.7351           & 9.83\%                         \\ \hline
+		47                & 28                & 18.68\%                        \\ \hline
+		48                & 26.376            & 17.59\%                        \\ \hline
+		49                & 95.6              & 63.77\%                        \\ \hline
+		50                & 149.92            & 100\%                          \\ \hline
+		51                & 99.8              & 66.57\%                        \\ \hline
+		52                & 25.134            & 16.76\%                        \\ \hline
+		53                & 20.6              & 13.74\%                        \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei Schwingungspaket 50\%}\label{tab:Mess_Spannung_Schwing_50}
+\end{table}
+
+
+\newpage
+\subsubsection*{Schwingungspaket 80\%}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_8.png}	
+	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_Schwing_80}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		46                & 20.173            & 7.58\%                         \\ \hline
+		47                & 28.26             & 10.62\%                        \\ \hline
+		48                & 40.576            & 15.26\%                        \\ \hline
+		49                & 62.694            & 23.57\%                        \\ \hline
+		50                & 265.98            & 100\%                          \\ \hline
+		51                & 65.7              & 24.7\%                         \\ \hline
+		52                & 43.812            & 16.47\%                        \\ \hline
+		53                & 21.939            & 8.25\%                         \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei Schwingungspaket 80\%}\label{tab:Mess_Spannung_Schwing_80}
+\end{table}
+
+\newpage
+\subsubsection*{Auf- und Absteuern}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft.png}	
+	\caption{Messung mit Auf- und Absteuern}\label{fig:Mess_Sanft}
+\end{figure}
+
+\newpage
+\subsubsection*{Auf- und Absteuern Langsam}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_Widerstand_Sanft_langsam.png}	
+	\caption{Messung mit Auf- und Absteuern langsam}\label{fig:Mess_Sanft_langsam}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		49.8              & 18.522            & 10.75\%                        \\ \hline
+		49.85             & 26.576            & 15.43\%                        \\ \hline
+		49.9              & 29.507            & 17.131\%                       \\ \hline
+		49.95             & 91.266            & 52.99\%                        \\ \hline
+		50                & 172.241           & 100\%                          \\ \hline
+		50.05             & 116.719           & 67.76\%                        \\ \hline
+		50.1              & 28.629            & 16.62\%                        \\ \hline
+		50.15             & 30.076            & 17.46\%                        \\ \hline
+		50.2              & 18.72             & 10.87\%                        \\ \hline
+		249.6             & 8.183             & 4.75\%                         \\ \hline
+		250               & 1.158             & 0.67\%                         \\ \hline
+		250.4             & 7.466             & 4.33\%                         \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei Sanftes Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_sanft}
+\end{table}
+
+\newpage
+\subsubsection{Messungen ASM}
+Um zu analysieren, wie sich der Thyristorsteller bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einer ASM gemacht. Auch hier wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit 50\% und 80\%, und dem harte und sanfte Auf- und Absteuern. Dabei wurde schnell festgestellt, dass die Schwingungspaketsteuerung und das harte Auf- und Absteuern sich nicht für eine ASM eignen. \todo{Begründen wieso nicht}
+Deswegen wurde diese im Anhang im Kapitel \todo{Kapitel ASM Messungen Spannung} eingefügt.
+
+\subsubsection*{Phasenanschnitt 60\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad.png}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_ASM_Phas60}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Oberschwingungsordnung & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		1                      & 181.5519          & 100\%                          \\ \hline
+		5                      & 1.1065            & 0.61\%                         \\ \hline
+		7                      & 2.8728            & 1.58\%                         \\ \hline
+		11                     & 1.4537            & 0.8\%                          \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 60\textdegree}\label{tab:Mess_Spannung_ASM_Phas60}
+\end{table}
+
+\newpage
+\subsubsection*{Phasenanschnitt 90\textdegree}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad.png}	
+	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Phas90}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		44                & 25.896            & 18.31\%                        \\ \hline
+		50                & 141.3976          & 100\%                          \\ \hline
+		56                & 20.4508           & 14.46\%                        \\ \hline
+		244               & 7.9778            & 5.64\%                         \\ \hline
+		250               & 11.6537           & 8.24\%                         \\ \hline
+		256               & 1.1655            & 0.82\%                         \\ \hline
+		344               & 2.7272            & 1.93\%                         \\ \hline
+		350               & 6.8988            & 4.88\%                         \\ \hline
+		356               & 2.3509            & 1.66\%                         \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 90\textdegree}\label{tab:Mess_Spannung_ASM_Phas90}
+\end{table}
+
+\newpage
+\subsubsection*{Langsame Auf- und Absteuern}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam.png}	
+	\caption{Messung mit Auf- und Absteuern langsam}\label{fig:Mess_ASM_Sanft_langsam}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude {[}V{]} & Verhältnis zur Grundschwingung \\ \hline
+		49.85             & 17.3653           & 16.85\%                        \\ \hline
+		49.95             & 70.316            & 68.23\%                        \\ \hline
+		50                & 103.0639          & 100\%                          \\ \hline
+		50.05             & 40.167            & 38.97\%                        \\ \hline
+		50.1              & 20.209            & 19.61\%                        \\ \hline
+		249.95            & 2.607             & 2.53\%                         \\ \hline
+		250               & 1.689             & 1.64\%                         \\ \hline
+		250.05            & 2.5084            & 2.43\%                         \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen bei sanftem Aus- und Absteuern}\label{tab:Mess_Spannung_ASM_AufAb_sanft}
+\end{table}
+
+
+\newpage
+\subsection{Sparvariante}
+Wie im Kapitel \todo{Kapitel einfügen Sparvariante} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angsteuert. Das Spannungs- und Stromsignal soll dabei mehr oder weniger die gleiche Form haben. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, werden die in der Messauswertung nicht aufgeführt, sondern befinden sich im Anhang im Kapitel \todo{Kapitel einfügen Spar 1 Thyri}. Für die Sparvarianten wurden nur neuen Verfahren, sanftes und hartes Auf- und Absteuern, aufgeführt, da hauptsächlich diese von Interesse sind. Die Messungen der sonstigen Ansteuerungsarten befinden sich für den Widerstand im Anhang im Kapitel \todo{Kapitel 2Thyr Spar einfügen}.
+
+
+\subsubsection{Sparvariante mit einem Widerstand und zwei Thyristoren}
+Bei der Sparvariante mit zwei Thyristoren, wurde die dritte Phase überbrückt und direkt auf den Widerstand geführt. Das FFT der Phasenspannungen, wurden alle drei Phasen separat aufgezeigt, da diese nicht alle gleich sind. Dabei entsprechen die Farben der FFT den Farben der Spannungssignalen.
+
+
+\subsubsection*{Hartes Auf- und Absteuern}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren.png}	
+	\caption{Messung mit dem harten Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren}	
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.65             & 68.8653                                                                             & 68.5665                                                                             & 57.1292                                                                             \\ \hline
+		49.95             & 67.5597                                                                             & 50.5713                                                                             & 74.4293                                                                             \\ \hline
+		50                & 142.7445                                                                            & 105.9402                                                                            & 157.2093                                                                            \\ \hline
+		50.05             & 35.291                                                                              & 26.4882                                                                             & 38.8518                                                                             \\ \hline
+		50.35             & 65.3531                                                                             & 65.6359                                                                             & 51.887                                                                              \\ \hline
+		149.65            & 9.7876                                                                              & 2.7987                                                                              & 11.8526                                                                             \\ \hline
+		150               & 8.3874                                                                              & 8.3817                                                                              & 7.6543                                                                              \\ \hline
+		150.35            & 11.1326                                                                             & 2.5768                                                                              & 12.4114                                                                             \\ \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.65             & 48.24\%                                                                             & 64.7\%                                                                              & 36.34\%                                                                             \\ \hline
+		49.95             & 47.32\%                                                                             & 47.74\%                                                                             & 47.34\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 24.72\%                                                                             & 25\%                                                                                & 24.7\%                                                                              \\ \hline
+		50.35             & 45.78\%                                                                             & 61.96\%                                                                             & 33\%                                                                                \\ \hline
+		149.65            & 6.86\%                                                                              & 2.64\%                                                                              & 7.54\%                                                                              \\ \hline
+		150               & 5.88\%                                                                              & 7.9\%                                                                               & 4.87\%                                                                              \\ \hline
+		150.35            & 7.8\%                                                                               & 2.43\%                                                                              & 7.9\%                                                                               \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
+\end{table}
+
+\newpage
+\subsubsection*{Sanftes Auf- und Absteuern}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren_langsam}	
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.9              & 38.5998                                                                             & 19.6499                                                                             & 34.7131                                                                             \\ \hline
+		49.95             & 77.5993                                                                             & 82.1127                                                                             & 60.2946                                                                             \\ \hline
+		50                & 191.1857                                                                            & 169.7545                                                                            & 206.7036                                                                            \\ \hline
+		50.05             & 125.8716                                                                            & 123.6057                                                                            & 126.0935                                                                            \\ \hline
+		50.1              & 42.6127                                                                             & 17.4015                                                                             & 26.3464                                                                             \\ \hline
+		149.8             & 12.7189                                                                             & 3.9393                                                                              & 16.14                                                                               \\ \hline
+		150               & 2.6765                                                                              & 4.3294                                                                              & 5.5055                                                                              \\ \hline
+		150.2             & 9.6611                                                                              & 5.9313                                                                              & 13.152                                                                              \\ \hline \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.9              & 20.19\%                                                                             & 11.58\%                                                                             & 16.79\%                                                                             \\ \hline
+		49.95             & 40.59\%                                                                             & 48.37\%                                                                             & 29.17\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 65.84\%                                                                             & 72.81\%                                                                             & 61\%                                                                                \\ \hline
+		50.1              & 22.29\%                                                                             & 10.25\%                                                                             & 12.75\%                                                                             \\ \hline
+		149.8             & 6.65\%                                                                              & 2.32\%                                                                              & 7.81\%                                                                              \\ \hline
+		150               & 1.4\%                                                                               & 2.55\%                                                                              & 2.66\%                                                                              \\ \hline
+		150.2             & 5.05\%                                                                              & 3.49\%                                                                              & 6.36\%                                                                              \\ \hline
+	\end{tabular}
+\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
+\end{table}
+\newpage
+\subsubsection{Sparvariante mit der ASM und zwei Thyristoren}
+Bei der Ansteuerung der ASM eignet sich das harte Auf- und Absteuern nicht deshalb wurde nur das sanfte Auf- und Absteuern aufgezeigt.
+\subsubsection*{Sanftes Auf- und Absteuern}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
+\end{figure}
+
+\newpage
+\subsection{Leistungsfaktor}
+Um den Leistungsfaktor für den Phasenanschnitt zu berechenen können die Formeln im Kapitel \ref{sec:Leistungsfaktor} benutzt werden. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder das Hochfahren mit dem Phasennaschnitt nicht. Mit folgender Formel kann der Leistungsfaktor berechnet werden:
+\begin{equation}
+\lambda = \frac{P}{S}
+\end{equation}
+Um die Wirkleistung zu erhalten, können die Strom- und Spannungswerte multipliziert werden:
+\begin{equation}
+P = u(t) \cdot i(t)
+\end{equation}
+Für die Scheinleistung müssen die Effektivwerte der Spannung und des Stromes multipliziert werden:
+\begin{equation}
+S = U_{rms} \cdot I_{rms}
+\end{equation}
+Somit kann der Leistungsfaktor verschiedener Ansteuerungsarten berechnet werden.
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Ansteuerungsart ASM                                   		& Leistungsfaktor \\ \hline 
+		Sanftes Auf- und Absteuern                          		& 0.2947          \\ \hline
+		Sanftes Auf- und Absteuern mit 150$\Omega$ Vorwiderstand 	& 0.3493          \\ \hline
+		Phasenanschnitt 90\textdegree                               & 0.4879          \\ \hline
+		Phasenanschnitt 60\textdegree                               & 0.4155          \\ \hline \hline
+		Ansteuerungsart Widerstand                            		& Leistungsfaktor \\ \hline 
+		Sanftes Auf- und Absteuern                          		& 0.9987          \\ \hline
+		Hartes Auf- und Absteuern                                   & 0.9988          \\ \hline
+		Phasenanschnitt 90\textdegree                         		& 0.9953          \\ \hline
+		Phasenanschnitt 60\textdegree                         		& 0.999           \\ \hline
+	\end{tabular}
+\caption{Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
+\end{table}
+Bei Ohmschen Lasten gilt, je höher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Da aber die Normen aber den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden verbietet, machen nur das langsame und das normale Auf- und Abfahren Sinn zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das normale Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+ 
+Bei der ASM im Leerlauf gilt das Gegenteil. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Kupferverluste gebraucht. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Da bei der ASM das normale Auf- und Abfahren nicht gemessen wurde, weil dies in dieser Anwendung keinen Nutzen hat, wurde gemessen wie der Leistungsfaktor sich verändert, wenn ein zusätzlicher Vorwiderstand von 150$\Omega$ im Stromkreislauf befindet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das langsame Auf- und  Absteuern am besten eignet für die ASM.
+
+
+\newpage
+\subsection{Fazit}
 
 %\subsubsection{Schwingungspaketsteuerung mit Last in Stern}
 %Für die Messung mit der Schwingungspaketsteuerung wurde eine Einschaltzeit von 0.5 Sekunden und eine Ausschaltzeit von 0.2 Sekunden gewählt. Die Ausschaltzeit darf nicht kürzer sein, da die Spannungsverstärkerschaltung und den Thyristorsteller eine Zeitverzögerung darstellen und so die Spannung nicht sofort ein- oder ausgeschaltet wird. Wenn die Ausschaltzeit kürzer ist, geht die Spannung zwischen den Paketen nicht auf \SI{0}{V}. 
