@@ -1,37 +1,36 @@
 \section{Simulationen}
 
-Das folgende Kapitel beschreibt alle Simulationen und deren Auswertungen, die mit den Simu-lation-Tools Matlab und Plecs durchgeführt wurden. Anhand der Resultate konnten die zwei Verfahren miteinander verglichen und auf ihre Richtigkeit geprüft werden. Mit den Simulationen konnten erste Einblicke in das Verhalten der beiden Steuerungsverfahren, Phasenanschnitt- und Schwingungspaketsteuerung, gewonnen werden.
+Die Simulationen sollen Kenntnisse und erste Einblicke bezüglich der beiden Steuerungsverfahren, der Phasenanschnitt- und Schwinungspaketsteuerung, liefern. Dazu werden die beiden Verfahren sowohl mit Plecs als auch in Matlab simuliert und die Resultate auf Richtigkeit geprüft. Zuerst wird auf die Simulation mit Matlab eingegangen, danach diejenigen mit Plecs erläutert.
 
-\subsection{Simulation mit Matlab}
-Um die einphasigen Plecs-Simulationen der Phasenanschnitt- und Schwingungspaketsteuerung zu verifizieren, errechnete man parallel zu den Plecs-Simulationen die gleichen Verfahren mit Matlab durch. Im folgenden Abschnitt ist aufgezeigt, wie die Ergebnisse der Matlabfunktionen zustande gekommen sind und welche Überlegungen vorgenommen wurde.
+\subsection{Simulation mit Matlab}\label{sec:Simulation_mit_Matlab}
+Um die einphasigen Plecs-Simulationen der Phasenanschnitt- und Schwingungspaketsteuerung zu verifizieren, errechnete man parallel zu den Plecs-Simulationen die gleichen Verfahren mit Matlab durch. Im folgenden Abschnitt ist aufgezeigt, wie die Ergebnisse der Matlabfunktionen zustande gekommen sind und welche Überlegungen vorgenommen wurde. Die verwendeten Berechnungen des Amplituden- und Phasenspektren sind im Kapitel\ref{sec:Verzerrte_Schwingung} ersichtlich.
 
 \subsubsection{Einphasige Phasenanschnittsteuerung mit 60\textdegree und 90\textdegree}
-Als Erstes simulierte man eine periodische Sinusfunktion im Zeitbereich mit verschiedenen Phasenanschnittswinkeln. Die Periodenlänge definierte man dabei auf 2$\pi$. Die Amplitude des Sinus beträgt $\pm$ \SI{1}{Volt}. Der Winkel des Phasenanschnittes wurde mit verschieden, geläufigen Werte wie zum Beispiel 30\textdegree, 45\textdegree \hspace{0.02cm}, 60\textdegree \hspace{0.02cm}, 90\textdegree \hspace{0.02cm} oder 120\textdegree \hspace{0.02cm} betrachtet. In den folgenden Bildern \ref{fig:eingangssignal_mit_Matlab} erkennt man die Sinusfunktionen mit einem Phasenanschnitt von 60\textdegree \hspace{0.02cm} in Abbildung \ref{fig:Einganssignal 60} und 90\textdegree \hspace{0.02cm} in der Grafik \ref{fig:Einganssignal 90}. Weitere Funktionen mit den anderen Anschnittswinkeln sind im Anhang ersichtlich.
+Als Erstes simulierte man eine periodische Sinusfunktion im Zeitbereich mit verschiedenen Phasenanschnittswinkeln. Die Periodenlänge ist definiert auf 2$\pi$. Die Amplitude des Sinus beträgt $\pm$ \SI{1}{Volt}. Der Winkel des Phasenanschnittes wurde mit verschieden, geläufigen Werte wie zum Beispiel 30\textdegree, 45\textdegree \hspace{0.02cm}, 60\textdegree \hspace{0.02cm}, 90\textdegree \hspace{0.02cm} oder 120\textdegree \hspace{0.02cm} betrachtet. In Abbildung \ref{fig:Einganssignal_60} erkennt man die Sinusfunktion mit einem Phasenanschnitt von 60\textdegree \hspace{0.02cm} und in der Abbildung \ref{fig:Einganssignal_90} einen mit 
+90\textdegree \hspace{0.02cm}. Weiter Funktionen mit anderen Anschnittswinkeln sind im Anhang \ref{sec:Vergleich_der_Resultate} ersichtlich.
+
  
 
 \begin{figure}[h]
 	\centering
-	\subfloat[][]{\includegraphics[width=0.47\linewidth]{eingangssignal_60.png}\label{fig:Einganssignal 60}}\qquad
-	\subfloat[][]{\includegraphics[width=0.47\linewidth]{eingangssignal_90.png}\label{fig:Einganssignal 90}}
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{eingangssignal_60.png}\label{fig:Einganssignal_60}}\qquad
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{eingangssignal_90.png}\label{fig:Einganssignal_90}}
 	\caption{Einganssignal mit Phasenanschnitt (a) $60^\circ$ (b) $90^\circ$}
 	\label{fig:eingangssignal_mit_Matlab}
 \end{figure} 
 
-
-Nachdem man die Funktion konstruiert hat, wurden diese in die einzelnen Frequenzanteile zerlegt. Man bezeichnet dies als Fourier-Analyse. Mit Hilfe der Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ konnte das Amplituden- und Phasenspektrum berechnet werden. Die mathematische Formel der Koeffizienten, der Spektren und die Beschreibung der Fourier-Analyse ist im Kapitel \ref{sec:Verzerrte_Schwingung} aufgezeigt.
-  
-\newpage
-Die Darstellung im Zeitbereich beziehungsweise im Frequenzbereich sind äquivalent, sie enthalten beide die vollständige Information über die Funktionen. Im folgenden Frequenzspektrum benutzt man die vertikalen Linien, um die Komponenten der einzelnen Frequenzen auf der x-Achse anzugeben. Die y-Achse zeigt die Länge der Amplituden, bei den verschiedenen Frequenzen, an. In den untenstehenden Grafiken \ref{fig:Amplituden- und Phasenspektrum} erkennt man das Amplituden- und Phasenspektrum des in Abbildung \ref{fig:eingangssignal_mit_Matlab} dargestellten Signale mit den Winkeln von 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}.
+Nachdem man die Funktion konstruiert hat, wird diese in die einzelnen Frequenzanteile zerlegt. Man bezeichnet dies als Fourier-Analyse. Gemäss Formel \ref{a0}, \ref{an} und \ref{bn} konnten die Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ berechnet werden. Anschliessend wurden das Amplituden- und Phasenspektrum mit den Formeln \ref{Amplitudenspektrum} und \ref{Phasenspektrum} bestimmt.\\ 
+Die Darstellung im Zeitbereich beziehungsweise im Frequenzbereich sind äquivalent, sie enthalten beide die vollständige Information über die Funktionen. Im folgenden Frequenzspektrum benutzt man die vertikalen Linien, um die Komponenten der einzelnen Frequenzen auf der x-Achse anzugeben. Die y-Achse zeigt die Länge der Amplituden, bei den verschiedenen Frequenzen, an. In der Grafik \ref{fig:Amplituden- und Phasenspektrum} erkennt man das Amplituden- und Phasenspektrum des in Abbildung \ref{fig:eingangssignal_mit_Matlab} dargestellten Signale mit den Winkeln von \ref{fig:Amplituden-und_Phasenspektrum_60} 60\textdegree \hspace{0.02cm} und \ref{fig:Amplituden-und_Phasenspektrum_90} 90\textdegree \hspace{0.02cm}.
 
 \begin{figure}[h]
 	\centering
-	\subfloat[][]{\includegraphics[width=0.47\linewidth]{A_PH_60.png}\label{fig:Amplituden- und Phasenspektrum 60}}\qquad
-	\subfloat[][]{\includegraphics[width=0.47\linewidth]{A_PH_90.png}\label{fig:Amplituden- und Phasenspektrum 90}}
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{A_PH_60.png}\label{fig:Amplituden-und_Phasenspektrum_60}}\qquad
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{A_PH_90.png}\label{fig:Amplituden-und_Phasenspektrum_90}}
 	\caption{Amplituden- und Phasenspektrum (a) 60\textdegree \hspace{0.02cm} (b) 90\textdegree}
 	\label{fig:Amplituden- und Phasenspektrum}
 \end{figure} 
 
-Zur Kontrolle der Berechnungen des Amplituden- und Phasenspektrum, wurde mit den zwei Spektren das Eingangssignal rekonstruierte. Die Signale sind auf der nächsten Abbildung \ref{fig:Rekonstruiertes Signal} erkennbar. Es ist ersichtlich das die Rundung des Sinus nicht genau dem, des eigentlichen Signals entspreche \ref{fig:eingangssignal_mit_Matlab}. Dies kommt davon, dass man die Funktion in \grqq nur\grqq\hspace{0.02cm} 40 Frequenzanteile unterteilt hat. Würde man eine höhere Anzahl Anteile verwenden, so könnte die Ungenauigkeiten deutlich verkleinert werden. Da man jedoch nur einen ungefähren Vergleich der beiden Funktionen haben möchte, reichen 40 Teile völlig aus. 
+Zur Kontrolle der Berechnungen des Amplituden- und Phasenspektrum, wird mit den zwei Spektren das Eingangssignal rekonstruierte. Die Signale sind in Abbildung \ref{fig:Rekonstruiertes Signal} erkennbar. Es ist ersichtlich, dass die Rundung des Sinus nicht genau dem des eigentlichen Signals entspricht \ref{fig:eingangssignal_mit_Matlab}. Dies kommt daher, dass man die Funktion  \grqq nur\grqq\hspace{0.02cm} in 40 Frequenzanteile unterteilt hat. Würde man eine höhere Anzahl Anteile verwenden, so könnte die Ungenauigkeiten deutlich verkleinert werden. Da man jedoch nur einen ungefähren Vergleich der beiden Funktionen haben möchte, reichen 40 Teile völlig aus. 
 
 \begin{figure}[h]
 	\centering
@@ -42,28 +41,22 @@ Zur Kontrolle der Berechnungen des Amplituden- und Phasenspektrum, wurde mit den
 \end{figure} 
 
 
-Nach dem man das Phasenanschnittsignal, das Amplitudenspektrum,  das Phasenspektrum und das rekonstruierende Eingangssignal von Hand berechnet und dargestellt hat, überprüfte man mit Hilfe der FFT-Funktion (Fast Fourier Transform) von Matlab die Werte der Grafiken. In den folgenden Abbildungen \ref{fig:FFT mit Matlab} und \ref{fig:FFT_mit_Matlab_90} erkennt man die Plots mit den beiden Winkel von 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}. Bei dem Amplituden- und Phasenspektrum wurde die x-Achse so normiert, dass die Werte ein Vielfaches der Grundfrequenz von \SI{50}{Hz} sind. So ist zum Beispiel der Wert bei 500 beim FTT zu vergleichen mit dem Wert 10 bei den von Hand berechneten Spektren. Als Resultat erkennt man das beide Methoden die gleichen Ergebnisse herausgeben haben. Es kann davon ausgegangen werden, dass die Überlegung der Berechnungen korrekt waren.
+Nachdem das Phasenanschnittsignal, das Amplitudenspektrum,  das Phasenspektrum und das rekonstruierte Eingangssignal von Hand berechnet und dargestellt sind, wird man mit Hilfe der FFT-Funktion (Fast Fourier Transform) von Matlab die Werte aus den Grafiken überprüft. Die folgende Abbildungen \ref{fig:FFT_mit_Matlab_90} beinhalten die Plots mit den beiden Winkel von 60\textdegree \hspace{0.02cm} \ref{fig:FFT_mit_Matlab_60} und 90\textdegree \hspace{0.02cm} \ref{fig:FFT_mit_Matlab_90}. Bei dem Amplitudenspektrum ist die x-Achse so normiert, dass die Werte ein Vielfaches der Grundfrequenz von \SI{50}{Hz} sind. So ist zum Beispiel der Wert bei \SI{500}{Hz} beim FTT zu vergleichen mit dem Wert 10 bei den von Hand berechneten Spektren. Als Resultat erkennt man, dass beide Methoden die gleichen Ergebnisse herausgeben haben. Es kann davon ausgegangen werden, dass die Überlegung der Berechnungen korrekt waren.
 
-\begin{figure}[ht!]
+\begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{FFT_mit_Matlab.png}	
-	\caption{FFT der Matlabfunktion mit einem Winkel von 60\textdegree}
-	\label{fig:FFT mit Matlab}
-\end{figure}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.7]{FFT_mit_Matlab_90.png}	
-	\caption{FFT der Matlabfunktion mit einem Winkel von 90\textdegree}
-	\label{fig:FFT_mit_Matlab_90}
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{FFT_mit_Matlab.png}\label{fig:FFT_mit_Matlab_60}}\qquad
+	\subfloat[][]{\includegraphics[width=0.47\linewidth]{FFT_mit_Matlab_90.png}\label{fig:FFT_mit_Matlab_90}}
+	\caption{FFT der Matlabfunktion mit einem Winkel von (a) 60\textdegree \hspace{0.02cm} (b) 90\textdegree}
+	\label{fig:FFT_mit_Matlab}
 \end{figure}
 
 \newpage
 
-\subsubsection{Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}
+\subsubsection{Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}
 
-Bei der zweiten Funktion, die zu überprüfen und simulieren war, handelte es sich um eine Schwingungspaketsteuerung. Die komplette Paketdauer beträgt bei den abgebildeten Funktionen 20 Halbwellen, ersichtlich in Abbildung \ref{fig:Schwingungspaket Matlab}. Man untersuchte nun verschiedene Einschaltverfahren mit verschiedenen duty cyclen, wie zum Beispiel 0.2, 0.4, 0.5, 0.6 oder 0.8. In der Grafik \ref{fig:Schwingungspaket Matlab} erkennt man im linken Bild \ref{fig:Schwingungspacket 0.5} einen duty cycle von 0.5. Demzufolge sind immer 10 Halbwellen ausgeschaltet und die anderen 10 eingeschaltet.
-Auf der rechten Seite \ref{fig:Schwingungspacket 0.8} beträgt der Wert des duty cycle 0.8. Es sind also zuerst 4 Halbwellen ausgeschaltet und die restlichen 16 Halbwellen werden angesteuert. Die anderen Funktionen mit den dazugehörigen duty cyclen sind im Anhang ersichtlich. Für einen sinnvollen Vergleich untersuchte man bei beiden Simulationsmethoden 5 komplette Schwingungspakete. 
+Bei der zweiten Funktion, die zu überprüfen und simulieren ist, handelt es sich um eine Schwingungspaketsteuerung. Die komplette Paketdauer beträgt bei den abgebildeten Funktionen 20 Halbwellen, ersichtlich in Abbildung \ref{fig:Schwingungspaket Matlab}. Verschiedene Einschaltverfahren mit verschiedenen Duty Cyclen, wie zum Beispiel 0.2, 0.4, 0.5, 0.6 oder 0.8 werden untersucht. In Abbildung \ref{fig:Schwingungspaket Matlab} erkennt man im linken Bild \ref{fig:Schwingungspacket 0.5} einen Duty Cycle von 0.5. Demzufolge sind immer 10 Halbwellen ausgeschaltet und die anderen 10 eingeschaltet.
+Auf der rechten Seite \ref{fig:Schwingungspacket 0.8} beträgt der Wert des duty cycle 0.8. Es sind also zuerst 4 Halbwellen ausgeschaltet und die restlichen 16 Halbwellen werden angesteuert. Die anderen Funktionen mit den dazugehörigen Duty Cyclen sind im Anhang \ref{sec:Vergleich_der_Resultate} ersichtlich. Bei beiden Simulationsmethoden sind 5 komplette Schwingungspakete untersucht worden. 
 
 \begin{figure}[ht!]
 	\centering
@@ -73,38 +66,62 @@ Auf der rechten Seite \ref{fig:Schwingungspacket 0.8} beträgt der Wert des duty
 	\label{fig:Schwingungspaket Matlab}
 \end{figure} 
 
-Um auch hier die Plecs-Simulation zu überprüfen, stellte man das Amplitudenspektrum absolut linear dar. Bei der folgenden Abbildungen \ref{fig:Schwingungspaketspektrum Matlab} erkennt man diese Spektren. Interessant sind da vor allem die Subharmonischen Schwingungen, welche sich unterhalb der Grundfrequenz von \SI{50}{Hz} befinden. Sie sind jeweils auf der linken Seite der Grafiken veranschaulicht.   
+Um auch hier die Plecs-Simulation zu überprüfen, ist das Amplitudenspektrum absolut linear dargestellt. Bei der folgenden Abbildungen \ref{fig:Schwingungspaketspektrum Matlab} erkennt man diese Spektren. Interessant sind da vor allem die subharmonischen Schwingungen, welche sich unterhalb der Grundfrequenz von \SI{50}{Hz} befinden. Sie sind jeweils auf der linken Seite der Grafiken ersichtlich.   
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.47\linewidth]{Oberwellen_0_5.png}\label{fig:Schwingungspacketspektrum 0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.47\linewidth]{Oberwellen_0_8.png}\label{fig:Schwingungspacketspektrum 0.8}}
-	\caption{Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8}
+	\caption{Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8}
 	\label{fig:Schwingungspaketspektrum Matlab}
 \end{figure}
 
 
-Damit man alle relevanten Oberschwingungen erkennt, wurde das Spektrum bis auf \SI{1000}{Hz} erweitert. Dies ist auf der rechten Seite des jeweiligen Bildes ersichtlich. Bei der linken Abbildung \ref{fig:Schwingungspacketspektrum 0.5} wurde das Amplitudenspektrum mit einem duty cycle von 0.5 dargestellt und im rechten Bild \ref{fig:Schwingungspacketspektrum 0.8} verwendete man einen duty cycle von 0.8. Vergleicht man die zwei Diagramme erkennt man, dass je grösser der duty cycle ist, desto höher ist der Peak-Wert bei der Grundfrequenz von \SI{50}{Hz}. Dies kommt davon, dass bei einem grösseren duty cycle mehre Sinusschwingungen vorkommen als bei einem niedrigen.
+Damit man alle relevanten Oberschwingungen zu erkennen sind, ist das Spektrum bis auf \SI{1000}{Hz} erweitert worden. Dies ist auf der rechten Seite von \ref{fig:absolut_logarithmic_0.5} und \ref{fig:absolut_logarithmic_0.8} zu sehen. In Abbildung \ref{fig:Schwingungspacketspektrum 0.5} wurde das Amplitudenspektrum mit einem Duty Cycle von 0.5 dargestellt und in \ref{fig:Schwingungspacketspektrum 0.8} eines mit einen Duty Cycle von 0.8. Vergleicht man die zwei Diagramme, erkennt man, dass je grösser der Duty Cycle ist, desto höher ist der Peak-Wert bei der Grundfrequenz von \SI{50}{Hz}. Dies erklärt sich daraus, dass bei einem grösseren Duty Cycle mehrere Sinusschwingungen vorkommen als bei einem niedrigen.\\
 
 
-Die dritte Darstellungsfunktion, welche man untersuchte, war der absolute Logarithmus. Man erkennt die Darstellung in der Abbildung \ref{fig:absolut_logaritmic_matlab}. Für die Berechnung der Dämpfung [dB], verwendete man das Verhältnis der Bezugsspannung U\textsubscript{0} bei \SI{50}{Hz} mit der zu messenden Spannung U\textsubscript{n}. Auch hier wurden die bereits bekannten duty cycle Werte von 0.5 in der linken Abbildung  \ref{fig:absolut_logarithmic_0.5} und 0.8 in der rechten Grafik \ref{fig:absolut_logarithmic_0.8} verwendet, um den absoluten Logarithmus anzuzeigen.
+Die dritte Darstellungsfunktion, ist der absolute Logarithmus. Zu sehen in Abbildung \ref{fig:absolut_logaritmic_matlab}. Für die Berechnung der Dämpfung [dB] verwendete man das Verhältnis der Bezugsspannung U\textsubscript{0} bei \SI{50}{Hz} mit der zu messenden Spannung U\textsubscript{n}. Auch hier sind die bereits bekannten Duty Cycle Werte von 0.5 in Abbildung  \ref{fig:absolut_logarithmic_0.5} und 0.8 in der Abbildung \ref{fig:absolut_logarithmic_0.8} verwendet worden, um den absoluten Logarithmus anzuzeigen. Diese Darstellungsform  wurde verwendete, damit man einen weiteren Vergleich mit den Plecs-Simulationen erhält.
 
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{absolut_logaritmic_0_5.png}\label{fig:absolut_logarithmic_0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{absolut_logaritmic_0_8.png}\label{fig:absolut_logarithmic_0.8}}
-	\caption{Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8}
+	\caption{Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8}
 	\label{fig:absolut_logaritmic_matlab}
 \end{figure}
+
+\subsubsection{Sanftes- und Hartes Hoch- und Runterfahren}
+
+In der Abbildungen \ref{fig:sanftes_Ansteuern} und \ref{fig:hartes_Ansteuern} simulierte man eine sanfte- und harte Ansteuerung der Leistung. Damit konnte das Verhalten der Harmonischen- und Zwischenharmonische Oberschwingungen erkannt werden. In der Grafik \ref{fig:sanftes_Ansteuern} wählte man die Zeit des Hoch-, von \SI{200}{ms} bis \SI{1200}{ms}, und Runterfahren, von \SI{1800}{ms} bis \SI{2800}{ms}, auf \SI{1000}{ms}. Diese Ansteuerungsart wird in diesem Beispiel als sanfte Ansteuerung deklariert. Die Zeit des Hoch- und Runterfahren kann theoretisch Beliebig gewählt werden. In dem Bild \ref{fig:hartes_Ansteuern} wählte man die Zeit des Hoch- und Runterfahren auf \SI{100}{ms}. Daher bestimmt man dieses Verfahren als Harte Ansteuerung. Visuell betrachtet ähnelt das Harte Hoch- und Runterfahren viel mehr einem Rechteck als das Sanften Verfahren. Daher ist bei dem Amplitudenspektrum eine grössere Streuung der Harmonischen- und Zwischenharmonischen Oberschwingungen erkennbar. Ausserdem ist ersichtlich, dass bei der sanften Ansteuerung, die Grundschwingung von \SI{50}{Hz} einen deutlich höhere Peak hat, als der bei der harten Ansteuerung. Je sanfter nun die Last angesteurt wird, desto weniger verteilen sich die beiden Oberschwingungsarten in der Netzrückwirkung.
+
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.6]{sanftes_Ansteuern.png}	
+	\caption{Sanftes Hoch- und Runterfahren der Leistung}
+	\label{fig:sanftes_Ansteuern}
+\end{figure}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.6]{hartes_Ansteuern.png}	
+	\caption{Hartes Hoch- und Runterfahren der Leistung}
+	\label{fig:hartes_Ansteuern}
+\end{figure}
+
+
+
+
 \newpage
 \subsection{Simulation mit Plecs}
 
-Mit dem Simulationsprogramm Plecs wurden alle gewünschten Ansteuerungen simuliert. Die einphasigen Simulationen der Phasenanschnitt- und der Schwingungspaketsteuerung konnten mit den Matlab-Funktionen verglichen und ausgewertet werden. Nach dem dies verifiziert wurde, stellte man Verfahren für den dreiphasigen Phasenanschnitt- und Schwingungspaketsteuerung her. Ausserdem konstruierte man Kombinationen der beiden Verfahren im einphasigen und dreiphasigen System. Die Resultate sind auf den folgenden Seiten ersichtlich. \\
+Mit dem Simulationsprogramm Plecs sind alle gewünschten Ansteuerungen simuliert worden. Die einphasigen Simulationen der Phasenanschnitt- und der Schwingungspaketsteuerung konnten mit den Matlab-Funktionen verglichen und ausgewertet werden. Basierend auf den verifizierten Werten ist das Verfahren für die dreiphasige Phasenanschnitt- und die Schwingungspaketsteuerung abgeleitet worden. Um von beiden Verfahren die Vorteile zu nutzen, siehe Kapitel \ref{sec:Phasenanschnittsteuerung} und \ref{sec:Schwingungspaketsteuerung}, sind die beiden Ansteuerungsarten kombiniert worden zu einem ein- und dreiphasigen System. Die Resultate sind nachfolgend erläutert.  
 
 \subsubsection{Einphasige Phasenanschnittsteuerung mit 60 \textdegree \hspace{0.02cm} und 90 \textdegree}
 
-Die erste untersuchte Plecs-Simulation war die Phasenanschnittsteuerung. Gleich wie bei der Matlab-Simulation konnten die verschiedenen Winkeln des Anschnittes nach Belieben eingestellt werden. Um die Resultate verifizieren zu könne wählte man die selben Winkel wie beim Matlab in der Abbildung \ref{fig:eingangssignal_mit_Matlab}. In der unteren Grafik, erkennt man ein Sinussignal mit einem Phasenanschnitt von 60\textdegree \hspace{0.02cm} links \ref{fig:plecs_eingangssignal_60} und einen mit 90\textdegree \hspace{0.02cm} rechts \ref{fig:plecs_eingangssignal_90}. Um die Spektren mit den Matlab-Simulationen vergleichen zu können, wurde die Amplitude des Sinussignales auch auf $\pm$ \SI{1}{Volt} gestellt.  
+Zuerst wird die Phasenanschnittsteuerung mit Plecs simuliert. Wie in Matlab können die verschiedenen Winkel des Anschnittes beliebig eingestellt werden. Um die Resultate vergleichen und verifizieren zu können, sind die selben Winkel wie beim Matlab siehe Abbildung \ref{fig:eingangssignal_mit_Matlab} gewählt. In der Abbildung \ref{fig:Eingangssignal simuliert mit Plecs}, erkennt man ein Sinussignal mit einem Phasenanschnitt von 60\textdegree \hspace{0.02cm}, links \ref{fig:plecs_eingangssignal_60}, und einen mit 90\textdegree \hspace{0.02cm}, rechts \ref{fig:plecs_eingangssignal_90}. Die anderen Winkel mit den dazugehörigen Amplitudenspektren sind im Anhang \ref{sec:Vergleich_der_Resultate} ersichtlich.
+Um die Spektren mit den Matlab-Simulationen vergleichen zu können, ist die Amplitude des Sinussignales auch auf $\pm$ \SI{1}{Volt} gestellt worden.  
 
 \begin{figure}[ht!]
 	\centering
@@ -116,7 +133,7 @@ Die erste untersuchte Plecs-Simulation war die Phasenanschnittsteuerung. Gleich 
 
 \newpage
 
-Die folgenden Bilder \ref{fig:plecs_Amplitudenspektrum} zeigen das Amplitudenspektrum der Phasenanschnittsteuerung mit den zwei bereits verwendeten Winkeln. Die Grafik musst nicht wie bei der Matlab-Funktion von Hand berechnet werden, sondern konnte mit Hilfe des Plecs Scope direkt analysiert werden. Plecs macht auch eine Fourier-Analyse um das Spektrum anzuzeigen. Vergleicht man die Amplitudenspektren der beiden Simulationen miteinander sehen die Grafiken, nach erster Einschätzung von Auge, sehr ähnlich aus. Der genau Vergleich der Werte wird weiter unten analysiert.   
+Die beiden Diagramme \ref{fig:plecs_Amplitudenspektrum} zeigen das Amplitudenspektrum der Phasenanschnittsteuerung mit den zwei bereits verwendeten Winkeln. Die Grafik musste nicht wie bei der Matlab-Funktion von Hand berechnet werden, sondern mit Hilfe des Plecs Scope direkt analysiert werden. Plecs macht auch eine Fourier-Analyse, um das Spektrum anzuzeigen. Vergleicht man die Amplitudenspektren der beiden Simulationen miteinander, sind die vertikalen Verläufe, nach erster Einschätzung, sehr ähnlich. Der genau Vergleich der Werte wird weiter unten analysiert.   
      
 \begin{figure}[ht!]
 	\centering
@@ -126,9 +143,9 @@ Die folgenden Bilder \ref{fig:plecs_Amplitudenspektrum} zeigen das Amplitudenspe
 	\label{fig:plecs_Amplitudenspektrum}
 \end{figure}
 
-\subsubsection{Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}
+\subsubsection{Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}
 
-Als nächstes wurde eine Simulation für die Schwingungspaketsteuerung aufgebaut \ref{fig:plecs_Schwingungspakete}. Auch hier verwendete man einen duty cycle von 0.5 in Bild  \ref{fig:plecs_Schwingungspaket_0_5} beziehungsweise 0.8 in der Darstellung \ref{fig:plecs_Schwingungspaket_0_8}, damit man die Resultate wieder mit der Matlab-Funktion vergleichen kann.  
+Als Nächstes wird eine Simulation für die Schwingungspaketsteuerung aufgebaut \ref{fig:plecs_Schwingungspakete}. Auch hier ist je ein Duty Cycle von 0.5 \ref{fig:plecs_Schwingungspaket_0_5}, beziehungsweise 0.8 \ref{fig:plecs_Schwingungspaket_0_8} verwendet worden, damit man die Resultate wieder mit der Matlab-Funktion vergleichen kann. Andere Duty Cycel sind im Anhang \ref{sec:Vergleich_der_Resultate} ersichtliche  
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_schwingungen.PNG}\label{fig:plecs_Schwingungspaket_0_5}}\qquad
@@ -137,7 +154,7 @@ Als nächstes wurde eine Simulation für die Schwingungspaketsteuerung aufgebaut
 	\label{fig:plecs_Schwingungspakete}
 \end{figure}
 
-In der folgende Abbildung \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0_5_100_1000} wurde das Amplitudenspektrum des Schwingungspaketes mit einem duty cycle von 0.5 dargestellt. Auf der linken Seite der Abbildung \ref{fig:plecs_Schwingungspaket_0_5_100} erkennt man das bekannte Spektrum von 0- 100 Hz mit den Subharmonischen Werten unterhalb von 50 Hz und den Zwischenharmonischen Schwingungen von 50 Hz -100 Hz. In der rechten Grafik  \ref{fig:plecs_Schwingungspaket_0_5_1000} erweiterte man das Spektrum bis zu 1000 Hz. Auch hier ist eine optische Ähnlichkeit zur  Matlab-Funktion ersichtlich.     
+In der Abbildung \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0_5_100_1000} ist das Amplitudenspektrum des Schwingungspaketes mit einem Duty Cycle von 0.5 dargestellt. Auf der linken Seite der Abbildung \ref{fig:plecs_Schwingungspaket_0_5_100} erkennt man das bekannte Spektrum von 0 - 100 Hz mit den subharmonischen Werten unterhalb von 50 Hz und den zwischenharmonischen Schwingungen von 50 Hz -100 Hz. In Abbildung  \ref{fig:plecs_Schwingungspaket_0_5_1000} erweiterte man das Spektrum bis zu 1000 Hz. Auch hier ist eine optische Ähnlichkeit zur  Matlab-Funktion ersichtlich.     
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_100.PNG}\label{fig:plecs_Schwingungspaket_0_5_100}}\qquad
@@ -147,7 +164,7 @@ In der folgende Abbildung \ref{fig:plecs_Schwingungspakete_Amplitudenspektrum_ 0
 \end{figure}
 
 
-Vollständigkeits halber realisierte man das gleiche noch mit einem duty cycle von 0.8. Auch hier ist das Spektrum, in der linken Abbildung \ref{fig:plecs_Schwingungspaket_0_8_100} mit einer Frequenz von \SI{0}{Hz} - \SI{100}{Hz} und im rechten Bild \ref{fig:plecs_Schwingungspaket_0_8_1000} bis \SI{1000}{Hz}, dargestellt. 
+Vollständigkeits halber ist das Gleiche noch mit einem Duty Cycle von 0.8 realisiert. Auch hier ist das Spektrum, in der linken Abbildung \ref{fig:plecs_Schwingungspaket_0_8_100} mit einer Frequenz von \SI{0}{Hz} - \SI{100}{Hz} und im rechten Bild \ref{fig:plecs_Schwingungspaket_0_8_1000} bis \SI{1000}{Hz}, dargestellt. 
 
 
 \begin{figure}[ht!]
@@ -159,21 +176,20 @@ Vollständigkeits halber realisierte man das gleiche noch mit einem duty cycle v
 \end{figure}
 
 
-Letztlich wurde noch das lineare absolute Spektrum der beiden duty cyclen, 0.5 in Bild \ref{fig:plecs_Schwingungspaket_0_5_absolut_log} und 0.8 in Abbildung \ref{fig:plecs_Schwingungspaket_0_8_absolut_log}, veranschaulicht. Damit man die Grafiken mit der Matlab-Simulation vergleichen konnte, entschied man sich das Spektrum bis zu einer Frequenz von \SI{100}{Hz} anzuzeigen. Auch hier erkennt man eine optische Ähnlichkeit zur Matlab-Simulation. 
+Zum Schluss ist das lineare absolute Spektrum der beiden Duty Cyclen, 0.5 in Abbildung \ref{fig:plecs_Schwingungspaket_0_5_absolut_log} und 0.8 in Abbildung \ref{fig:plecs_Schwingungspaket_0_8_absolut_log}, veranschaulicht. Damit man die Grafiken mit der Matlab-Simulation vergleichen kann, wird das Spektrum bis zu einer Frequenz von \SI{100}{Hz} angezeigt. Auch hier erkennt man eine optische Ähnlichkeit zur Matlab-Simulation. 
 
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_5_absolut_log.PNG}\label{fig:plecs_Schwingungspaket_0_5_absolut_log}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{plecs_schwingungspacket_0_8_absolut_log.PNG}\label{fig:plecs_Schwingungspaket_0_8_absolut_log}}
-	\caption{Lineares absolutes Spektrum mit einem duty cycle von (a) 0.5 (b) 0.8}
+	\caption{Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8}
 	\label{fig:plecs_Schwingungspakete_absolut log}
 \end{figure}
 
 \subsubsection{Vergleich der einphasigen Resultate mit Plecs und Matlab}
 
-Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkrete Bestätigung der Analyse zu erhalten, wurden alle Werte der einphasigen Simulationen nummerisch und visuell miteinander verglichen. Man erkannte, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1 \% haben. Dies Abweichung entsteht, da man die Auflösung der Plecs-Simulation bewusst niedriger eingestellt hat, um die Darstellungszeit der Funktion zu verkürzen. Mit den Resultaten darf man trotzdem zufrieden sein, da sich die Werte, nur minimal von denen der Matlab-Funktion unterscheiden. In der Abbildung \ref{fig:Amplitudenspektrum mit Phasenwinkel 90grad} ist der Vergleich des Amplitudenspektrum mit einem Phasenanschnittswinkel von 90\textdegree ersichtlich. Die anderen Aufnahmen sind optisch und nummerisch im Anhang dargestellt.
-
+Optisch betrachtet, sind die Resultate der beiden einphasigen Simulationen sehr ähnlich aus. Um jedoch eine konkrete Bestätigung der Analyse zu erhalten, sind alle Werte der einphasigen Simulationen nummerisch und visuell miteinander verglichen worden. Man erkennt, dass die meisten gegenübergestellten Werte eine Abweichung von unter 1 \% haben. Dies Abweichung entsteht, da die Auflösung der Plecs-Simulation bewusst niedriger eingestellt, um die Darstellungszeit der Funktion zu verkürzen. Mit den Resultaten darf man trotzdem zufrieden sein, da sich die Werte, nur minimal von denen der Matlab-Funktion unterscheiden. In der Abbildung \ref{fig:Amplitudenspektrum mit Phasenwinkel 90grad} ist der Vergleich des Amplitudenspektrum mit einem Phasenanschnittswinkel von 90\textdegree ersichtlich. Die anderen Aufnahmen sind optisch und nummerisch im Anhang\ref{sec:Vergleich_der_Resultate} dargestellt.
 
 
 \begin{figure}[ht!]
@@ -184,21 +200,11 @@ Optisch betrachtet, sehen die Resultate der beiden einphasigen Simulationen sehr
 \end{figure}
 
 
-
-
-
-
-
-
-
-
-\newpage
-
 \subsubsection{Dreiphasige Phasenanschnittsteuerung mit 60\textdegree\hspace{0.02cm} und 90\textdegree\hspace{0.02cm}}
 
 
-Bei den folgenden Abbildungen \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_60} und \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_90} handelt es sich um die Simulation der dreiphasigen Phasenanschnittsteuerung, mit den bekannten Winkel von 60\textdegree\hspace{0.02cm} und 90\textdegree\hspace{0.02cm}.
-In den linken Bildern \ref{fig:3_phasiges_Phasenanschnitt_60_Signal} und \ref{fig:3_phasiges_Phasenanschnitt_90_Signal} ist im  unteren Bereich, dass Eingangssignal mit der verketteten Nennspannung von \SI{230}{Volt} dargestellt. Die oberen Grafiken zeigen die Spannungen, welche über den Widerständen abfallen, nachdem der jeweilige Triac, mit dem eingestellten Winkel, gezündet hat. Die Werte der Widerstände stellte man auf \SI{150}{\Omega} ein, da der Culatti im Messaufbau den gleichen Wert hat. 
+Folgende Abbildungen \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_60} und \ref{fig:dreiphasige_Phasenanschnittsteuerung_mit_90} beinhalten die Simulation der dreiphasigen Phasenanschnittsteuerung, mit den bekannten Winkel von 60\textdegree\hspace{0.02cm} und 90\textdegree\hspace{0.02cm}.
+In den Abbildungen \ref{fig:3_phasiges_Phasenanschnitt_60_Signal} und \ref{fig:3_phasiges_Phasenanschnitt_90_Signal} ist im  unteren Bereich das Eingangssignal mit der verketteten Nennspannung von \SI{230}{Volt} dargestellt. Die oberen Bildern zeigen die Spannungen, welche über den Widerständen abfallen, nachdem der jeweilige Triac, mit dem eingestellten Winkel, gezündet hat. Die Werte der Widerstände stellte man auf \SI{150}{\Omega} ein, da der Culatti im Messaufbau den gleichen Wert hat. 
 
 \begin{figure}[ht!]
 	\centering
@@ -216,21 +222,20 @@ In den linken Bildern \ref{fig:3_phasiges_Phasenanschnitt_60_Signal} und \ref{fi
 	\caption{dreiphasige Phasenanschnittsteuerung mit 90\textdegree (a) Signal (b) FFT}
 	\label{fig:dreiphasige_Phasenanschnittsteuerung_mit_90}
 \end{figure}
-Anhand von Cursor 1 erkennt man, dass zuerst eine positive Halbwelle der Eingangsspannung, des ersten Aussenleiter (grün), anliegt. Der positive Thyristor des ersten Triacs zündet somit bei 90\textdegree\hspace{0.02cm} beziehungsweise bei 60\textdegree\hspace{0.02cm}. Da der Sternpunkt bei dieser Schaltung nicht mit dem Neutralleiter verbunden wurde, tritt eine negative Spannung über dem Thyristor des zweiten Triac auf (rot). Beim Cursor 2 hat es eine negative Eingangsspannung des zweiten Aussenleiters (blau). Somit zündet der negative Thyristor des dritten Triacs und die entgegengesetzte positive Spannung entsteht über dem ersten Thyristor (grün) des ersten Triacs. Diese Abfolge wird beliebig weiter geführt. Da es sich nur um eine Ohmsche Last handelt, verhält sich das Stromsignal phasengleich wie die Spannungskurve.\\
-Auf der Abbildung \ref{fig:3_phasiges_Phasenanschnitt_60_FTT} und \ref{fig:3_phasiges_Phasenanschnitt_90_FTT} erkennt man die beiden  FFTs der jeweiligen Phasenanschnittstuerungen. Es ist ersichtlich, dass auch bei dreiphasigen Phasenanschnittsteuerungen nur Harmonische Oberschwingungen vorkommen und keine Sub- oder Zwischenharmonische. 
+Anhand von Cursor 1 erkennt man, dass zuerst eine positive Halbwelle der Eingangsspannung, des ersten Phase (grün), anliegt. Der positive Thyristor des ersten Triacs zündet somit bei 90\textdegree\hspace{0.02cm}, beziehungsweise bei 60\textdegree\hspace{0.02cm}. Da der Sternpunkt bei dieser Schaltung nicht mit dem Neutralleiter verbunden ist, tritt eine negative Spannung über dem Thyristor des zweiten Triac auf (rot). Beim Cursor 2 hat es eine negative Eingangsspannung der zweiten Phase (blau). Somit zündet der negative Thyristor des dritten Triacs, und die entgegengesetzte positive Spannung entsteht über dem ersten Thyristor (grün) des ersten Triacs. Diese Abfolge wird beliebig weiter geführt. Da es sich um eine ohmsche Last handelt, verhält sich das Stromsignal phasengleich wie die Spannungskurve.\\
+In der Abbildung \ref{fig:3_phasiges_Phasenanschnitt_60_FTT} und \ref{fig:3_phasiges_Phasenanschnitt_90_FTT} erkennt man die beiden  FFTs der jeweiligen Phasenanschnittsteuerungen. Es ist ersichtlich, dass auch bei dreiphasigen Phasenanschnittsteuerungen nur Harmonische Oberschwingungen vorkommen und keine sub- oder zwischenharmonische. 
 
 \newpage
 
-\subsubsection{Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}
-Nachfolgend sind die dreiphasigen Schwingungspaketsteuerungen mit den duty cycle von 0.5 in Abbildung \ref{fig:3_phasiges_Schwingungspaket_Signal_0_5} und 0.8 in Abbild \ref{fig:3_phasiges_Schwingungspaket_FTT_0_8} dargestellt. Die drei Eingangsspannungen und die Widerstände richtete man gleich, wie bei der dreiphasigen Phasenanschnittsteuerung, ein. Daher sind auch die Strom- und Spannungsverläufe wieder phasengleich. Bei den grünen, roten und blauen Kennlinien, handelt es sich um die Spannungspakete über den einzelnen Widerständen.\\
-In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phasiges_Schwingungspaket_FFT_0_8} sind die FFTs der Schwingungspaketsteuerung ersichtlich. Man erkennt vor allem, dass es vor und nach 50 Hz (hoher Peak) viele Sub- und Zwischenharmonische Oberschwingungen hat. Eine gewisse Ähnlichkeit mit den einphasigen Paketsteuerungen ist ersichtlich.
- 
+\subsubsection{Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}
+Nachfolgend sind die dreiphasigen Schwingungspaketsteuerungen mit den Duty Cycle von 0.5 in Abbildung \ref{fig:3_phasiges_Schwingungspaket_Signal_0_5} und 0.8 in Abbild \ref{fig:3_phasiges_Schwingungspaket_FTT_0_8} dargestellt. Die drei Eingangsspannungen und die Widerstände sind gleich eingerichtet, wie bei der dreiphasigen Phasenanschnittsteuerung. Daher sind auch die Strom- und Spannungsverläufe wieder phasengleich. Bei den grünen, roten und blauen Kennlinien handelt es sich um die Spannungspakete über den einzelnen Widerständen.\\
+In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phasiges_Schwingungspaket_FTT_0_8} sind die FFTs der Schwingungspaketsteuerung ersichtlich. Man erkennt vor allem, dass es vor und nach 50 Hz (hoher Peak) viele sub- und zwischenharmonische Oberschwingungen hat.
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{3_phasiges_Schwingungspaket_Signal_0_5.png}\label{fig:3_phasiges_Schwingungspaket_Signal_0_5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{3_phasiges_Schwingungspaket_FTT_0_5.png}\label{fig:3_phasiges_Schwingungspaket_FTT_0_5}}
-	\caption{dreiphasige Schwingungspaketsteuerung mit duty cycle 0.5 (a) Signal (b) FFT}
+	\caption{dreiphasige Schwingungspaketsteuerung mit Duty Cycle 0.5 (a) Signal (b) FFT}
 	\label{fig:3_phasiges_Schwingungspaket_0_5}
 \end{figure}
 
@@ -240,20 +245,20 @@ In den Bildern \ref{fig:3_phasiges_Schwingungspaket_FTT_0_5} und \ref{fig:3_phas
 	\centering
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{3_phasiges_Schwingungspaket_Signal_0_8.png}\label{fig:3_phasiges_Schwingungspaket_Signal_0_8}}\qquad
 	\subfloat[][]{\includegraphics[width=0.45\linewidth]{3_phasiges_Schwingungspaket_FTT_0_8.png}\label{fig:3_phasiges_Schwingungspaket_FTT_0_8}}
-	\caption{dreiphasige Schwingungspaketsteuerung mit duty cycle 0.8 (a) Signal (b) FFT}
+	\caption{dreiphasige Schwingungspaketsteuerung mit Duty Cycle 0.8 (a) Signal (b) FFT}
 	\label{fig:3_phasiges_Schwingungspaket_0_8}
 \end{figure}
 
 \newpage
 \subsubsection{Einphasige Kombination des Sanft-Anlassen}
 
-Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simuliert hat, wurde eine Kombination der beiden Verfahren entwickelt. In der Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} erkennt man ein sanftes Anlassen der Spannung bis auf die volle Leistung und nach einiger Zeit wieder ein sanftes herunterfahren der Spannung bis die Leistung null beträgt. Im Bild \ref{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5} ist der duty cycle auf 0.5 eingestellt. Die einzelnen Pakete verhalten sich nun so wie das sanfte Anlassen und Runterfahren der in Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} gezeigten Spannung. Vergleicht man das FFT in der Grafik \ref{fig:1_phasig_sanftanlaser_FFT} mit dem FFT des Schwingungspaketes mit hartem zu- und Wegschalten \ref{fig:plecs_Schwingungspaket_0_5_1000} ist eine Verringerung der Subharmonischen Schwingungen ersichtlich. Der Sanft-Anlass hat aber zufolge, dass  es bei den Harmonischen einige Oberwellen hinzugekommen sind. 
+Nach der Simulationen der beiden Steuerungsverfahren im ein- und dreiphasigen System, wird die Kombination der beiden Verfahren entwickelt. In der Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt} erkennt man ein sanftes anstiegen der Spannung bis auf die volle Leistung und nach einiger Zeit wieder ein sanftes Herunterfahren der Spannung bis sie null beträgt. In Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5} ist der Duty Cycle auf 0.5 eingestellt. Die einzelnen Pakete verhalten sich nun so wie das sanfte Hoch- und Runterfahren der Spannung, erkennbar in Abbildung \ref{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt}. Vergleicht man das FFT in Abbildung \ref{fig:1_phasig_sanftanlaser_FFT} mit dem FFT des Schwingungspaketes mit hartem Zu- und Wegschalten \ref{fig:plecs_Schwingungspaket_0_5_1000} ist eine Verringerung der subharmonischen Schwingungen ersichtlich. Das sanfte Hinauf und Hinunterfahren hat aber zufolge, dass die Oberwellen bei den Harmonischen zunehmen. 
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0.5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png}\label{fig:1_phasig_sanftanlaser_Eingangssignal_Ausschnitt}}
-	\caption{Einphasiges Sanft-Anlassen mit einem duty cycle von 0.5 (a) Eingangssignal (b) Ausschnitt}
+	\caption{Einphasiges Hoch- und Runterfahren mit einem Duty Cycle von 0.5 (a) Eingangssignal (b) Ausschnitt eines Paketes}
 	\label{fig:einphasiges_Sanft_anlassen_Einganssignal}
 \end{figure}
 
@@ -261,16 +266,13 @@ Nach dem man die beiden Steuerungsverfahren im ein- und dreiphasigen System simu
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_FFT.png}\label{fig:1_phasig_sanftanlaser_FFT}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{1_phasig_sanftanlaser_FFT_Ausschnitt.png}\label{fig:1_phasig_sanftanlaser_FFT_Ausschnitt}}
-	\caption{FTT des einphasigen Sanft anlassen mit einem duty cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 Hz - 170 Hz}
+	\caption{FTT des einphasigen Hoch- und Runterfahren mit einem Duty Cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 Hz - 170 Hz}
 	\label{fig:einphasiges_Sanft_anlassen_FTT}
 \end{figure}
 
-
-
-
 \subsubsection{Dreiphasige Kombination des Sanft-Anlassen}
 
-In der folgenden Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} handelt es sich um eine dreiphasige Sanft-Anlasser Steuerung. Das dargestellte Spannungssignal hat einen duty cycle von 0.5 erkennbar in Bild \ref{fig:3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5}. Die Kurve und die Funktion der Spannung verhält sich ähnlich, wie die Kombination des einphasigen Sanft-Anlassen. Die drei Farben grün, rot und blau zeigen die verschiedenen Spannungen über den drei Widerständen an. Da es sich hier um eine rein ohmsche Last handelt, sind die Ströme phasengleich  mit der Spannungen. Bei dem FFT erkennbar in Abbildung \ref{fig:dreiphasiges_Sanft_anlassen_FTT} von \SI{0}{Hz} - \SI{2000}{Hz} erkennt man den grössten Peak bei der Grundschwingung von \SI{50}{Hz}. Die Sub- und Zwischenharmonischen Schwingungen fallen bei der sanftanlasser Steuerung viel mehr ins Gewicht als die Harmonischen. Sie sind nur noch minimal vorhanden.   
+Die Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} zeigt eine dreiphasige  Steuerung des Hoch- und Runterfahren. Das dargestellte Spannungssignal hat einen duty cycle von 0.5, ersichtlich in Abbildung \ref{fig:3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5}. Die Kurve und die Funktion der Spannung verhält sich ähnlich wie die Kombination des einphasigen Hoch- und Runterfahren. Die drei Farben grün, rot und blau zeigen die verschiedenen Spannungen über den drei Widerständen an. Da es sich hier um eine rein ohmsche Last handelt, sind die Ströme phasengleich  mit der Spannungen. Bei dem FFT in Abbildung \ref{fig:dreiphasiges_Sanft_anlassen_FTT} von \SI{0}{Hz} - \SI{2000}{Hz} erkennt man den grössten Peak bei der Grundschwingung von \SI{50}{Hz}. Die sub- und zwischenharmonischen Schwingungen fallen bei der sanftanlasser Steuerung viel mehr ins Gewicht als die Harmonischen. Sie sind nur noch minimal vorhanden.   
 
 
 \begin{figure}[ht!]
@@ -285,33 +287,41 @@ In der folgenden Abbildung \ref{fig:drei_phasiges_Sanft_anlassen} handelt es sic
 	\centering
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{3_phasig_sanftanlaser_FFT_0_5.png}\label{fig:3_phasig_sanftanlaser_FFT_0_5}}\qquad
 	\subfloat[][]{\includegraphics[width=0.43\linewidth]{3_phasig_sanftanlaser_FFT_Ausschnitt_0_5.png}\label{fig:3_phasig_sanftanlaser_FFT_Ausschnitt_0_5}}
-	\caption{FTT des einphasigen Sanft anlassen mit einem duty cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz - 300 Hz}
+	\caption{FTT des dreiphasigen Hoch- und Runterfahren mit einem Duty Cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz - 300 Hz}
 	\label{fig:dreiphasiges_Sanft_anlassen_FTT}
 \end{figure}
-
-
-
-
 
 \newpage
 
 \subsubsection{Alternative Ansteuerungen}
-In der Praxis werden nicht immer alle 3 Phasen angesteuert, sogenannte Sparansteuerungen. Dabei können nur zwei oder auch nur eine Phase angesteuert werden. Das heisst, dass zum Beispiel bei der Zwei-Phasen-Ansteuerung bei einer Phase der Thyristor überbrückt wird beziehungsweise der Thyristor gar nicht vorhanden ist. Dabei dient die überbrückte Phase als Ausgleichs- und Rückleiter. Diese Fälle wurden mit Plecs simuliert wobei die Last in Stern und in Dreieck geschaltet werden kann. Wie bei der 3-Phasen Ansteuerung, wurde für die alternativen Ansteuerung auch der Sanft-Anlass, die Kombination mit Phasenanschnitts- und Schwingungspaketsteuerung, simuliert.
-
-\subsubsection*{2-Phasen Ansteuerung mit Last in Stern}
-\todo{Bild Simulation}
-
- 
-\subsubsection*{2-Phasen Ansteuerung mit Last in Dreieck}
-\todo{Bild Simulation}
+In der Praxis kommen zum Teil die sogenannten Sparsteuerungen zum Einsatz. Bei dieser Steuerungsart werden nicht alle drei Phasen angesteuert sondern nur deren eine oder zwei. Damit man ein solches Verfahren erhält, überbrückt man die Thyristoren in der gewünschten Phase. Eine weiter Möglichkeit ist, die Thyristoren gar nicht erst in die Schaltung einzubinden. Man kann sie deshalb kurzerhand weglassen. Die überbrückte Phase dient dabei als Ausgleichs- und Rückleiter. Mit Plecs wurden solche Verfahren simuliert, wobei die Last in Stern oder Dreieck geschaltet ist. Die Ansteuerung der nicht veränderten Phasen, verhalten sich gleich wie die der dreiphasigen Kombinationssteuerung. Das folgende Kapitel \ref{sec:2_phasen_Ansteuerung} zeigt die Simulation einer zwei Phasen Ansteuerung bei der die Last in Stern geschaltet ist. 
+\todo{Andere Steuerungsarten sind digital ersichtlich.}
 
 
-\subsubsection*{1-Phasen Ansteuerung mit Last in Stern}
-\todo{Bild Simulation}
+%In der Praxis werden nicht immer alle 3 Phasen angesteuert, sogenannte Sparansteuerungen. Dabei können nur zwei oder auch nur eine Phase angesteuert werden. Das heisst, dass zum Beispiel bei der Zwei-Phasen-Ansteuerung bei einer Phase der Thyristor überbrückt wird beziehungsweise der Thyristor gar nicht vorhanden ist. Dabei dient die überbrückte Phase als Ausgleichs- und Rückleiter. Diese Fälle wurden mit Plecs simuliert wobei die Last in Stern und in Dreieck geschaltet werden kann. Wie bei der 3-Phasen Ansteuerung, wurde für die alternativen Ansteuerung auch der Sanft-Anlass, die Kombination mit Phasenanschnitts- und Schwingungspaketsteuerung, simuliert.
+
+\subsubsection*{Zwei Phasen Ansteuerung mit Last in Stern}\label{sec:2_phasen_Ansteuerung}
+Bei der Abbildung \ref{fig:2_phasige_ansteuerung_mit_Last} erkennt man ein zweiphasige Ansteuerungsart, bei der die dritte Phase (blau) überbrückt wurde. Es sind wiederum fünf Schwingungspakete ein- und ausgeschaltet, was einem Duty Cycle von 0.5 entspricht. In Abbildung \ref{fig:2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal} ist eines der fünf Schwingungspaket dargestellt. Es ist ersichtlich, dass die Spannung welcher über die Thyristoren anfallen, immer direkt über die überbrückte Phase abfällt. Daher sind am Anfang und Ende die blauen Spannungspeaks ersichtlich. Sobald jedoch die volle Spannung bezogen wird, verhält sich dieses Verfahren wie die dreiphasige Kombination der Sanften-Ansteuerung. Alle Thyristoren haben daher einen Zündwinkel von 0\textdegree\hspace{0.02cm} und das System verhält sich symmetrisch.\\
+In der Abbildung \ref{fig:2_phasige_ansteuerung_mit_Last_FFT} ist das FFT der zwei Phasen Ansteuerung, wiederum von \SI{0}{Hz} bis \SI{2000}{Hz} auf der linken Seite und \SI{0}{Hz} bis \SI{280}{Hz} auf der rechten Seite, dargestellt. Vergleicht man dies, mit dem der dreiphasigen Kombination, erkennt man, dass die Ausbreitung der Oberschwingungen bei diesem Verfahren viel grösser sind. Ausserdem ist bei \SI{150}{Hz}, der dritte Harmonische, ein Spannungspeak erkennbar. Dieser kommt davon, dass eine Asymmetrie zwischen den drei Phasen herrscht, da die dritte Phase nicht angesteuert wird.
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[][]{\includegraphics[width=0.43\linewidth]{2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.png}\label{fig:2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal}}\qquad
+	\subfloat[][]{\includegraphics[width=0.43\linewidth]{2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal.png}\label{fig:2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal}}
+	\caption{Zweiphasige Ansteuerung mit Last in Stern (a) Eingangssignal (b) Ausschnitt}
+	\label{fig:2_phasige_ansteuerung_mit_Last}
+\end{figure}
 
 
-\subsubsection*{1-Phasen Ansteuerung mit Last in Dreieck}
-\todo{Bild Simulation}
+\begin{figure}[ht!]
+	\centering
+	\subfloat[][]{\includegraphics[width=0.43\linewidth]{2_phasige_ansteuerung_mit_Last_FFT_Komplet.png}\label{fig:2_phasige_ansteuerung_mit_Last_FFT_Komplet}}\qquad
+	\subfloat[][]{\includegraphics[width=0.43\linewidth]{2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt.png}\label{fig:2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt}}
+	\caption{FTT der zweiphasigen Ansteuerung  (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz -280 Hz}
+	\label{fig:2_phasige_ansteuerung_mit_Last_FFT}
+\end{figure}
+
+
 
 
 \subsubsection*{Halbwellensteuerung}
