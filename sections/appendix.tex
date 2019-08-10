@@ -10,39 +10,38 @@
 \newpage
 \subsection{Arduino-Programm}
 \begin{lstlisting}[basicstyle=\tiny,style=myArduino]
-const int Switch_PO = 3;         // Output fuer den EIN- und AUSSCHALTER
-const int Controll_P = 2;   // Output fuer Steuersignal
-const int Switch_PI = 5; // Input fuer den EIN- und AUSSCHALTER
-int buttonState = 0;                 // Zustand Schalter auf 0
-int anzahl_Schwinwungspakete = 5;        // Anzahl Schwingungspakete
+const int Switch_PO = 3;	// Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2;	// Output fuer Steuersignal
+const int Switch_PI = 5;	// Input fuer den EIN- & AUSSCHALTER
+
+int buttonState = 0;	// Zustand Schalter auf 0
+int anzahl_Schwingwungspakete = 5;	// Anzahl Schwingungspakete
+int Geschwindigkeit = 5;
 
 void setup() {
-pinMode (Switch_PO, OUTPUT);        // Schalter auf Output
-pinMode (Controll_P, OUTPUT);              // PWM auf Output
-pinMode (Switch_PI, INPUT_PULLUP);      // Schalter Eingang
+pinMode (Switch_PO, OUTPUT);	// Schalter auf Output
+pinMode (Controll_P, OUTPUT);	// PWM auf Output
+pinMode (Switch_PI, INPUT_PULLUP);	// Schalter Eingang
 }
 
 void loop() {
-buttonState =! digitalRead(Switch_PI);      // Da Pullup wird das Signal negiert
-if(buttonState == HIGH){          // if-Schleife falls Zustand Schalter auf EIN
-for(int z=0; z<10; z++){             // for-Schleife fuer Schwingungspaketsteuerung
-if(z<anzahl_Schwinwungspakete){                 // Anzahl Schwingungen EIN
-for(int i=0; i<255; i++){                     // Hochfahren mit PWM
-analogWrite(Controll_P, i);  // Die Variable wird auf den Steuersignalausgang geschrieben
-delay(5);// Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter hochfaehrt       
-}
-delay(200);     // Warten waehrend volle Leistung
-for(int i=255; i>0; i--){                     // Runterfahren mit PWM
-analogWrite(Controll_P, i);                 // Die Variable wird auf den Steuersignalausgang geschrieben
-delay(5); // Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter runterfaehrt
-}
-delay(100);   // Warten waehrend keiner Leistung
-}else{
-digitalWrite(Controll_P, LOW); // Ausschalten fuer Schwingungspakete keine Leistung
-delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingeschaltet werden soll
-			}
-}
-}
+for (int z = 0; z < 10; z++) {	// for-Schleife fuer Schwingungspaketsteuerung
+	if (z < anzahl_Schwingwungspakete) {	// Anzahl Schwingungen EIN
+		for (int i = 0; i < 255; i++) {	// Hochfahren mit PWM
+			analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+			delay(Geschwindigkeit);	// Geschwindigkeit des Hochfahrens
+		}
+		delay(200);	// Warten waehrend volle Leistung
+		for (int i = 255; i > 0; i--) {	// Runterfahren mit PWM
+			analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+			delay(Geschwindigkeit);	// Geschwindigkeit des Runterfahrens
+		}
+		delay(100);	// Warten waehrend keiner Leistung
+		} else {
+			digitalWrite(Controll_P, LOW);	// Ausschalten fuer Schwingungspakete keine Leistung
+			delay((10 - anzahl_Schwingwungspakete) * 480);	// Verzoegerung bis wieder eingeschaltet werden soll
+		}
+	}
 }
 
 
