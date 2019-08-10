@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.14)  9 AUG 2019 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.14)  10 AUG 2019 10:52
 entering extended mode
 **./Disposition_fachbericht.tex
 (Disposition_fachbericht.tex
@@ -2504,12 +2504,12 @@ Package pdftex.def Info: ./graphics/Mess_Widerstand_AufAb.png  used on input li
 ne 294.
 (pdftex.def)             Requested size: 455.24408pt x 239.00699pt.
  [50 <./graphics/Mess_Widerstand_AufAb.png>]
-<./graphics/Messung_Widerstand_Sanft_langsam.png, id=1057, 2286.29156pt x 1233.
+<./graphics/Messung_Widerstand_Sanft_langsam.png, id=1056, 2286.29156pt x 1233.
 85968pt>
 File: ./graphics/Messung_Widerstand_Sanft_langsam.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Sanft_langsam.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Sanft_langsam.png  used 
-on input line 323.
+on input line 326.
 (pdftex.def)             Requested size: 455.24408pt x 245.67558pt.
  [51 <./graphics/Messung_Widerstand_Sanft_langsam.png>]
 
@@ -2519,64 +2519,64 @@ LaTeX Warning: Marginpar on page 52 moved.
 File: ./graphics/Messung_ASM_Phas_60grad.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_60grad.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Phas_60grad.png  used on input 
-line 360.
+line 368.
 (pdftex.def)             Requested size: 455.24408pt x 243.56863pt.
-[52 <./graphics/Messung_ASM_Phas_60grad.png>]
-<./graphics/Messung_ASM_Phas_90grad.png, id=1082, 2277.25781pt x 1222.5675pt>
+[52 <./graphics/Messung_ASM_Phas_60grad.png>] [53]
+<./graphics/Messung_ASM_Phas_90grad.png, id=1086, 2277.25781pt x 1222.5675pt>
 File: ./graphics/Messung_ASM_Phas_90grad.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_90grad.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Phas_90grad.png  used on input 
-line 386.
+line 394.
 (pdftex.def)             Requested size: 455.24408pt x 244.39723pt.
- [53 <./graphics/Messung_ASM_Phas_90grad.png>]
-<./graphics/Messung_ASM_Sanft_langsam.png, id=1094, 2278.76344pt x 1210.5225pt>
+ [54 <./graphics/Messung_ASM_Phas_90grad.png>] [55]
+<./graphics/Messung_ASM_Sanft_langsam.png, id=1102, 2278.76344pt x 1210.5225pt>
 
 File: ./graphics/Messung_ASM_Sanft_langsam.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Sanft_langsam.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Sanft_langsam.png  used on inpu
-t line 416.
+t line 424.
 (pdftex.def)             Requested size: 455.24408pt x 241.82314pt.
- [54 <./graphics/Messung_ASM_Sanft_langsam.png>]
+ [56 <./graphics/Messung_ASM_Sanft_langsam.png>]
 
-LaTeX Warning: Marginpar on page 55 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
-<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png, id=1106, 2278.01062pt
+<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png, id=1115, 2278.01062pt
  x 1201.48875pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png Graphic file (typ
 e png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.pn
-g  used on input line 455.
+g  used on input line 463.
 (pdftex.def)             Requested size: 455.24408pt x 240.09183pt.
-[55 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png>] [56]
-<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png, id=1125, 2273
+[57 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png>] [58]
+<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png, id=1133, 2273
 .49374pt x 1184.17406pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png Graphic f
 ile (type png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_la
-ngsam.png  used on input line 497.
+ngsam.png  used on input line 505.
 (pdftex.def)             Requested size: 455.24408pt x 237.11972pt.
- [57 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>] [58]
-<./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png, id=1138, 2265.21281pt x 12
+ [59 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>] [60]
+<./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png, id=1151, 2265.21281pt x 12
 18.80344pt>
 File: ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png Graphic file (type png
 )
 <use ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>
 Package pdftex.def Info: ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png  us
-ed on input line 534.
+ed on input line 547.
 (pdftex.def)             Requested size: 455.24408pt x 244.94661pt.
- [59 <./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>] [60] [61]) [62]
+ [61 <./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>] [62] [63]) [64]
 \openout2 = `sections/validierung.aux'.
 
 
-(sections/validierung.tex) [63
+(sections/validierung.tex) [65
 
 
 ]
 \openout2 = `sections/schlusswort.aux'.
 
- (sections/schlusswort.tex) [64
+ (sections/schlusswort.tex) [66
 
 
 ]
@@ -2608,7 +2608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-) [65
+) [67
 
 
 ]
@@ -2620,26 +2620,26 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 64.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(Disposition_fachbericht.lof [66
+(Disposition_fachbericht.lof [68
 
 
 
-] [67] [68])
+] [69] [70])
 \tf@lof=\write7
 \openout7 = `Disposition_fachbericht.lof'.
 
  (Disposition_fachbericht.lot
-[69])
+[71])
 \tf@lot=\write8
 \openout8 = `Disposition_fachbericht.lot'.
 
- [70]
+ [72]
 \openout2 = `sections/appendix.aux'.
 
  (sections/appendix.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
- (appendix/code/Leistungsfaktor.m) [71
+ (appendix/code/Leistungsfaktor.m) [73
 
 ]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
@@ -2650,66 +2650,66 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-) [72]
-<./graphics/eingangssignal_30.png, id=1467, 427.2211pt x 320.69812pt>
+) [74]
+<./graphics/eingangssignal_30.png, id=1483, 427.2211pt x 320.69812pt>
 File: ./graphics/eingangssignal_30.png Graphic file (type png)
 <use ./graphics/eingangssignal_30.png>
 Package pdftex.def Info: ./graphics/eingangssignal_30.png  used on input line 5
 5.
 (pdftex.def)             Requested size: 182.09485pt x 136.68881pt.
-<./graphics/A_PH_30.png, id=1468, 427.5975pt x 321.07452pt>
+<./graphics/A_PH_30.png, id=1484, 427.5975pt x 321.07452pt>
 File: ./graphics/A_PH_30.png Graphic file (type png)
 <use ./graphics/A_PH_30.png>
 Package pdftex.def Info: ./graphics/A_PH_30.png  used on input line 56.
 (pdftex.def)             Requested size: 182.09485pt x 136.73166pt.
-<./graphics/eingangssignal_45.png, id=1469, 426.46828pt x 321.07452pt>
+<./graphics/eingangssignal_45.png, id=1485, 426.46828pt x 321.07452pt>
 File: ./graphics/eingangssignal_45.png Graphic file (type png)
 <use ./graphics/eingangssignal_45.png>
 Package pdftex.def Info: ./graphics/eingangssignal_45.png  used on input line 6
 3.
 (pdftex.def)             Requested size: 182.09485pt x 137.09421pt.
-<./graphics/A_PH_45.png, id=1470, 426.84468pt x 321.07452pt>
+<./graphics/A_PH_45.png, id=1486, 426.84468pt x 321.07452pt>
 File: ./graphics/A_PH_45.png Graphic file (type png)
 <use ./graphics/A_PH_45.png>
 Package pdftex.def Info: ./graphics/A_PH_45.png  used on input line 64.
 (pdftex.def)             Requested size: 182.09485pt x 136.97662pt.
-<./graphics/eingangssignal_120.png, id=1471, 426.84468pt x 321.82735pt>
+<./graphics/eingangssignal_120.png, id=1487, 426.84468pt x 321.82735pt>
 File: ./graphics/eingangssignal_120.png Graphic file (type png)
 <use ./graphics/eingangssignal_120.png>
 Package pdftex.def Info: ./graphics/eingangssignal_120.png  used on input line 
 71.
 (pdftex.def)             Requested size: 182.09485pt x 137.29779pt.
-<./graphics/A_PH_120.png, id=1472, 427.2211pt x 321.82735pt>
+<./graphics/A_PH_120.png, id=1488, 427.2211pt x 321.82735pt>
 File: ./graphics/A_PH_120.png Graphic file (type png)
 <use ./graphics/A_PH_120.png>
 Package pdftex.def Info: ./graphics/A_PH_120.png  used on input line 72.
 (pdftex.def)             Requested size: 182.09485pt x 137.17012pt.
- [73 <./graphics/eingangssignal_30.png> <./graphics/A_PH_30.png> <./graphics/ei
+ [75 <./graphics/eingangssignal_30.png> <./graphics/A_PH_30.png> <./graphics/ei
 ngangssignal_45.png> <./graphics/A_PH_45.png> <./graphics/eingangssignal_120.pn
 g> <./graphics/A_PH_120.png>]
-<./graphics/Schwingungspaket_0_2.png, id=1489, 426.46828pt x 321.07452pt>
+<./graphics/Schwingungspaket_0_2.png, id=1505, 426.46828pt x 321.07452pt>
 File: ./graphics/Schwingungspaket_0_2.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_2.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_2.png  used on input lin
 e 81.
 (pdftex.def)             Requested size: 182.09485pt x 137.09421pt.
-<./graphics/Oberwellen_0_2.png, id=1490, 426.84468pt x 321.45094pt>
+<./graphics/Oberwellen_0_2.png, id=1506, 426.84468pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_2.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_2.png>
 Package pdftex.def Info: ./graphics/Oberwellen_0_2.png  used on input line 82.
 (pdftex.def)             Requested size: 182.09485pt x 137.1372pt.
-<./graphics/Schwingungspaket_0_4.png, id=1491, 427.5975pt x 321.45094pt>
+<./graphics/Schwingungspaket_0_4.png, id=1507, 427.5975pt x 321.45094pt>
 File: ./graphics/Schwingungspaket_0_4.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_4.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_4.png  used on input lin
 e 90.
 (pdftex.def)             Requested size: 182.09485pt x 136.89197pt.
-<./graphics/Oberwellen_0_4.png, id=1492, 426.09187pt x 321.45094pt>
+<./graphics/Oberwellen_0_4.png, id=1508, 426.09187pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_4.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_4.png>
 Package pdftex.def Info: ./graphics/Oberwellen_0_4.png  used on input line 91.
 (pdftex.def)             Requested size: 182.09485pt x 137.37755pt.
-<./graphics/plecs_phasenanschnitt_pi_6_funktion.png, id=1493, 282.30469pt x 282
+<./graphics/plecs_phasenanschnitt_pi_6_funktion.png, id=1509, 282.30469pt x 282
 .30469pt>
 File: ./graphics/plecs_phasenanschnitt_pi_6_funktion.png Graphic file (type png
 )
@@ -2717,18 +2717,18 @@ File: ./graphics/plecs_phasenanschnitt_pi_6_funktion.png Graphic file (type png
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_6_funktion.png  us
 ed on input line 98.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_pi_6.png, id=1494, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_pi_6.png, id=1510, 282.30469pt x 282.30469pt>
 
 File: ./graphics/plecs_phasenanschnitt_pi_6.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_6.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_6.png  used on inp
 ut line 99.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
- [74 <./graphics/Schwingungspaket_0_2.png> <./graphics/Oberwellen_0_2.png> <./g
+ [76 <./graphics/Schwingungspaket_0_2.png> <./graphics/Oberwellen_0_2.png> <./g
 raphics/Schwingungspaket_0_4.png> <./graphics/Oberwellen_0_4.png> <./graphics/p
 lecs_phasenanschnitt_pi_6_funktion.png> <./graphics/plecs_phasenanschnitt_pi_6.
 png>]
-<./graphics/plecs_phasenanschnitt_pi_4_funktion.png, id=1512, 282.30469pt x 282
+<./graphics/plecs_phasenanschnitt_pi_4_funktion.png, id=1527, 282.30469pt x 282
 .30469pt>
 File: ./graphics/plecs_phasenanschnitt_pi_4_funktion.png Graphic file (type png
 )
@@ -2736,14 +2736,14 @@ File: ./graphics/plecs_phasenanschnitt_pi_4_funktion.png Graphic file (type png
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_4_funktion.png  us
 ed on input line 108.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_pi_4.png, id=1513, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_pi_4.png, id=1528, 282.30469pt x 282.30469pt>
 
 File: ./graphics/plecs_phasenanschnitt_pi_4.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_4.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_4.png  used on inp
 ut line 109.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_120_funktion.png, id=1514, 282.30469pt x 282.
+<./graphics/plecs_phasenanschnitt_120_funktion.png, id=1529, 282.30469pt x 282.
 30469pt>
 File: ./graphics/plecs_phasenanschnitt_120_funktion.png Graphic file (type png)
 
@@ -2751,13 +2751,13 @@ File: ./graphics/plecs_phasenanschnitt_120_funktion.png Graphic file (type png)
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_120_funktion.png  use
 d on input line 117.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_120.png, id=1515, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_120.png, id=1530, 282.30469pt x 282.30469pt>
 File: ./graphics/plecs_phasenanschnitt_120.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_120.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_120.png  used on inpu
 t line 118.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG, id=1516, 361.35pt x 3
+<./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG, id=1531, 361.35pt x 3
 61.35pt>
 File: ./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG Graphic file (typ
 e png)
@@ -2765,18 +2765,18 @@ e png)
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_2_schwingungen.PN
 G  used on input line 126.
 (pdftex.def)             Requested size: 145.68143pt x 145.67879pt.
-<./graphics/plecs_schwingungspacket_0_2_1000.PNG, id=1517, 282.30469pt x 282.30
+<./graphics/plecs_schwingungspacket_0_2_1000.PNG, id=1532, 282.30469pt x 282.30
 469pt>
 File: ./graphics/plecs_schwingungspacket_0_2_1000.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_2_1000.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_2_1000.PNG  used 
 on input line 127.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
- [75 <./graphics/plecs_phasenanschnitt_pi_4_funktion.png> <./graphics/plecs_pha
+ [77 <./graphics/plecs_phasenanschnitt_pi_4_funktion.png> <./graphics/plecs_pha
 senanschnitt_pi_4.png> <./graphics/plecs_phasenanschnitt_120_funktion.png> <./g
 raphics/plecs_phasenanschnitt_120.png> <./graphics/plecs_schwingungspacket_0_2_
 schwingungen.PNG> <./graphics/plecs_schwingungspacket_0_2_1000.PNG>]
-<./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG, id=1533, 282.30469pt 
+<./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG, id=1548, 282.30469pt 
 x 282.30469pt>
 File: ./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG Graphic file (typ
 e png)
@@ -2796,7 +2796,7 @@ Package pdftex.def Info: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwink
 el_90.png  used on input line 145.
 (pdftex.def)             Requested size: 313.48415pt x 172.774pt.
 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.png, 
-id=1534, 569.9694pt x 308.352pt>
+id=1549, 569.9694pt x 308.352pt>
 File: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.
 png Graphic file (type png)
 <use ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.p
@@ -2804,10 +2804,10 @@ ng>
 Package pdftex.def Info: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_
 duty_cycle_von_0_5.png  used on input line 152.
 (pdftex.def)             Requested size: 313.48415pt x 169.59412pt.
- [76 <./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG> <./graphics/Verg
+ [78 <./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG> <./graphics/Verg
 leich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.png>]
 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.png, 
-id=1543, 569.9694pt x 304.9794pt>
+id=1558, 569.9694pt x 304.9794pt>
 File: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.
 png Graphic file (type png)
 <use ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.p
@@ -2816,7 +2816,7 @@ Package pdftex.def Info: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_
 duty_cycle_von_0_8.png  used on input line 161.
 (pdftex.def)             Requested size: 313.48415pt x 167.73918pt.
 <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.PNG, i
-d=1544, 414.42328pt x 229.60782pt>
+d=1559, 414.42328pt x 229.60782pt>
 File: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.P
 NG Graphic file (type png)
 <use ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.PN
@@ -2825,7 +2825,7 @@ Package pdftex.def Info: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_vo
 n_0_5_mit_legende.PNG  used on input line 168.
 (pdftex.def)             Requested size: 227.9335pt x 126.28468pt.
 <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PNG, i
-d=1545, 497.98547pt x 276.6586pt>
+d=1560, 497.98547pt x 276.6586pt>
 File: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.P
 NG Graphic file (type png)
 <use ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PN
@@ -2834,49 +2834,49 @@ Package pdftex.def Info: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_vo
 n_0_8_mit_legende.PNG  used on input line 175.
 (pdftex.def)             Requested size: 273.89285pt x 152.16269pt.
 
-[77 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.p
+[79 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.p
 ng> <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.PN
 G> <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PNG
 >]
-<./graphics/Messung_Widerstand_Phas_60grad.png, id=1553, 865.43324pt x 479.6921
+<./graphics/Messung_Widerstand_Phas_60grad.png, id=1568, 865.43324pt x 479.6921
 2pt>
 File: ./graphics/Messung_Widerstand_Phas_60grad.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Phas_60grad.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_60grad.png  used on
  input line 186.
 (pdftex.def)             Requested size: 455.24408pt x 252.33253pt.
- [78 <./graphics/Messung_Widerstand_Phas_60grad.png>]
-<./graphics/Messung_Widerstand_Phas_90grad.png, id=1560, 866.63776pt x 473.6696
+ [80 <./graphics/Messung_Widerstand_Phas_60grad.png>]
+<./graphics/Messung_Widerstand_Phas_90grad.png, id=1576, 866.63776pt x 473.6696
 3pt>
 File: ./graphics/Messung_Widerstand_Phas_90grad.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Phas_90grad.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_90grad.png  used on
  input line 193.
 (pdftex.def)             Requested size: 455.24408pt x 248.8176pt.
- [79 <./graphics/Messung_Widerstand_Phas_90grad.png>]
-<./graphics/Messung_ASM_Schwing_0_5.png, id=1567, 2274.24657pt x 1217.2978pt>
+ [81 <./graphics/Messung_Widerstand_Phas_90grad.png>]
+<./graphics/Messung_ASM_Schwing_0_5.png, id=1583, 2274.24657pt x 1217.2978pt>
 File: ./graphics/Messung_ASM_Schwing_0_5.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Schwing_0_5.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Schwing_0_5.png  used on input 
 line 202.
 (pdftex.def)             Requested size: 455.24408pt x 243.65956pt.
- [80 <./graphics/Messung_ASM_Schwing_0_5.png>]
-<./graphics/Messung_ASM_Schwing_0_8.png, id=1575, 2270.4825pt x 1224.07312pt>
+ [82 <./graphics/Messung_ASM_Schwing_0_5.png>]
+<./graphics/Messung_ASM_Schwing_0_8.png, id=1590, 2270.4825pt x 1224.07312pt>
 File: ./graphics/Messung_ASM_Schwing_0_8.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Schwing_0_8.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Schwing_0_8.png  used on input 
 line 210.
 (pdftex.def)             Requested size: 455.24408pt x 245.42665pt.
 
-[81 <./graphics/Messung_ASM_Schwing_0_8.png>]
-<./graphics/Messung_ASM_Sanft.png, id=1582, 2279.51625pt x 1221.06187pt>
+[83 <./graphics/Messung_ASM_Schwing_0_8.png>]
+<./graphics/Messung_ASM_Sanft.png, id=1597, 2279.51625pt x 1221.06187pt>
 File: ./graphics/Messung_ASM_Sanft.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Sanft.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Sanft.png  used on input line 2
 18.
 (pdftex.def)             Requested size: 455.24408pt x 243.85403pt.
- [82 <./graphics/Messung_ASM_Sanft.png>]
-<./graphics/Vergleich_Mess_Sim_Schwing_50.png, id=1589, 1271.5003pt x 700.86844
+ [84 <./graphics/Messung_ASM_Sanft.png>]
+<./graphics/Vergleich_Mess_Sim_Schwing_50.png, id=1604, 1271.5003pt x 700.86844
 pt>
 File: ./graphics/Vergleich_Mess_Sim_Schwing_50.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_Schwing_50.png>
@@ -2888,7 +2888,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 247--247
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit Schwin-
  []
 
-<./graphics/Vergleich_Mess_Sim_Schwing_80.png, id=1590, 1189.44376pt x 740.0147
+<./graphics/Vergleich_Mess_Sim_Schwing_80.png, id=1605, 1189.44376pt x 740.0147
 pt>
 File: ./graphics/Vergleich_Mess_Sim_Schwing_80.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_Schwing_80.png>
@@ -2900,16 +2900,16 @@ Underfull \hbox (badness 1436) in paragraph at lines 274--274
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit Schwin-
  []
 
-[83 <./graphics/Vergleich_Mess_Sim_Schwing_50.png> <./graphics/Vergleich_Mess_S
+[85 <./graphics/Vergleich_Mess_Sim_Schwing_50.png> <./graphics/Vergleich_Mess_S
 im_Schwing_80.png>]
-<./graphics/Vergleich_Mess_Sim_hart_AufAb.png, id=1597, 1209.01688pt x 859.7118
+<./graphics/Vergleich_Mess_Sim_hart_AufAb.png, id=1612, 1209.01688pt x 859.7118
 7pt>
 File: ./graphics/Vergleich_Mess_Sim_hart_AufAb.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_hart_AufAb.png>
 Package pdftex.def Info: ./graphics/Vergleich_Mess_Sim_hart_AufAb.png  used on 
 input line 285.
 (pdftex.def)             Requested size: 268.59233pt x 190.98685pt.
-<./graphics/Vergleich_Mess_Sim_sanft_AufAb.png, id=1598, 1272.25313pt x 950.049
+<./graphics/Vergleich_Mess_Sim_sanft_AufAb.png, id=1613, 1272.25313pt x 950.049
 38pt>
 File: ./graphics/Vergleich_Mess_Sim_sanft_AufAb.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_sanft_AufAb.png>
@@ -2921,9 +2921,9 @@ Underfull \hbox (badness 1348) in paragraph at lines 338--338
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit sanf-tem
  []
 
-[84 <./graphics/Vergleich_Mess_Sim_hart_AufAb.png> <./graphics/Vergleich_Mess_S
+[86 <./graphics/Vergleich_Mess_Sim_hart_AufAb.png> <./graphics/Vergleich_Mess_S
 im_sanft_AufAb.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png, id=1607, 2281.02188pt x 1
+<./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png, id=1622, 2281.02188pt x 1
 192.455pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png Graphic file (type pn
 g)
@@ -2931,8 +2931,8 @@ g)
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png  u
 sed on input line 368.
 (pdftex.def)             Requested size: 455.24408pt x 237.97731pt.
- [85 <./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png, id=1614, 2263.70718pt x 1
+ [87 <./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png, id=1629, 2263.70718pt x 1
 190.19656pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png Graphic file (type pn
 g)
@@ -2940,8 +2940,8 @@ g)
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png  u
 sed on input line 377.
 (pdftex.def)             Requested size: 455.24408pt x 239.34268pt.
-[86 <./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png, id=1622, 2260.69594pt 
+[88 <./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png, id=1636, 2260.69594pt 
 x 1186.4325pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png Graphic file (type
  png)
@@ -2949,8 +2949,8 @@ File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png Graphic file (type
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png
   used on input line 386.
 (pdftex.def)             Requested size: 455.24408pt x 238.9116pt.
- [87 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png, id=1629, 2264.46pt x 1
+ [89 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png, id=1643, 2264.46pt x 1
 192.455pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png Graphic file (type
  png)
@@ -2958,24 +2958,24 @@ File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png Graphic file (type
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png
   used on input line 395.
 (pdftex.def)             Requested size: 455.24408pt x 239.72406pt.
- [88 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Phas60.png, id=1636, 2265.96562pt x 1184
+ [90 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Phas60.png, id=1650, 2265.96562pt x 1184
 .17406pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Phas60.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_Phas60.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Phas60.png  used
  on input line 406.
 (pdftex.def)             Requested size: 455.24408pt x 237.89668pt.
- [89 <./graphics/Mess_1Thyristor_Widerstand_Phas60.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Phas90.png, id=1643, 2282.5275pt x 1209.
+ [91 <./graphics/Mess_1Thyristor_Widerstand_Phas60.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Phas90.png, id=1657, 2282.5275pt x 1209.
 01688pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Phas90.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_Phas90.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Phas90.png  used
  on input line 415.
 (pdftex.def)             Requested size: 455.24408pt x 241.13496pt.
- [90 <./graphics/Mess_1Thyristor_Widerstand_Phas90.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png, id=1650, 2254.67343pt x 
+ [92 <./graphics/Mess_1Thyristor_Widerstand_Phas90.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png, id=1665, 2254.67343pt x 
 1193.96063pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png Graphic file (type p
 ng)
@@ -2983,8 +2983,8 @@ ng)
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png  
 used on input line 424.
 (pdftex.def)             Requested size: 455.24408pt x 241.06519pt.
- [91 <./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png, id=1657, 2257.6847pt x 1
+ [93 <./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png, id=1672, 2257.6847pt x 1
 171.37625pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png Graphic file (type p
 ng)
@@ -2992,16 +2992,16 @@ ng)
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png  
 used on input line 433.
 (pdftex.def)             Requested size: 455.24408pt x 236.1836pt.
- [92 <./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png>]
-<./graphics/Mess_1Thyristor_Widerstand_AufAb.png, id=1665, 2254.67343pt x 1175.
+ [94 <./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png>]
+<./graphics/Mess_1Thyristor_Widerstand_AufAb.png, id=1679, 2254.67343pt x 1175.
 14032pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_AufAb.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_AufAb.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_AufAb.png  used 
 on input line 442.
 (pdftex.def)             Requested size: 455.24408pt x 237.26529pt.
- [93 <./graphics/Mess_1Thyristor_Widerstand_AufAb.png>]
-<./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png, id=1672, 2259.1903pt 
+ [95 <./graphics/Mess_1Thyristor_Widerstand_AufAb.png>]
+<./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png, id=1686, 2259.1903pt 
 x 1184.92688pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png Graphic file (typ
 e png)
@@ -3010,7 +3010,7 @@ Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.pn
 g  used on input line 451.
 (pdftex.def)             Requested size: 455.24408pt x 238.77115pt.
 )
-[94 <./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png>]
+[96 <./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 
@@ -3023,7 +3023,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `Disposition_fachbericht.out' has not changed
 .
-(rerunfilecheck)             Checksum: D042433410CC09FD2EB859AEF08F441F;6011.
+(rerunfilecheck)             Checksum: DE6CC20694FD01F0E3321B49D4B958F7;6011.
 
 
 LaTeX Warning: There were undefined references.
@@ -3034,10 +3034,10 @@ Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 52399 strings out of 492969
- 1092574 string characters out of 3135840
- 1781132 words of memory out of 3000000
- 54806 multiletter control sequences out of 15000+200000
+ 52384 strings out of 492969
+ 1092235 string characters out of 3135840
+ 1779042 words of memory out of 3000000
+ 54791 multiletter control sequences out of 15000+200000
  633707 words of font info for 86 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,21n,128p,2016b,3307s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3061,9 +3061,9 @@ m/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/courier/ucrr8a.pfb>
-Output written on Disposition_fachbericht.pdf (99 pages, 31219262 bytes).
+Output written on Disposition_fachbericht.pdf (101 pages, 31224602 bytes).
 PDF statistics:
- 1859 PDF objects out of 2073 (max. 8388607)
+ 1873 PDF objects out of 2073 (max. 8388607)
  523 named destinations out of 1000 (max. 500000)
  1249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
