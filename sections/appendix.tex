@@ -1,11 +1,15 @@
 \begin{appendix} %Anhang
 \section{Matlab-Berechnungen}
-\subsection{Leistungsfaktor}
-\lstinputlisting{appendix/code/Leistungsfaktor.m}
+%\subsection{Leistungsfaktor}\label{sec:Leistungsfaktor_Berechnung}
+%\lstinputlisting{appendix/code/Leistungsfaktor.m}
+\subsection{Leistungsfaktor der Messungen}\label{sec:Leistungsfaktor_Messungen}
+\lstinputlisting{appendix/code/Leistungsfaktor_Messungen.m}
+
+
 
 \newpage
 \subsection{Arduino-Programm}
-\begin{lstlisting}[language=Arduino]
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
 const int Switch_PO = 3;         // Output fuer den EIN- und AUSSCHALTER
 const int Controll_P = 2;   // Output fuer Steuersignal
 const int Switch_PI = 5; // Input fuer den EIN- und AUSSCHALTER
@@ -360,7 +364,7 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 %\end{table}
 
 \newpage
-\subsection{Spar-Variante für den Widerstand mit zwei Thyristoren}
+\subsection{Sparvariante für den Widerstand mit zwei Thyristoren} \label{sec:Sparvariante_2Thyristoren}
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht!]
@@ -398,7 +402,7 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 
 
 \newpage
-\subsection{Spar-Variante für den Widerstand mit einem Thyristor}
+\subsection{Sparvariante für den Widerstand mit einem Thyristor} \label{sec:Sparvariante_1Thyristor}
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht]

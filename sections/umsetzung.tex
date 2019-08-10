@@ -449,7 +449,7 @@ Beim sanftem Auf- und Abfahren treten Harmonische Oberwellen auf, diese sind im 
 
 \newpage
 \subsection{Sparvariante}
-Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angsteuert. Das Spannungs- und Stromsignal soll dabei mehr oder weniger die gleiche Form haben. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, werden die in der Messauswertung nicht aufgeführt, sondern befinden sich im Anhang im Kapitel \todo{Kapitel einfügen Spar 1 Thyri}. Für die Sparvarianten wurden nur neuen Verfahren, sanftes und hartes Auf- und Absteuern, aufgeführt, da hauptsächlich diese von Interesse sind. Die Messungen der sonstigen Ansteuerungsarten befinden sich für den Widerstand im Anhang im Kapitel \todo{Kapitel 2Thyr Spar einfügen}.
+Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angsteuert. Das Spannungs- und Stromsignal soll dabei mehr oder weniger die gleiche Form haben. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, werden die in der Messauswertung nicht aufgeführt, sondern befinden sich im Anhang im Kapitel \ref{sec:Sparvariante_1Thyristor} Für die Sparvarianten wurden nur neuen Verfahren, sanftes und hartes Auf- und Absteuern, aufgeführt, da hauptsächlich diese von Interesse sind. Die Messungen der sonstigen Ansteuerungsarten befinden sich für den Widerstand im Anhang im Kapitel \ref{sec:Sparvariante_2Thyristoren}.
 
 
 \subsubsection{Sparvariante mit einem Widerstand und zwei Thyristoren}
@@ -582,7 +582,7 @@ Im Vergleich zu den Werten des FFTs bei dem sanften Auf- und Absteuern mit drei 
 
 \newpage
 \subsection{Leistungsfaktor}
-Um den Leistungsfaktor für den Phasenanschnitt zu berechenen können die Formeln im Kapitel \ref{sec:Leistungsfaktor} benutzt werden. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder das Hochfahren mit dem Phasennaschnitt nicht. Mit folgender Formel kann der Leistungsfaktor berechnet werden:
+Um den Leistungsfaktor für den Phasenanschnitt zu berechenen können die Formeln im Kapitel \ref{sec:Leistungsfaktor} benutzt werden. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder mit dem Hochfahren durch den Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
 \begin{equation}
 \lambda = \frac{P}{S}
 \end{equation}
@@ -594,7 +594,7 @@ Für die Scheinleistung müssen die Effektivwerte der Spannung und des Stromes m
 \begin{equation}
 S = U_{rms} \cdot I_{rms}
 \end{equation}
-Wobei der Effektivwert des Stromes und der Spannung über das gesamte Signal gerechnet wurde. Der Matlabcode dieser Berechnungen befindet sich im Anhang im Kapitel\todo{Kapitel Matlab code}.
+Wobei der Effektivwert des Stromes und der Spannung über die gesamte Zeitdauer berechnet wurde. Der Matlabcode dieser Berechnungen befindet sich im Anhang im Kapitel \ref{sec:Leistungsfaktor_Messungen}. 
 
 Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leistungsfaktor_ASM_Widerstand} aufgeführt.
 
@@ -615,15 +615,12 @@ Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leist
 	\end{tabular}
 \caption{Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
 \end{table}
-Bei der ASM im Leerlauf gilt, je nàher der Leistungsfaktor an 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, brauchen die nur die Um-magnetisierungs- und Eisenverluste Wirkleistung. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
+Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
 
-Bei Ohmschen Lasten gilt jedoch, je höher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Da aber die Normen aber den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden verbietet, machen nur das sanfte und das harte Auf- und Abfahren Sinn zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+Bei Ohmschen Lasten gilt jedoch, je näher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch verbietet die Normen den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden. Deshalb macht es Sinn nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
  
 
 
-
-\newpage
-\subsection{Fazit}
 
 %\subsubsection{Schwingungspaketsteuerung mit Last in Stern}
 %Für die Messung mit der Schwingungspaketsteuerung wurde eine Einschaltzeit von 0.5 Sekunden und eine Ausschaltzeit von 0.2 Sekunden gewählt. Die Ausschaltzeit darf nicht kürzer sein, da die Spannungsverstärkerschaltung und den Thyristorsteller eine Zeitverzögerung darstellen und so die Spannung nicht sofort ein- oder ausgeschaltet wird. Wenn die Ausschaltzeit kürzer ist, geht die Spannung zwischen den Paketen nicht auf \SI{0}{V}. 
