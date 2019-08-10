@@ -1,15 +1,15 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'Disposition_fachbericht.blg'
-[35] biber-MSWIN64:313> INFO - === 
-[72] Biber.pm:371> INFO - Reading 'Disposition_fachbericht.bcf'
-[188] Biber.pm:857> INFO - Found 8 citekeys in bib section 0
-[206] Biber.pm:3976> INFO - Processing section 0
-[222] Biber.pm:4136> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
-[235] bibtex.pm:1500> INFO - LaTeX decoding ...
-[285] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
-[339] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[339] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[339] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[339] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[351] bbl.pm:617> INFO - Writing 'Disposition_fachbericht.bbl' with encoding 'UTF-8'
-[354] bbl.pm:720> INFO - Output to Disposition_fachbericht.bbl
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'Disposition_fachbericht.blg'
+[56] biber-MSWIN64:315> INFO - === 
+[99] Biber.pm:371> INFO - Reading 'Disposition_fachbericht.bcf'
+[249] Biber.pm:889> INFO - Found 7 citekeys in bib section 0
+[269] Biber.pm:4093> INFO - Processing section 0
+[288] Biber.pm:4254> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
+[293] bibtex.pm:1523> INFO - LaTeX decoding ...
+[341] bibtex.pm:1340> INFO - Found BibTeX data source 'literature/bibliography.bib'
+[394] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[394] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[394] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[394] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[409] bbl.pm:636> INFO - Writing 'Disposition_fachbericht.bbl' with encoding 'UTF-8'
+[413] bbl.pm:739> INFO - Output to Disposition_fachbericht.bbl

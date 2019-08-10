@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,21 +21,21 @@
   \datalist[entry]{none/global//global/global}
     \entry{Oberwellen}{online}{}
       \name{author}{1}{}{%
-        {{hash=83e26ac3cb3e32f2a4e58bbdb80a32be}{%
-           family={{Alexander Kamenka}},
+        {{hash=4f7db5d3790b272e1191c554620c7f76}{%
+           family={{A. Kamenka}},
            familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{fullhash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{bibnamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authorbibnamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authornamehash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
-      \strng{authorfullhash}{83e26ac3cb3e32f2a4e58bbdb80a32be}
+      \strng{namehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{fullhash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{bibnamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authorbibnamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authornamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authorfullhash}{4f7db5d3790b272e1191c554620c7f76}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{OBERSCHWINGUNGEN KAPITEL 1: OBERSCHWINGUNGEN – DIE GRUNDLAGEN}
+      \field{title}{OBERSCHWINGUNGEN KAPITEL 1}
       \field{urlday}{4}
       \field{urlmonth}{5}
       \field{urlyear}{2019}
@@ -50,16 +50,16 @@
     \endentry
     \entry{analysi3}{misc}{}
       \name{author}{1}{}{%
-        {{hash=5483dcc941162a21bb7dfca283a777f7}{%
-           family={{C Beneduce}},
+        {{hash=8b510c6c0b00e48a229952040e5dfcfa}{%
+           family={{C. Beneduce}},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{5483dcc941162a21bb7dfca283a777f7}
-      \strng{fullhash}{5483dcc941162a21bb7dfca283a777f7}
-      \strng{bibnamehash}{5483dcc941162a21bb7dfca283a777f7}
-      \strng{authorbibnamehash}{5483dcc941162a21bb7dfca283a777f7}
-      \strng{authornamehash}{5483dcc941162a21bb7dfca283a777f7}
-      \strng{authorfullhash}{5483dcc941162a21bb7dfca283a777f7}
+      \strng{namehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{fullhash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{bibnamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authorbibnamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authornamehash}{8b510c6c0b00e48a229952040e5dfcfa}
+      \strng{authorfullhash}{8b510c6c0b00e48a229952040e5dfcfa}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -72,16 +72,16 @@
     \endentry
     \entry{Phasenanschnittsteuerung}{online}{}
       \name{author}{1}{}{%
-        {{hash=286e8455941062a3bd5c2bc7971313ca}{%
-           family={{Dr. Rüdiger Paschotta}},
-           familyi={D\bibinitperiod}}}%
+        {{hash=16c73bbf7b29976362dc8353715114e6}{%
+           family={{R. Paschotta}},
+           familyi={R\bibinitperiod}}}%
       }
-      \strng{namehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{fullhash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{bibnamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authorbibnamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authornamehash}{286e8455941062a3bd5c2bc7971313ca}
-      \strng{authorfullhash}{286e8455941062a3bd5c2bc7971313ca}
+      \strng{namehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{fullhash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{bibnamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authorbibnamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authornamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authorfullhash}{16c73bbf7b29976362dc8353715114e6}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -101,16 +101,16 @@
     \endentry
     \entry{Schwingungspaketsteuerung}{online}{}
       \name{author}{1}{}{%
-        {{hash=7dfde45855e3c1036f708808aeeda1d9}{%
-           family={{WolfgangS}},
+        {{hash=54df3baef130c81e6ae8432a2567320a}{%
+           family={{W. S.}},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{fullhash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{bibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authorbibnamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authornamehash}{7dfde45855e3c1036f708808aeeda1d9}
-      \strng{authorfullhash}{7dfde45855e3c1036f708808aeeda1d9}
+      \strng{namehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{fullhash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{bibnamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authorbibnamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authornamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authorfullhash}{54df3baef130c81e6ae8432a2567320a}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -154,16 +154,16 @@
     \endentry
     \entry{Quelle_Marco}{online}{}
       \name{author}{1}{}{%
-        {{hash=7490a1bbc748b97f5946e2bf0f60430e}{%
-           family={{Manish Bhardwaj}},
+        {{hash=690569b64d45f1f9b5892f20514172e8}{%
+           family={{M. Bhardwaj}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7490a1bbc748b97f5946e2bf0f60430e}
-      \strng{fullhash}{7490a1bbc748b97f5946e2bf0f60430e}
-      \strng{bibnamehash}{7490a1bbc748b97f5946e2bf0f60430e}
-      \strng{authorbibnamehash}{7490a1bbc748b97f5946e2bf0f60430e}
-      \strng{authornamehash}{7490a1bbc748b97f5946e2bf0f60430e}
-      \strng{authorfullhash}{7490a1bbc748b97f5946e2bf0f60430e}
+      \strng{namehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{fullhash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{bibnamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authorbibnamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authornamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authorfullhash}{690569b64d45f1f9b5892f20514172e8}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -183,51 +183,27 @@
     \endentry
     \entry{PI_Regler}{misc}{}
       \name{author}{1}{}{%
-        {{hash=7453610b845265213504904647662f4c}{%
-           family={Wassmer},
-           familyi={W\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
+        {{hash=e8edc579d04645f4065fc372597d22c5}{%
+           family={M.\bibnamedelimi Wassmer},
+           familyi={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={"\bibnamedelima Windisch:\bibnamedelimb Hochschule\bibnamedelimb für\bibnamedelimb Technik\bibnamedelimb der\bibnamedelimb Fachhochschule\bibnamedelimb Nordwestschweiz\bibnamedelima (FHNW)},
+           giveni={"\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim (\bibinitperiod},
+           suffix={"Funktionsmuster\bibnamedelimb eines\bibnamedelimb Dreiphasigen\bibnamedelimb PFC\bibnamedelima Gleichrichters},
+           suffixi={"\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{7453610b845265213504904647662f4c}
-      \strng{fullhash}{7453610b845265213504904647662f4c}
-      \strng{bibnamehash}{7453610b845265213504904647662f4c}
-      \strng{authorbibnamehash}{7453610b845265213504904647662f4c}
-      \strng{authornamehash}{7453610b845265213504904647662f4c}
-      \strng{authorfullhash}{7453610b845265213504904647662f4c}
+      \strng{namehash}{e8edc579d04645f4065fc372597d22c5}
+      \strng{fullhash}{e8edc579d04645f4065fc372597d22c5}
+      \strng{bibnamehash}{e8edc579d04645f4065fc372597d22c5}
+      \strng{authorbibnamehash}{e8edc579d04645f4065fc372597d22c5}
+      \strng{authornamehash}{e8edc579d04645f4065fc372597d22c5}
+      \strng{authorfullhash}{e8edc579d04645f4065fc372597d22c5}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
       \field{day}{5}
       \field{month}{1}
-      \field{title}{Funktionsmuster eines Dreiphasigen PFC Gleichrichters}
       \field{year}{2018}
       \field{dateera}{ce}
-    \endentry
-    \entry{Regelungstechnik_Buch}{book}{}
-      \name{author}{1}{}{%
-        {{hash=4229949aab4df09799280ea8dfc50322}{%
-           family={Lunze},
-           familyi={L\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Vieweg}%
-      }
-      \strng{namehash}{4229949aab4df09799280ea8dfc50322}
-      \strng{fullhash}{4229949aab4df09799280ea8dfc50322}
-      \strng{bibnamehash}{4229949aab4df09799280ea8dfc50322}
-      \strng{authorbibnamehash}{4229949aab4df09799280ea8dfc50322}
-      \strng{authornamehash}{4229949aab4df09799280ea8dfc50322}
-      \strng{authorfullhash}{4229949aab4df09799280ea8dfc50322}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Regelungstechnik 1}
-      \field{year}{2014}
     \endentry
   \enddatalist
 \endrefsection
