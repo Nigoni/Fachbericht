@@ -4,6 +4,15 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \contentsline {table}{\numberline {2.1}{\ignorespaces Oberschwingungsfrequenzen\relax }}{3}{table.caption.3}
+<<<<<<< HEAD
+\contentsline {table}{\numberline {2.2}{\ignorespaces Grenzwerte f\IeC {\"u}r Ger\IeC {\"a}te der Klasse A\relax }}{14}{table.caption.11}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Beobachtungsdauer f\IeC {\"u}r die Pr\IeC {\"u}fung\relax }}{14}{table.caption.12}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Kompatibilit\IeC {\"a}tsstufen f\IeC {\"u}r einzelne Oberschwingungsspannungen im Niederspannungsnetz\relax }}{17}{table.caption.15}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Erforderlichen Werte der Subharmonischen Spannungen\relax }}{18}{table.caption.16}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree \relax }}{52}{table.caption.82}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree \relax }}{53}{table.caption.85}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree \relax }}{54}{table.caption.88}
+=======
 \contentsline {table}{\numberline {2.2}{\ignorespaces Grenzwerte f\IeC {\"u}r Ger\IeC {\"a}te der Klasse A\relax }}{15}{table.caption.16}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Beobachtungsdauer f\IeC {\"u}r die Pr\IeC {\"u}fung\relax }}{15}{table.caption.17}
 \contentsline {table}{\numberline {2.4}{\ignorespaces Kompatibilit\IeC {\"a}tsstufen f\IeC {\"u}r einzelne Oberschwingungsspannungen im Niederspannungsnetz\relax }}{18}{table.caption.20}
@@ -18,6 +27,7 @@
 \contentsline {table}{\numberline {5.8}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Schwingungspaket 50\%\relax }}{48}{table.caption.86}
 \contentsline {table}{\numberline {5.9}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Schwingungspaket 80\%\relax }}{49}{table.caption.89}
 \contentsline {table}{\numberline {5.10}{\ignorespaces Amplitudenwerte bei der Frequenzen bei hartes Auf- und Absteuern\relax }}{50}{table.caption.92}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {5.11}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Sanftes Auf- und Absteuern\relax }}{51}{table.caption.96}
 \contentsline {table}{\numberline {5.12}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 60\textdegree \relax }}{53}{table.caption.101}
 \contentsline {table}{\numberline {5.13}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 90\textdegree \relax }}{55}{table.caption.104}
@@ -26,3 +36,14 @@
 \contentsline {table}{\numberline {5.16}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern\relax }}{60}{table.caption.117}
 \contentsline {table}{\numberline {5.17}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern\relax }}{62}{table.caption.120}
 \contentsline {table}{\numberline {5.18}{\ignorespaces Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand\relax }}{63}{table.caption.122}
+=======
+\contentsline {table}{\numberline {5.11}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Sanftes Auf- und Absteuern\relax }}{51}{table.caption.97}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 60\textdegree \relax }}{52}{table.caption.103}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 90\textdegree \relax }}{53}{table.caption.106}
+\contentsline {table}{\numberline {5.14}{\ignorespaces Amplitudenwerte bei der Frequenzen bei sanftem Aus- und Absteuern\relax }}{54}{table.caption.110}
+\contentsline {table}{\numberline {5.15}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Aus- und Absteuern\relax }}{56}{table.caption.115}
+\contentsline {table}{\numberline {5.16}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern\relax }}{58}{table.caption.119}
+\contentsline {table}{\numberline {5.17}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern\relax }}{60}{table.caption.122}
+\contentsline {table}{\numberline {5.18}{\ignorespaces Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand\relax }}{61}{table.caption.124}
+>>>>>>> master
+>>>>>>> master
