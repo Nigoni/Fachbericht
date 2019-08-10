@@ -39,6 +39,7 @@
 \contentsline {figure}{\numberline {3.25}{\ignorespaces FTT des dreiphasigen Hoch- und Runterfahren mit einem Duty Cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz - 300 Hz\relax }}{34}{figure.caption.40}
 \contentsline {figure}{\numberline {3.26}{\ignorespaces Zweiphasige Ansteuerung mit Last in Stern (a) Eingangssignal (b) Ausschnitt\relax }}{36}{figure.caption.43}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces FTT der zweiphasigen Ansteuerung (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz -280 Hz\relax }}{36}{figure.caption.44}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{38}{figure.caption.47}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Werte der Bauteile\relax }}{38}{figure.caption.47}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Schema Laboraufbau mit einem dreiphasigen Widerstand in Stern\relax }}{39}{figure.caption.48}
@@ -98,3 +99,64 @@
 \contentsline {figure}{\numberline {B.36}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{95}{figure.caption.164}
 \contentsline {figure}{\numberline {B.37}{\ignorespaces Messung mit Auf- und Absteuern und einem Thyristoren\relax }}{96}{figure.caption.166}
 \contentsline {figure}{\numberline {B.38}{\ignorespaces Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren\relax }}{97}{figure.caption.168}
+=======
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{38}{figure.caption.48}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Werte der Bauteile\relax }}{38}{figure.caption.48}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schema Laboraufbau mit einem dreiphasigen Widerstand in Stern geschaltet\relax }}{38}{figure.caption.49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Blockdiagramm eines digitalen PI-Reglers\relax }}{41}{figure.caption.52}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{42}{figure.caption.55}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Phasenanschnitt 90\textdegree \relax }}{43}{figure.caption.58}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Messung mit Auf- und Absteuern\relax }}{44}{figure.caption.61}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{45}{figure.caption.64}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{46}{figure.caption.67}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{47}{figure.caption.70}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{48}{figure.caption.73}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Messung mit Schwingungspaket 50\%\relax }}{49}{figure.caption.76}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Messung mit Schwingungspaket 80\%\relax }}{51}{figure.caption.79}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Messung mit Auf- und Absteuern\relax }}{52}{figure.caption.82}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{53}{figure.caption.86}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{54}{figure.caption.93}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{55}{figure.caption.96}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{56}{figure.caption.99}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Messung mit dem harten Auf- und Absteuern und zwei Thyristoren\relax }}{57}{figure.caption.105}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{59}{figure.caption.109}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{61}{figure.caption.112}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{75}{figure.caption.120}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{75}{figure.caption.121}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Phasenanschnittsteuerung mit 120\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{75}{figure.caption.122}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Schwingungspaket mit Duty Cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{76}{figure.caption.123}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Schwingungspaket mit Duty Cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{76}{figure.caption.124}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Phasenanschnitt mit 30\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{76}{figure.caption.125}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Phasenanschnitt mit 45\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{77}{figure.caption.126}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Phasenanschnitt mit 120\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{77}{figure.caption.127}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Schwingungspaketsteuerung mit Duty Cycle 0.2 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{77}{figure.caption.128}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Schwingungspaketsteuerung mit Duty Cycle 0.4 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{78}{figure.caption.129}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Vergleich der Amplitudenspektrum mit Phasenwinkel von 90\textdegree \relax }}{78}{figure.caption.130}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.5\relax }}{78}{figure.caption.131}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{79}{figure.caption.132}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{79}{figure.caption.133}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{79}{figure.caption.134}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{80}{figure.caption.136}
+\contentsline {figure}{\numberline {B.17}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{81}{figure.caption.138}
+\contentsline {figure}{\numberline {B.18}{\ignorespaces Messung mit Schwingungspaket 50\%\relax }}{82}{figure.caption.140}
+\contentsline {figure}{\numberline {B.19}{\ignorespaces Messung mit Schwingungspaket 80\%\relax }}{83}{figure.caption.142}
+\contentsline {figure}{\numberline {B.20}{\ignorespaces Messung mit Sanft Anlasser\relax }}{84}{figure.caption.144}
+\contentsline {figure}{\numberline {B.21}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%\relax }}{85}{figure.caption.146}
+\contentsline {figure}{\numberline {B.22}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%\relax }}{85}{figure.caption.146}
+\contentsline {figure}{\numberline {B.23}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%\relax }}{85}{figure.caption.148}
+\contentsline {figure}{\numberline {B.24}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%\relax }}{85}{figure.caption.148}
+\contentsline {figure}{\numberline {B.25}{\ignorespaces Vergleich Messung und Simulation mit hartem Auf- und Absteuern\relax }}{86}{figure.caption.150}
+\contentsline {figure}{\numberline {B.26}{\ignorespaces Vergleich Messung und Simulation mit hartem Auf- und Absteuern\relax }}{86}{figure.caption.150}
+\contentsline {figure}{\numberline {B.27}{\ignorespaces Vergleich Messung und Simulation mit sanftem Auf- und Absteuern\relax }}{86}{figure.caption.152}
+\contentsline {figure}{\numberline {B.28}{\ignorespaces Vergleich Messung und Simulation mit sanftem Auf- und Absteuern\relax }}{86}{figure.caption.152}
+\contentsline {figure}{\numberline {B.29}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \hspace {0.02cm} und zwei Thyristoren\relax }}{87}{figure.caption.154}
+\contentsline {figure}{\numberline {B.30}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \hspace {0.02cm} und zwei Thyristoren\relax }}{88}{figure.caption.156}
+\contentsline {figure}{\numberline {B.31}{\ignorespaces Messung mit Schwingungspaket 50\% und zwei Thyristoren\relax }}{89}{figure.caption.158}
+\contentsline {figure}{\numberline {B.32}{\ignorespaces Messung mit Schwingungspaket 50\% und zwei Thyristoren\relax }}{90}{figure.caption.160}
+\contentsline {figure}{\numberline {B.33}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \hspace {0.02cm} und einem Thyristoren\relax }}{91}{figure.caption.162}
+\contentsline {figure}{\numberline {B.34}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \hspace {0.02cm} und einem Thyristoren\relax }}{92}{figure.caption.164}
+\contentsline {figure}{\numberline {B.35}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{93}{figure.caption.166}
+\contentsline {figure}{\numberline {B.36}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{94}{figure.caption.168}
+\contentsline {figure}{\numberline {B.37}{\ignorespaces Messung mit Auf- und Absteuern und einem Thyristoren\relax }}{95}{figure.caption.170}
+\contentsline {figure}{\numberline {B.38}{\ignorespaces Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren\relax }}{96}{figure.caption.172}
+>>>>>>> master
