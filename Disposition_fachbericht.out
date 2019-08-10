@@ -9,92 +9,67 @@
 \BOOKMARK [2][-]{subsection.2.7}{2.7 Phasenanschnittsteuerung}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.8}{2.8 Schwingungspaketsteuerung}{section.2}% 10
 \BOOKMARK [2][-]{subsection.2.9}{2.9 Leistungsfaktor}{section.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.9.1}{2.9.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.9}% 12
-\BOOKMARK [3][-]{subsubsection.2.9.2}{2.9.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.9}% 13
-\BOOKMARK [2][-]{subsection.2.10}{2.10 Anforderung an die Netzqualit\344t}{section.2}% 14
-<<<<<<< HEAD
-\BOOKMARK [2][-]{subsection.2.11}{2.11 Normen}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.11.1}{2.11.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{subsection.2.11}% 16
-\BOOKMARK [3][-]{subsubsection.2.11.2}{2.11.2 EN 61000-3-3}{subsection.2.11}% 17
-\BOOKMARK [3][-]{subsubsection.2.11.3}{2.11.3 EN 61000-2-2}{subsection.2.11}% 18
-\BOOKMARK [1][-]{section.3}{3 Simulationen}{}% 19
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 20
-\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Einphasige Phasenanschnittsteuerung mit 60\260und 90\260}{subsection.3.1}% 21
-\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{subsection.3.1}% 22
-\BOOKMARK [3][-]{subsubsection.3.1.3}{3.1.3 Sanftes- und Hartes Hoch- und Runterfahren}{subsection.3.1}% 23
-=======
-\BOOKMARK [2][-]{subsection.2.11}{2.11 Gegenmassnahmen bei Oberschwingungen}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.10}{2.10 Leistungsfaktor}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.10.1}{2.10.1 Leistungsfaktor Phasenanschnittsteuerung}{subsection.2.10}% 13
+\BOOKMARK [3][-]{subsubsection.2.10.2}{2.10.2 Leistungsfaktor Schwingungspaketsteuerung}{subsection.2.10}% 14
+\BOOKMARK [2][-]{subsection.2.11}{2.11 Anforderung an die Netzqualit\344t}{section.2}% 15
 \BOOKMARK [2][-]{subsection.2.12}{2.12 Normen}{section.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.12.1}{2.12.1 EN 61000-3-2}{subsection.2.12}% 17
-\BOOKMARK [3][-]{subsubsection.2.12.2}{2.12.2 EN 61000-3-3}{subsection.2.12}% 18
-\BOOKMARK [3][-]{subsubsection.2.12.3}{2.12.3 EN 61000-2-2}{subsection.2.12}% 19
-\BOOKMARK [1][-]{section.3}{3 Simulationen}{}% 20
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 21
-\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Einphasige Phasenanschnittsteuerung mit 60\260und 90\260}{subsection.3.1}% 22
-\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Einphasige Schwingungspaketsteuerung mit duty cycle von 0.5 und 0.8}{subsection.3.1}% 23
->>>>>>> master
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Einphasige Phasenanschnittsteuerung mit 60 \260 \040und 90 \260}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.3}{3.2.3 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 27
-\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260 }{subsection.3.2}% 28
-<<<<<<< HEAD
-\BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}{subsection.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Einphasige Kombination des Sanft-Anlassen}{subsection.3.2}% 30
-\BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Dreiphasige Kombination des Sanft-Anlassen}{subsection.3.2}% 31
-=======
-\BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{subsection.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Einphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 30
-\BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Dreiphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 31
->>>>>>> master
-\BOOKMARK [3][-]{subsubsection.3.2.8}{3.2.8 Alternative Ansteuerungen}{subsection.3.2}% 32
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 33
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Laboraufbau}{section.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.1.1}{4.1.1 Filter}{subsection.4.1}% 35
-\BOOKMARK [3][-]{subsubsection.4.1.2}{4.1.2 Verst\344rkerschaltung}{subsection.4.1}% 36
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 37
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 38
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 39
-\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Phasenanschnittssteuerung mit Arduino}{subsection.4.4}% 40
-\BOOKMARK [3][-]{subsubsection.4.4.2}{4.4.2 Schwingungspaketsteuerung mit Arduino}{subsection.4.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.4.3}{4.4.3 Hartes Auf- und Absteuern}{subsection.4.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanftes Auf- und Absteuern}{subsection.4.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 44
-\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 45
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 46
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 47
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 48
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 50
-\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 51
-<<<<<<< HEAD
-\BOOKMARK [1][-]{section.6}{6 Validierung}{}% 52
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 53
-\BOOKMARK [1][-]{section*.98}{Literatur}{}% 54
-\BOOKMARK [1][-]{section*.99}{Abbildungsverzeichnis}{}% 55
-\BOOKMARK [1][-]{section*.100}{Tabellenverzeichnis}{}% 56
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 57
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 58
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 59
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 60
-=======
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 52
-\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 53
-\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Sparvariante mit der ASM und zwei Thyristoren}{subsection.5.3}% 54
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 55
-\BOOKMARK [2][-]{subsection.5.5}{5.5 Fazit}{section.5}% 56
-\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 57
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 58
-\BOOKMARK [1][-]{section*.126}{Literatur}{}% 59
-\BOOKMARK [1][-]{section*.127}{Abbildungsverzeichnis}{}% 60
-\BOOKMARK [1][-]{section*.128}{Tabellenverzeichnis}{}% 61
-\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 62
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 63
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 64
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 65
-\BOOKMARK [2][-]{subsection.B.1}{B.1 Messungen Spannungen Widerstand}{appendix.B}% 66
-\BOOKMARK [2][-]{subsection.B.2}{B.2 Messungen Spannungen ASM}{appendix.B}% 67
-\BOOKMARK [2][-]{subsection.B.3}{B.3 Vergleich Messungen Widerstand mit Simulation}{appendix.B}% 68
-\BOOKMARK [2][-]{subsection.B.4}{B.4 Spar-Variante f\374r den Widerstand mit zwei Thyristoren}{appendix.B}% 69
-\BOOKMARK [2][-]{subsection.B.5}{B.5 Spar-Variante f\374r den Widerstand mit einem Thyristor}{appendix.B}% 70
->>>>>>> master
+\BOOKMARK [3][-]{subsubsection.2.12.1}{2.12.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{subsection.2.12}% 17
+\BOOKMARK [3][-]{subsubsection.2.12.2}{2.12.2 EN 61000-3-2}{subsection.2.12}% 18
+\BOOKMARK [3][-]{subsubsection.2.12.3}{2.12.3 EN 61000-3-3}{subsection.2.12}% 19
+\BOOKMARK [3][-]{subsubsection.2.12.4}{2.12.4 EN 61000-2-2}{subsection.2.12}% 20
+\BOOKMARK [1][-]{section.3}{3 Simulationen}{}% 21
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Simulation mit Matlab}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Einphasige Phasenanschnittsteuerung mit 60\260und 90\260}{subsection.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{subsection.3.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.3}{3.1.3 Sanftes- und Hartes Hoch- und Runterfahren}{subsection.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Simulation mit Plecs}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Einphasige Phasenanschnittsteuerung mit 60 \260 \040und 90 \260}{subsection.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{subsection.3.2}% 28
+\BOOKMARK [3][-]{subsubsection.3.2.3}{3.2.3 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 29
+\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260 }{subsection.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}{subsection.3.2}% 31
+\BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{subsection.3.2}% 32
+\BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Einphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.8}{3.2.8 Dreiphasige Kombination des Sanft-Anlassen}{subsection.3.2}% 34
+\BOOKMARK [3][-]{subsubsection.3.2.9}{3.2.9 Dreiphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 35
+\BOOKMARK [3][-]{subsubsection.3.2.10}{3.2.10 Alternative Ansteuerungen}{subsection.3.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.2.11}{3.2.11 Alternative Ansteuerungen}{subsection.3.2}% 37
+\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 38
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Laboraufbau}{section.4}% 39
+\BOOKMARK [3][-]{subsubsection.4.1.1}{4.1.1 Filter}{subsection.4.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.1.2}{4.1.2 Verst\344rkerschaltung}{subsection.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 43
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 44
+\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Phasenanschnittssteuerung mit Arduino}{subsection.4.4}% 45
+\BOOKMARK [3][-]{subsubsection.4.4.2}{4.4.2 Schwingungspaketsteuerung mit Arduino}{subsection.4.4}% 46
+\BOOKMARK [3][-]{subsubsection.4.4.3}{4.4.3 Hartes Auf- und Absteuern}{subsection.4.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanftes Auf- und Absteuern}{subsection.4.4}% 48
+\BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 49
+\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 50
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 51
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 52
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 53
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 54
+\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 55
+\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 57
+\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 58
+\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Sparvariante mit der ASM und zwei Thyristoren}{subsection.5.3}% 59
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 60
+\BOOKMARK [2][-]{subsection.5.5}{5.5 Fazit}{section.5}% 61
+\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 62
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 63
+\BOOKMARK [1][-]{section*.117}{Literatur}{}% 64
+\BOOKMARK [1][-]{section*.118}{Abbildungsverzeichnis}{}% 65
+\BOOKMARK [1][-]{section*.119}{Tabellenverzeichnis}{}% 66
+\BOOKMARK [1][-]{appendix.A}{A Matlab-Berechnungen}{}% 67
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Leistungsfaktor}{appendix.A}% 68
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 69
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 70
+\BOOKMARK [2][-]{subsection.B.1}{B.1 Messungen Spannungen Widerstand}{appendix.B}% 71
+\BOOKMARK [2][-]{subsection.B.2}{B.2 Messungen Spannungen ASM}{appendix.B}% 72
+\BOOKMARK [2][-]{subsection.B.3}{B.3 Vergleich Messungen Widerstand mit Simulation}{appendix.B}% 73
+\BOOKMARK [2][-]{subsection.B.4}{B.4 Spar-Variante f\374r den Widerstand mit zwei Thyristoren}{appendix.B}% 74
+\BOOKMARK [2][-]{subsection.B.5}{B.5 Spar-Variante f\374r den Widerstand mit einem Thyristor}{appendix.B}% 75
