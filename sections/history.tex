@@ -1,9 +1,17 @@
 \section{Messaufbau}
-In diesem Kapitel befinden sich alle Komponenten, welche für den Messaufbau benötigt wurden. Dazu gehören die Spannungsverstärkerschaltung, welcher auf dem Arduino montiert ist, das eingebaute Filter sowie der Arduino, der für die verschiedenen Funktionen programmiert wurde.
+In diesem Kapitel befinden sich alle Komponenten, welche für den Messaufbau benötigt wurden. Dazu gehören die Spannungsverstärkerschaltung, welcher sich auf dem Arduino befindet, das eingebaute Filter sowie der Arduino selber, der für die verschiedenen Funktionen programmiert wurde.
 \subsection{Laboraufbau}
 Um die Simulationen in die Praxis umzusetzen, wurde ein \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.03cm} von der Firma Chemtronic, vom Betreuer zur Verfügung gestellt. Wie der Name des Produktes schon sagt, arbeitet dieser Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden, dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Jedoch kann für die Ansteuerung auch ein Spannungssignal von \SI{0}{V} - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz}. 
 Damit der Operationsverstärker der Verstärkungsschaltung die Spannung richtig verstärkt, muss zwingend ein reines DC-Signal am Eingang des Operationsverstärkers anliegen. Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Grenzfrequenz von \SI{1}{Hz}.  
 
+<<<<<<< HEAD
+=======
+Für die Ansteuerung des Thyristorstellers sollte zwingend eine reine DC-Spannung geliefert werden, da
+
+Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Cut-off Frequenz von \SI{1}{Hz}.  
+\todo{nicht klar}
+\todo{Foto des Laboraufbau}
+>>>>>>> nando_Fachbericht
 
 \subsubsection{Filter}
 Es wurde folgende Grundformel verwendet um die passiven Elemente des Tiefpassfilters zu berechnen.
