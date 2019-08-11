@@ -1,52 +1,207 @@
 \begin{appendix} %Anhang
-\section{Matlab-Berechnungen}
-\subsection{Leistungsfaktor}
+\section{Code}
+\subsection{Matlab Berechnungen}
+\subsection*{Leistungsfaktor}\label{sec:Leistungsfaktor_Berechnung}
 \lstinputlisting{appendix/code/Leistungsfaktor.m}
+
+\subsection*{Phasenanschnitt}\label{sec:Phasenanschnitt_Berechnung}
+\lstinputlisting{appendix/code/FTT_Phasenanschnitt_final.m}
+
+\subsection*{Schwingungspaket}\label{sec:Schwingungspaket_Berechnung}
+\lstinputlisting{appendix/code/Schwingungspaketsteuerung_final.m}
+
+\subsection*{Fourieranalyse von Hand}\label{sec:Fourieranalyse_Berechnung}
+\lstinputlisting{appendix/code/Fourieranalyse_phasenanschnitt_final.m}
+
+\subsection*{Trapez Funktion}\label{sec:Trapez_Berechnung}
+\lstinputlisting{appendix/code/Trapez_funktion_final.m}
+
+\subsection*{Leistungsfaktor der Messungen}\label{sec:Leistungsfaktor_Messungen}
+\lstinputlisting{appendix/code/Leistungsfaktor_Messungen.m}
+
+\subsection*{Spannungssignale mit FFT}\label{sec:Spannungen_Messungen}
+\lstinputlisting{appendix/code/Berechnung_FFT_Widerstand.m}
+
+\subsection*{Stromsignale mit FFT}\label{sec:Stroeme_Messungen}
+\lstinputlisting{appendix/code/Berechnung_FFT_Stroeme_Widerstand.m}
+
 
 \newpage
 \subsection{Arduino-Programm}
-\begin{lstlisting}[language=Arduino]
-const int Switch_PO = 3;         // Output fuer den EIN- und AUSSCHALTER
-const int Controll_P = 2;   // Output fuer Steuersignal
-const int Switch_PI = 5; // Input fuer den EIN- und AUSSCHALTER
-int buttonState = 0;                 // Zustand Schalter auf 0
-int anzahl_Schwinwungspakete = 5;        // Anzahl Schwingungspakete
+
+\subsection*{Phasenanschnittsteuerung}
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
+const int Switch_PO = 3;	// Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2;	// Output fuer Steuersignal
+const int Switch_PI = 5;	// Input fuer den EIN- & AUSSCHALTER
+int buttonState = 0;	// Zustand Schalter auf 0
+
 
 void setup() {
-pinMode (Switch_PO, OUTPUT);        // Schalter auf Output
-pinMode (Controll_P, OUTPUT);              // PWM auf Output
-pinMode (Switch_PI, INPUT_PULLUP);      // Schalter Eingang
+pinMode (Switch_PO, OUTPUT);	// Schalter auf Output
+pinMode (Controll_P, OUTPUT);	// PWM auf Output
+pinMode (Switch_PI, INPUT_PULLUP);	// Schalter Eingang
 }
 
 void loop() {
-buttonState =! digitalRead(Switch_PI);      // Da Pullup wird das Signal negiert
-if(buttonState == HIGH){          // if-Schleife falls Zustand Schalter auf EIN
-for(int z=0; z<10; z++){             // for-Schleife fuer Schwingungspaketsteuerung
-if(z<anzahl_Schwinwungspakete){                 // Anzahl Schwingungen EIN
-for(int i=0; i<255; i++){                     // Hochfahren mit PWM
-analogWrite(Controll_P, i);  // Die Variable wird auf den Steuersignalausgang geschrieben
-delay(5);// Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter hochfaehrt       
+analogWrite(Controll_P, 127); //Zuendwinkel ausgeben
 }
-delay(200);     // Warten waehrend volle Leistung
-for(int i=255; i>0; i--){                     // Runterfahren mit PWM
-analogWrite(Controll_P, i);                 // Die Variable wird auf den Steuersignalausgang geschrieben
-delay(5); // Kurze Zeitverzoegerung da sonst das PWM zu schnell fuer ein Multimeter runterfaehrt
-}
-delay(100);   // Warten waehrend keiner Leistung
-}else{
-digitalWrite(Controll_P, LOW); // Ausschalten fuer Schwingungspakete keine Leistung
-delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingeschaltet werden soll
-			}
-}
-}
-}
-
-
-
-
-
 \end{lstlisting}
 
+
+\subsection*{Schwingungspaketsteuerung}
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
+const int Switch_PO = 3;	// Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2;	// Output fuer Steuersignal
+const int Switch_PI = 5;	// Input fuer den EIN- & AUSSCHALTER
+int buttonState = 0;	// Zustand Schalter auf 0
+int anzahl_Schwinwungspakete = 5;	// Anzahl Schwingungspakete
+
+void setup() {
+pinMode (Switch_PO, OUTPUT);	// Schalter auf Output
+pinMode (Controll_P, OUTPUT);	// PWM auf Output
+pinMode (Switch_PI, INPUT_PULLUP);	// Schalter Eingang
+}
+
+void loop() {
+buttonState =! digitalRead(Switch_PI);	// Da Pullup wird das Signal negiert
+if(buttonState == HIGH){	// if-Schleife falls Zustand Schalter auf EIN
+digitalWrite(Controll_P, HIGH);	// Auf High schalten um Zuendwinkel von 0 Grad zu erreichen (Volle Leistung)
+delay(800);	// Warten waehrend volle Leistung
+digitalWrite(Controll_P, LOW);	// Auf Low schalten um Zuendwinkel von 180 Grad zu erreichen (Keine Leistung)
+delay(200);// Genug Zeit zwischen den Paketen weil sonst wird eine Spannung von 0V nicht erreicht     
+}
+}
+\end{lstlisting}
+
+\subsection*{Hartes Auf- und Absteuern}
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
+const int Switch_PO = 3;	// Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2;	// Output fuer Steuersignal
+const int Switch_PI = 5;	// Input fuer den EIN- & AUSSCHALTER
+
+int buttonState = 0;	// Zustand Schalter auf 0
+int anzahl_Schwingwungspakete = 5;	// Anzahl Schwingungspakete
+int Geschwindigkeit = 5; //Steilheit des Hoch- und Runterfahrens
+
+void setup() {
+pinMode (Switch_PO, OUTPUT);	// Schalter auf Output
+pinMode (Controll_P, OUTPUT);	// PWM auf Output
+pinMode (Switch_PI, INPUT_PULLUP);	// Schalter Eingang
+}
+
+void loop() {
+for (int z = 0; z < 10; z++) {	// for-Schleife fuer Schwingungspaketsteuerung
+	if (z < anzahl_Schwingwungspakete) {	// Anzahl Schwingungen EIN
+		for (int i = 0; i < 255; i++) {	// Hochfahren mit PWM
+			analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+			delay(Geschwindigkeit);	// Geschwindigkeit des Hochfahrens
+		}
+		delay(200);	// Warten waehrend volle Leistung
+		for (int i = 255; i > 0; i--) {	// Runterfahren mit PWM
+			analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+			delay(Geschwindigkeit);	// Geschwindigkeit des Runterfahrens
+		}
+		delay(100);	// Warten waehrend keiner Leistung
+		} else {
+			digitalWrite(Controll_P, LOW);	// Ausschalten fuer Schwingungspakete keine Leistung
+			delay((10 - anzahl_Schwingwungspakete) * 480);	// Verzoegerung bis wieder eingeschaltet werden soll
+		}
+	}
+}
+\end{lstlisting}
+
+\newpage
+\subsection*{Sanftes Auf- und Absteuern}
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
+const int Switch_PO = 3;	// Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2;	// Output fuer Steuersignal
+const int Switch_PI = 5;	// Input fuer den EIN- & AUSSCHALTER
+int buttonState = 0;	// Zustand Schalter auf 0
+int Geschwindigkeit = 75;	//Steilheit des Hoch- und Runterfahrens
+
+void setup() {
+	pinMode (Switch_PO, OUTPUT);  // Schalter auf Output
+	pinMode (Controll_P, OUTPUT); // PWM auf Output
+	pinMode (Switch_PI, INPUT_PULLUP);  // Schalter Eingang
+}
+
+void loop() {
+	buttonState = ! digitalRead(Switch_PI);
+	for (int i = 0; i < 255; i++) {	// Hochfahren mit PWM
+		analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+		delay(Geschwindigkeit);	// Geschwindigkeit des Hochfahrens
+	}
+	delay(500);	// Warten waehrend volle Leistung
+	for (int i = 255; i > 0; i--) {	// Runterfahren mit PWM
+		analogWrite(Controll_P, i);	// Die Variable wird auf den Steuersignalausgang geschrieben
+		delay(Geschwindigkeit);	// Geschwindigkeit des Runterfahrens
+	}
+	delay(2000);	// Warten waehrend keiner Leistung
+}
+\end{lstlisting}
+
+\subsection*{Drehzahlregelung}
+\begin{lstlisting}[basicstyle=\tiny,style=myArduino]
+#define PIN_MESS A6 // Setzen Messpin
+#define REF_VOLTAGE 5.0 // Setzen Referenzspannung
+#define PIN_STEPS 1024.0  // Setzen ADC
+const int Switch_PO = 3;  // Output fuer den EIN- & AUSSCHALTER
+const int Controll_P = 2; // Output fuer Steuersignal
+const int Switch_PI = 5;  // Input fuer den EIN- & AUSSCHALTER
+int buttonState = 0;  // Zustand Schalter auf 0
+float vout = 0.0, vin = 0.0;  // Definieren Ein- und Ausgangsspannung
+float R1 = 611000.0; // resistance R1 (= 611 KOhm)
+float R2 =  56000.0; // resistance R2 (= 56 KOhm)
+float rawValue = 0; // Definieren ADC Wert
+float Vsoll = 40; //Sollspannung vorgeben
+float Vaus = Vsoll / 60 * 255; // Sollspannung umrechnen
+float Vdiff = 0.0;  // Definieren Differenzspannung
+float Vdiff_255 = Vdiff / 60 * 255; // Differenzspannung umrechnen
+float Vdiff_1 = 0.0;  // Definieren Differenzspannung von letztem Durchgang
+float Vaus_1 = 0.0; // Definieren Ausgangsspannung von letztem Durchgang
+float Ti = 0.0003453873519; // Zeit PI-Regler
+float  Kp = 0.1;  // Proportinal Faktor PI-Regler
+float  Ki = 0.01; // Integral Faktor PI-Rgler
+float  B_0 = Kp + Ki * Ti / 2; // Definieren B0
+float  B_1 =  -Kp + Ki * Ti / 2;  // Definieren B1
+float Vausgabe = Vausdifferenz / 60 * 255; // Definieren endgueltige Ausgangsspannung
+float Vausdifferenz = 0; //  Definieren endgueltige Differenzspannung
+float Vauslog = Vaus / 255 * 60; // Umrechnen Ausgangsspannung
+
+void setup() {
+	pinMode (Switch_PO, OUTPUT);  // Schalter auf Output
+	pinMode (Controll_P, OUTPUT); // PWM auf Output
+	pinMode (Switch_PI, INPUT_PULLUP);  // Schalter Eingang
+	Serial.begin(9600); // Schreibrate
+	pinMode(PIN_MESS, INPUT); // Messung auf Input
+}
+
+void loop() {
+	buttonState =! digitalRead(Switch_PI);  // Da Pullup wird das Signal negiert
+	if(buttonState == HIGH){  // if-Schleife falls Zustand Schalter auf EIN
+		rawValue = analogRead(PIN_MESS); // Auslesen ADC
+		vout = (rawValue * REF_VOLTAGE) / PIN_STEPS;  // Umrechnen auf 5V
+		vin = vout / (R2 / (R1 + R2));  // Umrechnen auf 60V
+		
+		Vdiff = Vsoll - vin;  // Berechnen Differenzspannung
+		Vaus = Vaus_1 + B_0 * Vdiff + B_1 * Vdiff_1;  // Berechnen Ausgangsspannung mit Filter
+		Vausdifferenz = Vauslog + Vdiff_255;  // Berechnen Differenzspannung und Ausgangsspannung
+		
+		if (Vausgabe > 255) { // Begrenzung auf 255 Werte
+			Vausgabe = 255;
+		}
+		if (Vausgabe < 0) { // Begrenzung negativer Bereich
+			Vausgabe = 0;
+		}
+		
+		analogWrite(Controll_P, Vausgabe);  // Ausgeben von Ausgangsspannung
+		Vdiff_1 = Vdiff;  // Differenzspannung in Differenzspannung von letztem Durchgang laden
+		Vaus_1 = Vausgabe;  // Ausgangsspannung in Ausgangsspannung von letztem Durchgang laden
+	}
+	delay(10);  // Abtastrate definieren
+}
+\end{lstlisting}
 \newpage
 \section{Vergleich der Resultate von Plecs und Matlab}\label{sec:Vergleich_der_Resultate}
 
@@ -278,7 +433,7 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 
 
 \newpage
-\subsubsection*{Hartes Auf- und Absteuern}
+\subsubsection*{Hartes Auf- und Absteuern}\label{sec:Vergleich_Mess_Sim_hart_AufAb}
 \begin{figure}[ht!]
 	\begin{minipage}[b]{0.59\textwidth}
 		\centering
@@ -291,18 +446,14 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 		\begin{tabular}{|l|l|l|}
 			\hline
 			\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes-\\ sung\\ {[}V{]}\end{tabular} \\ \hline
-			49.8               & 66.953             & 18.522          \\ \hline
-			49.85              & 24.870             & 26.576          \\ \hline
-			49.9               & 174.378            & 29.507          \\ \hline
-			49.95              & 314.127            & 91.266          \\ \hline
-			50                 & 370.962            & 172.241         \\ \hline
-			50.05              & 314.051            & 116.719         \\ \hline
-			50.1               & 174.266            & 28.629          \\ \hline
-			50.15              & 24.871             & 30.076          \\ \hline
-			50.2               & 66.83              & 18.72           \\ \hline
-			249.6              & 0.188              & 8.158           \\ \hline
-			250                & 0.4967             & 1.158           \\ \hline
-			250.4              & 0.445              & 7.466           \\ \hline
+			49.65                                                           & 22.167                                                           & 67.126                                                        \\ \hline
+			49.7                                                            & 24.504                                                           & 40.959                                                        \\ \hline
+			50                                                              & 145.271                                                          & 11.676                                                        \\ \hline
+			50.05                                                           & 55.113                                                           & 58.202                                                        \\ \hline
+			50.35                                                           & 22.2                                                             & 70.065                                                        \\ \hline
+			249                                                             & 0.473                                                            & 9.03                                                          \\ \hline
+			250                                                             & 1.157                                                            & 0.108                                                         \\ \hline
+			251                                                             & 0.29021                                                          & 1.53                                                          \\ \hline
 		\end{tabular}
 		\caption{Vergleich Messung und Simulation mit hartem Auf- und Absteuern}\label{tab:Vergleich_hart_AufAb}
 	\end{minipage}
@@ -339,6 +490,8 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 	\end{minipage}
 \end{figure}
 
+	
+
 
 %\begin{table}[]
 %	\begin{tabular}{|l|l|l|}
@@ -360,7 +513,7 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 %\end{table}
 
 \newpage
-\subsection{Spar-Variante für den Widerstand mit zwei Thyristoren}
+\subsection{Sparvariante für den Widerstand mit zwei Thyristoren} \label{sec:Sparvariante_2Thyristoren}
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht!]
@@ -398,7 +551,7 @@ delay((10-anzahl_Schwinwungspakete)*480);     // Verzoegerung bis wieder eingesc
 
 
 \newpage
-\subsection{Spar-Variante für den Widerstand mit einem Thyristor}
+\subsection{Sparvariante für den Widerstand mit einem Thyristor} \label{sec:Sparvariante_1Thyristor}
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht]

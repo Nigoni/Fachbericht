@@ -141,7 +141,7 @@ In Abbildung \ref{fig:Mess_Phas_60grad_stroeme} erkennt man ein einen Phasenansc
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad_stroeme}	
+	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad_stroeme.png}	
 	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60grad_stroeme}
 \end{figure}
 
@@ -171,7 +171,11 @@ In Abbildung \ref{fig:Mess_Phas_90grad_stroeme} erkennt man ein einen Phasenansc
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad_stroeme}	
 	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Phas_90grad_stroeme}
 \end{figure}
+<<<<<<< HEAD
 
+=======
+Anders als bei der Ansteuerung mit dem Phasenanschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der fünften Harmonischen grössere harmonische Oberwellen auf. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_90grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine schwingt. Dies wurde auch beim Testen festgestellt, dass die ASM nicht konstant auf der gleichen Drehzahl drehte.  
+>>>>>>> master
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -200,7 +204,7 @@ In Abbildung \ref{fig:Mess_Sanft_langsam_stroeme} erkennt man ein einen sanftes 
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam_stroeme}	
+	\includegraphics[width=\textwidth]{Messung_ASM_Sanft_langsam_stroeme.png}	
 	\caption{Messung mit sanftem Auf- und Absteuern}\label{fig:Mess_Sanft_langsam_stroeme}
 \end{figure}
 
@@ -264,7 +268,15 @@ In Abbildung \ref{fig:Mess_Schwing_50} ist die Schwingungspaketsteuerung mit ein
 \end{table}
 Wie bei den Simulationen im Kapitel \ref{sec:Schwingungspaketsteuerung_Simulation} gezeigt, treten bei der Schwingungspaketsteuerung keine harmonische Oberwelle auf. Bei dem FFT erkennt man, dass das Trägerband bei der Grundschwingung relativ breit ist. In der Tabelle \ref{tab:Mess_Spannung_Schwing_50} sind die Werte der Amplituden der sub- und zwischenharmonischen aufgelistet. Dabei wurden die Werte aus dem FFT ausgelesen, welche sich in der nähe der Grundschwingung befinden und eine hohe Amplitude besitzen. 
 Es ist in der Tabelle ersichtlich, dass die beiden Frequenzen neben der Grundschwingung mehr als 60\% so hoch sind wie die Amplitude bei \SI{50}{Hz}. Selbst \SI{4}{Hz} neben der Grundschwingung beträgt das Verhältnis immer noch fast 10\%.\\
+<<<<<<< HEAD
 Die Werte der Tabelle \ref{tab:Mess_Spannung_Schwing_50} wurden mit denen des FFTs der Plecs-Simulation verglichen. Die Grafik und die Werten der Messung und der Simulation befinden sich im Anhang \ref{sec:Vergleich_Mess_Sim_Schwing_50} . Dabei wurde festgestellt, dass die Kurvenformen der FFT zwar ähnlich aussehen. Bei näherem betrachten gibt jedoch grosse Unterschiede zwischen den Peak-Werten. In der Simulation schnellen, nach dem Einschalten eines Paketes, die Spannungen sogleich an den Spitzenwert, wobei dies beim Laboraufbau nicht der Fall ist. Deshalb ist bei der Simulation, bei gleicher Zeitdauer, die Spannung länger auf dem Spitzenwert als beim Laboraufbau. Des weiteren sind alle Bauteile in der Simulation ideal wobei dies in der Praxis nicht der Fall ist. Deshalb ist auch eine minimale Abweichung des Spitzenwertes ersichtlich. Die Standartabweichung aller aufgeführten Frequenzen beträgt: 7.912. Dieser Wert wurde mit Excel berechnet wobei die Frequenzen als Stichprobe angenommen wurden. 
+=======
+
+Die Werte der Tabelle \ref{tab:Mess_Spannung_Schwing_50} wurden mit denen des FFTs der Plecs-Simulation verglichen. Die Grafik und die Werten der Messung und der Simulation befinden sich im Kapitel \ref{sec:Vergleich_Mess_Sim_Schwing_50} im Anhang. Dabei wurde festgestellt, dass die Kurvenformen zwar ähnlich aussehen jedoch bei näherem betrachten gibt es grosse Unterschiede. In der Simulation schnellen nach dem Einschalten eines Paketes die Spannungen sogleich an ihren Spitzenwert wobei dies beim Laboraufbau nicht der Fall ist. 
+Zwar wurde die Zeitdauer beim Laboraufbau gleich gewählt wie bei der Simulation aber war die Spannung nicht gleich lang auf dem Spitzenwert. Zusätzlich ist der Spitzenwert nicht bei beiden gleich hoch. Des weiteren sind alle Bauteile in der Simulation ideal wobei dies in der Praxis nicht der Fall ist. Die Standartabweichung aller aufgeführten Frequenzen beträgt: 7.912. Dieser Wert wurde mit Excel berechnet wobei die Frequenzen als Stichprobe angenommen wurden.
+
+
+>>>>>>> master
 
 \newpage
 \subsubsection*{Schwingungspaket mit Duty Cycle von 0.8}
@@ -293,9 +305,17 @@ In der Abbildung \ref{fig:Mess_Schwing_80} ist die Schwingungspaketsteuerung mit
 \caption{Amplitudenwerte bei der Frequenzen bei Schwingungspaket 80\%}\label{tab:Mess_Spannung_Schwing_80}
 \end{table}
 
+<<<<<<< HEAD
 Anders als beim Schwingungspaket mit einem Duty Cycle von 0.5, ist bei 0.8 der Peak bei der Grundfrequenz von von \SI{50}{Hz} deutlich höher. Dies macht Sinn, da die Spannung einen länger Zeit auf dem Maximum ist.
 In der Tabelle \ref{tab:Mess_Spannung_Schwing_80} befinden sich die Werte der Amplituden und deren Verhältnis zur Grundschwingung.\\
 Wie bei der Schwingungspaketsteuerung mit Duty Cycle von 0.5 wurden auch die Resultate der Messung mit 0.8, mit der Simulation verglichen. Die Tabelle mit den Werten und der grafische Vergleich befindet sich im Anhang \ref{sec:Vergleich_Mess_Sim_Schwing_80}. Auch hier gab es Abweichungen bei den verschiedenen Frequenzen zwischen der Simulation und der Messung. Diese waren jedoch bedeutend kleiner als bei der anderen Schwingungspaketsteuerung. Es resultierte eine Standartabweichung von 2.481. Als Grund für die niedrigere Abweichung ist, dass das Schwingungspakete eine längere Zeit auf dem Maximum bleibt und so eine grössere Ähnlichkeit mit der Simulation hat.
+=======
+Wenn die Amplituden der Frequenzen \SI{49}{Hz} und \SI{51}{Hz} im Verhältnis zur Grundschwingung viel kleiner sind als bei der Schwingungspaketsteuerung mit 50\%. Die anderen aufgelisteten Frequenzen sind im Verhältnis zur Grundschwingung etwa gleich gross.\\
+
+
+Wie bei der Schwingungspaketsteuerung mit 50\% wurden bei 80\% die Resultate der Messung und der Simulation verglichen. Die Tabelle mit den Werten und der grafische Vergleich befindet sich im Anhang in Kapitel \ref{sec:Vergleich_Mess_Sim_Schwing_80}. Auch hier gab es Abweichungen bei den verschiedenen Frequenzen zwischen der Simulation und der Messung. Diese waren aber bedeutend kleiner als bei dem Schwingungspaket mit 50\%, welches in einer kleineren Standartabweichung von 2.481 resultierte. Als Grund für die Abweichung gelten die gleichen Gründe, wie bei der Schwingungspaketsteuerung mit 50\%.
+
+>>>>>>> master
 
 
 \newpage
@@ -326,8 +346,15 @@ Die Abbildung \ref{fig:Mess_Sanft} zeigt, ein hartes Auf- und Absteuern der Span
 \caption{Amplitudenwerte bei der Frequenzen bei hartes Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_hart}
 \end{table}
 
+<<<<<<< HEAD
 Für die Tabelle \ref{tab:Mess_Spannung_AufAb_hart} wurden die höchsten Amplitudenwerte bei der Grundschwingung von \SI{50}{Hz} und bei der fünften Harmonische \SI{250}{Hz} aufgelistet.
 Wie auch bei den Schwingungspaketsteuerungen, tritt bei dem harten Auf- und Absteuern die harmonischen Oberschwingung praktisch nicht mehr auf. Die fünfte Harmonische besitzt nur ein Verhältnis von unter einem Prozent der Grundschwingung. Jedoch sind auch hier sub- und zwischenharmonische Oberwellen ersichtlich. Diese betragen bei den Frequenzen \SI{49.65}{Hz} und \SI{50.35}{Hz} über 60\%. Der Vergleich mit der Simulation ist im Anhang ersichtlich.
+=======
+Wie auch bei den Schwingungspaketsteuerungen, tritt bei dem harten Auf- und Absteuern die harmonischen Oberschwingung praktisch nicht mehr auf. Die fünfte Harmonische besitzt nur ein Verhältnis von unter einem Prozent der Grundschwingung. Jedoch treten auch hier wieder die Sub- und Zwischenharmonische auf. Diese betragen bei den Frequenzen \SI{49.65}{Hz} und \SI{50.35}{Hz} über 60\%. \\
+Für den Vergleich mit dem harten Auf- und Absteuern gibt es einen Unterschied der Signaldauern. Während bei der Simulation das Auffahren \SI{0.2}{s} dauert, benötigt der Laboraufbau mit fast \SI{0.8}{s} deutlich länger. Ein weiterer Unterschied waren bei der Messung die Zeitdauer zwischen den verschiedenen Auf- und Absteuerpakete. Da der Thyristorsteller nicht sehr schnell reagiert, dauerte es fast \SI{1}{s} bis das nächste Paket anfangen konnte. Diese Gründe erklären den grossen Unterschied zwischem dem FFT der Simulation und der Messung. Berechnet wurde eine Standartabweichung von 19.812 wobei dieser Wert 2.5 mal gross ist, wie die Standartabweichung des Schwingungspaketes mit 50\%.
+
+
+>>>>>>> master
 
 \newpage
 \subsubsection*{Sanftes Auf- und Absteuern}
@@ -362,11 +389,20 @@ Die Abbildung \ref{fig:Mess_Sanft_langsam} zeigt, ein sanftes Auf- und Absteuern
 \caption{Amplitudenwerte bei der Frequenzen bei Sanftes Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_sanft}
 \end{table}
 
+<<<<<<< HEAD
 Im visuellen Vergleich mit dem hartem Auf- und Abfahren zeigt das FFT, dass die Frequenzbänder dünner geworden sind und der Peak bei \SI{50}{Hz} grösser. In der Tabelle \ref{tab:Mess_Spannung_AufAb_sanft} sind die höchsten Amplitudenwerte der Frequenzen, die sich in der nähe der Grundschwingung von \SI{50}{Hz} und der fünften Harmonischen \SI{250}{Hz} aufhalten, aufgelistet. \todo{Einfügen Vergleich Simulation}
 
 Der Vergleich mit der Tabelle \ref{tab:Mess_Spannung_AufAb_hart} zeigt, dass die höchsten Peaks nicht mehr bei den sub- und zwischenharmonischen bei den Frequenzen von \SI{49.65}{Hz} und \SI{50.35}{Hz} liegen, sonder bei \SI{49.95}{Hz} und \SI{50.05}{Hz}. Das Verhältnis bei \SI{250}{Hz} zur Grundschwingung ist beim sanftem Auf- und Abfahren kleiner geworden als beim harten Auf- und Abfahren. Wie auch bei \SI{50}{Hz} sind die höchsten Amplituden näher an der harmonische Schwingung. Der Vergleich zur Simulation erkennt man im Anhang.
+=======
+Der Vergleich mit der Tabelle \ref{tab:Mess_Spannung_AufAb_hart} zeigt auf, dass die höchsten Peaks bei den Sub- und Zwischenharmonischen nicht mehr bei den Frequenzen \SI{49.65}{Hz} und \SI{50.35}{Hz} liegen, sonder näher bei der Grundschwingung liegen, bei \SI{49.95}{Hz} und \SI{50.05}{Hz}. Das Verhältnis bei \SI{250}{Hz} zur Grundschwingung ist beim sanftem Auf- und Abfahren kleiner geworden als beim harten Auf- und Abfahren. Aber wie auch bei \SI{50}{Hz} sind die höchsten Amplituden näher an der harmonische Schwingung. \\
+Der Vergleich mit der Simulation und der Messung für den sanften Auf- und Abfahren, welches sich im Kapitel \ref{sec:Vergleich_Mess_Sim_sanft_AufAb} im Anhang befindet, zeigt grosse Unterschiede bei den Amplituden auf. Ein grosser Grund dafür ist, dass bei der Simulation das Hoch- und Runterfahren eine Zeitdauer von \SI{0.3}{s} haben, wobei für die Messung diese Zeitdauer \SI{3}{s} beträgt. Zusätzlich ist bei der Simulation während \SI{6}{s} die Spannung auf dem Spitzenwert, beim Laboraufbau sind es eher \SI{7}{s}.  Berechnet wurde für die Standartabweichung ein Wert von 88.904. Diese Standartabweichung sagt aus, dass die beiden Funktionen überhaupt nicht miteinander verglichen werden können, da die Abweichung sehr gross ist.
 
-\newpage
+
+
+
+
+>>>>>>> master
+
 \subsubsection{Messungen ASM}
 
 Um zu analysieren, wie sich der Thyristorsteller bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einem Asynchronmotor wiederholt. Auch hier wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit Duty Cycle von 0.5 und 0.8 und dem harte und sanfte Auf- und Absteuern durchgeführt. Dabei wurde festgestellt, dass die Schwingungspaketsteuerungen und das harte Auf- und Absteuern sich nicht für einen Asynchronmotor eignen. Der Motor fährt zu schnell Hinauf und Hinunter und befindet sich somit nie in einem geeigneten Stationären Betrieb. 
@@ -380,8 +416,15 @@ Bei der Abbildung \ref{fig:Mess_ASM_Phas60} verwendete man einen Phasenanschnitt
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_60grad.png}	
 	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_ASM_Phas60}
 \end{figure}
+<<<<<<< HEAD
  
 
+=======
+
+Beim Ansteuern mit dem Winkel von 60\textdegree \hspace{0.02cm} wurde bemerkt, dass die Maschine bereits mit maximaler Drehzahl dreht. Es macht bei den Spannungssignalen keinen Unterschied ob die ASM mit einem Winkel von 60\textdegree \hspace{0.02cm} oder 0\textdegree \hspace{0.02cm} angesteuert wird.
+Anders als beim Phasenanschnitt mit 60\textdegree\hspace{0.02cm} bei ohmschen Lasten, treten bei ohmsch-induktiven Lasten fast keine harmonischen Oberschwingungen. Da diese Peaks nicht im FFT ersichtlich sind, wurden die Amplituden der Oberschwingungen bis zur elften Ordnung auf der Tabelle \ref{tab:Mess_Spannung_ASM_Phas60} aufgeführt. 
+\newpage
+>>>>>>> master
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -408,8 +451,14 @@ Die Abbildung \ref{fig:Mess_ASM_Phas90}
 	\includegraphics[width=\textwidth]{Messung_ASM_Phas_90grad.png}	
 	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Phas90}
 \end{figure}
+<<<<<<< HEAD
  
 
+=======
+
+Anders als beim Phasenanschnitt mit 60\textdegree, beginnt dies ASM bei einem Winkel von 90\textdegree \hspace{0.02cm} zu schwingen. Dieses Schwingen ist gut ersichtlich in der Abbildung \ref{fig:Mess_ASM_Phas90} beim Spannungsverlauf. Dieses verhält sich nicht wie bei einem Phasenanschnitt erwartet konstant. Auch existieren grosse Unterschiede beim FFT mit dem Phasenanschnitt 60\textdegree \hspace{0.02cm} auf der Abbildung \ref{fig:Mess_ASM_Phas60}. Zum einen treten bei 00\textdegree \hspace{0.02cm} Sub- und Zwischenharmonische auf, sowie harmonische Oberwellen. Die Amplituden und das Verhältnis zur Grundschwingung sind für die erste, fünfte und siebte Harmonische, sowie deren Trägerbänder in der Tabelle \ref{tab:Mess_Spannung_ASM_Phas90} aufgelistet. 
+\newpage
+>>>>>>> master
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -458,7 +507,7 @@ Die Abbildung \ref{fig:Mess_ASM_Sanft_langsam} zeigt ein sanftes Auf- und Absteu
 		250               & 1.689             & 1.64\%                         \\ \hline
 		250.05            & 2.5084            & 2.43\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei sanftem Aus- und Absteuern}\label{tab:Mess_Spannung_ASM_AufAb_sanft}
+\caption{Amplitudenwerte bei der Frequenzen bei sanftem Auf- und Absteuern}\label{tab:Mess_Spannung_ASM_AufAb_sanft}
 \end{table}
 
 
@@ -468,7 +517,7 @@ Bei diesem Steuerungsverfahren sind die harmonischen Schwingungen mit den dazu g
 
 \newpage
 \subsection{Sparvariante}
-Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angsteuert. Das Spannungs- und Stromsignal soll dabei mehr oder weniger die gleiche Form haben. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, werden die in der Messauswertung nicht aufgeführt, sondern befinden sich im Anhang im Kapitel \todo{Kapitel einfügen Spar 1 Thyri}. Für die Sparvarianten wurden nur neuen Verfahren, sanftes und hartes Auf- und Absteuern, aufgeführt, da hauptsächlich diese von Interesse sind. Die Messungen der sonstigen Ansteuerungsarten befinden sich für den Widerstand im Anhang im Kapitel \todo{Kapitel 2Thyr Spar einfügen}.
+Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angsteuert. Das Spannungs- und Stromsignal soll dabei mehr oder weniger die gleiche Form haben. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, werden die in der Messauswertung nicht aufgeführt, sondern befinden sich im Anhang im Kapitel \ref{sec:Sparvariante_1Thyristor} Für die Sparvarianten wurden nur neuen Verfahren, sanftes und hartes Auf- und Absteuern, aufgeführt, da hauptsächlich diese von Interesse sind. Die Messungen der sonstigen Ansteuerungsarten befinden sich für den Widerstand im Anhang im Kapitel \ref{sec:Sparvariante_2Thyristoren}.
 
 
 \subsubsection{Sparvariante mit einem Widerstand und zwei Thyristoren}
@@ -509,7 +558,7 @@ Visuell sieht das harte Auf- und Absteuern mit der Sparvariante fast gleich aus 
 		150               & 5.88\%                                                                              & 7.9\%                                                                               & 4.87\%                                                                              \\ \hline
 		150.35            & 7.8\%                                                                               & 2.43\%                                                                              & 7.9\%                                                                               \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Aus- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_hart}
+\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_hart}
 \end{table}
 
 Der Vergleich der verschiedenen Phasen zeigt auf, dass die Phasen unterschiedlich belastet sind. Erstmals tritt bei den Messungen die dritte Harmonische auf. Die Auswirkungen dieser Harmonische ist im Kapitel \todo{Kapitel 3te Harmonische} aufgezeigt. Es entstehen bei den Amplituden Unterschiede von fast 30\% zwischen den verschiedenen Phasen auf. 
@@ -522,8 +571,11 @@ Der Vergleich der verschiedenen Phasen zeigt auf, dass die Phasen unterschiedlic
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png}	
-	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren_langsam}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam}	
 \end{figure}
+
+Wie auch beim hartem Auf- und Absteuern, sehen die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} visuell sehr ähnlich auch das sanfte Auf- und Absteuern mit drei Thyristoren auf der Abbildung \ref{Mess_1Thyristoren_Widerstand_AufAbFahren_langsam}. Einziger Unterschied ist, das beim Hoch- und Runterfahren die drei Phasen nicht alle gleich hoch sind. Dies resultiert in einem FFT mit unterschiedlichen Amplitudenhöhen für die verschiedenen Phasen. Die Werte des FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. 
+
 \newpage
 \begin{table}[ht!]
 	\centering
@@ -548,19 +600,23 @@ Der Vergleich der verschiedenen Phasen zeigt auf, dass die Phasen unterschiedlic
 		150               & 1.4\%                                                                               & 2.55\%                                                                              & 2.66\%                                                                              \\ \hline
 		150.2             & 5.05\%                                                                              & 3.49\%                                                                              & 6.36\%                                                                              \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
+\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
 \end{table}
+
+
+Bei dem Peak der Grundschwingung gibt es eine Abweichung von fast 10\% zwischen den drei Phasen. Dies ist auch bei den anderen Frequenzen der Fall, im Verhältnis zur Grundschwngung der jeweiligen Phase. Einzig bei der dritten Harmonischen ist die Abweichung relativ wenig mit 1.22\%. 
+
 \newpage
-
-
 \subsubsection{Sparvariante mit der ASM und zwei Thyristoren}
 Bei der Ansteuerung der ASM eignet sich das harte Auf- und Absteuern nicht, deshalb wird nur das sanfte Auf- und Absteuern aufgezeigt.
 \subsubsection*{Sanftes Auf- und Absteuern}
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Mess_ASM_2Thyristoren_AufAb_langsam.png}	
-	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
 \end{figure}
+
+Anders als bei den beiden Sparvariante mit dem Widerstand, zeigen sich bei der Sparvariante mit der ASM auf der Abbildung \ref{fig:Mess_2Thyristoren_ASM_AufAbFahren_langsam} im Vergleich zum sanftem Auf- und Absteuern mit drei Thyristoren auf der Abbildung \ref{fig:Mess_ASM_Sanft_langsam} bereits visuelle Unterschiede. So sieht das Hoch- und Runterfahren bei der Sparvariante linearer aus als beim Betrieb mit drei Thyristoren. Bei der Sparvariante mit der ASM und zwei Thyristoren treten ebenfalls Unterschiede zwischen den FFTs der verschiedenen Phasen auf, diese sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgeführt. 
 
 \newpage
 \begin{table}[ht!]
@@ -586,12 +642,15 @@ Bei der Ansteuerung der ASM eignet sich das harte Auf- und Absteuern nicht, desh
 		150               & 5.24\%                                                                              & 0.67\%                                                                              & 4.44\%                                                                              \\ \hline
 		150.05            & 3.07\%                                                                              & 1.25\%                                                                              & 2.86\%                                                                              \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Aus- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
+\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
 \end{table}
+
+Im Vergleich zu den Werten des FFTs bei dem sanften Auf- und Absteuern mit drei Thyristoren in der Tabelle \ref{tab:Mess_Spannung_ASM_AufAb_sanft}, ist ersichtlich, dass die Peaks des Trägerbandes um \SI{50}{Hz} im Verhältnis zur Grundschwingung bei der Sparvariante kleiner sind, als bei der Ansteuerung mit drei Thyristoren. Ein weiterer Unterschied ist die dritte Harmonische, welche nur bei der Sparvariante vorkommt. 
+
 
 \newpage
 \subsection{Leistungsfaktor}
-Um den Leistungsfaktor für den Phasenanschnitt zu berechenen können die Formeln im Kapitel \ref{sec:Leistungsfaktor} benutzt werden. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder das Hochfahren mit dem Phasennaschnitt nicht. Mit folgender Formel kann der Leistungsfaktor berechnet werden:
+Um den Leistungsfaktor für den Phasenanschnitt berechnen zu können, wird die Formeln im Kapitel \ref{sec:Leistungsfaktor} benutzt. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder mit dem Hochfahren durch den Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
 \begin{equation}
 \lambda = \frac{P}{S}
 \end{equation}
@@ -603,7 +662,7 @@ Für die Scheinleistung müssen die Effektivwerte der Spannung und des Stromes m
 \begin{equation}
 S = U_{rms} \cdot I_{rms}
 \end{equation}
-Wobei der Effektivwert des Stromes und der Spannung über das gesamte Signal gerechnet wurde. Der Matlabcode dieser Berechnungen befindet sich im Anhang im Kapitel\todo{Kapitel Matlab code}.
+Wobei der Effektivwert des Stromes und der Spannung über die gesamte Zeitdauer berechnet wurde. Der Matlabcode dieser Berechnungen befindet sich im Anhang im Kapitel \ref{sec:Leistungsfaktor_Messungen}. 
 
 Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leistungsfaktor_ASM_Widerstand} aufgeführt.
 
@@ -624,15 +683,12 @@ Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leist
 	\end{tabular}
 \caption{Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
 \end{table}
-Bei der ASM im Leerlauf gilt, je nàher der Leistungsfaktor an 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, brauchen die nur die Um-magnetisierungs- und Eisenverluste Wirkleistung. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
+Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
 
-Bei Ohmschen Lasten gilt jedoch, je höher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Da aber die Normen aber den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden verbietet, machen nur das sanfte und das harte Auf- und Abfahren Sinn zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+Bei Ohmschen Lasten gilt jedoch, je näher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch verbietet die Normen den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden. Deshalb macht es Sinn nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
  
 
 
-
-\newpage
-\subsection{Fazit}
 
 %\subsubsection{Schwingungspaketsteuerung mit Last in Stern}
 %Für die Messung mit der Schwingungspaketsteuerung wurde eine Einschaltzeit von 0.5 Sekunden und eine Ausschaltzeit von 0.2 Sekunden gewählt. Die Ausschaltzeit darf nicht kürzer sein, da die Spannungsverstärkerschaltung und den Thyristorsteller eine Zeitverzögerung darstellen und so die Spannung nicht sofort ein- oder ausgeschaltet wird. Wenn die Ausschaltzeit kürzer ist, geht die Spannung zwischen den Paketen nicht auf \SI{0}{V}. 
