@@ -55,27 +55,6 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Messungen ASM}{48}{subsubsection.5.1.2}
 \contentsline {subsection}{\numberline {5.2}Messungen Spannungen}{52}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Messungen Widerstand}{52}{subsubsection.5.2.1}
-<<<<<<< HEAD
-\contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{59}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}Sparvariante}{65}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Sparvariante mit einem Widerstand und zwei Thyristoren}{65}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Sparvariante mit der ASM und zwei Thyristoren}{69}{subsubsection.5.3.2}
-\contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{71}{subsection.5.4}
-\contentsline {section}{\numberline {6}Interpretation der Resultate}{72}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{73}{section.7}
-\contentsline {section}{Literatur}{75}{section*.111}
-\contentsline {section}{Abbildungsverzeichnis}{75}{section*.112}
-\contentsline {section}{Tabellenverzeichnis}{78}{section*.113}
-\contentsline {section}{\numberline {A}Code}{80}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{80}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{88}{subsection.A.2}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{93}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Messungen Spannungen Widerstand}{98}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Messungen Spannungen ASM}{100}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Vergleich Messungen Widerstand mit Simulation}{103}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{105}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{109}{subsection.B.5}
-=======
 \contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{58}{subsubsection.5.2.2}
 \contentsline {subsection}{\numberline {5.3}Sparvariante}{63}{subsection.5.3}
 \contentsline {subsubsection}{\numberline {5.3.1}Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{63}{subsubsection.5.3.1}
@@ -84,9 +63,9 @@
 \contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{68}{subsection.5.4}
 \contentsline {section}{\numberline {6}Interpretation der Resultate}{69}{section.6}
 \contentsline {section}{\numberline {7}Schlusswort}{70}{section.7}
-\contentsline {section}{Literatur}{72}{section*.111}
-\contentsline {section}{Abbildungsverzeichnis}{72}{section*.112}
-\contentsline {section}{Tabellenverzeichnis}{75}{section*.113}
+\contentsline {section}{Literatur}{72}{section*.113}
+\contentsline {section}{Abbildungsverzeichnis}{72}{section*.114}
+\contentsline {section}{Tabellenverzeichnis}{75}{section*.115}
 \contentsline {section}{\numberline {A}Code}{77}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{77}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Arduino-Programm}{85}{subsection.A.2}
@@ -97,4 +76,3 @@
 \contentsline {subsection}{\numberline {B.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{102}{subsection.B.4}
 \contentsline {subsubsection}{\numberline {B.4.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{106}{subsubsection.B.4.1}
 \contentsline {subsection}{\numberline {B.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{108}{subsection.B.5}
->>>>>>> master
