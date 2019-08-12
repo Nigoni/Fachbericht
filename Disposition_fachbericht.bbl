@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,16 +21,16 @@
   \datalist[entry]{none/global//global/global}
     \entry{Oberwellen}{online}{}
       \name{author}{1}{}{%
-        {{hash=428c63f5ec09ac7181b6456e2261ac98}{%
+        {{hash=4f7db5d3790b272e1191c554620c7f76}{%
            family={{A. Kamenka}},
            familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{428c63f5ec09ac7181b6456e2261ac98}
-      \strng{fullhash}{428c63f5ec09ac7181b6456e2261ac98}
-      \strng{bibnamehash}{428c63f5ec09ac7181b6456e2261ac98}
-      \strng{authorbibnamehash}{428c63f5ec09ac7181b6456e2261ac98}
-      \strng{authornamehash}{428c63f5ec09ac7181b6456e2261ac98}
-      \strng{authorfullhash}{428c63f5ec09ac7181b6456e2261ac98}
+      \strng{namehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{fullhash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{bibnamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authorbibnamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authornamehash}{4f7db5d3790b272e1191c554620c7f76}
+      \strng{authorfullhash}{4f7db5d3790b272e1191c554620c7f76}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -50,38 +50,32 @@
     \endentry
     \entry{analysi3}{misc}{}
       \name{author}{1}{}{%
-        {{hash=2790474a43bc11a9053f1666313eb4fc}{%
-           family={{C. Beneduce}},
+        {{hash=e03938db1d5efc4904d63a261068302b}{%
+           family={{C. Beneduce, \glqq Analysis 3, Vorlesungsscript Teil 3\grqq , Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{2790474a43bc11a9053f1666313eb4fc}
-      \strng{fullhash}{2790474a43bc11a9053f1666313eb4fc}
-      \strng{bibnamehash}{2790474a43bc11a9053f1666313eb4fc}
-      \strng{authorbibnamehash}{2790474a43bc11a9053f1666313eb4fc}
-      \strng{authornamehash}{2790474a43bc11a9053f1666313eb4fc}
-      \strng{authorfullhash}{2790474a43bc11a9053f1666313eb4fc}
+      \strng{namehash}{e03938db1d5efc4904d63a261068302b}
+      \strng{fullhash}{e03938db1d5efc4904d63a261068302b}
+      \strng{bibnamehash}{e03938db1d5efc4904d63a261068302b}
+      \strng{authorbibnamehash}{e03938db1d5efc4904d63a261068302b}
+      \strng{authornamehash}{e03938db1d5efc4904d63a261068302b}
+      \strng{authorfullhash}{e03938db1d5efc4904d63a261068302b}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{6}
-      \field{month}{5}
-      \field{title}{Analysis 3, Vorlesungsscript Teil 3}
-      \field{year}{2019}
-      \field{dateera}{ce}
     \endentry
     \entry{Phasenanschnittsteuerung}{online}{}
       \name{author}{1}{}{%
-        {{hash=b815f4c46717f4d6c0ad5d2c69e3a57e}{%
+        {{hash=16c73bbf7b29976362dc8353715114e6}{%
            family={{R. Paschotta}},
            familyi={R\bibinitperiod}}}%
       }
-      \strng{namehash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
-      \strng{fullhash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
-      \strng{bibnamehash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
-      \strng{authorbibnamehash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
-      \strng{authornamehash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
-      \strng{authorfullhash}{b815f4c46717f4d6c0ad5d2c69e3a57e}
+      \strng{namehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{fullhash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{bibnamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authorbibnamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authornamehash}{16c73bbf7b29976362dc8353715114e6}
+      \strng{authorfullhash}{16c73bbf7b29976362dc8353715114e6}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -101,16 +95,16 @@
     \endentry
     \entry{Schwingungspaketsteuerung}{online}{}
       \name{author}{1}{}{%
-        {{hash=bc32bd4a8702857a578f6961eec7f1b0}{%
+        {{hash=54df3baef130c81e6ae8432a2567320a}{%
            family={{W. S.}},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{bc32bd4a8702857a578f6961eec7f1b0}
-      \strng{fullhash}{bc32bd4a8702857a578f6961eec7f1b0}
-      \strng{bibnamehash}{bc32bd4a8702857a578f6961eec7f1b0}
-      \strng{authorbibnamehash}{bc32bd4a8702857a578f6961eec7f1b0}
-      \strng{authornamehash}{bc32bd4a8702857a578f6961eec7f1b0}
-      \strng{authorfullhash}{bc32bd4a8702857a578f6961eec7f1b0}
+      \strng{namehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{fullhash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{bibnamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authorbibnamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authornamehash}{54df3baef130c81e6ae8432a2567320a}
+      \strng{authorfullhash}{54df3baef130c81e6ae8432a2567320a}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -152,27 +146,175 @@
       \field{title}{Leistungselektronik Einführung, Grundlagen, Überblick}
       \field{year}{1990}
     \endentry
-    \entry{Quelle_Marco}{online}{}
+    \entry{Arduino_PWM}{online}{}
       \name{author}{1}{}{%
-        {{hash=25b286c2bf959fc13a87c519555720ac}{%
-           family={{M. Bhardwaj}},
-           familyi={M\bibinitperiod}}}%
+        {{hash=55611bd9f462dbb9de1d4c472852175b}{%
+           family={{EXP-TECH}},
+           familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{25b286c2bf959fc13a87c519555720ac}
-      \strng{fullhash}{25b286c2bf959fc13a87c519555720ac}
-      \strng{bibnamehash}{25b286c2bf959fc13a87c519555720ac}
-      \strng{authorbibnamehash}{25b286c2bf959fc13a87c519555720ac}
-      \strng{authornamehash}{25b286c2bf959fc13a87c519555720ac}
-      \strng{authorfullhash}{25b286c2bf959fc13a87c519555720ac}
+      \strng{namehash}{55611bd9f462dbb9de1d4c472852175b}
+      \strng{fullhash}{55611bd9f462dbb9de1d4c472852175b}
+      \strng{bibnamehash}{55611bd9f462dbb9de1d4c472852175b}
+      \strng{authorbibnamehash}{55611bd9f462dbb9de1d4c472852175b}
+      \strng{authornamehash}{55611bd9f462dbb9de1d4c472852175b}
+      \strng{authorfullhash}{55611bd9f462dbb9de1d4c472852175b}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Software Phase Locked Loop Design Using C2000 Microcontrollers for Single Phase Grid Connected Inverter}
-      \field{urlday}{1}
+      \field{title}{Arduino Tutorial - Pulsweitenmodulation (PWM)}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.exp-tech.de/blog/arduino-tutorial-pulsweitenmodulation-pwm
+      \endverb
+      \verb{url}
+      \verb https://www.exp-tech.de/blog/arduino-tutorial-pulsweitenmodulation-pwm
+      \endverb
+    \endentry
+    \entry{Tiefpass}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2800e528bee780dc9549466193f59cee}{%
+           family={{Elektronik - Kompendium}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2800e528bee780dc9549466193f59cee}
+      \strng{fullhash}{2800e528bee780dc9549466193f59cee}
+      \strng{bibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorbibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authornamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorfullhash}{2800e528bee780dc9549466193f59cee}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Passiver Tiefpass / Tiefpass-Filter}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0206172.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0206172.htm
+      \endverb
+    \endentry
+    \entry{Verstaerker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2800e528bee780dc9549466193f59cee}{%
+           family={{Elektronik- Kompendium}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2800e528bee780dc9549466193f59cee}
+      \strng{fullhash}{2800e528bee780dc9549466193f59cee}
+      \strng{bibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorbibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authornamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorfullhash}{2800e528bee780dc9549466193f59cee}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nichtinvertierender Verstärker}
+      \field{urlday}{15}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0210151.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0210151.htm
+      \endverb
+    \endentry
+    \entry{Spannungsteiler}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2800e528bee780dc9549466193f59cee}{%
+           family={{Elektronik-Kompendium}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2800e528bee780dc9549466193f59cee}
+      \strng{fullhash}{2800e528bee780dc9549466193f59cee}
+      \strng{bibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorbibnamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authornamehash}{2800e528bee780dc9549466193f59cee}
+      \strng{authorfullhash}{2800e528bee780dc9549466193f59cee}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spannungsteiler / Spannungsteilerschaltung}
+      \field{urlday}{20}
       \field{urlmonth}{7}
-      \field{urlyear}{2017}
-      \field{year}{2013}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0201111.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/slt/0201111.htm
+      \endverb
+    \endentry
+    \entry{Spannungsmessung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f523e7febc4ef3bba0c462b5e06aee8e}{%
+           family={{Christian Grieger}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \strng{fullhash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \strng{bibnamehash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \strng{authorbibnamehash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \strng{authornamehash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \strng{authorfullhash}{f523e7febc4ef3bba0c462b5e06aee8e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spannungsmessung mit dem Arduino}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://elektro.turanis.de/html/prj084/index.html
+      \endverb
+      \verb{url}
+      \verb http://elektro.turanis.de/html/prj084/index.html
+      \endverb
+    \endentry
+    \entry{Quelle_Marco}{online}{}
+      \name{author}{1}{}{%
+        {{hash=690569b64d45f1f9b5892f20514172e8}{%
+           family={{M. Bhardwaj}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{fullhash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{bibnamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authorbibnamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authornamehash}{690569b64d45f1f9b5892f20514172e8}
+      \strng{authorfullhash}{690569b64d45f1f9b5892f20514172e8}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Phase Locked Loop Design Using C2000 Microcontrollers for Single Phase Grid Connected Inverter}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2017}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://www.ti.com/lit/an/sprabt3a/sprabt3a.pdf
@@ -183,27 +325,19 @@
     \endentry
     \entry{PI_Regler}{misc}{}
       \name{author}{1}{}{%
-        {{hash=867cc5bfaa1d677ae914344acac8a227}{%
-           family={M.\bibnamedelimi Wassmer},
-           familyi={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={"\bibnamedelima Windisch:\bibnamedelimb Hochschule\bibnamedelimb für\bibnamedelimb Technik\bibnamedelimb der\bibnamedelimb Fachhochschule\bibnamedelimb Nordwestschweiz\bibnamedelima (FHNW)},
-           giveni={"\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim (\bibinitperiod},
-           suffix={"Funktionsmuster\bibnamedelimb eines\bibnamedelimb Dreiphasigen\bibnamedelimb PFC\bibnamedelima Gleichrichters},
-           suffixi={"\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4b453ff8b3080d8482fad598c0db4ff6}{%
+           family={{M. Wassmer, \glqq Funktionsmuster eines Dreiphasigen PFC Gleichrichters\grqq, Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{867cc5bfaa1d677ae914344acac8a227}
-      \strng{fullhash}{867cc5bfaa1d677ae914344acac8a227}
-      \strng{bibnamehash}{867cc5bfaa1d677ae914344acac8a227}
-      \strng{authorbibnamehash}{867cc5bfaa1d677ae914344acac8a227}
-      \strng{authornamehash}{867cc5bfaa1d677ae914344acac8a227}
-      \strng{authorfullhash}{867cc5bfaa1d677ae914344acac8a227}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \strng{namehash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{fullhash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{bibnamehash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{authorbibnamehash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{authornamehash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{authorfullhash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
-      \field{day}{5}
-      \field{month}{1}
-      \field{year}{2018}
-      \field{dateera}{ce}
     \endentry
   \enddatalist
 \endrefsection

@@ -34,33 +34,33 @@
 \BOOKMARK [3][-]{subsubsection.3.2.10}{3.2.10 Alternative Ansteuerungen}{subsection.3.2}% 34
 \BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 35
 \BOOKMARK [2][-]{subsection.4.1}{4.1 Laboraufbau}{section.4}% 36
-\BOOKMARK [3][-]{subsubsection.4.1.1}{4.1.1 Filter}{subsection.4.1}% 37
-\BOOKMARK [3][-]{subsubsection.4.1.2}{4.1.2 Verst\344rkerschaltung}{subsection.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 39
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Phasenanschnittssteuerung mit Arduino}{subsection.4.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.4.2}{4.4.2 Schwingungspaketsteuerung mit Arduino}{subsection.4.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.4.3}{4.4.3 Hartes Auf- und Absteuern}{subsection.4.4}% 44
-\BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanftes Auf- und Absteuern}{subsection.4.4}% 45
-\BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 46
-\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 47
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 48
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 49
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 50
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 51
-\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 52
-\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 54
-\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 55
-\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 56
-\BOOKMARK [3][-]{subsubsection.5.3.3}{5.3.3 Sparvariante mit der ASM und zwei Thyristoren}{subsection.5.3}% 57
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 58
-\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 59
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 38
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 39
+\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Phasenanschnittssteuerung mit Arduino}{subsection.4.4}% 40
+\BOOKMARK [3][-]{subsubsection.4.4.2}{4.4.2 Schwingungspaketsteuerung mit Arduino}{subsection.4.4}% 41
+\BOOKMARK [3][-]{subsubsection.4.4.3}{4.4.3 Hartes Auf- und Absteuern}{subsection.4.4}% 42
+\BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanftes Auf- und Absteuern}{subsection.4.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 44
+\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 45
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 46
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 47
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 48
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen ASM}{subsection.5.2}% 50
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 51
+\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 52
+\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 53
+\BOOKMARK [3][-]{subsubsection.5.3.3}{5.3.3 Sparvariante mit der ASM und zwei Thyristoren}{subsection.5.3}% 54
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 55
+\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 56
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Resultate Widerstand}{section.6}% 57
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate ASM}{section.6}% 58
+\BOOKMARK [2][-]{subsection.6.3}{6.3 Vergleich der Messungen mit den Simulationen}{section.6}% 59
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 60
-\BOOKMARK [1][-]{section*.113}{Literatur}{}% 61
-\BOOKMARK [1][-]{section*.114}{Abbildungsverzeichnis}{}% 62
-\BOOKMARK [1][-]{section*.115}{Tabellenverzeichnis}{}% 63
+\BOOKMARK [1][-]{section*.119}{Literatur}{}% 61
+\BOOKMARK [1][-]{section*.120}{Abbildungsverzeichnis}{}% 62
+\BOOKMARK [1][-]{section*.121}{Tabellenverzeichnis}{}% 63
 \BOOKMARK [1][-]{appendix.A}{A Code}{}% 64
 \BOOKMARK [2][-]{subsection.A.1}{A.1 Matlab Berechnungen}{appendix.A}% 65
 \BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 66
