@@ -1,47 +1,53 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.14)  12 AUG 2019 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.20)  12 AUG 2019 19:07
 entering extended mode
 **./Disposition_fachbericht.tex
 (Disposition_fachbericht.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (fhnwreport.cls
 Document Class: fhnwreport 2018/05/06 v2.5 PDF-LaTeX class for FHNW reports
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -52,63 +58,72 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count91
-\calc@Bcount=\count92
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count93
+\calc@Ccount=\count92
 \calc@Cskip=\skip45
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.
+sty"
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
-Package chngcntr Info: \counterwithout already defined.
-(chngcntr)             Quitting chngcntr on input line 21.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibin
+d.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
+sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -119,9 +134,13 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -143,76 +162,81 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
+ty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.de
+f"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count96
+\Hy@SavedSpaceFactor=\count95
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.
+cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4393.
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Option `final' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count97
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count96
+ ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5125.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen116
-\Fld@menulength=\count98
+\Fld@menulength=\count97
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count99
-\c@Item=\count100
-\c@Hfootnote=\count101
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count102
-\c@bookmark@seq@number=\count103
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
+ef"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
+check.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
@@ -220,11 +244,13 @@ Package color Info: Driver file: pdftex.def on input line 147.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 216.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen119
 \captionmargin@=\dimen120
@@ -234,60 +260,374 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen124
 \caption@hangindent=\dimen125
 )
-\c@caption@flags=\count104
-\c@ContinuedFloat=\count105
+\c@ContinuedFloat=\count103
 Package caption Info: hyperref package is loaded.
 )) (header.tex
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/11/13 3.27 The Babel package
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/02/14 3.18 The Babel package
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count106
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count104
 \U@D=\dimen126
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count107
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count105
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf"
-Language: ngerman 2018/03/29 v2.10 German support for babel (post-1996 orthogra
-phy)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
+an.ldf"
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\ngermanb.ldf"
-Language: ngermanb 2018/03/29 v2.10 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 121.
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
+anb.ldf"
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+Package babel Info: Making " an active character on input line 125.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -321,8 +661,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+) ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
+y"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -336,14 +676,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+ ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -413,7 +751,6 @@ File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+FEFF (decimal 65279)
 ))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
@@ -478,22 +815,23 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+) ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
+\c@float@type=\count106
 \float@exts=\toks18
 \float@box=\box26
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.s
+ty"
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -508,50 +846,58 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\dvipsnam.
+def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+sty"
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count109
+\etb@tempcnta=\count107
 )
-\csq@reset=\count110
-\csq@gtype=\count111
-\csq@glevel=\count112
-\csq@qlevel=\count113
-\csq@maxlvl=\count114
-\csq@tshold=\count115
+\csq@reset=\count108
+\csq@gtype=\count109
+\csq@glevel=\count110
+\csq@qlevel=\count111
+\csq@maxlvl=\count112
+\csq@tshold=\count113
 \csq@ltx@everypar=\toks20
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+def"
 File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+cfg"
 File: csquotes.cfg 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2018-11-19 L3 programming layer (loader) 
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.st
+y"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+"
+Package: expl3 2018-08-23 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2018-11-19 L3 programming layer (code)
-\c_max_int=\count116
-\l_tmpa_int=\count117
-\l_tmpb_int=\count118
-\g_tmpa_int=\count119
-\g_tmpb_int=\count120
-\g__kernel_prg_map_int=\count121
-\c_log_iow=\count122
-\l_iow_line_count_int=\count123
-\l__iow_line_target_int=\count124
-\l__iow_one_indent_int=\count125
-\l__iow_indent_int=\count126
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-cod
+e.tex"
+Package: expl3 2018-08-23 L3 programming layer (code)
+\c_max_int=\count114
+\l_tmpa_int=\count115
+\l_tmpb_int=\count116
+\g_tmpa_int=\count117
+\g_tmpb_int=\count118
+\g__kernel_prg_map_int=\count119
+\c_log_iow=\count120
+\l_iow_line_count_int=\count121
+\l__iow_line_target_int=\count122
+\l__iow_one_indent_int=\count123
+\l__iow_indent_int=\count124
 \c_zero_dim=\dimen127
 \c_max_dim=\dimen128
 \l_tmpa_dim=\dimen129
@@ -570,78 +916,78 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count127
-\l__intarray_loop_int=\count128
+\l_keys_choice_int=\count125
+\l__intarray_loop_int=\count126
 \c__intarray_sp_dim=\dimen133
-\g__intarray_font_int=\count129
-\c__fp_leading_shift_int=\count130
-\c__fp_middle_shift_int=\count131
-\c__fp_trailing_shift_int=\count132
-\c__fp_big_leading_shift_int=\count133
-\c__fp_big_middle_shift_int=\count134
-\c__fp_big_trailing_shift_int=\count135
-\c__fp_Bigg_leading_shift_int=\count136
-\c__fp_Bigg_middle_shift_int=\count137
-\c__fp_Bigg_trailing_shift_int=\count138
-\c__kernel_randint_max_int=\count139
-\g__fp_array_int=\count140
-\l__fp_array_loop_int=\count141
-\l__sort_length_int=\count142
-\l__sort_min_int=\count143
-\l__sort_top_int=\count144
-\l__sort_max_int=\count145
-\l__sort_true_max_int=\count146
-\l__sort_block_int=\count147
-\l__sort_begin_int=\count148
-\l__sort_end_int=\count149
-\l__sort_A_int=\count150
-\l__sort_B_int=\count151
-\l__sort_C_int=\count152
-\l__tl_analysis_normal_int=\count153
-\l__tl_analysis_index_int=\count154
-\l__tl_analysis_nesting_int=\count155
-\l__tl_analysis_type_int=\count156
-\l__regex_internal_a_int=\count157
-\l__regex_internal_b_int=\count158
-\l__regex_internal_c_int=\count159
-\l__regex_balance_int=\count160
-\l__regex_group_level_int=\count161
-\l__regex_mode_int=\count162
-\c__regex_cs_in_class_mode_int=\count163
-\c__regex_cs_mode_int=\count164
-\l__regex_catcodes_int=\count165
-\l__regex_default_catcodes_int=\count166
-\c__regex_catcode_D_int=\count167
-\c__regex_catcode_S_int=\count168
-\c__regex_catcode_L_int=\count169
-\c__regex_catcode_O_int=\count170
-\c__regex_catcode_A_int=\count171
-\c__regex_all_catcodes_int=\count172
-\l__regex_show_lines_int=\count173
-\l__regex_min_state_int=\count174
-\l__regex_max_state_int=\count175
-\l__regex_left_state_int=\count176
-\l__regex_right_state_int=\count177
-\l__regex_capturing_group_int=\count178
-\l__regex_min_pos_int=\count179
-\l__regex_max_pos_int=\count180
-\l__regex_curr_pos_int=\count181
-\l__regex_start_pos_int=\count182
-\l__regex_success_pos_int=\count183
-\l__regex_curr_char_int=\count184
-\l__regex_curr_catcode_int=\count185
-\l__regex_last_char_int=\count186
-\l__regex_case_changed_char_int=\count187
-\l__regex_curr_state_int=\count188
-\l__regex_step_int=\count189
-\l__regex_min_active_int=\count190
-\l__regex_max_active_int=\count191
-\l__regex_replacement_csnames_int=\count192
-\l__regex_match_count_int=\count193
-\l__regex_min_submatch_int=\count194
-\l__regex_submatch_int=\count195
-\l__regex_zeroth_submatch_int=\count196
-\g__regex_trace_regex_int=\count197
+\g__intarray_font_int=\count127
+\c__fp_leading_shift_int=\count128
+\c__fp_middle_shift_int=\count129
+\c__fp_trailing_shift_int=\count130
+\c__fp_big_leading_shift_int=\count131
+\c__fp_big_middle_shift_int=\count132
+\c__fp_big_trailing_shift_int=\count133
+\c__fp_Bigg_leading_shift_int=\count134
+\c__fp_Bigg_middle_shift_int=\count135
+\c__fp_Bigg_trailing_shift_int=\count136
+\c__kernel_randint_max_int=\count137
+\g__fp_array_int=\count138
+\l__fp_array_loop_int=\count139
+\l__sort_length_int=\count140
+\l__sort_min_int=\count141
+\l__sort_top_int=\count142
+\l__sort_max_int=\count143
+\l__sort_true_max_int=\count144
+\l__sort_block_int=\count145
+\l__sort_begin_int=\count146
+\l__sort_end_int=\count147
+\l__sort_A_int=\count148
+\l__sort_B_int=\count149
+\l__sort_C_int=\count150
+\l__tl_analysis_normal_int=\count151
+\l__tl_analysis_index_int=\count152
+\l__tl_analysis_nesting_int=\count153
+\l__tl_analysis_type_int=\count154
+\l__regex_internal_a_int=\count155
+\l__regex_internal_b_int=\count156
+\l__regex_internal_c_int=\count157
+\l__regex_balance_int=\count158
+\l__regex_group_level_int=\count159
+\l__regex_mode_int=\count160
+\c__regex_cs_in_class_mode_int=\count161
+\c__regex_cs_mode_int=\count162
+\l__regex_catcodes_int=\count163
+\l__regex_default_catcodes_int=\count164
+\c__regex_catcode_D_int=\count165
+\c__regex_catcode_S_int=\count166
+\c__regex_catcode_L_int=\count167
+\c__regex_catcode_O_int=\count168
+\c__regex_catcode_A_int=\count169
+\c__regex_all_catcodes_int=\count170
+\l__regex_show_lines_int=\count171
+\l__regex_min_state_int=\count172
+\l__regex_max_state_int=\count173
+\l__regex_left_state_int=\count174
+\l__regex_right_state_int=\count175
+\l__regex_capturing_group_int=\count176
+\l__regex_min_pos_int=\count177
+\l__regex_max_pos_int=\count178
+\l__regex_curr_pos_int=\count179
+\l__regex_start_pos_int=\count180
+\l__regex_success_pos_int=\count181
+\l__regex_curr_char_int=\count182
+\l__regex_curr_catcode_int=\count183
+\l__regex_last_char_int=\count184
+\l__regex_case_changed_char_int=\count185
+\l__regex_curr_state_int=\count186
+\l__regex_step_int=\count187
+\l__regex_min_active_int=\count188
+\l__regex_max_active_int=\count189
+\l__regex_replacement_csnames_int=\count190
+\l__regex_match_count_int=\count191
+\l__regex_min_submatch_int=\count192
+\l__regex_submatch_int=\count193
+\l__regex_zeroth_submatch_int=\count194
+\g__regex_trace_regex_int=\count195
 \c_empty_box=\box28
 \l_tmpa_box=\box29
 \l_tmpb_box=\box30
@@ -683,67 +1029,70 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen156
 \l__coffin_scaled_total_height_dim=\dimen157
 \l__coffin_scaled_width_dim=\dimen158
-\l__seq_internal_a_int=\count198
-\l__seq_internal_b_int=\count199
+\l__seq_internal_a_int=\count196
+\l__seq_internal_b_int=\count197
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
-File: l3pdfmode.def 2018-11-19 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count266
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode
+.def"
+File: l3pdfmode.def 2018-08-23 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count198
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count267
-\g__xparse_grabber_int=\count268
-\l__xparse_m_args_int=\count269
-\l__xparse_mandatory_args_int=\count270
-\l__xparse_v_nesting_int=\count271
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\
+xparse.sty"
+Package: xparse 2018-08-23 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count199
+\g__xparse_grabber_int=\count266
+\l__xparse_m_args_int=\count267
+\l__xparse_mandatory_args_int=\count268
+\l__xparse_v_nesting_int=\count269
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen159
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+)) ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen160
-\ar@mcellbox=\box43
 \extrarowheight=\dimen161
 \NC@list=\toks22
 \extratabsurround=\skip53
 \backup@length=\skip54
-\ar@cellbox=\box44
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
-Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2
+e\l3keys2e.sty"
+Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box45
+\l__siunitx_tmp_box=\box43
 \l__siunitx_tmp_dim=\dimen162
-\l__siunitx_tmp_int=\count272
-\l__siunitx_number_mantissa_length_int=\count273
-\l__siunitx_number_uncert_length_int=\count274
-\l__siunitx_round_int=\count275
-\l__siunitx_process_decimal_int=\count276
-\l__siunitx_process_uncertainty_int=\count277
-\l__siunitx_process_fixed_int=\count278
-\l__siunitx_process_integer_min_int=\count279
-\l__siunitx_process_precision_int=\count280
-\l__siunitx_group_min_int=\count281
-\l__siunitx_angle_marker_box=\box46
-\l__siunitx_angle_unit_box=\box47
+\l__siunitx_tmp_int=\count270
+\l__siunitx_number_mantissa_length_int=\count271
+\l__siunitx_number_uncert_length_int=\count272
+\l__siunitx_round_int=\count273
+\l__siunitx_process_decimal_int=\count274
+\l__siunitx_process_uncertainty_int=\count275
+\l__siunitx_process_fixed_int=\count276
+\l__siunitx_process_integer_min_int=\count277
+\l__siunitx_process_precision_int=\count278
+\l__siunitx_group_min_int=\count279
+\l__siunitx_angle_marker_box=\box44
+\l__siunitx_angle_unit_box=\box45
 \l__siunitx_angle_marker_dim=\dimen163
 \l__siunitx_angle_unit_dim=\dimen164
-\l__siunitx_unit_int=\count282
-\l__siunitx_unit_denominator_int=\count283
-\l__siunitx_unit_numerator_int=\count284
-\l__siunitx_unit_prefix_int=\count285
-\l__siunitx_unit_prefix_base_int=\count286
-\l__siunitx_unit_prefix_gram_int=\count287
-\l__siunitx_number_product_int=\count288
+\l__siunitx_unit_int=\count280
+\l__siunitx_unit_denominator_int=\count281
+\l__siunitx_unit_numerator_int=\count282
+\l__siunitx_unit_prefix_int=\count283
+\l__siunitx_unit_prefix_base_int=\count284
+\l__siunitx_unit_prefix_gram_int=\count285
+\l__siunitx_number_product_int=\count286
 \c__siunitx_one_fill_skip=\skip55
 \l__siunitx_table_unit_align_skip=\skip56
 \l__siunitx_table_exponent_dim=\dimen165
@@ -755,46 +1104,166 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen171
 \l__siunitx_table_fill_post_dim=\dimen172
 \l__siunitx_table_fill_mid_dim=\dimen173
-\l__siunitx_table_pre_box=\box48
-\l__siunitx_table_post_box=\box49
-\l__siunitx_table_mantissa_box=\box50
-\l__siunitx_table_result_box=\box51
+\l__siunitx_table_pre_box=\box46
+\l__siunitx_table_post_box=\box47
+\l__siunitx_table_mantissa_box=\box48
+\l__siunitx_table_result_box=\box49
 \l__siunitx_table_number_align_skip=\skip57
 \l__siunitx_table_text_align_skip=\skip58
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7237.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7240.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7243.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7249.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7252.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7255.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7270.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7279.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7288.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7297.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7309.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7321.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7351.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7363.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7410.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7412.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7414.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7416.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7418.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7419.
+.................................................
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
+tor.sty"
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count289
-\lst@gtempboxa=\box52
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
+\lst@mode=\count287
+\lst@gtempboxa=\box50
 \lst@token=\toks23
-\lst@length=\count290
+\lst@length=\count288
 \lst@currlwidth=\dimen174
-\lst@column=\count291
-\lst@pos=\count292
+\lst@column=\count289
+\lst@pos=\count290
 \lst@lostspace=\dimen175
 \lst@width=\dimen176
-\lst@newlines=\count293
-\lst@lineno=\count294
+\lst@newlines=\count291
+\lst@lineno=\count292
 \lst@maxwidth=\dimen177
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count295
-\lst@skipnumbers=\count296
-\lst@framebox=\box53
+\c@lstnumber=\count293
+\lst@skipnumbers=\count294
+\lst@framebox=\box51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.
+sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks24
 \footnotemargin=\dimen178
-\c@pp@next@reset=\count297
+\c@pp@next@reset=\count295
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -804,65 +1273,83 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mdwtools\footnote.
+sty"
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box54
+\fn@notes=\box52
 \fn@width=\dimen179
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
 \verbatim@in@stream=\read2
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
-Package: todonotes 2018/11/22 v1.1.1 Todonotes source and documentation.
-Package: todonotes 2018/11/22
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonote
+s.sty"
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
+y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
+tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
+.tex"
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count298
+\XKV@depth=\count296
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\
+tikz.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
+.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfr
+cs.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-common.tex"
 \pgfutil@everybye=\toks29
 \pgfutil@tempdima=\dimen180
 \pgfutil@tempdimb=\dimen181
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box55
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-common-lists.tex"))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-latex.def"
+\pgfutil@abb=\box53
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+frcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
+core.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pg
+fsys.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeys.code.tex"
 \pgfkeys@pathtoks=\toks30
 \pgfkeys@temptoks=\toks31
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks32
 ))
 \pgf@x=\dimen182
@@ -875,69 +1362,81 @@ x"
 \pgf@yc=\dimen189
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count299
-\c@pgf@countb=\count300
-\c@pgf@countc=\count301
-\c@pgf@countd=\count302
+\c@pgf@counta=\count297
+\c@pgf@countb=\count298
+\c@pgf@countc=\count299
+\c@pgf@countd=\count300
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count303
-\pgfsyssoftpath@bigbuffer@items=\count304
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+calc.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+util.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+parser.code.tex"
 \pgfmath@dimen=\dimen190
-\pgfmath@count=\count305
-\pgfmath@box=\box56
+\pgfmath@count=\count303
+\pgfmath@box=\box54
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count306
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.basic.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.random.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.base.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.round.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.misc.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+float.code.tex"
+\c@pgfmathroundto@lastzeros=\count304
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen191
 \pgf@picmaxx=\dimen192
@@ -954,115 +1453,130 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen259
 \pgf@zy=\dimen260
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen261
 \pgf@path@lasty=\dimen262
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen263
 \pgf@shorten@start@additional=\dimen264
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count307
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count305
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen265
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen266
 \pgf@pt@y=\dimen267
 \pgf@pt@temp=\dimen268
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen269
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen270
-\pgf@sys@shading@range@num=\count308
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+\pgf@sys@shading@range@num=\count306
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box58
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+oduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box61
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+\pgfnodeparttextbox=\box59
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+oduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
+pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen271
 \pgf@nodesepend=\dimen272
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
+pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgff
+or.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfk
+eys.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeys.code.tex"))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.s
+ty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex"))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+ffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex")
 \pgffor@iter=\dimen273
 \pgffor@skip=\dimen274
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count309
+\pgf@plot@mark@count=\count307
 \pgfplotmarksize=\dimen275
 )
 \tikz@lastx=\dimen276
@@ -1071,89 +1585,90 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen279
 \tikzleveldistance=\dimen280
 \tikzsiblingdistance=\dimen281
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count310
-\tikznumberofchildren=\count311
-\tikznumberofcurrentchild=\count312
-\tikz@fig@count=\count313
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count308
+\tikznumberofchildren=\count309
+\tikznumberofcurrentchild=\count310
+\tikz@fig@count=\count311
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+odulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count314
-\pgfmatrixcurrentcolumn=\count315
-\pgf@matrix@numberofcolumns=\count316
+\pgfmatrixcurrentrow=\count312
+\pgfmatrixcurrentcolumn=\count313
+\pgf@matrix@numberofcolumns=\count314
 )
-\tikz@expandcount=\count317
+\tikz@expandcount=\count315
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarypositioning.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshadows.code.tex"
-File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryfadings.code.tex"
-File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
-tex"
-File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-)))
-\c@@todonotes@numberoftodonotes=\count318
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
+\c@@todonotes@numberoftodonotes=\count316
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sidecap\sidecap.st
+y"
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \SC@BOXWD=\dimen282
 \SC@CAPWD=\dimen283
 \SC@tempdima=\dimen284
 \SC@tempdimb=\dimen285
-\c@SC@C=\count319
-\SC@BOX=\box66
+\c@SC@C=\count317
+\SC@BOX=\box64
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\standalone\standalone.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\standalone\standal
+one.sty"
 Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with prea
 mbles
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.sty
+"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\currfile\currfile.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\currfile\currfile.
+sty"
 Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
 nt input file
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\filehook\filehook.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filehook\filehook.
+sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )
-\c@currfiledepth=\count320
+\c@currfiledepth=\count318
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\gincltex\gincltex.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\svn-prov\svn-prov.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\gincltex\gincltex.
+sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\svn-prov\svn-prov.
+sty"
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjustbo
+x.sty"
 Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.
+sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimclip
+.sty"
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collect
+box.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box67
+\collectedbox=\box65
 )
 \tc@llx=\dimen286
 \tc@lly=\dimen287
@@ -1161,7 +1676,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen289
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdfte
+x.def"
 File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen290
@@ -1173,36 +1689,42 @@ File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 \adjbox@pdepth=\dimen296
 \adjbox@ptotalheight=\dimen297
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpag
+e.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count321
+\c@checkoddpage=\count319
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.s
+ty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box68
-\sift@deathcycles=\count322
+\@vwid@box=\box66
+\sift@deathcycles=\count320
 \@vwid@loff=\dimen298
 \@vwid@roff=\dimen299
 ))
-\gincltex@box=\box69
+\gincltex@box=\box67
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\filemod\filemod-expmin.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filemod\filemod-ex
+pmin.sty"
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
  (expandable; minimal)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\circuitikz\circuitikz.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\circuitikz\circuit
+ikz.sty"
 Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
  0.8.3
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarycalc.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.t
-ex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen300
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcirc.defines.tex"
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rc.defines.tex"
 \pgf@circ@res@up=\dimen301
 \pgf@circ@res@down=\dimen302
 \pgf@circ@res@zero=\dimen303
@@ -1213,64 +1735,80 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \pgf@circ@res@temp=\dimen308
 \pgfstartlinewidth=\dimen309
 \pgf@circ@Rlen=\dimen310
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircutils.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircshapes.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircmonopoles.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircbipoles.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcirctripoles.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircquadpoles.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcirclabel.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircvoltage.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcirccurrent.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircflow.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\circuitikz\pgfcircpath.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryarrows.code.tex"
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcutils.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcshapes.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcmonopoles.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcbipoles.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rctripoles.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcquadpoles.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rclabel.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcvoltage.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rccurrent.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcflow.tex")
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\circuitikz\pgfci
+rcpath.tex"))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryarrows.code.tex"
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryintersections.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryintersections
-.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.code.tex"
-)
-\pgf@intersect@solutions=\count323
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryintersections.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryintersections.code.tex"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryfpu.code.tex")
+\pgf@intersect@solutions=\count321
+))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen311
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count324
+\inf@bad=\count322
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count325
-\leftroot@=\count326
+\uproot@=\count323
+\leftroot@=\count324
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count327
-\DOTSCASE@=\count328
+\classnum@=\count325
+\DOTSCASE@=\count326
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box70
-\strutbox@=\box71
+\Mathstrutbox@=\box68
+\strutbox@=\box69
 \big@size=\dimen312
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count329
-\c@MaxMatrixCols=\count330
+\macc@depth=\count327
+\c@MaxMatrixCols=\count328
 \dotsspace@=\muskip17
-\c@parentequation=\count331
-\dspbrk@lvl=\count332
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
 \tag@help=\toks41
-\row@=\count333
-\column@=\count334
-\maxfields@=\count335
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
 \andhelp@=\toks42
 \eqnshift@=\dimen313
 \alignsep@=\dimen314
@@ -1285,46 +1823,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@col@width=\dimen319
 \TX@old@table=\dimen320
 \TX@old@col=\dimen321
 \TX@target=\dimen322
 \TX@delta=\dimen323
-\TX@cols=\count336
+\TX@cols=\count334
 \TX@ftn=\toks45
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
+sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count337
+\multirow@cntb=\count335
 \multirow@dima=\skip63
 \bigstrutjot=\dimen324
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count338
-\mult@box=\box72
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count336
+\mult@box=\box70
 \multicol@leftmargin=\dimen325
-\c@unbalance=\count339
-\c@collectmore=\count340
-\doublecol@number=\count341
-\multicoltolerance=\count342
-\multicolpretolerance=\count343
+\c@unbalance=\count337
+\c@collectmore=\count338
+\doublecol@number=\count339
+\multicoltolerance=\count340
+\multicolpretolerance=\count341
 \full@width=\dimen326
 \page@free=\dimen327
 \premulticols=\dimen328
 \postmulticols=\dimen329
 \multicolsep=\skip64
 \multicolbaselineskip=\skip65
-\partial@page=\box73
-\last@line=\box74
+\partial@page=\box71
+\last@line=\box72
 \maxbalancingoverflow=\dimen330
-\mult@rightbox=\box75
-\mult@grightbox=\box76
-\mult@gfirstbox=\box77
-\mult@firstbox=\box78
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
+\@tempa=\box77
+\@tempa=\box78
 \@tempa=\box79
 \@tempa=\box80
 \@tempa=\box81
@@ -1340,69 +1883,82 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\c@columnbadness=\count344
-\c@finalcolumnbadness=\count345
+\c@columnbadness=\count342
+\c@finalcolumnbadness=\count343
 \last@try=\dimen331
 \multicolovershoot=\dimen332
 \multicolundershoot=\dimen333
-\mult@nat@firstbox=\box96
-\colbreak@box=\box97
-\mc@col@check@num=\count346
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count344
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen334
 \AM@pageheight=\dimen335
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box98
+\AM@pagebox=\box96
 \AM@global@opts=\toks46
 \AM@toc@title=\toks47
-\c@AM@survey=\count347
-\AM@templatesizebox=\box99
+\c@AM@survey=\count345
+\AM@templatesizebox=\box97
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count348
+\c@KVtest=\count346
 \sf@farskip=\skip66
 \sf@captopadj=\dimen336
 \sf@capskip=\skip67
 \sf@nearskip=\skip68
-\c@subfigure=\count349
-\c@subfigure@save=\count350
-\c@lofdepth=\count351
-\c@subtable=\count352
-\c@subtable@save=\count353
-\c@lotdepth=\count354
+\c@subfigure=\count347
+\c@subfigure@save=\count348
+\c@lofdepth=\count349
+\c@subtable=\count350
+\c@subtable@save=\count351
+\c@lotdepth=\count352
 \sf@top=\skip69
 \sf@bottom=\skip70
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+sty"
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count355
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+\lrq@indent=\count353
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
+y"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
+tex"
+\@xs@message=\write4
+\integerpart=\count354
+\decimalpart=\count355
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
 \c@tabx@nest=\count356
 \c@listtotal=\count357
 \c@listcount=\count358
@@ -1418,32 +1974,29 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@maxitems=\count368
 \c@minitems=\count369
 \c@citecounter=\count370
-\c@maxcitecounter=\count371
-\c@savedcitecounter=\count372
-\c@uniquelist=\count373
-\c@uniquename=\count374
-\c@refsection=\count375
-\c@refsegment=\count376
-\c@maxextratitle=\count377
-\c@maxextratitleyear=\count378
-\c@maxextraname=\count379
-\c@maxextradate=\count380
-\c@maxextraalpha=\count381
-\c@abbrvpenalty=\count382
-\c@highnamepenalty=\count383
-\c@lownamepenalty=\count384
-\c@maxparens=\count385
-\c@parenlevel=\count386
-\blx@tempcnta=\count387
-\blx@tempcntb=\count388
-\blx@tempcntc=\count389
-\blx@maxsection=\count390
-\blx@maxsegment@0=\count391
-\blx@notetype=\count392
-\blx@parenlevel@text=\count393
-\blx@parenlevel@foot=\count394
-\blx@sectionciteorder@0=\count395
-\blx@entrysetcounter=\count396
+\c@savedcitecounter=\count371
+\c@uniquelist=\count372
+\c@uniquename=\count373
+\c@refsection=\count374
+\c@refsegment=\count375
+\c@maxextratitle=\count376
+\c@maxextratitleyear=\count377
+\c@maxextradate=\count378
+\c@maxextraalpha=\count379
+\c@abbrvpenalty=\count380
+\c@highnamepenalty=\count381
+\c@lownamepenalty=\count382
+\c@maxparens=\count383
+\c@parenlevel=\count384
+\blx@tempcnta=\count385
+\blx@tempcntb=\count386
+\blx@tempcntc=\count387
+\blx@maxsection=\count388
+\blx@maxsegment@0=\count389
+\blx@notetype=\count390
+\blx@parenlevel@text=\count391
+\blx@parenlevel@foot=\count392
+\blx@sectionciteorder@0=\count393
 \labelnumberwidth=\skip71
 \labelalphawidth=\skip72
 \biblabelsep=\skip73
@@ -1453,88 +2006,89 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibparsep=\skip77
 \bibhang=\skip78
 \blx@bcfin=\read4
-\blx@bcfout=\write4
-\c@mincomprange=\count397
-\c@maxcomprange=\count398
-\c@mincompwidth=\count399
+\blx@bcfout=\write5
+\c@mincomprange=\count394
+\c@maxcomprange=\count395
+\c@mincompwidth=\count396
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def"
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
+f"
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count400
-\c@savedafterword=\count401
-\c@annotator=\count402
-\c@savedannotator=\count403
-\c@author=\count404
-\c@savedauthor=\count405
-\c@bookauthor=\count406
-\c@savedbookauthor=\count407
-\c@commentator=\count408
-\c@savedcommentator=\count409
-\c@editor=\count410
-\c@savededitor=\count411
-\c@editora=\count412
-\c@savededitora=\count413
-\c@editorb=\count414
-\c@savededitorb=\count415
-\c@editorc=\count416
-\c@savededitorc=\count417
-\c@foreword=\count418
-\c@savedforeword=\count419
-\c@holder=\count420
-\c@savedholder=\count421
-\c@introduction=\count422
-\c@savedintroduction=\count423
-\c@namea=\count424
-\c@savednamea=\count425
-\c@nameb=\count426
-\c@savednameb=\count427
-\c@namec=\count428
-\c@savednamec=\count429
-\c@translator=\count430
-\c@savedtranslator=\count431
-\c@shortauthor=\count432
-\c@savedshortauthor=\count433
-\c@shorteditor=\count434
-\c@savedshorteditor=\count435
-\c@labelname=\count436
-\c@savedlabelname=\count437
-\c@institution=\count438
-\c@savedinstitution=\count439
-\c@lista=\count440
-\c@savedlista=\count441
-\c@listb=\count442
-\c@savedlistb=\count443
-\c@listc=\count444
-\c@savedlistc=\count445
-\c@listd=\count446
-\c@savedlistd=\count447
-\c@liste=\count448
-\c@savedliste=\count449
-\c@listf=\count450
-\c@savedlistf=\count451
-\c@location=\count452
-\c@savedlocation=\count453
-\c@organization=\count454
-\c@savedorganization=\count455
-\c@origlocation=\count456
-\c@savedoriglocation=\count457
-\c@origpublisher=\count458
-\c@savedorigpublisher=\count459
-\c@publisher=\count460
-\c@savedpublisher=\count461
-\c@language=\count462
-\c@savedlanguage=\count463
-\c@origlanguage=\count464
-\c@savedoriglanguage=\count465
-\c@pageref=\count466
-\c@savedpageref=\count467
+\c@afterword=\count397
+\c@savedafterword=\count398
+\c@annotator=\count399
+\c@savedannotator=\count400
+\c@author=\count401
+\c@savedauthor=\count402
+\c@bookauthor=\count403
+\c@savedbookauthor=\count404
+\c@commentator=\count405
+\c@savedcommentator=\count406
+\c@editor=\count407
+\c@savededitor=\count408
+\c@editora=\count409
+\c@savededitora=\count410
+\c@editorb=\count411
+\c@savededitorb=\count412
+\c@editorc=\count413
+\c@savededitorc=\count414
+\c@foreword=\count415
+\c@savedforeword=\count416
+\c@holder=\count417
+\c@savedholder=\count418
+\c@introduction=\count419
+\c@savedintroduction=\count420
+\c@namea=\count421
+\c@savednamea=\count422
+\c@nameb=\count423
+\c@savednameb=\count424
+\c@namec=\count425
+\c@savednamec=\count426
+\c@translator=\count427
+\c@savedtranslator=\count428
+\c@shortauthor=\count429
+\c@savedshortauthor=\count430
+\c@shorteditor=\count431
+\c@savedshorteditor=\count432
+\c@labelname=\count433
+\c@savedlabelname=\count434
+\c@institution=\count435
+\c@savedinstitution=\count436
+\c@lista=\count437
+\c@savedlista=\count438
+\c@listb=\count439
+\c@savedlistb=\count440
+\c@listc=\count441
+\c@savedlistc=\count442
+\c@listd=\count443
+\c@savedlistd=\count444
+\c@liste=\count445
+\c@savedliste=\count446
+\c@listf=\count447
+\c@savedlistf=\count448
+\c@location=\count449
+\c@savedlocation=\count450
+\c@organization=\count451
+\c@savedorganization=\count452
+\c@origlocation=\count453
+\c@savedoriglocation=\count454
+\c@origpublisher=\count455
+\c@savedorigpublisher=\count456
+\c@publisher=\count457
+\c@savedpublisher=\count458
+\c@language=\count459
+\c@savedlanguage=\count460
+\c@origlanguage=\count461
+\c@savedoriglanguage=\count462
+\c@pageref=\count463
+\c@savedpageref=\count464
 \shorthandwidth=\skip79
 \shortjournalwidth=\skip80
 \shortserieswidth=\skip81
@@ -1552,57 +2106,65 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
+t.def"
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count468
-\c@textcitetotal=\count469
-\c@textcitemaxnames=\count470
-\c@biburlnumpenalty=\count471
-\c@biburlucpenalty=\count472
-\c@biburllcpenalty=\count473
-\c@smartand=\count474
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+def"
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count465
+\c@textcitetotal=\count466
+\c@textcitemaxnames=\count467
+\c@biburlnumpenalty=\count468
+\c@biburlucpenalty=\count469
+\c@biburllcpenalty=\count470
+\c@smartand=\count471
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee.bbx"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
+.bbx"
 File: ieee.bbx 2018/08/20 v1.3 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric-comp.bbx"
-File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
+ic-comp.bbx"
+File: numeric-comp.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
-File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
+ic.bbx"
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count475
-\c@bbx:relatedtotal=\count476
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
+ard.bbx"
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count472
+\c@bbx:relatedtotal=\count473
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee.cbx"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
+.cbx"
 File: ieee.cbx 2018/08/20 v1.3 biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric-comp.cbx"
-File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count477
-\c@cbx@tempcntb=\count478
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
+ic-comp.cbx"
+File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count474
+\c@cbx@tempcntb=\count475
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1621,13 +2183,15 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+cfg"
 File: biblatex.cfg 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
-))
-(arduinoLanguage.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty
+)) (arduinoLanguage.tex
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\courier.sty
 "
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 ))
@@ -1642,8 +2206,10 @@ Package biblatex Warning: File 'ngerman-ieee.lbx' not found!
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\ngerman.lbx"
-File: ngerman.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\ngerm
+an.lbx"
+File: ngerman.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 
 
 Package biblatex Warning: File 'german-ieee.lbx' not found!
@@ -1651,14 +2217,17 @@ Package biblatex Warning: File 'german-ieee.lbx' not found!
 
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx"
-File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\germa
+n.lbx"
+File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx"
-File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\germa
+n.lbx"
+File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 ))
 
 Package biblatex Warning: File 'english-ieee.lbx' not found!
@@ -1666,14 +2235,32 @@ Package biblatex Warning: File 'english-ieee.lbx' not found!
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-(Disposition_fachbericht.aux (sections/abstract.aux) (sections/einleitung.aux)
-(sections/basics.aux) (sections/konzept.aux) (sections/history.aux)
-(sections/umsetzung.aux) (sections/validierung.aux) (sections/schlusswort.aux)
-(sections/ehrlichkeitserklaerung.aux) (sections/bibliography.aux)
-(sections/appendix.aux))
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
+sh.lbx"
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+) (Disposition_fachbericht.aux (sections/abstract.aux)
+(sections/einleitung.aux) (sections/basics.aux) (sections/konzept.aux)
+(sections/history.aux) (sections/umsetzung.aux) (sections/validierung.aux)
+(sections/schlusswort.aux) (sections/ehrlichkeitserklaerung.aux)
+(sections/bibliography.aux) (sections/appendix.aux
+
+LaTeX Warning: Label `sec:Stromnormen' multiply defined.
+
+
+LaTeX Warning: Label `tab:Grenzwerte_Normen' multiply defined.
+
+
+LaTeX Warning: Label `tab:kompatibilit\IeC {\"a}tsstufen' multiply defined.
+
+
+LaTeX Warning: Label `eq:factor_k_f\IeC {\"u}r_kurzzeiteffekte' multiply define
+d.
+
+
+LaTeX Warning: Label `tab:subharmonische_Spannung' multiply defined.
+
+))
 \openout1 = `Disposition_fachbericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1692,12 +2279,12 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 14.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1734,23 +2321,28 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count479
+\scratchcounter=\count476
 \scratchdimen=\dimen337
-\scratchbox=\box100
-\nofMPsegments=\count480
-\nofMParguments=\count481
+\scratchbox=\box98
+\nofMPsegments=\count477
+\nofMParguments=\count478
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count482
+\MPscratchCnt=\count479
 \MPscratchDim=\dimen338
-\MPnumerator=\count483
-\makeMPintoPDFobject=\count484
+\MPnumerator=\count480
+\makeMPintoPDFobject=\count481
 \everyMPtoPDFconversion=\toks49
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+)
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1760,24 +2352,25 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box101
+\AtBeginShipoutBox=\box99
 Package hyperref Info: Link coloring OFF on input line 14.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
+ty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
+estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count485
+\c@section@level=\count482
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
-
-(Disposition_fachbericht.out) (Disposition_fachbericht.out)
-\@outlinefile=\write5
-\openout5 = `Disposition_fachbericht.out'.
+ (Disposition_fachbericht.out) (Disposition_fachbericht.out)
+\@outlinefile=\write6
+\openout6 = `Disposition_fachbericht.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1786,20 +2379,20 @@ Package caption Info: listings package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
-English.dict"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
+tor-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-ab
+breviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\c@lstlisting=\count486
-
-ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+\c@lstlisting=\count483
+ ABD: EveryShipout initializing macros
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -1823,7 +2416,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Disposition_fachbericht.bcf'.
+\openout5 = `Disposition_fachbericht.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Disposition_fachbericht.bbl' found.
@@ -1832,24 +2425,24 @@ Package biblatex Info: Reference section=0 on input line 14.
 Package biblatex Info: Reference segment=0 on input line 14.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1861,31 +2454,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Try loading font information for OT1+lmss on input line 14.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 14.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<fhnwlogo.pdf, id=322, 183.81773pt x 28.4543pt>
+<fhnwlogo.pdf, id=310, 183.81773pt x 28.4543pt>
 File: fhnwlogo.pdf Graphic file (type pdf)
 <use fhnwlogo.pdf>
 Package pdftex.def Info: fhnwlogo.pdf  used on input line 19.
 (pdftex.def)             Requested size: 220.57736pt x 34.1433pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 19.
-<./graphics/Poster_Test.png, id=323, 1541.76pt x 749.80125pt>
+<./graphics/Poster_Test.png, id=311, 1541.76pt x 749.80125pt>
 File: ./graphics/Poster_Test.png Graphic file (type png)
 <use ./graphics/Poster_Test.png>
 Package pdftex.def Info: ./graphics/Poster_Test.png  used on input line 24.
 (pdftex.def)             Requested size: 455.24408pt x 221.39539pt.
- [1
 
-{C:/Users/Bastian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./fhnwlog
-o.pdf> <./graphics/Poster_Test.png>]
+[1
+
+{C:/Users/nando/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./fhnwlogo.
+pdf> <./graphics/Poster_Test.png>]
 \openout2 = `sections/abstract.aux'.
 
  (sections/abstract.tex) [2
@@ -1894,26 +2488,26 @@ o.pdf> <./graphics/Poster_Test.png>]
 ]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 53.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (Disposition_fachbericht.toc
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 25.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+)
+[1
 
 ] [2])
-\tf@toc=\write6
-\openout6 = `Disposition_fachbericht.toc'.
+\tf@toc=\write7
+\openout7 = `Disposition_fachbericht.toc'.
 
  [3]
 \openout2 = `sections/einleitung.aux'.
 
-
-(sections/einleitung.tex)pdfTeX warning (ext4): destination with the same ident
-ifier (name{page.1}) has been already used, duplicate ignored
+ (sections/einleitung.tex)pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.58 \include{sections/einleitung}
@@ -1932,7 +2526,7 @@ l.20
 
 
 ]
-<./graphics/Schwing_3.jpg, id=456, 103.51172pt x 61.73062pt>
+<./graphics/Schwing_3.jpg, id=448, 103.51172pt x 61.73062pt>
 File: ./graphics/Schwing_3.jpg Graphic file (type jpg)
 <use ./graphics/Schwing_3.jpg>
 Package pdftex.def Info: ./graphics/Schwing_3.jpg  used on input line 63.
@@ -1942,13 +2536,13 @@ Underfull \hbox (badness 1286) in paragraph at lines 64--64
 []\T1/lmr/bx/n/10 Abbildung 2.1: |\T1/lmr/m/n/10 Grund-schwin-gung mit 3.
  []
 
-<./graphics/Schwing_11.jpg, id=459, 104.26453pt x 62.48344pt>
+<./graphics/Schwing_11.jpg, id=451, 104.26453pt x 62.48344pt>
 File: ./graphics/Schwing_11.jpg Graphic file (type jpg)
 <use ./graphics/Schwing_11.jpg>
 Package pdftex.def Info: ./graphics/Schwing_11.jpg  used on input line 69.
 (pdftex.def)             Requested size: 208.52853pt x 124.96655pt.
 [3]
-<./graphics/sub_und_zwischenharmonische.png, id=474, 564.60938pt x 564.60938pt>
+<./graphics/sub_und_zwischenharmonische.png, id=466, 564.60938pt x 564.60938pt>
 
 File: ./graphics/sub_und_zwischenharmonische.png Graphic file (type png)
 <use ./graphics/sub_und_zwischenharmonische.png>
@@ -1957,7 +2551,7 @@ put line 81.
 (pdftex.def)             Requested size: 197.61623pt x 197.61623pt.
  [4 <./graphics/Schwing_3.jpg> <./graphics/Schwing_11.jpg> <./graphics/sub_und_
 zwischenharmonische.png>]
-<./graphics/verzerrtes_Signal_analysis.png, id=483, 483.30562pt x 294.72609pt>
+<./graphics/verzerrtes_Signal_analysis.png, id=475, 483.30562pt x 294.72609pt>
 File: ./graphics/verzerrtes_Signal_analysis.png Graphic file (type png)
 <use ./graphics/verzerrtes_Signal_analysis.png>
 Package pdftex.def Info: ./graphics/verzerrtes_Signal_analysis.png  used on inp
@@ -1969,20 +2563,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
  []
 
 [6] [7]
-<./graphics/phasenanschnittsteuerung1.png, id=522, 521.95pt x 281.05pt>
+<./graphics/phasenanschnittsteuerung1.png, id=514, 521.95pt x 281.05pt>
 File: ./graphics/phasenanschnittsteuerung1.png Graphic file (type png)
 <use ./graphics/phasenanschnittsteuerung1.png>
 Package pdftex.def Info: ./graphics/phasenanschnittsteuerung1.png  used on inpu
 t line 165.
 (pdftex.def)             Requested size: 365.3625pt x 196.73364pt.
  [8 <./graphics/phasenanschnittsteuerung1.png (PNG copy)>]
-<./graphics/phasenanschnittsteuerung2.png, id=532, 521.95pt x 281.05pt>
+<./graphics/phasenanschnittsteuerung2.png, id=524, 521.95pt x 281.05pt>
 File: ./graphics/phasenanschnittsteuerung2.png Graphic file (type png)
 <use ./graphics/phasenanschnittsteuerung2.png>
 Package pdftex.def Info: ./graphics/phasenanschnittsteuerung2.png  used on inpu
 t line 171.
 (pdftex.def)             Requested size: 365.3625pt x 196.73364pt.
-<./graphics/Schwingungspaketsteuerung.png, id=537, 803.0pt x 301.125pt>
+<./graphics/Schwingungspaketsteuerung.png, id=529, 803.0pt x 301.125pt>
 File: ./graphics/Schwingungspaketsteuerung.png Graphic file (type png)
 <use ./graphics/Schwingungspaketsteuerung.png>
 Package pdftex.def Info: ./graphics/Schwingungspaketsteuerung.png  used on inpu
@@ -1996,7 +2590,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 185.
  [9 <./graphics/phasenanschnittsteuerung2.png (PNG copy)> <./graphics/Schwingun
 gspaketsteuerung.png>]
-<./graphics/Leistungsfaktor.png, id=554, 963.6pt x 460.72125pt>
+<./graphics/Leistungsfaktor.png, id=546, 963.6pt x 460.72125pt>
 File: ./graphics/Leistungsfaktor.png Graphic file (type png)
 <use ./graphics/Leistungsfaktor.png>
 Package pdftex.def Info: ./graphics/Leistungsfaktor.png  used on input line 199
@@ -2005,49 +2599,34 @@ Package pdftex.def Info: ./graphics/Leistungsfaktor.png  used on input line 199
  [10 <./graphics/Leistungsfaktor.png>] [11]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 288.
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 358--365
-
- []
-
-[13] [14] [15]
-<./graphics/Bezugsimpedanz.png, id=613, 715.67375pt x 510.90875pt>
-File: ./graphics/Bezugsimpedanz.png Graphic file (type png)
-<use ./graphics/Bezugsimpedanz.png>
-Package pdftex.def Info: ./graphics/Bezugsimpedanz.png  used on input line 457.
-
-(pdftex.def)             Requested size: 286.26442pt x 204.35988pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-
- []
-
-[16 <./graphics/Bezugsimpedanz.png>] [17] [18] [19]) [20]
+ [12] [13] [14]) [15]
 \openout2 = `sections/konzept.aux'.
 
- (sections/konzept.tex
+
+(sections/konzept.tex
 LaTeX Font Info:    Try loading font information for TS1+lmss on input line 8.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
+
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./graphics/eingangssignal_60.png, id=652, 426.84468pt x 321.45094pt>
+<./graphics/eingangssignal_60.png, id=617, 426.84468pt x 321.45094pt>
 File: ./graphics/eingangssignal_60.png Graphic file (type png)
 <use ./graphics/eingangssignal_60.png>
 Package pdftex.def Info: ./graphics/eingangssignal_60.png  used on input line 1
 6.
 (pdftex.def)             Requested size: 213.96527pt x 161.13708pt.
-<./graphics/eingangssignal_90.png, id=653, 426.09187pt x 320.69812pt>
+<./graphics/eingangssignal_90.png, id=618, 426.09187pt x 320.69812pt>
 File: ./graphics/eingangssignal_90.png Graphic file (type png)
 <use ./graphics/eingangssignal_90.png>
 Package pdftex.def Info: ./graphics/eingangssignal_90.png  used on input line 1
 7.
 (pdftex.def)             Requested size: 213.96527pt x 161.04353pt.
-<./graphics/A_PH_60.png, id=663, 428.72672pt x 321.45094pt>
+<./graphics/A_PH_60.png, id=628, 428.72672pt x 321.45094pt>
 File: ./graphics/A_PH_60.png Graphic file (type png)
 <use ./graphics/A_PH_60.png>
 Package pdftex.def Info: ./graphics/A_PH_60.png  used on input line 27.
 (pdftex.def)             Requested size: 213.96527pt x 160.42587pt.
-<./graphics/A_PH_90.png, id=664, 484.43484pt x 365.49046pt>
+<./graphics/A_PH_90.png, id=629, 484.43484pt x 365.49046pt>
 File: ./graphics/A_PH_90.png Graphic file (type png)
 <use ./graphics/A_PH_90.png>
 Package pdftex.def Info: ./graphics/A_PH_90.png  used on input line 28.
@@ -2056,28 +2635,28 @@ Package pdftex.def Info: ./graphics/A_PH_90.png  used on input line 28.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21
+[16
 
 
  <./graphics/eingangssignal_60.png> <./graphics/eingangssignal_90.png>]
-<./graphics/re_eingangssignal_60.png, id=680, 487.8225pt x 366.61969pt>
+<./graphics/re_eingangssignal_60.png, id=645, 487.8225pt x 366.61969pt>
 File: ./graphics/re_eingangssignal_60.png Graphic file (type png)
 <use ./graphics/re_eingangssignal_60.png>
 Package pdftex.def Info: ./graphics/re_eingangssignal_60.png  used on input lin
 e 37.
 (pdftex.def)             Requested size: 213.96527pt x 160.8041pt.
-<./graphics/re_einganssignal_90.png, id=681, 485.56406pt x 365.11406pt>
+<./graphics/re_einganssignal_90.png, id=646, 485.56406pt x 365.11406pt>
 File: ./graphics/re_einganssignal_90.png Graphic file (type png)
 <use ./graphics/re_einganssignal_90.png>
 Package pdftex.def Info: ./graphics/re_einganssignal_90.png  used on input line
  38.
 (pdftex.def)             Requested size: 213.96527pt x 160.88466pt.
-<./graphics/FFT_mit_Matlab.png, id=685, 426.84468pt x 321.45094pt>
+<./graphics/FFT_mit_Matlab.png, id=650, 426.84468pt x 321.45094pt>
 File: ./graphics/FFT_mit_Matlab.png Graphic file (type png)
 <use ./graphics/FFT_mit_Matlab.png>
 Package pdftex.def Info: ./graphics/FFT_mit_Matlab.png  used on input line 48.
 (pdftex.def)             Requested size: 213.96527pt x 161.13708pt.
-<./graphics/FFT_mit_Matlab_90.png, id=686, 426.84468pt x 320.32172pt>
+<./graphics/FFT_mit_Matlab_90.png, id=651, 426.84468pt x 320.32172pt>
 File: ./graphics/FFT_mit_Matlab_90.png Graphic file (type png)
 <use ./graphics/FFT_mit_Matlab_90.png>
 Package pdftex.def Info: ./graphics/FFT_mit_Matlab_90.png  used on input line 4
@@ -2087,26 +2666,26 @@ Package pdftex.def Info: ./graphics/FFT_mit_Matlab_90.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./graphics/A_PH_60.png> <./graphics/A_PH_90.png> <./graphics/re_eingangssi
+[17 <./graphics/A_PH_60.png> <./graphics/A_PH_90.png> <./graphics/re_eingangssi
 gnal_60.png> <./graphics/re_einganssignal_90.png>]
-<./graphics/Schwingungspaket_0_5.png, id=704, 426.09187pt x 321.45094pt>
+<./graphics/Schwingungspaket_0_5.png, id=669, 426.09187pt x 321.45094pt>
 File: ./graphics/Schwingungspaket_0_5.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_5.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_5.png  used on input lin
 e 63.
 (pdftex.def)             Requested size: 195.75162pt x 147.67793pt.
-<./graphics/Schwingungspaket_0_8.png, id=705, 426.46828pt x 321.45094pt>
+<./graphics/Schwingungspaket_0_8.png, id=670, 426.46828pt x 321.45094pt>
 File: ./graphics/Schwingungspaket_0_8.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_8.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_8.png  used on input lin
 e 64.
 (pdftex.def)             Requested size: 195.75162pt x 147.5504pt.
-<./graphics/Oberwellen_0_5.png, id=707, 426.46828pt x 321.45094pt>
+<./graphics/Oberwellen_0_5.png, id=672, 426.46828pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_5.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_5.png>
 Package pdftex.def Info: ./graphics/Oberwellen_0_5.png  used on input line 73.
 (pdftex.def)             Requested size: 213.96527pt x 161.27933pt.
-<./graphics/Oberwellen_0_8.png, id=708, 426.46828pt x 321.45094pt>
+<./graphics/Oberwellen_0_8.png, id=673, 426.46828pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_8.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_8.png>
 Package pdftex.def Info: ./graphics/Oberwellen_0_8.png  used on input line 74.
@@ -2116,37 +2695,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[23 <./graphics/FFT_mit_Matlab.png> <./graphics/FFT_mit_Matlab_90.png> <./graph
+[18 <./graphics/FFT_mit_Matlab.png> <./graphics/FFT_mit_Matlab_90.png> <./graph
 ics/Schwingungspaket_0_5.png> <./graphics/Schwingungspaket_0_8.png>]
-<./graphics/absolut_logaritmic_0_5.png, id=726, 426.46828pt x 321.07452pt>
+<./graphics/absolut_logaritmic_0_5.png, id=691, 426.46828pt x 321.07452pt>
 File: ./graphics/absolut_logaritmic_0_5.png Graphic file (type png)
 <use ./graphics/absolut_logaritmic_0_5.png>
 Package pdftex.def Info: ./graphics/absolut_logaritmic_0_5.png  used on input l
 ine 88.
 (pdftex.def)             Requested size: 204.85844pt x 154.2365pt.
-<./graphics/absolut_logaritmic_0_8.png, id=727, 427.5975pt x 321.82735pt>
+<./graphics/absolut_logaritmic_0_8.png, id=692, 427.5975pt x 321.82735pt>
 File: ./graphics/absolut_logaritmic_0_8.png Graphic file (type png)
 <use ./graphics/absolut_logaritmic_0_8.png>
 Package pdftex.def Info: ./graphics/absolut_logaritmic_0_8.png  used on input l
 ine 89.
 (pdftex.def)             Requested size: 204.85844pt x 154.18564pt.
- [24 <./graphics/Oberwellen_0_5.png> <./graphics/Oberwellen_0_8.png> <./graphic
+ [19 <./graphics/Oberwellen_0_5.png> <./graphics/Oberwellen_0_8.png> <./graphic
 s/absolut_logaritmic_0_5.png> <./graphics/absolut_logaritmic_0_8.png>]
-<./graphics/sanftes_Ansteuern.png, id=742, 738.88547pt x 394.85016pt>
+<./graphics/sanftes_Ansteuern.png, id=707, 738.88547pt x 394.85016pt>
 File: ./graphics/sanftes_Ansteuern.png Graphic file (type png)
 <use ./graphics/sanftes_Ansteuern.png>
 Package pdftex.def Info: ./graphics/sanftes_Ansteuern.png  used on input line 1
 01.
 (pdftex.def)             Requested size: 443.3347pt x 236.91191pt.
- [25 <./graphics/sanftes_Ansteuern.png>]
-<./graphics/hartes_Ansteuern.png, id=750, 740.3911pt x 392.21532pt>
+ [20 <./graphics/sanftes_Ansteuern.png>]
+<./graphics/hartes_Ansteuern.png, id=716, 740.3911pt x 392.21532pt>
 File: ./graphics/hartes_Ansteuern.png Graphic file (type png)
 <use ./graphics/hartes_Ansteuern.png>
 Package pdftex.def Info: ./graphics/hartes_Ansteuern.png  used on input line 10
 8.
 (pdftex.def)             Requested size: 444.23808pt x 235.331pt.
- [26 <./graphics/hartes_Ansteuern.png>]
-<./graphics/plecs_phasenanschnitt_pi_3_funktion.png, id=765, 1129.21875pt x 112
+ [21 <./graphics/hartes_Ansteuern.png>]
+<./graphics/plecs_phasenanschnitt_pi_3_funktion.png, id=730, 1129.21875pt x 112
 9.21875pt>
 File: ./graphics/plecs_phasenanschnitt_pi_3_funktion.png Graphic file (type png
 )
@@ -2154,7 +2733,7 @@ File: ./graphics/plecs_phasenanschnitt_pi_3_funktion.png Graphic file (type png
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_3_funktion.png  us
 ed on input line 128.
 (pdftex.def)             Requested size: 195.75162pt x 195.73811pt.
-<./graphics/plecs_phasenanschnitt_pi_2_funktion.png, id=766, 1129.21875pt x 112
+<./graphics/plecs_phasenanschnitt_pi_2_funktion.png, id=731, 1129.21875pt x 112
 9.21875pt>
 File: ./graphics/plecs_phasenanschnitt_pi_2_funktion.png Graphic file (type png
 )
@@ -2162,23 +2741,23 @@ File: ./graphics/plecs_phasenanschnitt_pi_2_funktion.png Graphic file (type png
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_2_funktion.png  us
 ed on input line 129.
 (pdftex.def)             Requested size: 195.75162pt x 195.73811pt.
- [27 <./graphics/plecs_phasenanschnitt_pi_3_funktion.png> <./graphics/plecs_pha
+ [22 <./graphics/plecs_phasenanschnitt_pi_3_funktion.png> <./graphics/plecs_pha
 senanschnitt_pi_2_funktion.png>]
-<./graphics/plecs_phasenanschnitt_pi_3.png, id=777, 1129.21875pt x 1129.21875pt
+<./graphics/plecs_phasenanschnitt_pi_3.png, id=742, 1129.21875pt x 1129.21875pt
 >
 File: ./graphics/plecs_phasenanschnitt_pi_3.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_3.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_3.png  used on inp
 ut line 140.
 (pdftex.def)             Requested size: 195.75162pt x 195.73811pt.
-<./graphics/plecs_phasenanschnitt_pi_2.png, id=778, 1129.21875pt x 1129.21875pt
+<./graphics/plecs_phasenanschnitt_pi_2.png, id=743, 1129.21875pt x 1129.21875pt
 >
 File: ./graphics/plecs_phasenanschnitt_pi_2.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_2.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_2.png  used on inp
 ut line 141.
 (pdftex.def)             Requested size: 195.75162pt x 195.73811pt.
-<./graphics/plecs_schwingungspacket_0_5_schwingungen.PNG, id=783, 361.35pt x 36
+<./graphics/plecs_schwingungspacket_0_5_schwingungen.PNG, id=748, 361.35pt x 36
 1.35pt>
 File: ./graphics/plecs_schwingungspacket_0_5_schwingungen.PNG Graphic file (typ
 e png)
@@ -2186,7 +2765,7 @@ e png)
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_5_schwingungen.PN
 G  used on input line 151.
 (pdftex.def)             Requested size: 204.85844pt x 204.85786pt.
-<./graphics/plecs_schwingungspacket_0_8_schwingungen.PNG, id=784, 361.35pt x 36
+<./graphics/plecs_schwingungspacket_0_8_schwingungen.PNG, id=749, 361.35pt x 36
 1.35pt>
 File: ./graphics/plecs_schwingungspacket_0_8_schwingungen.PNG Graphic file (typ
 e png)
@@ -2194,34 +2773,34 @@ e png)
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_8_schwingungen.PN
 G  used on input line 152.
 (pdftex.def)             Requested size: 204.85844pt x 204.85786pt.
-<./graphics/plecs_schwingungspacket_0_5_100.PNG, id=788, 1129.21875pt x 1129.21
+<./graphics/plecs_schwingungspacket_0_5_100.PNG, id=753, 1129.21875pt x 1129.21
 875pt>
 File: ./graphics/plecs_schwingungspacket_0_5_100.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_5_100.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_5_100.PNG  used o
 n input line 160.
 (pdftex.def)             Requested size: 204.85844pt x 204.85304pt.
-<./graphics/plecs_schwingungspacket_0_5_1000.PNG, id=789, 282.30469pt x 282.304
+<./graphics/plecs_schwingungspacket_0_5_1000.PNG, id=754, 282.30469pt x 282.304
 69pt>
 File: ./graphics/plecs_schwingungspacket_0_5_1000.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_5_1000.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_5_1000.PNG  used 
 on input line 161.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/plecs_schwingungspacket_0_8.PNG, id=792, 1129.21875pt x 1129.21875p
+<./graphics/plecs_schwingungspacket_0_8.PNG, id=757, 1129.21875pt x 1129.21875p
 t>
 File: ./graphics/plecs_schwingungspacket_0_8.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_8.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_8.PNG  used on in
 put line 172.
 (pdftex.def)             Requested size: 204.85844pt x 204.85304pt.
-<./graphics/plecs_schwingungspacket_0_8_1000.PNG, id=793, 361.35pt x 361.35pt>
+<./graphics/plecs_schwingungspacket_0_8_1000.PNG, id=758, 361.35pt x 361.35pt>
 File: ./graphics/plecs_schwingungspacket_0_8_1000.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_8_1000.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_8_1000.PNG  used 
 on input line 173.
 (pdftex.def)             Requested size: 204.85844pt x 204.85786pt.
-<./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG, id=796, 1129.21875pt x
+<./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG, id=761, 1129.21875pt x
  1129.21875pt>
 File: ./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG Graphic file (type
  png)
@@ -2229,7 +2808,7 @@ File: ./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG Graphic file (type
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG
   used on input line 184.
 (pdftex.def)             Requested size: 204.85844pt x 204.85304pt.
-<./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG, id=797, 1129.21875pt x
+<./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG, id=762, 1129.21875pt x
  1129.21875pt>
 File: ./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG Graphic file (type
  png)
@@ -2237,9 +2816,9 @@ File: ./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG Graphic file (type
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG
   used on input line 185.
 (pdftex.def)             Requested size: 204.85844pt x 204.85304pt.
- [28 <./graphics/plecs_phasenanschnitt_pi_3.png> <./graphics/plecs_phasenanschn
+ [23 <./graphics/plecs_phasenanschnitt_pi_3.png> <./graphics/plecs_phasenanschn
 itt_pi_2.png>]
-<./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png, id=818, 569.9
+<./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png, id=783, 569.9
 694pt x 314.1336pt>
 File: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png Graphic f
 ile (type png)
@@ -2247,10 +2826,10 @@ ile (type png)
 Package pdftex.def Info: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwink
 el_90.png  used on input line 196.
 (pdftex.def)             Requested size: 313.48415pt x 172.774pt.
- [29 <./graphics/plecs_schwingungspacket_0_5_schwingungen.PNG> <./graphics/plec
+ [24 <./graphics/plecs_schwingungspacket_0_5_schwingungen.PNG> <./graphics/plec
 s_schwingungspacket_0_8_schwingungen.PNG> <./graphics/plecs_schwingungspacket_0
 _5_100.PNG> <./graphics/plecs_schwingungspacket_0_5_1000.PNG>]
-<./graphics/3_phasiges_Phasenanschnit_60_Signal.png, id=830, 282.30469pt x 282.
+<./graphics/3_phasiges_Phasenanschnit_60_Signal.png, id=795, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Phasenanschnit_60_Signal.png Graphic file (type png
 )
@@ -2258,14 +2837,14 @@ File: ./graphics/3_phasiges_Phasenanschnit_60_Signal.png Graphic file (type png
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_60_Signal.png  us
 ed on input line 210.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_60_FFT.png, id=831, 282.30469pt x 282.304
+<./graphics/3_phasiges_Phasenanschnit_60_FFT.png, id=796, 282.30469pt x 282.304
 69pt>
 File: ./graphics/3_phasiges_Phasenanschnit_60_FFT.png Graphic file (type png)
 <use ./graphics/3_phasiges_Phasenanschnit_60_FFT.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_60_FFT.png  used 
 on input line 211.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_90_Signal.png, id=832, 282.30469pt x 282.
+<./graphics/3_phasiges_Phasenanschnit_90_Signal.png, id=797, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Phasenanschnit_90_Signal.png Graphic file (type png
 )
@@ -2273,19 +2852,19 @@ File: ./graphics/3_phasiges_Phasenanschnit_90_Signal.png Graphic file (type png
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_90_Signal.png  us
 ed on input line 219.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Phasenanschnit_90_FFT.png, id=833, 282.30469pt x 282.304
+<./graphics/3_phasiges_Phasenanschnit_90_FFT.png, id=798, 282.30469pt x 282.304
 69pt>
 File: ./graphics/3_phasiges_Phasenanschnit_90_FFT.png Graphic file (type png)
 <use ./graphics/3_phasiges_Phasenanschnit_90_FFT.png>
 Package pdftex.def Info: ./graphics/3_phasiges_Phasenanschnit_90_FFT.png  used 
 on input line 220.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
- [30 <./graphics/plecs_schwingungspacket_0_8.PNG> <./graphics/plecs_schwingungs
+ [25 <./graphics/plecs_schwingungspacket_0_8.PNG> <./graphics/plecs_schwingungs
 packet_0_8_1000.PNG> <./graphics/plecs_schwingungspacket_0_5_absolut_log.PNG> <
-./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG>] [31 <./graphics/Vergle
+./graphics/plecs_schwingungspacket_0_8_absolut_log.PNG>] [26 <./graphics/Vergle
 ich_Amplitudenspektrum_mit_Phasenwinkel_90.png> <./graphics/3_phasiges_Phasenan
 schnit_60_Signal.png> <./graphics/3_phasiges_Phasenanschnit_60_FFT.png>]
-<./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png, id=866, 282.30469pt x 2
+<./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png, id=832, 282.30469pt x 2
 82.30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png Graphic file (type 
 png)
@@ -2293,7 +2872,7 @@ png)
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png 
  used on input line 241.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png, id=867, 282.30469pt x 282.
+<./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png, id=833, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png Graphic file (type png
 )
@@ -2301,7 +2880,7 @@ File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png Graphic file (type png
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_FTT_0_5.png  us
 ed on input line 242.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png, id=868, 282.30469pt x 2
+<./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png, id=834, 282.30469pt x 2
 82.30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png Graphic file (type 
 png)
@@ -2309,7 +2888,7 @@ png)
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_Signal_0_8.png 
  used on input line 251.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
-<./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png, id=869, 282.30469pt x 282.
+<./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png, id=835, 282.30469pt x 282.
 30469pt>
 File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png Graphic file (type png
 )
@@ -2317,9 +2896,9 @@ File: ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png Graphic file (type png
 Package pdftex.def Info: ./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png  us
 ed on input line 252.
 (pdftex.def)             Requested size: 204.85844pt x 204.86163pt.
- [32 <./graphics/3_phasiges_Phasenanschnit_90_Signal.png> <./graphics/3_phasige
+ [27 <./graphics/3_phasiges_Phasenanschnit_90_Signal.png> <./graphics/3_phasige
 s_Phasenanschnit_90_FFT.png>]
-<./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png, id=886, 28
+<./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png, id=851, 28
 2.30469pt x 282.30469pt>
 File: ./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png Graphi
 c file (type png)
@@ -2327,7 +2906,7 @@ c file (type png)
 Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_c
 ycle_0_5.png  used on input line 264.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png, id=887, 361.35
+<./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png, id=852, 361.35
 pt x 361.35pt>
 File: ./graphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png Graphic fi
 le (type png)
@@ -2335,16 +2914,16 @@ le (type png)
 Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_Eingangssignal_Aussch
 nitt.png  used on input line 265.
 (pdftex.def)             Requested size: 195.75162pt x 195.74915pt.
- [33 <./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png> <./graphics/3_phas
+ [28 <./graphics/3_phasiges_Schwingungspaket_Signal_0_5.png> <./graphics/3_phas
 iges_Schwingungspaket_FTT_0_5.png> <./graphics/3_phasiges_Schwingungspaket_Sign
 al_0_8.png> <./graphics/3_phasiges_Schwingungspaket_FTT_0_8.png>]
-<./graphics/1_phasig_sanftanlaser_FFT.png, id=901, 282.30469pt x 282.30469pt>
+<./graphics/1_phasig_sanftanlaser_FFT.png, id=866, 282.30469pt x 282.30469pt>
 File: ./graphics/1_phasig_sanftanlaser_FFT.png Graphic file (type png)
 <use ./graphics/1_phasig_sanftanlaser_FFT.png>
 Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_FFT.png  used on inpu
 t line 273.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png, id=902, 282.30469pt x 282
+<./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png, id=867, 282.30469pt x 282
 .30469pt>
 File: ./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png Graphic file (type pn
 g)
@@ -2352,10 +2931,10 @@ g)
 Package pdftex.def Info: ./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png  u
 sed on input line 274.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
- [34 <./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png> <./gr
+ [29 <./graphics/1_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png> <./gr
 aphics/1_phasig_sanftanlaser_Eingangssignal_Ausschnitt.png> <./graphics/1_phasi
 g_sanftanlaser_FFT.png> <./graphics/1_phasig_sanftanlaser_FFT_Ausschnitt.png>]
-<./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png, id=916, 28
+<./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png, id=881, 28
 2.30469pt x 282.30469pt>
 File: ./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png Graphi
 c file (type png)
@@ -2363,7 +2942,7 @@ c file (type png)
 Package pdftex.def Info: ./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_c
 ycle_0_5.png  used on input line 287.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5.png, id=917, 28
+<./graphics/3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5.png, id=882, 28
 2.30469pt x 282.30469pt>
 File: ./graphics/3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5.png Graphi
 c file (type png)
@@ -2371,14 +2950,14 @@ c file (type png)
 Package pdftex.def Info: ./graphics/3_phasig_sanftanlaser_Eingangssignal_Aussch
 nitt_0_5.png  used on input line 288.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/3_phasig_sanftanlaser_FFT_0_5.png, id=918, 282.30469pt x 282.30469p
+<./graphics/3_phasig_sanftanlaser_FFT_0_5.png, id=883, 282.30469pt x 282.30469p
 t>
 File: ./graphics/3_phasig_sanftanlaser_FFT_0_5.png Graphic file (type png)
 <use ./graphics/3_phasig_sanftanlaser_FFT_0_5.png>
 Package pdftex.def Info: ./graphics/3_phasig_sanftanlaser_FFT_0_5.png  used on 
 input line 295.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/3_phasig_sanftanlaser_FFT_Ausschnitt_0_5.png, id=919, 282.30469pt x
+<./graphics/3_phasig_sanftanlaser_FFT_Ausschnitt_0_5.png, id=884, 282.30469pt x
  282.30469pt>
 File: ./graphics/3_phasig_sanftanlaser_FFT_Ausschnitt_0_5.png Graphic file (typ
 e png)
@@ -2386,11 +2965,11 @@ e png)
 Package pdftex.def Info: ./graphics/3_phasig_sanftanlaser_FFT_Ausschnitt_0_5.pn
 g  used on input line 296.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
- [35 <./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png> <./gr
+ [30 <./graphics/3_phasig_sanftanlaser_Eingangssignal_duty_cycle_0_5.png> <./gr
 aphics/3_phasig_sanftanlaser_Eingangssignal_Ausschnitt_0_5.png> <./graphics/3_p
 hasig_sanftanlaser_FFT_0_5.png> <./graphics/3_phasig_sanftanlaser_FFT_Ausschnit
 t_0_5.png>]
-<./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.png, id=938, 
+<./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.png, id=903, 
 282.30469pt x 282.30469pt>
 File: ./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.png Grap
 hic file (type png)
@@ -2398,7 +2977,7 @@ hic file (type png)
 Package pdftex.def Info: ./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Ein
 ganssignal.png  used on input line 321.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal.png, id=939
+<./graphics/2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal.png, id=904
 , 361.35pt x 361.35pt>
 File: ./graphics/2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal.png Gr
 aphic file (type png)
@@ -2406,7 +2985,7 @@ aphic file (type png)
 Package pdftex.def Info: ./graphics/2_phasige_ansteuerung_mit_Last_ausschnitt_E
 inganssignal.png  used on input line 322.
 (pdftex.def)             Requested size: 195.75162pt x 195.74915pt.
-<./graphics/2_phasige_ansteuerung_mit_Last_FFT_Komplet.png, id=940, 282.30469pt
+<./graphics/2_phasige_ansteuerung_mit_Last_FFT_Komplet.png, id=905, 282.30469pt
  x 282.30469pt>
 File: ./graphics/2_phasige_ansteuerung_mit_Last_FFT_Komplet.png Graphic file (t
 ype png)
@@ -2414,7 +2993,7 @@ ype png)
 Package pdftex.def Info: ./graphics/2_phasige_ansteuerung_mit_Last_FFT_Komplet.
 png  used on input line 330.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-<./graphics/2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt.png, id=941, 282.3046
+<./graphics/2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt.png, id=906, 282.3046
 9pt x 282.30469pt>
 File: ./graphics/2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt.png Graphic file
  (type png)
@@ -2422,18 +3001,18 @@ File: ./graphics/2_phasige_ansteuerung_mit_Last_FFT_Ausschnitt.png Graphic file
 Package pdftex.def Info: ./graphics/2_phasige_ansteuerung_mit_Last_FFT_Ausschni
 tt.png  used on input line 331.
 (pdftex.def)             Requested size: 195.75162pt x 195.75534pt.
-) [36] [37 <./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.pn
+) [31] [32 <./graphics/2_phasige_ansteuerung_mit_Last_gesamtes_Einganssignal.pn
 g> <./graphics/2_phasige_ansteuerung_mit_Last_ausschnitt_Einganssignal.png> <./
 graphics/2_phasige_ansteuerung_mit_Last_FFT_Komplet.png> <./graphics/2_phasige_
 ansteuerung_mit_Last_FFT_Ausschnitt.png>]
 \openout2 = `sections/history.aux'.
 
 
-(sections/history.tex [38
+(sections/history.tex [33
 
 
 ]
-<./graphics/Schema_Verstaerkerschaltung.png, id=979, 619.31375pt x 277.035pt>
+<./graphics/Schema_Verstaerkerschaltung.png, id=944, 619.31375pt x 277.035pt>
 File: ./graphics/Schema_Verstaerkerschaltung.png Graphic file (type png)
 <use ./graphics/Schema_Verstaerkerschaltung.png>
 Package pdftex.def Info: ./graphics/Schema_Verstaerkerschaltung.png  used on in
@@ -2444,56 +3023,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 []\T1/lmr/bx/n/10 Abbildung 4.2:
  []
 
-<./graphics/Messaufbau.png, id=982, 878.28125pt x 382.42876pt>
+<./graphics/Messaufbau.png, id=947, 878.28125pt x 382.42876pt>
 File: ./graphics/Messaufbau.png Graphic file (type png)
 <use ./graphics/Messaufbau.png>
 Package pdftex.def Info: ./graphics/Messaufbau.png  used on input line 69.
 (pdftex.def)             Requested size: 455.24408pt x 198.22803pt.
-[39 <./graphics/Schema_Verstaerkerschaltung.png> <./graphics/Messaufbau.png>]
-[40]
-<./graphics/BlockdiagrammPI.png, id=1001, 654.445pt x 200.75pt>
+[34 <./graphics/Schema_Verstaerkerschaltung.png> <./graphics/Messaufbau.png>]
+[35]
+<./graphics/BlockdiagrammPI.png, id=966, 654.445pt x 200.75pt>
 File: ./graphics/BlockdiagrammPI.png Graphic file (type png)
 <use ./graphics/BlockdiagrammPI.png>
 Package pdftex.def Info: ./graphics/BlockdiagrammPI.png  used on input line 125
 .
 (pdftex.def)             Requested size: 455.24408pt x 139.6449pt.
-) [41] [42 <./graphics/BlockdiagrammPI.png>]
+) [36] [37 <./graphics/BlockdiagrammPI.png>]
 \openout2 = `sections/umsetzung.aux'.
 
  (sections/umsetzung.tex
+[38
 
-LaTeX Warning: Reference `sec:Normn' on page 43 undefined on input line 10.
 
-<./graphics/Messung_Widerstand_Phas_60grad_stroeme.png, id=1030, 2234.3475pt x 
+]
+
+LaTeX Warning: Reference `sec:Normn' on page 39 undefined on input line 12.
+
+<./graphics/Messung_Widerstand_Phas_60grad_stroeme.png, id=1001, 2234.3475pt x 
 1183.42125pt>
 File: ./graphics/Messung_Widerstand_Phas_60grad_stroeme.png Graphic file (type 
 png)
 <use ./graphics/Messung_Widerstand_Phas_60grad_stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_60grad_stroeme.png 
- used on input line 18.
+ used on input line 20.
 (pdftex.def)             Requested size: 455.24408pt x 241.12221pt.
-<./graphics/Messung_Widerstand_Phas_90grad_stroeme.png, id=1034, 2242.62843pt x
+[39 <./graphics/Messung_Widerstand_Phas_60grad_stroeme.png>]
+<./graphics/Messung_Widerstand_Phas_90grad_stroeme.png, id=1017, 2242.62843pt x
  1184.17406pt>
 File: ./graphics/Messung_Widerstand_Phas_90grad_stroeme.png Graphic file (type 
 png)
 <use ./graphics/Messung_Widerstand_Phas_90grad_stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_90grad_stroeme.png 
- used on input line 46.
+ used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 240.37215pt.
-[43
-
-
-] [44 <./graphics/Messung_Widerstand_Phas_60grad_stroeme.png> <./graphics/Messu
-ng_Widerstand_Phas_90grad_stroeme.png>]
-<./graphics/Messung_Widerstand_Sanft_stroeme.png, id=1058, 2250.90938pt x 1169.
+ [40 <./graphics/Messung_Widerstand_Phas_90grad_stroeme.png>]
+<./graphics/Messung_Widerstand_Sanft_stroeme.png, id=1028, 2250.90938pt x 1169.
 11781pt>
 File: ./graphics/Messung_Widerstand_Sanft_stroeme.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Sanft_stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Sanft_stroeme.png  used 
 on input line 75.
 (pdftex.def)             Requested size: 455.24408pt x 236.44179pt.
- [45 <./graphics/Messung_Widerstand_Sanft_stroeme.png>] [46]
-<./graphics/Messung_Widerstand_Sanft_langsam_stroeme.png, id=1072, 2247.14531pt
+ [41 <./graphics/Messung_Widerstand_Sanft_stroeme.png>]
+<./graphics/Messung_Widerstand_Sanft_langsam_stroeme.png, id=1038, 2247.14531pt
  x 1179.65718pt>
 File: ./graphics/Messung_Widerstand_Sanft_langsam_stroeme.png Graphic file (typ
 e png)
@@ -2501,16 +3081,16 @@ e png)
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Sanft_langsam_stroeme.pn
 g  used on input line 107.
 (pdftex.def)             Requested size: 455.24408pt x 238.96927pt.
- [47 <./graphics/Messung_Widerstand_Sanft_langsam_stroeme.png>]
-<./graphics/Messung_ASM_Phas_60grad_stroeme.png, id=1083, 2241.87563pt x 1174.3
+ [42 <./graphics/Messung_Widerstand_Sanft_langsam_stroeme.png>]
+<./graphics/Messung_ASM_Phas_60grad_stroeme.png, id=1049, 2241.87563pt x 1174.3
 875pt>
 File: ./graphics/Messung_ASM_Phas_60grad_stroeme.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_60grad_stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Phas_60grad_stroeme.png  used o
 n input line 144.
 (pdftex.def)             Requested size: 455.24408pt x 238.47519pt.
- [48 <./graphics/Messung_ASM_Phas_60grad_stroeme.png>] [49]
-<./graphics/Messung_ASM_Phas_90grad_stroeme.png, id=1097, 2243.38126pt x 1177.3
+ [43 <./graphics/Messung_ASM_Phas_60grad_stroeme.png>] [44]
+<./graphics/Messung_ASM_Phas_90grad_stroeme.png, id=1064, 2243.38126pt x 1177.3
 9874pt>
 File: ./graphics/Messung_ASM_Phas_90grad_stroeme.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_90grad_stroeme.png>
@@ -2519,114 +3099,114 @@ n input line 171.
 (pdftex.def)             Requested size: 455.24408pt x 238.92497pt.
 
 
-LaTeX Warning: Reference `fig:Mess_Phas_690grad_strome' on page 50 undefined on
+LaTeX Warning: Reference `fig:Mess_Phas_690grad_strome' on page 45 undefined on
  input line 192.
 
-[50 <./graphics/Messung_ASM_Phas_90grad_stroeme.png>]
-<./graphics/Messung_ASM_Sanft_langsam_stroeme.png, id=1108, 2247.89813pt x 1158
+[45 <./graphics/Messung_ASM_Phas_90grad_stroeme.png>]
+<./graphics/Messung_ASM_Sanft_langsam_stroeme.png, id=1074, 2247.89813pt x 1158
 .57843pt>
 File: ./graphics/Messung_ASM_Sanft_langsam_stroeme.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Sanft_langsam_stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Sanft_langsam_stroeme.png  used
  on input line 202.
 (pdftex.def)             Requested size: 455.24408pt x 234.62852pt.
- [51 <./graphics/Messung_ASM_Sanft_langsam_stroeme.png>]
-<./graphics/Messung_Widerstand_Schwing_0_5.png, id=1121, 2270.4825pt x 1210.522
+ [46 <./graphics/Messung_ASM_Sanft_langsam_stroeme.png>]
+<./graphics/Messung_Widerstand_Schwing_0_5.png, id=1089, 2270.4825pt x 1210.522
 5pt>
 File: ./graphics/Messung_Widerstand_Schwing_0_5.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Schwing_0_5.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Schwing_0_5.png  used on
- input line 241.
+ input line 248.
 (pdftex.def)             Requested size: 455.24408pt x 242.70975pt.
- [52 <./graphics/Messung_Widerstand_Schwing_0_5.png>] [53]
-<./graphics/Messung_Widerstand_Schwing_0_8.png, id=1140, 2270.4825pt x 1224.073
+ [47] [48 <./graphics/Messung_Widerstand_Schwing_0_5.png>] [49]
+<./graphics/Messung_Widerstand_Schwing_0_8.png, id=1116, 2270.4825pt x 1224.073
 12pt>
 File: ./graphics/Messung_Widerstand_Schwing_0_8.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Schwing_0_8.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Schwing_0_8.png  used on
- input line 273.
+ input line 285.
 (pdftex.def)             Requested size: 455.24408pt x 245.42665pt.
- [54 <./graphics/Messung_Widerstand_Schwing_0_8.png>]
-<./graphics/Mess_Widerstand_AufAb.png, id=1153, 2287.04437pt x 1200.73593pt>
+ [50 <./graphics/Messung_Widerstand_Schwing_0_8.png>]
+<./graphics/Mess_Widerstand_AufAb.png, id=1130, 2287.04437pt x 1200.73593pt>
 File: ./graphics/Mess_Widerstand_AufAb.png Graphic file (type png)
 <use ./graphics/Mess_Widerstand_AufAb.png>
 Package pdftex.def Info: ./graphics/Mess_Widerstand_AufAb.png  used on input li
-ne 307.
+ne 319.
 (pdftex.def)             Requested size: 455.24408pt x 239.00699pt.
- [55 <./graphics/Mess_Widerstand_AufAb.png>] [56]
-<./graphics/Messung_Widerstand_Sanft_langsam.png, id=1170, 2286.29156pt x 1233.
+ [51 <./graphics/Mess_Widerstand_AufAb.png>] [52]
+<./graphics/Messung_Widerstand_Sanft_langsam.png, id=1148, 2286.29156pt x 1233.
 85968pt>
 File: ./graphics/Messung_Widerstand_Sanft_langsam.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Sanft_langsam.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Sanft_langsam.png  used 
-on input line 343.
+on input line 360.
 (pdftex.def)             Requested size: 455.24408pt x 245.67558pt.
 
-Overfull \hbox (2.3043pt too wide) in paragraph at lines 370--370
+Overfull \hbox (2.3043pt too wide) in paragraph at lines 391--391
 [][][][]\T1/lmr/m/n/9 kontrollieren |
  []
 
 
-Overfull \hbox (2.3043pt too wide) in paragraph at lines 370--370
+Overfull \hbox (2.3043pt too wide) in paragraph at lines 391--391
 [][][][]\T1/lmr/m/n/9 kontrollieren |
  []
 
-[57 <./graphics/Messung_Widerstand_Sanft_langsam.png>]
-<./graphics/Messung_ASM_Phas_60grad.png, id=1185, 2276.505pt x 1218.05063pt>
+[53 <./graphics/Messung_Widerstand_Sanft_langsam.png>]
+<./graphics/Messung_ASM_Phas_60grad.png, id=1164, 2276.505pt x 1218.05063pt>
 File: ./graphics/Messung_ASM_Phas_60grad.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_60grad.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Phas_60grad.png  used on input 
-line 387.
+line 409.
 (pdftex.def)             Requested size: 455.24408pt x 243.56863pt.
- [58 <./graphics/Messung_ASM_Phas_60grad.png>] [59]
-<./graphics/Messung_ASM_Phas_90grad.png, id=1204, 2277.25781pt x 1222.5675pt>
+ [54] [55 <./graphics/Messung_ASM_Phas_60grad.png>]
+<./graphics/Messung_ASM_Phas_90grad.png, id=1184, 2277.25781pt x 1222.5675pt>
 File: ./graphics/Messung_ASM_Phas_90grad.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Phas_90grad.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Phas_90grad.png  used on input 
-line 417.
+line 438.
 (pdftex.def)             Requested size: 455.24408pt x 244.39723pt.
- [60 <./graphics/Messung_ASM_Phas_90grad.png>]
-[61]
-<./graphics/Messung_ASM_Sanft_langsam.png, id=1224, 2278.76344pt x 1210.5225pt>
+ [56 <./graphics/Messung_ASM_Phas_90grad.png>]
+[57] [58]
+<./graphics/Messung_ASM_Sanft_langsam.png, id=1211, 2278.76344pt x 1210.5225pt>
 
 File: ./graphics/Messung_ASM_Sanft_langsam.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Sanft_langsam.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Sanft_langsam.png  used on inpu
-t line 456.
+t line 485.
 (pdftex.def)             Requested size: 455.24408pt x 241.82314pt.
- [62 <./graphics/Messung_ASM_Sanft_langsam.png>]
-<./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png, id=1238, 2253.92062pt 
+ [59 <./graphics/Messung_ASM_Sanft_langsam.png>]
+<./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png, id=1225, 2253.92062pt 
 x 1184.17406pt>
 File: ./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png Graphic file (type
  png)
 <use ./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png
-  used on input line 492.
+  used on input line 522.
 (pdftex.def)             Requested size: 455.24408pt x 239.16151pt.
- [63 <./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png>] [64]
-<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png, id=1255, 2273
+ [60 <./graphics/Messung_Widerstand_2Thyristoren_Stroeme.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png, id=1237, 2273
 .49374pt x 1184.17406pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png Graphic f
 ile (type png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_la
-ngsam.png  used on input line 536.
+ngsam.png  used on input line 563.
 (pdftex.def)             Requested size: 455.24408pt x 237.11972pt.
- [65 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>] [66] [6
-7]) [68]
+ [61 <./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren_langsam.png>] [62] [6
+3]) [64]
 \openout2 = `sections/validierung.aux'.
 
  (sections/validierung.tex
 
-LaTeX Warning: Marginpar on page 69 moved.
+LaTeX Warning: Marginpar on page 65 moved.
 
-[69
+[65
 
 
-] [70]) [71]
+] [66]) [67]
 \openout2 = `sections/schlusswort.aux'.
 
- (sections/schlusswort.tex) [72
+ (sections/schlusswort.tex) [68
 
 
 ]
@@ -2658,7 +3238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-) [73
+) [69
 
 
 ]
@@ -2667,428 +3247,447 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  (sections/bibliography.tex)
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 69.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(Disposition_fachbericht.lof [74
+(Disposition_fachbericht.lof [70
 
 
 
-] [75] [76])
-\tf@lof=\write7
-\openout7 = `Disposition_fachbericht.lof'.
+] [71] [72])
+\tf@lof=\write8
+\openout8 = `Disposition_fachbericht.lof'.
 
  (Disposition_fachbericht.lot
-[77])
-\tf@lot=\write8
-\openout8 = `Disposition_fachbericht.lot'.
+[73])
+\tf@lot=\write9
+\openout9 = `Disposition_fachbericht.lot'.
 
- [78]
+ [74]
 \openout2 = `sections/appendix.aux'.
 
  (sections/appendix.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 5.
  (appendix/code/Leistungsfaktor.m)
-(appendix/code/FTT_Phasenanschnitt_final.m [79
+(appendix/code/FTT_Phasenanschnitt_final.m [75
 
 ])
-(appendix/code/Schwingungspaketsteuerung_final.m [80] [81])
-(appendix/code/Fourieranalyse_phasenanschnitt_final.m [82])
-(appendix/code/Trapez_funktion_final.m [83])
-(appendix/code/Leistungsfaktor_Messungen.m) [84]
+(appendix/code/Schwingungspaketsteuerung_final.m [76] [77])
+(appendix/code/Fourieranalyse_phasenanschnitt_final.m [78])
+(appendix/code/Trapez_funktion_final.m [79])
+(appendix/code/Leistungsfaktor_Messungen.m) [80]
 (appendix/code/Berechnung_FFT_Widerstand.m)
-(appendix/code/Berechnung_FFT_Stroeme_Widerstand.m [85]) [86]
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(appendix/code/Berechnung_FFT_Stroeme_Widerstand.m [81]) [82]
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Users\nando\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-) [87] [88]
-[89] [90] [91]
-<./graphics/eingangssignal_30.png, id=2235, 427.2211pt x 320.69812pt>
+) [83] [84] [85] [86]
+Underfull \hbox (badness 10000) in paragraph at lines 217--224
+
+ []
+
+[87] [88]
+Overfull \hbox (0.99757pt too wide) in paragraph at lines 296--296
+[]\T1/lmss/bx/n/10.95 EN 61000-3-3 Be-gren-zung von Span-nungs-än-de-run-gen, S
+pan-nungs-schwan-kun-gen und|
+ []
+
+[89]
+<./graphics/Bezugsimpedanz.png, id=2232, 715.67375pt x 510.90875pt>
+File: ./graphics/Bezugsimpedanz.png Graphic file (type png)
+<use ./graphics/Bezugsimpedanz.png>
+Package pdftex.def Info: ./graphics/Bezugsimpedanz.png  used on input line 315.
+
+(pdftex.def)             Requested size: 286.26442pt x 204.35988pt.
+ [90 <./graphics/Bezugsimpedanz.png>] [91] [92] [93]
+<./graphics/eingangssignal_30.png, id=2257, 427.2211pt x 320.69812pt>
 File: ./graphics/eingangssignal_30.png Graphic file (type png)
 <use ./graphics/eingangssignal_30.png>
-Package pdftex.def Info: ./graphics/eingangssignal_30.png  used on input line 2
-10.
+Package pdftex.def Info: ./graphics/eingangssignal_30.png  used on input line 4
+31.
 (pdftex.def)             Requested size: 182.09485pt x 136.68881pt.
-<./graphics/A_PH_30.png, id=2236, 427.5975pt x 321.07452pt>
+<./graphics/A_PH_30.png, id=2258, 427.5975pt x 321.07452pt>
 File: ./graphics/A_PH_30.png Graphic file (type png)
 <use ./graphics/A_PH_30.png>
-Package pdftex.def Info: ./graphics/A_PH_30.png  used on input line 211.
+Package pdftex.def Info: ./graphics/A_PH_30.png  used on input line 432.
 (pdftex.def)             Requested size: 182.09485pt x 136.73166pt.
-<./graphics/eingangssignal_45.png, id=2237, 426.46828pt x 321.07452pt>
+<./graphics/eingangssignal_45.png, id=2259, 426.46828pt x 321.07452pt>
 File: ./graphics/eingangssignal_45.png Graphic file (type png)
 <use ./graphics/eingangssignal_45.png>
-Package pdftex.def Info: ./graphics/eingangssignal_45.png  used on input line 2
-18.
+Package pdftex.def Info: ./graphics/eingangssignal_45.png  used on input line 4
+39.
 (pdftex.def)             Requested size: 182.09485pt x 137.09421pt.
-<./graphics/A_PH_45.png, id=2238, 426.84468pt x 321.07452pt>
+<./graphics/A_PH_45.png, id=2260, 426.84468pt x 321.07452pt>
 File: ./graphics/A_PH_45.png Graphic file (type png)
 <use ./graphics/A_PH_45.png>
-Package pdftex.def Info: ./graphics/A_PH_45.png  used on input line 219.
+Package pdftex.def Info: ./graphics/A_PH_45.png  used on input line 440.
 (pdftex.def)             Requested size: 182.09485pt x 136.97662pt.
-<./graphics/eingangssignal_120.png, id=2239, 426.84468pt x 321.82735pt>
+<./graphics/eingangssignal_120.png, id=2261, 426.84468pt x 321.82735pt>
 File: ./graphics/eingangssignal_120.png Graphic file (type png)
 <use ./graphics/eingangssignal_120.png>
 Package pdftex.def Info: ./graphics/eingangssignal_120.png  used on input line 
-226.
+447.
 (pdftex.def)             Requested size: 182.09485pt x 137.29779pt.
-<./graphics/A_PH_120.png, id=2240, 427.2211pt x 321.82735pt>
+<./graphics/A_PH_120.png, id=2262, 427.2211pt x 321.82735pt>
 File: ./graphics/A_PH_120.png Graphic file (type png)
 <use ./graphics/A_PH_120.png>
-Package pdftex.def Info: ./graphics/A_PH_120.png  used on input line 227.
+Package pdftex.def Info: ./graphics/A_PH_120.png  used on input line 448.
 (pdftex.def)             Requested size: 182.09485pt x 137.17012pt.
- [92 <./graphics/eingangssignal_30.png> <./graphics/A_PH_30.png> <./graphics/ei
+ [94 <./graphics/eingangssignal_30.png> <./graphics/A_PH_30.png> <./graphics/ei
 ngangssignal_45.png> <./graphics/A_PH_45.png> <./graphics/eingangssignal_120.pn
 g> <./graphics/A_PH_120.png>]
-<./graphics/Schwingungspaket_0_2.png, id=2258, 426.46828pt x 321.07452pt>
+<./graphics/Schwingungspaket_0_2.png, id=2279, 426.46828pt x 321.07452pt>
 File: ./graphics/Schwingungspaket_0_2.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_2.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_2.png  used on input lin
-e 236.
+e 457.
 (pdftex.def)             Requested size: 182.09485pt x 137.09421pt.
-<./graphics/Oberwellen_0_2.png, id=2259, 426.84468pt x 321.45094pt>
+<./graphics/Oberwellen_0_2.png, id=2280, 426.84468pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_2.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_2.png>
-Package pdftex.def Info: ./graphics/Oberwellen_0_2.png  used on input line 237.
+Package pdftex.def Info: ./graphics/Oberwellen_0_2.png  used on input line 458.
 
 (pdftex.def)             Requested size: 182.09485pt x 137.1372pt.
-<./graphics/Schwingungspaket_0_4.png, id=2260, 427.5975pt x 321.45094pt>
+<./graphics/Schwingungspaket_0_4.png, id=2281, 427.5975pt x 321.45094pt>
 File: ./graphics/Schwingungspaket_0_4.png Graphic file (type png)
 <use ./graphics/Schwingungspaket_0_4.png>
 Package pdftex.def Info: ./graphics/Schwingungspaket_0_4.png  used on input lin
-e 245.
+e 466.
 (pdftex.def)             Requested size: 182.09485pt x 136.89197pt.
-<./graphics/Oberwellen_0_4.png, id=2261, 426.09187pt x 321.45094pt>
+<./graphics/Oberwellen_0_4.png, id=2282, 426.09187pt x 321.45094pt>
 File: ./graphics/Oberwellen_0_4.png Graphic file (type png)
 <use ./graphics/Oberwellen_0_4.png>
-Package pdftex.def Info: ./graphics/Oberwellen_0_4.png  used on input line 246.
+Package pdftex.def Info: ./graphics/Oberwellen_0_4.png  used on input line 467.
 
 (pdftex.def)             Requested size: 182.09485pt x 137.37755pt.
-<./graphics/plecs_phasenanschnitt_pi_6_funktion.png, id=2262, 282.30469pt x 282
+<./graphics/plecs_phasenanschnitt_pi_6_funktion.png, id=2283, 282.30469pt x 282
 .30469pt>
 File: ./graphics/plecs_phasenanschnitt_pi_6_funktion.png Graphic file (type png
 )
 <use ./graphics/plecs_phasenanschnitt_pi_6_funktion.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_6_funktion.png  us
-ed on input line 253.
+ed on input line 474.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_pi_6.png, id=2263, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_pi_6.png, id=2284, 282.30469pt x 282.30469pt>
 
 File: ./graphics/plecs_phasenanschnitt_pi_6.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_6.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_6.png  used on inp
-ut line 254.
+ut line 475.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
- [93 <./graphics/Schwingungspaket_0_2.png> <./graphics/Oberwellen_0_2.png> <./g
+ [95 <./graphics/Schwingungspaket_0_2.png> <./graphics/Oberwellen_0_2.png> <./g
 raphics/Schwingungspaket_0_4.png> <./graphics/Oberwellen_0_4.png> <./graphics/p
 lecs_phasenanschnitt_pi_6_funktion.png> <./graphics/plecs_phasenanschnitt_pi_6.
 png>]
-<./graphics/plecs_phasenanschnitt_pi_4_funktion.png, id=2280, 282.30469pt x 282
+<./graphics/plecs_phasenanschnitt_pi_4_funktion.png, id=2301, 282.30469pt x 282
 .30469pt>
 File: ./graphics/plecs_phasenanschnitt_pi_4_funktion.png Graphic file (type png
 )
 <use ./graphics/plecs_phasenanschnitt_pi_4_funktion.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_4_funktion.png  us
-ed on input line 263.
+ed on input line 484.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_pi_4.png, id=2281, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_pi_4.png, id=2302, 282.30469pt x 282.30469pt>
 
 File: ./graphics/plecs_phasenanschnitt_pi_4.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_pi_4.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_pi_4.png  used on inp
-ut line 264.
+ut line 485.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_120_funktion.png, id=2282, 282.30469pt x 282.
+<./graphics/plecs_phasenanschnitt_120_funktion.png, id=2303, 282.30469pt x 282.
 30469pt>
 File: ./graphics/plecs_phasenanschnitt_120_funktion.png Graphic file (type png)
 
 <use ./graphics/plecs_phasenanschnitt_120_funktion.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_120_funktion.png  use
-d on input line 272.
+d on input line 493.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_phasenanschnitt_120.png, id=2283, 282.30469pt x 282.30469pt>
+<./graphics/plecs_phasenanschnitt_120.png, id=2304, 282.30469pt x 282.30469pt>
 File: ./graphics/plecs_phasenanschnitt_120.png Graphic file (type png)
 <use ./graphics/plecs_phasenanschnitt_120.png>
 Package pdftex.def Info: ./graphics/plecs_phasenanschnitt_120.png  used on inpu
-t line 273.
+t line 494.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
-<./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG, id=2284, 361.35pt x 3
+<./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG, id=2305, 361.35pt x 3
 61.35pt>
 File: ./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG Graphic file (typ
 e png)
 <use ./graphics/plecs_schwingungspacket_0_2_schwingungen.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_2_schwingungen.PN
-G  used on input line 281.
+G  used on input line 502.
 (pdftex.def)             Requested size: 145.68143pt x 145.67879pt.
-<./graphics/plecs_schwingungspacket_0_2_1000.PNG, id=2285, 282.30469pt x 282.30
+<./graphics/plecs_schwingungspacket_0_2_1000.PNG, id=2306, 282.30469pt x 282.30
 469pt>
 File: ./graphics/plecs_schwingungspacket_0_2_1000.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_2_1000.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_2_1000.PNG  used 
-on input line 282.
+on input line 503.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
- [94 <./graphics/plecs_phasenanschnitt_pi_4_funktion.png> <./graphics/plecs_pha
+ [96 <./graphics/plecs_phasenanschnitt_pi_4_funktion.png> <./graphics/plecs_pha
 senanschnitt_pi_4.png> <./graphics/plecs_phasenanschnitt_120_funktion.png> <./g
 raphics/plecs_phasenanschnitt_120.png> <./graphics/plecs_schwingungspacket_0_2_
 schwingungen.PNG> <./graphics/plecs_schwingungspacket_0_2_1000.PNG>]
-<./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG, id=2301, 282.30469pt 
+<./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG, id=2322, 282.30469pt 
 x 282.30469pt>
 File: ./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG Graphic file (typ
 e png)
 <use ./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_4_schwingungen.PN
-G  used on input line 291.
+G  used on input line 512.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
 File: ./graphics/plecs_schwingungspacket_0_2_1000.PNG Graphic file (type png)
 <use ./graphics/plecs_schwingungspacket_0_2_1000.PNG>
 Package pdftex.def Info: ./graphics/plecs_schwingungspacket_0_2_1000.PNG  used 
-on input line 292.
+on input line 513.
 (pdftex.def)             Requested size: 145.68143pt x 145.6836pt.
 File: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png Graphic f
 ile (type png)
 <use ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png>
 Package pdftex.def Info: ./graphics/Vergleich_Amplitudenspektrum_mit_Phasenwink
-el_90.png  used on input line 300.
+el_90.png  used on input line 521.
 (pdftex.def)             Requested size: 313.48415pt x 172.774pt.
 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.png, 
-id=2302, 569.9694pt x 308.352pt>
+id=2323, 569.9694pt x 308.352pt>
 File: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.
 png Graphic file (type png)
 <use ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.p
 ng>
 Package pdftex.def Info: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_
-duty_cycle_von_0_5.png  used on input line 307.
+duty_cycle_von_0_5.png  used on input line 528.
 (pdftex.def)             Requested size: 313.48415pt x 169.59412pt.
- [95 <./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG> <./graphics/Verg
-leich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.png>]
+[97 <./graphics/plecs_schwingungspacket_0_4_schwingungen.PNG> <./graphics/Vergl
+eich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_5.png>]
 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.png, 
-id=2311, 569.9694pt x 304.9794pt>
+id=2332, 569.9694pt x 304.9794pt>
 File: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.
 png Graphic file (type png)
 <use ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.p
 ng>
 Package pdftex.def Info: ./graphics/Vergleich_einphasiges_Schwingungspaket_mit_
-duty_cycle_von_0_8.png  used on input line 316.
+duty_cycle_von_0_8.png  used on input line 537.
 (pdftex.def)             Requested size: 313.48415pt x 167.73918pt.
 <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.PNG, i
-d=2312, 414.42328pt x 229.60782pt>
+d=2333, 414.42328pt x 229.60782pt>
 File: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.P
 NG Graphic file (type png)
 <use ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.PN
 G>
 Package pdftex.def Info: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_vo
-n_0_5_mit_legende.PNG  used on input line 323.
+n_0_5_mit_legende.PNG  used on input line 544.
 (pdftex.def)             Requested size: 227.9335pt x 126.28468pt.
 <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PNG, i
-d=2313, 497.98547pt x 276.6586pt>
+d=2334, 497.98547pt x 276.6586pt>
 File: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.P
 NG Graphic file (type png)
 <use ./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PN
 G>
 Package pdftex.def Info: ./graphics/Vergleich_absolut_logarithmic_duty_cycle_vo
-n_0_8_mit_legende.PNG  used on input line 330.
+n_0_8_mit_legende.PNG  used on input line 551.
 (pdftex.def)             Requested size: 273.89285pt x 152.16269pt.
- [96 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.
+ [98 <./graphics/Vergleich_einphasiges_Schwingungspaket_mit_duty_cycle_von_0_8.
 png> <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_5_mit_legende.P
 NG> <./graphics/Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende.PN
 G>]
-<./graphics/Messung_Widerstand_Phas_60grad.png, id=2321, 865.43324pt x 479.6921
+<./graphics/Messung_Widerstand_Phas_60grad.png, id=2343, 865.43324pt x 479.6921
 2pt>
 File: ./graphics/Messung_Widerstand_Phas_60grad.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Phas_60grad.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_60grad.png  used on
- input line 341.
+ input line 562.
 (pdftex.def)             Requested size: 455.24408pt x 252.33253pt.
- [97 <./graphics/Messung_Widerstand_Phas_60grad.png>]
-<./graphics/Messung_Widerstand_Phas_90grad.png, id=2328, 866.63776pt x 473.6696
+ [99 <./graphics/Messung_Widerstand_Phas_60grad.png>]
+<./graphics/Messung_Widerstand_Phas_90grad.png, id=2350, 866.63776pt x 473.6696
 3pt>
 File: ./graphics/Messung_Widerstand_Phas_90grad.png Graphic file (type png)
 <use ./graphics/Messung_Widerstand_Phas_90grad.png>
 Package pdftex.def Info: ./graphics/Messung_Widerstand_Phas_90grad.png  used on
- input line 348.
+ input line 569.
 (pdftex.def)             Requested size: 455.24408pt x 248.8176pt.
-
-[98 <./graphics/Messung_Widerstand_Phas_90grad.png>]
-<./graphics/Messung_ASM_Schwing_0_5.png, id=2336, 2274.24657pt x 1217.2978pt>
+ [100 <./graphics/Messung_Widerstand_Phas_90grad.png>]
+<./graphics/Messung_ASM_Schwing_0_5.png, id=2357, 2274.24657pt x 1217.2978pt>
 File: ./graphics/Messung_ASM_Schwing_0_5.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Schwing_0_5.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Schwing_0_5.png  used on input 
-line 357.
+line 578.
 (pdftex.def)             Requested size: 455.24408pt x 243.65956pt.
- [99 <./graphics/Messung_ASM_Schwing_0_5.png>]
-<./graphics/Messung_ASM_Schwing_0_8.png, id=2343, 2270.4825pt x 1224.07312pt>
+ [101 <./graphics/Messung_ASM_Schwing_0_5.png>]
+<./graphics/Messung_ASM_Schwing_0_8.png, id=2364, 2270.4825pt x 1224.07312pt>
 File: ./graphics/Messung_ASM_Schwing_0_8.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Schwing_0_8.png>
 Package pdftex.def Info: ./graphics/Messung_ASM_Schwing_0_8.png  used on input 
-line 365.
+line 586.
 (pdftex.def)             Requested size: 455.24408pt x 245.42665pt.
- [100 <./graphics/Messung_ASM_Schwing_0_8.png>]
-<./graphics/Messung_ASM_Sanft.png, id=2350, 2279.51625pt x 1221.06187pt>
+ [102 <./graphics/Messung_ASM_Schwing_0_8.png>]
+<./graphics/Messung_ASM_Sanft.png, id=2371, 2279.51625pt x 1221.06187pt>
 File: ./graphics/Messung_ASM_Sanft.png Graphic file (type png)
 <use ./graphics/Messung_ASM_Sanft.png>
-Package pdftex.def Info: ./graphics/Messung_ASM_Sanft.png  used on input line 3
-73.
+Package pdftex.def Info: ./graphics/Messung_ASM_Sanft.png  used on input line 5
+94.
 (pdftex.def)             Requested size: 455.24408pt x 243.85403pt.
- [101 <./graphics/Messung_ASM_Sanft.png>]
-<./graphics/Vergleich_Mess_Sim_Schwing_50.png, id=2357, 1271.5003pt x 700.86844
+ [103 <./graphics/Messung_ASM_Sanft.png>]
+<./graphics/Vergleich_Mess_Sim_Schwing_50.png, id=2378, 1271.5003pt x 700.86844
 pt>
 File: ./graphics/Vergleich_Mess_Sim_Schwing_50.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_Schwing_50.png>
 Package pdftex.def Info: ./graphics/Vergleich_Mess_Sim_Schwing_50.png  used on 
-input line 384.
+input line 605.
 (pdftex.def)             Requested size: 268.59233pt x 148.05296pt.
 
-Underfull \hbox (badness 1436) in paragraph at lines 402--402
+Underfull \hbox (badness 1436) in paragraph at lines 623--623
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit Schwin-
  []
 
-<./graphics/Vergleich_Mess_Sim_Schwing_80.png, id=2358, 1189.44376pt x 740.0147
+<./graphics/Vergleich_Mess_Sim_Schwing_80.png, id=2379, 1189.44376pt x 740.0147
 pt>
 File: ./graphics/Vergleich_Mess_Sim_Schwing_80.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_Schwing_80.png>
 Package pdftex.def Info: ./graphics/Vergleich_Mess_Sim_Schwing_80.png  used on 
-input line 411.
+input line 632.
 (pdftex.def)             Requested size: 268.59233pt x 167.09457pt.
 
-Underfull \hbox (badness 1436) in paragraph at lines 429--429
+Underfull \hbox (badness 1436) in paragraph at lines 650--650
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit Schwin-
  []
 
-[102 <./graphics/Vergleich_Mess_Sim_Schwing_50.png> <./graphics/Vergleich_Mess_
+[104 <./graphics/Vergleich_Mess_Sim_Schwing_50.png> <./graphics/Vergleich_Mess_
 Sim_Schwing_80.png>]
-<./graphics/Vergleich_Mess_Sim_hart_AufAb.png, id=2365, 1209.01688pt x 859.7118
+<./graphics/Vergleich_Mess_Sim_hart_AufAb.png, id=2387, 1209.01688pt x 859.7118
 7pt>
 File: ./graphics/Vergleich_Mess_Sim_hart_AufAb.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_hart_AufAb.png>
 Package pdftex.def Info: ./graphics/Vergleich_Mess_Sim_hart_AufAb.png  used on 
-input line 440.
+input line 661.
 (pdftex.def)             Requested size: 268.59233pt x 190.98685pt.
-<./graphics/Vergleich_Mess_Sim_sanft_AufAb.png, id=2366, 1272.25313pt x 950.049
+<./graphics/Vergleich_Mess_Sim_sanft_AufAb.png, id=2388, 1272.25313pt x 950.049
 38pt>
 File: ./graphics/Vergleich_Mess_Sim_sanft_AufAb.png Graphic file (type png)
 <use ./graphics/Vergleich_Mess_Sim_sanft_AufAb.png>
 Package pdftex.def Info: ./graphics/Vergleich_Mess_Sim_sanft_AufAb.png  used on
- input line 467.
+ input line 688.
 (pdftex.def)             Requested size: 268.59233pt x 200.56001pt.
 
-Underfull \hbox (badness 1348) in paragraph at lines 489--489
+Underfull \hbox (badness 1348) in paragraph at lines 710--710
 \T1/lmr/m/n/10 sung und Si-mu-la-ti-on mit sanf-tem
  []
 
-[103 <./graphics/Vergleich_Mess_Sim_hart_AufAb.png> <./graphics/Vergleich_Mess_
+[105 <./graphics/Vergleich_Mess_Sim_hart_AufAb.png> <./graphics/Vergleich_Mess_
 Sim_sanft_AufAb.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png, id=2374, 2281.02188pt x 1
+<./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png, id=2396, 2281.02188pt x 1
 192.455pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png Graphic file (type pn
 g)
 <use ./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png  u
-sed on input line 521.
+sed on input line 742.
 (pdftex.def)             Requested size: 455.24408pt x 237.97731pt.
- [104 <./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png, id=2382, 2263.70718pt x 1
+ [106 <./graphics/Mess_2Thyristoren_Widerstand_Phas_60.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png, id=2403, 2263.70718pt x 1
 190.19656pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png Graphic file (type pn
 g)
 <use ./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png  u
-sed on input line 530.
+sed on input line 751.
 (pdftex.def)             Requested size: 455.24408pt x 239.34268pt.
- [105 <./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png, id=2389, 2260.69594pt 
+ [107 <./graphics/Mess_2Thyristoren_Widerstand_Phas_90.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png, id=2410, 2260.69594pt 
 x 1186.4325pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png Graphic file (type
  png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png
-  used on input line 539.
+  used on input line 760.
 (pdftex.def)             Requested size: 455.24408pt x 238.9116pt.
- [106 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png>]
-<./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png, id=2396, 2264.46pt x 1
+ [108 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_05.png>]
+<./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png, id=2417, 2264.46pt x 1
 192.455pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png Graphic file (type
  png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png
-  used on input line 548.
+  used on input line 769.
 (pdftex.def)             Requested size: 455.24408pt x 239.72406pt.
-<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png, id=2397, 2278.01062pt
+<./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png, id=2418, 2278.01062pt
  x 1201.48875pt>
 File: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png Graphic file (typ
 e png)
 <use ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.png>
 Package pdftex.def Info: ./graphics/Mess_2Thyristoren_Widerstand_AufAbFahren.pn
-g  used on input line 556.
+g  used on input line 777.
 (pdftex.def)             Requested size: 455.24408pt x 240.09183pt.
- [107 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png> <./graphics/Mess
+ [109 <./graphics/Mess_2Thyristoren_Widerstand_Schwing_08.png> <./graphics/Mess
 _2Thyristoren_Widerstand_AufAbFahren.png>]
-<./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png, id=2406, 2265.21281pt x 12
+<./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png, id=2427, 2265.21281pt x 12
 18.80344pt>
 File: ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png Graphic file (type png
 )
 <use ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>
 Package pdftex.def Info: ./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png  us
-ed on input line 592.
+ed on input line 813.
 (pdftex.def)             Requested size: 455.24408pt x 244.94661pt.
- [108 <./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>] [109]
-<./graphics/Mess_1Thyristor_Widerstand_Phas60.png, id=2417, 2265.96562pt x 1184
+ [110 <./graphics/Mess_ASM_2Thyristoren_AufAb_langsam.png>] [111]
+<./graphics/Mess_1Thyristor_Widerstand_Phas60.png, id=2439, 2265.96562pt x 1184
 .17406pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Phas60.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_Phas60.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Phas60.png  used
- on input line 629.
+ on input line 850.
 (pdftex.def)             Requested size: 455.24408pt x 237.89668pt.
 
-[110 <./graphics/Mess_1Thyristor_Widerstand_Phas60.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Phas90.png, id=2425, 2282.5275pt x 1209.
+[112 <./graphics/Mess_1Thyristor_Widerstand_Phas60.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Phas90.png, id=2446, 2282.5275pt x 1209.
 01688pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Phas90.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_Phas90.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Phas90.png  used
- on input line 638.
+ on input line 859.
 (pdftex.def)             Requested size: 455.24408pt x 241.13496pt.
- [111 <./graphics/Mess_1Thyristor_Widerstand_Phas90.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png, id=2432, 2254.67343pt x 
+ [113 <./graphics/Mess_1Thyristor_Widerstand_Phas90.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png, id=2453, 2254.67343pt x 
 1193.96063pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png Graphic file (type p
 ng)
 <use ./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png  
-used on input line 647.
+used on input line 868.
 (pdftex.def)             Requested size: 455.24408pt x 241.06519pt.
- [112 <./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png>]
-<./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png, id=2439, 2257.6847pt x 1
+ [114 <./graphics/Mess_1Thyristor_Widerstand_Schwing_05.png>]
+<./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png, id=2460, 2257.6847pt x 1
 171.37625pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png Graphic file (type p
 ng)
 <use ./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png  
-used on input line 656.
+used on input line 877.
 (pdftex.def)             Requested size: 455.24408pt x 236.1836pt.
- [113 <./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png>]
-<./graphics/Mess_1Thyristor_Widerstand_AufAb.png, id=2446, 2254.67343pt x 1175.
+ [115 <./graphics/Mess_1Thyristor_Widerstand_Schwing_08.png>]
+<./graphics/Mess_1Thyristor_Widerstand_AufAb.png, id=2467, 2254.67343pt x 1175.
 14032pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_AufAb.png Graphic file (type png)
 <use ./graphics/Mess_1Thyristor_Widerstand_AufAb.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_AufAb.png  used 
-on input line 665.
+on input line 886.
 (pdftex.def)             Requested size: 455.24408pt x 237.26529pt.
 
-[114 <./graphics/Mess_1Thyristor_Widerstand_AufAb.png>]
-<./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png, id=2453, 2259.1903pt 
+[116 <./graphics/Mess_1Thyristor_Widerstand_AufAb.png>]
+<./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png, id=2475, 2259.1903pt 
 x 1184.92688pt>
 File: ./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png Graphic file (typ
 e png)
 <use ./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png>
 Package pdftex.def Info: ./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.pn
-g  used on input line 674.
+g  used on input line 895.
 (pdftex.def)             Requested size: 455.24408pt x 238.77115pt.
-) [115 <./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png>]
+) [117 <./graphics/Mess_1Thyristor_Widerstand_AufAb_langsam.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (Disposition_fachbericht.aux
@@ -3101,10 +3700,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `Disposition_fachbericht.out' has not changed
 .
-(rerunfilecheck)             Checksum: 7AEBD3704E83D23460470F5187CC9DC6;6542.
+(rerunfilecheck)             Checksum: 712257CB17F4865C819F73F90DFE1FAE;6870.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 \openout1 = `Disposition_fachbericht.run.xml'.
@@ -3112,36 +3714,42 @@ Package logreq Info: Writing requests to 'Disposition_fachbericht.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 53229 strings out of 492969
- 1107617 string characters out of 3135840
- 1831762 words of memory out of 3000000
- 55012 multiletter control sequences out of 15000+200000
+ 53384 strings out of 493305
+ 1116385 string characters out of 3129802
+ 1818454 words of memory out of 3000000
+ 54828 multiletter control sequences out of 15000+200000
  633707 words of font info for 86 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 76i,21n,151p,1650b,3362s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
-}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb
-x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/courier/ucrr8a.pfb>
-Output written on Disposition_fachbericht.pdf (120 pages, 32684011 bytes).
+ 76i,21n,151p,1650b,3365s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
+c}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts
+1.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
+athex.enc}{C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathit.enc}<C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx10.pfb><C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmbx9.pfb><C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmex10.pfb><C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmmi10.pfb><C:/Users/nando/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmmi8.pfb><C:/Users/nando/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/nando/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/nando/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/nando/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/nando/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/nando/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/nando/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/nando/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/nando/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/nando/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/nand
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Users/n
+ando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/User
+s/nando/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on Disposition_fachbericht.pdf (122 pages, 32698614 bytes).
 PDF statistics:
- 2760 PDF objects out of 2984 (max. 8388607)
- 1119 named destinations out of 1200 (max. 500000)
- 1308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2783 PDF objects out of 2984 (max. 8388607)
+ 1126 named destinations out of 1200 (max. 500000)
+ 1236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
