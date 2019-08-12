@@ -549,6 +549,76 @@ void loop() {
 	\caption{Messung mit Schwingungspaket 50\% und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Schwing_80}	
 \end{figure}
 
+\subsubsection*{Hartes Auf- und Absteuern}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren.png}	
+	\caption{Messung mit dem harten Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren}	
+\end{figure}
+
+\newpage
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.65             & 68.8653                                                                             & 68.5665                                                                             & 57.1292                                                                             \\ \hline
+		49.95             & 67.5597                                                                             & 50.5713                                                                             & 74.4293                                                                             \\ \hline
+		50                & 142.7445                                                                            & 105.9402                                                                            & 157.2093                                                                            \\ \hline
+		50.05             & 35.291                                                                              & 26.4882                                                                             & 38.8518                                                                             \\ \hline
+		50.35             & 65.3531                                                                             & 65.6359                                                                             & 51.887                                                                              \\ \hline
+		149.65            & 9.7876                                                                              & 2.7987                                                                              & 11.8526                                                                             \\ \hline
+		150               & 8.3874                                                                              & 8.3817                                                                              & 7.6543                                                                              \\ \hline
+		150.35            & 11.1326                                                                             & 2.5768                                                                              & 12.4114                                                                             \\ \hline \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.65             & 48.24\%                                                                             & 64.7\%                                                                              & 36.34\%                                                                             \\ \hline
+		49.95             & 47.32\%                                                                             & 47.74\%                                                                             & 47.34\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 24.72\%                                                                             & 25\%                                                                                & 24.7\%                                                                              \\ \hline
+		50.35             & 45.78\%                                                                             & 61.96\%                                                                             & 33\%                                                                                \\ \hline
+		149.65            & 6.86\%                                                                              & 2.64\%                                                                              & 7.54\%                                                                              \\ \hline
+		150               & 5.88\%                                                                              & 7.9\%                                                                               & 4.87\%                                                                              \\ \hline
+		150.35            & 7.8\%                                                                               & 2.43\%                                                                              & 7.9\%                                                                               \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_hart}
+\end{table}
+
+\subsubsection{Sparvariante für die ASM mit zwei Thyristoren}
+
+\subsubsection*{Sanftes Auf- und Absteuern}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Mess_ASM_2Thyristoren_AufAb_langsam.png}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
+\end{figure}
+
+\newpage
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.9              & 37.5857                                                                             & 42.9618                                                                             & 47.1945                                                                             \\ \hline
+		49.95             & 75.5033                                                                             & 87.0174                                                                             & 77.0178                                                                             \\ \hline
+		50                & 220.7586                                                                            & 216.2571                                                                            & 227.9957                                                                            \\ \hline
+		50.05             & 111.631                                                                             & 110.0439                                                                            & 102.3768                                                                            \\ \hline
+		50.1              & 44.4045                                                                             & 65.6359                                                                             & 40.8044                                                                             \\ \hline
+		149.95            & 6.9369                                                                              & 2.1636                                                                              & 5.8686                                                                              \\ \hline
+		150               & 11.5575                                                                             & 1.4866                                                                              & 10.115                                                                              \\ \hline
+		150.05            & 6.7811                                                                              & 2.7637                                                                              & 6.5154                                                                              \\ \hline \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.9              & 17.03\%                                                                             & 19.46\%                                                                             & 20.7\%                                                                              \\ \hline
+		49.95             & 34.2\%                                                                              & 39.42\%                                                                             & 33.78\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 50.57\%                                                                             & 49.85\%                                                                             & 44.9\%                                                                              \\ \hline
+		50.1              & 20.11\%                                                                             & 29.73\%                                                                             & 17.9\%                                                                              \\ \hline
+		149.95            & 3.16\%                                                                              & 0.98\%                                                                              & 2.57\%                                                                              \\ \hline
+		150               & 5.24\%                                                                              & 0.67\%                                                                              & 4.44\%                                                                              \\ \hline
+		150.05            & 3.07\%                                                                              & 1.25\%                                                                              & 2.86\%                                                                              \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
+\end{table}
 
 \newpage
 \subsection{Sparvariante für den Widerstand mit einem Thyristor} \label{sec:Sparvariante_1Thyristor}
