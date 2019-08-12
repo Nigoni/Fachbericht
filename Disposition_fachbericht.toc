@@ -39,8 +39,6 @@
 \contentsline {subsubsection}{\numberline {3.2.10}Alternative Ansteuerungen}{36}{subsubsection.3.2.10}
 \contentsline {section}{\numberline {4}Messaufbau}{38}{section.4}
 \contentsline {subsection}{\numberline {4.1}Laboraufbau}{38}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Filter}{38}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Verst\IeC {\"a}rkerschaltung}{38}{subsubsection.4.1.2}
 \contentsline {subsection}{\numberline {4.2}Laboraufbau mit einem Widerstand}{39}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Laboraufbau mit einer ASM}{40}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Arduino}{40}{subsection.4.4}
@@ -54,25 +52,27 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Messungen Widerstand}{43}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Messungen ASM}{48}{subsubsection.5.1.2}
 \contentsline {subsection}{\numberline {5.2}Messungen Spannungen}{52}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Messungen Widerstand}{52}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{58}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Messungen ASM}{58}{subsubsection.5.2.1}
 \contentsline {subsection}{\numberline {5.3}Sparvariante}{63}{subsection.5.3}
 \contentsline {subsubsection}{\numberline {5.3.1}Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{63}{subsubsection.5.3.1}
 \contentsline {subsubsection}{\numberline {5.3.2}Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{64}{subsubsection.5.3.2}
 \contentsline {subsubsection}{\numberline {5.3.3}Sparvariante mit der ASM und zwei Thyristoren}{67}{subsubsection.5.3.3}
 \contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{68}{subsection.5.4}
 \contentsline {section}{\numberline {6}Interpretation der Resultate}{69}{section.6}
-\contentsline {section}{\numberline {7}Schlusswort}{70}{section.7}
-\contentsline {section}{Literatur}{72}{section*.113}
-\contentsline {section}{Abbildungsverzeichnis}{72}{section*.114}
-\contentsline {section}{Tabellenverzeichnis}{75}{section*.115}
-\contentsline {section}{\numberline {A}Code}{77}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{77}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{85}{subsection.A.2}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{90}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Messungen Spannungen Widerstand}{95}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Messungen Spannungen ASM}{97}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Vergleich Messungen Widerstand mit Simulation}{100}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{102}{subsection.B.4}
-\contentsline {subsubsection}{\numberline {B.4.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{106}{subsubsection.B.4.1}
-\contentsline {subsection}{\numberline {B.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{108}{subsection.B.5}
+\contentsline {subsection}{\numberline {6.1}Resultate Widerstand}{69}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Resultate ASM}{70}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Vergleich der Messungen mit den Simulationen}{71}{subsection.6.3}
+\contentsline {section}{\numberline {7}Schlusswort}{72}{section.7}
+\contentsline {section}{Literatur}{74}{section*.119}
+\contentsline {section}{Abbildungsverzeichnis}{74}{section*.120}
+\contentsline {section}{Tabellenverzeichnis}{77}{section*.121}
+\contentsline {section}{\numberline {A}Code}{79}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{79}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{87}{subsection.A.2}
+\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{92}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Messungen Spannungen Widerstand}{97}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Messungen Spannungen ASM}{99}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Vergleich Messungen Widerstand mit Simulation}{102}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{104}{subsection.B.4}
+\contentsline {subsubsection}{\numberline {B.4.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{108}{subsubsection.B.4.1}
+\contentsline {subsection}{\numberline {B.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{110}{subsection.B.5}
