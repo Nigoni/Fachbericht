@@ -202,6 +202,227 @@ void loop() {
 	delay(10);  // Abtastrate definieren
 }
 \end{lstlisting}
+
+\subsection{Zusammenfassung der Normen}
+
+\subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen}
+Diese Norm gilt für elektrische und elektronische Geräte (Betriebsmittel und Einrichtungen) bis zu einem Eingangsstrom von \SI{16}{A} je Leiter. Ausserdem ist der Anschluss des Gerätes an das öffentliche Niederspannungsverteilnetz vorgesehen. Unter dem Begriff \grqq Elektrische Einrichtung\grqq versteht man eine Anlage, welches aus einem oder mehreren voneinander unabhängigen Geräten besteht. Sie bilden eine elektrische Einrichtung, wenn nur durch deren Zusammenwirken der bestimmungsgemässe Zweck der Einrichtung erzielt werden kann. Ein Beispiel für eine elektrische Einrichtung ist, der Treppenlichtautomat zusammen mit den dazugehörigen Leuchten. Nur der Automat ohne Beleuchtung erfüllt den technischen Zweck der Bezeichnung nicht. Ein weiteres Beispiel für eine \grqq Elektrische Einrichtung \grqq wäre der motorische Antrieb. Aber auch hier gilt, dass der Motor ohne mechanische Last den technischen Nutzen nicht erfüllen würde.\\
+Die Norm definiert die Grenzwerte der Oberschwingungsanteile des Eingangsstromes bis zur 40. Harmonischen, die durch ein Gerät hervorgerufen werden können, dass unter festgelegten Bedingungen geprüft wird. Da heutzutage die Zahl der nicht linearen Verbraucher am öffentlichen Versorgungsnetz zunehmend steigen, steigt auch der Anteil des Oberschwingungsgehalts der Versorgungsspannung. Die nicht-sinusförmige und somit oberschwingungsbehaftete Stromentnahme verursacht an der Netzimpedanz Spannungsabfälle. Das Resultat ist eine Abweichung des Spannungsverlaufs von dem idealen harmonischen Verlauf des Netzes. Um normgerechte und reproduzierbare Messungen der Stromoberschwingungen durchführen zu können, muss ein ideales oberschwingungsfreies Netz zur Verfügung stehen. Laut der Norm EN 61000-3-2 darf die Prüfquelle eine bestimmten Oberwellengehalt nicht überschreiten. Es muss sichergestellt werden, dass ausschliesslich die vom Verbraucher erzeugte Stromoberschwingung gemessen werden. Beginnt man mit der Prüfung, muss der Prüfling so eingestellt werden, dass der höchste Gesamt-Oberschwingungsstrom (maximal total harmonic current) unter üblichen Betriebsbedingungen erreicht wird. Für die Quellenanforderung gelten folgende Spezifikationen, die zwingend während des zu prüfenden Geräts eingehalten werden müssen:
+
+\begin{itemize}
+	\item Spannungsgenauigkeit $\pm$ 2 \%
+	\item Frequenzgenauigkeit $\pm$ 0.5 \%
+	\item Phasenwinkelstabilität $\pm$ $1.5^\circ$
+	\item 	U$_{peak}$ = \SI{1.4}{V} - \SI{1.42}{V} U$_{eff}$ und zwischen 87\textdegree \hspace{0.02cm} und 93\textdegree \hspace{0.02cm} muss nach dem Nulldurchgang erreicht werden. dies muss jedoch nicht eingehalten werden, sofern Klasse A oder B geprüft wird.
+	\item Die relativen Oberschwingungsanteile der Prüfspannung dürfen folgende Werte nicht überschreiten:\\
+	0.9 \% für die 3. Harmonische Oberschwingung\\
+	0.4 \% für die 5. Harmonische Oberschwingung\\
+	0.3 \% für die 7. Harmonische Oberschwingung\\
+	0.2 \% für die 9. Harmonische Oberschwingung\\
+	0.2 \% für die geradzahlige Oberschwingung 2 bis 10 Ordnung\\
+	0.1 \% für die Oberschwingung 11 bis 40 Ordnung\\
+\end{itemize} 
+
+In der Norm 61000-3-2 sind 4 Geräteklassen definiert, bei denen die Oberschwingungen des Eingangsstromes die Werte nicht überschreiten dürfen. Da es sich beim vorliegenden Projekt um symmetrische, dreiphasige ohmsche Lasten handelt, fällt dies unter die Klasse A. Ausserdem beinhalten die folgenden Einrichtungen auch die Klasse A. 
+\begin{itemize}
+	\item Symmetrische dreiphasige Geräte	
+	\item Haushaltsgeräte (ausser die, die in Klasse D fallen)
+	\item Elektrowerkzeuge (ausser tragbare Elektrowerkzeuge)
+	\item Beleuchtungsregler (Dimmer) für Glühlampen
+	\item Audio-Einrichtungen
+\end{itemize} 
+
+Um zu verdeutlichen, welche Geräte die anderen Klasse erhalten, sind sie der Vollständigkeit halber aufgelistet.\\
+Klasse B:
+\begin{itemize}
+	\item tragbare Elektrowerkzeuge 	
+	\item Lichtbogenschweisseinrichtungen, die nicht zum professionellen Gebrauch vorgesehen sind.
+\end{itemize} 
+Klasse C:
+\begin{itemize}
+	\item Beleuchtungseinrichtungen	
+\end{itemize} 
+Klasse D:
+\begin{itemize}
+	\item Personalcomputer und Bildschirme (Monitore) für Personalcomputer	
+	\item Fernseh-Rundfunkempfänger
+\end{itemize}
+
+\newpage
+Falls es Geräte gibt, die nicht in die Klassen B bis D fallen, müssen sie automatisch als Geräte der Klasse A definiert werden.\\
+Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Geräte sind wie folgt definiert:
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{Oberschwingungsordnung} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Zuverlässiger Höchstwert des \\ Oberschwingungsstromes\end{tabular}} \\
+		\multicolumn{1}{|c|}{\textit{n}}                      & \multicolumn{1}{c|}{A}                                                                                              \\ \hline
+		\multicolumn{2}{|c|}{Ungeradzahlige Oberschwingungen}                                                                                                              \\ \hline
+		3                                            & 2.30                                                                                                                \\
+		5                                            & 1.14                                                                                                                \\
+		7                                            & 0.77                                                                                                                \\
+		9                                            & 0.40                                                                                                                \\
+		11                                           & 0.33                                                                                                                \\
+		13                                           & 0.21                                                                                                                \\
+		15 $\leq$ \textit{n} $\leq$ 39               & 0.15 x 15/\textit{n}                                                                                                \\ \hline
+		\multicolumn{2}{|c|}{Geradzahlige Oberschwingungen}                                                                                                                \\ \hline
+		2                                            & 1.08                                                                                                                \\
+		4                                            & 0.43                                                                                                                \\
+		6                                            & 0.30                                                                                                                \\
+		8 $\leq$ \textit{n} $\leq$ 40                & 0.23 x 8/\textit{n}                                                                                                 \\ \hline
+	\end{tabular}
+	\caption{Grenzwerte für Geräte der Klasse A}\label{tab:Grenzwerte_Normen}
+\end{table}
+
+
+Ein weiterer wichtiger Wert ist die jeweilige Beobachtungsdauer der Endgeräte. Es sind hier verschiedene Arten von Geräteverhalten definiert und dabei die Beobachtungsdauer bestimmt. Dies sieht man in der folgenden Tabelle\ref{tab:Beobachtungsdauer_für_die_Prüfung}.
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{Art des Geräteveraltens}                      & \multicolumn{1}{c|}{Beobachtungsdauer}                                                                                                                                                                                   \\ \hline
+		quasi-stationär                                                    & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ von ausreichender Dauer, um die Anforderungen\\ zur Wiederholpräzision einzuhalten\end{tabular}                                                                                          \\ \hline
+		kurzer Zyklus (T$_{cycle}$ $\leq$ 2.5min)                                    & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ $\geq$ 10 Zyklen (Bezugsverfahren) oder T$_{obs}$ von \\ ausreichender Dauer oder Synochronisation, um \\ die Anforderungen zur Wiederholpräzision\\ einzuhalten \hspace{0.1cm}$^a$\end{tabular}                      \\ \hline
+		zufällig                                                           & \begin{tabular}[c]{@{}l@{}}T$_{obs}$ von ausreichender Dauer, um die Anforderungen\\ zur Wiederholpräzision einzuhalten\end{tabular}                                                                                          \\ \hline
+		langer Zyklus (T$_{cycle}$ \textgreater 2.5 min)                        & \begin{tabular}[c]{@{}l@{}}voller Programmzyklus des Gerätes (Bezugsverfahren)\\ oder ein repräsentives 2.5 min -Intervall mit dem \\ höchsten THC angesehen wird\end{tabular}                                           \\ \hline
+		\multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}} $^a$ \grqq Synchronisation\grqq \hspace{0.08cm} bedeutet, dass die gesamte Beobachtungsdauer hinreichend gut eine\\ exakte ganzzahlige Anzahl von Betriebszyklen des Gerätes umfasst, so dass die\\Anforderungen zur Wiederholpräzision eingehalten wird.\end{tabular}} \\ \hline
+	\end{tabular}
+	\caption{Beobachtungsdauer für die Prüfung}\label{tab:Beobachtungsdauer_für_die_Prüfung}
+\end{table}
+
+
+\subsubsection{EN 61000-3-3 Begrenzung von Spannungsänderungen, Spannungsschwankungen und Flicker}
+Auch diese Norm gilt für Geräte und Einrichtungen mit einem Nenn-Eingansstrom von bis zu \SI{16}{A} je Aussenleiter, die zum Anschluss an das öffentliche Niederspannungsnetz vorgesehen sind und keiner Sonderanschlussbedingung unterlegen. Die Flicker, die auch als repetitive Spannungsänderungen bekannt sind, können so begrenzt werden. Falls Geräte und Einrichtungen diese Norm erfüllen, dürfen sie ohne weitere Prüfung an jeden Anschlusspunkt des öffentlichen Netzes angeschlossen werden. Die Nennleistung, welche die Geräte und Einrichtungen aufweisen sollten, sind ohne Einschränkungen kleiner als \SI{11}{kW} bei Drehstromgeräten, \SI{3.7}{kW} bei Einphasengeräten und \SI{6.47}{kW} bei Zweiphasengeräten. Diese Norm trifft man unter anderem beifolgenden Geräten an:
+\begin{itemize}
+	\item Haushaltsgeräte und tragbare Elektrowerkzeuge 
+	\item Motorbetriebene Geräte (Waschmaschine, Staubsauger, Elektrowärmegerät und Kocheinrichtungen)
+	\item Beleuchtungseinrichtungen
+	\item Automatische elektrische Steuerungen für Hausgebrauch und ähnliche Anwendungen
+	\item Drehzahlgeregelte Antriebe
+	\item Funk-Einrichtungen
+	\item Lichtbogenschweisseinrichtungen
+	\item Medizinische Geräte und Einrichtungen
+	\item Mikrowellengeräte	
+\end{itemize}
+
+Die Norm schreibt eine Prüfung der zu beurteilenden Geräten, an einer Prüfungsimpedanz vor. Die Impedanz $Z$ ist in Abbildung \ref{fig:Bezugsimpedanz} als Widerstand R$_A$ in Serie mit einer Spule jX$_A$ dargestellt und entspricht den folgenden Werten:
+
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.4]{Bezugsimpedanz.png}	
+	\caption{Prüfspannungsquelle mit der Bezugsimpedanz}
+	\label{fig:Bezugsimpedanz}
+\end{figure}
+
+\begin{table}[ht!]
+	\begin{tabular}{ll}
+		G  & Spannungsquelle                                                                                                                                                                                                                                               \\
+		M  & Messeinrichtung                                                                                                                                                                                                                                               \\
+		S  & \begin{tabular}[c]{@{}l@{}}Prüfungspannungsquelle, bestehend aus dem Spannungsgenerator  G und der\\ Bezugsimpedanz Z mit den Elemente\end{tabular}                                                                                                           \\
+		& \begin{tabular}[c]{@{}l@{}}R$_A$ = $\SI{0.24}{\Omega}$  jX$_A$ = $\SI{0.15}{\Omega}$ bei $\SI{50}{Hz}$\\ R$_N$ = $\SI{0.16}{\Omega}$ jX$_A$ = $\SI{0.10}{\Omega}$ bei $\SI{50}{Hz}$\end{tabular}
+	\end{tabular}
+\end{table}
+
+Die drei Quellenspannungen $G$ entsprechen der Nennspannung. Alle Spannungen werden auf die Nennspannung $Un$ normiert: Der Prüfkreis besteht aus der Prüfspannungsquelle, dem zu prüfenden Gerät (Prüfling) und einer Messeinrichtung, zum Beispiel Strommesser, Spannungszange oder einem Flickermeter (M).\\
+Es gibt bei der Bezugsimpedanz keine Unterscheidung im Anwendungsbereich zwischen Haushaltsgeräten und gewerblich genutzten Geräten. Stattdessen wird die Langzeit-Flickerstärke eingeführt und auf 65 \% der Kurzzeit-Flickerstärke begrenzt.\\
+Damit man versteht, welche Bedeutung der Flickerwert hat und wie er zustande gekommen ist, gibt es hier eine Kurze Erklärung des Begriffes:\\
+Mithilfe des Flickerwertes kann man die Störempfindlichkeit des menschlichen Auges, auf Helligkeitsschwankungen bei der Beleuchtung, durch einen messbaren Wert ermitteln. Dieser Wert ist eine dimensionslose Zahl, welche das Störempfinden des Menschen ausdrückt, wenn er sich mit einer \SI{60}{W}-Glühbirne beleuchtet. Die Helligkeit variiert dabei auf Grund von Spannungsschwankungen. Erhält man den Wert 0, so bedeutet dies, dass praktisch keine Schwankungen der Spannungshöhe vorhanden und somit auch kein Flackern der Lampe ersichtlich ist.\\
+Bei dem Wert 1 gibt es eine gewisse Helligkeitsschwankung, die als störend wahrgenommen wird. Jedoch sind die Resultate nicht aussagekräftig, da sie Orts-, Zeit- und Personen abhängig sind. Deshalb entwickelte man einen Algorithmus und ein entsprechendes Formelwerk für das Durchschnittsempfinden der Erkenntnisse. Mit Hilfe eines Flicker-Meters konnte ein geeignetes Messgerät entwickelt werden, welches mit einem Flickermessverfahren den Flickerwert berechnen konnte. Das Flicker-Meter liefert alle 10 Minuten einen Wert, der mit $Pst$ bezeichnet wird. Das $P$ steht dabei für $perceptibility units$ (Wahrnehmungseinheiten) und $st$ steht für $short time$. Der Wert, welcher man behandelt ist also der Kurzzeit-Flickerwert.\\
+Die EN 50160-Norm sagt aus, dass man 12 aufeinander folgende $Pst$-Werte zusammenfassend zu einem $Plt$-Wert (long time-Flicker = Langzeit-Flicker) verrechnen kann. Genauer bedeutet dies, dass man die 12 $Pst$-Werte, die über 2 Stunden gemessen wurden, zusammenrechnet und daraus den Durchschnitt nimmt. Jeder einzelne $Pst$-Wert geht mit einer 3. Potenz in die Bewertung ein. Der $Plt$-Wert ist also der kubische Mittelwert der 12 $Pst-Werte$ und ist in der unterstehenden Formel dargestellt.
+
+\begin{equation}\label{eq:Plt}
+P_{lt} = {\sqrt[3]{\frac{\sum_{i=1}^{N} {P_{st,i}}^3}{N}}}
+\end{equation}
+
+Mithilfe dieser Norm können Typenprüfung für bestimmte Geräte vorgenommen werden. Das Ziel dieser Typenprüfung ist es, die Übereinstimmung mit den Grenzwerten festzustellen. Diese werden unter Laborbedingungen an einem Bezugsnetz betrieben. Bei den festgelegten Betriebsbedingungen werden die erzeugten Spannungsschwankungen in Bezug zu den Bezugsimpedanzen gemessen und beurteilt. Falls Geräte die Grenzwerte dieser Norm einhalten, kann davon ausgegangen werden, dass sie zu keinerlei Beschwerden im Netz Anlass geben. Die elektromagnetische Verträglichkeit ist daher gewährleistet. 
+
+
+\subsubsection{EN 61000-2-2}
+
+Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen. Die Werte des Verträglichkeitspegels mit ihrer Eigenschaft können für die EMV-Koordinierung von Störaussendungs- und Störfestigkeitsanforderungen für Geräte und als Planungspegel für Stromversorgungsnetze verwendet werden. In der Norm werden folgende Phänomene betrachtet:
+
+\begin{itemize}
+	\item Spannungsschwankungen und Flicker 
+	\item Oberschwingungen bis zur 50. Oberschwingungsordnung
+	\item Zwischenharmonische
+	\item Spannungsverzerrungen bei Frequenzen oberhalb der 50. Oberschwingungsordnung
+	\item Spannungseinbrüche
+	\item Kurzzeitunterbrechungen der Versorgungsspannung
+	\item Spannungsunsymmetrien
+	\item Kurzzeitunterbrechungen der Versorgungsspannung
+	\item Transiente Überspannung
+	\item Zweiteilige Schwankung der Netzfrequenz
+\end{itemize}
+Wobei man sagen kann, dass einige Punkt, wie zum Beispiel das Bestimmen des Flickerwertes oder die Langzeit- und die Kurzzeit Flickerstärke schon in der vorherigen Norm definiert sind.\\
+Die Tabelle \ref{tab:kompatibilitätsstufen} zeigt die verschiedenen Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz. Sie ist nur in Bezug auf Langzeiteffekte für einzelne harmonische Spannung definiert. Der Wert der gesamten harmonische Verzerrung darf hierbei höchstens einen Wert von $THD$ = 8\% betragen im stationären Betrieb.
+\begin{table}[ht!]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|l|l|}
+			\hline
+			\multicolumn{2}{|c|}{\begin{tabular}[c]{@{}c@{}}Ungeradzahlige \\ Harmonische \\ nicht-vielfache von 3\end{tabular}}                                                            & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Ungeradzahlige \\ Harmonische \\ Vielfache von 3\end{tabular}}                                                                     & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Geradzahlige \\ Harmonische\end{tabular}}                                                                                          \\ \hline
+			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Oberschwingungs\\ -ordnung\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Harmonische \\ Spannung\end{tabular}} \\
+			\multicolumn{1}{|c|}{\textit{h}}                                                                  & \multicolumn{1}{c|}{\%}                                                              & \multicolumn{1}{c|}{\textit{h}}                                                                     & \multicolumn{1}{c|}{\%}                                                              & \multicolumn{1}{c|}{\textit{h}}                                                                     & \multicolumn{1}{c|}{\%}                                                              \\ \hline
+			
+			5                                                         & 6                                                     & 3                                                       & 5                                                & 2                                           & 2                                         \\
+			7                                                         & 5                                                     & 9                                                       & 1.5                                              & 4                                           & 1                                         \\
+			11                                                        & 3.5                                                   & 15                                                      & 0.4                                              & 6                                           & 0.5                                       \\
+			13                                                        & 3                                                     & 21                                                      & 0.3                                              & 8                                           & 0.5                                       \\
+			17 $\leq$\textit{h}$\leq$ 49                                                   & 2.27x(17/\textit{h})-0.27                                   & 21<h$\leq$45                                                 & 0.2                                              & 10$\leq$\textit{h}$\leq$50                                     & 0.25x(10/\textit{h})+0.25                       \\ \hline
+	\end{tabular}}
+	\caption{Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz}\label{tab:kompatibilitätsstufen}
+\end{table}
+
+Bei Kurzzeiteffekten wird ein Faktor k zu den harmonischen Ordnungen hinzu multipliziert. Dieser Faktor wird wie folgt berechnet: 
+\begin{equation}\label{eq:factor_k_für_kurzzeiteffekte}
+k = {1.3+\frac{0.7}{45}\cdot(h-5)}
+\end{equation}
+Der entsprechende Kompatibilitätsgrad für die gesamte harmonische Verzerrung liegt daher bei $THD$ = 11\%.
+
+
+
+Die Tabelle \ref{tab:subharmonische_Spannung} zeigt die erforderlichen Werte in Prozent der subharmonischen Spannung im Niederspannungsnetz bei \SI{230}{V}, bei einer Frequenz von \SI{10}{Hz} bis \SI{90}{Hz}. Sie entsprechen dem Kompatibilitätsgrad bezüglich des Flimmerns.
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Ordnung\\   {[}m{]}\end{tabular}}} & \multicolumn{2}{c|}{50 Hz System}                                                                                                                    \\ \cline{2-3} 
+		\multicolumn{1}{|c|}{}                                                                             & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Subharmonische\\   Frequenzen fm {[}Hz{]}\end{tabular}}} & \multicolumn{1}{c|}{Um \%} \\ \cline{3-3} 
+		\multicolumn{1}{|c|}{}                                                                             & \multicolumn{1}{c|}{}                                                                                                   & \multicolumn{1}{c|}{230V}  \\ \hline
+		0.20 < m $\leq$ 0.60                                                                              & 10 < fm $\leq$ 30                                                                                                    & 0.51                        \\ \hline
+		0.60 < m $\leq$ 0.64                                                                             & 30 < fm $\leq$ 32                                                                                                    & 0.43                        \\ \hline
+		0.64 < m $\leq$ 0.68                                                                            & 32 < fm $\leq$ 34                                                                                                    & 0.35                        \\ \hline
+		0.68 < m $\leq$ 0.72                                                                            & 34 < fm $\leq$ 36                                                                                                    & 0.28                        \\ \hline
+		0.72 < m $\leq$ 0.76                                                                            & 36 < fm $\leq$ 38                                                                                                    & 0.23                        \\ \hline
+		0.76 < m $\leq$ 0.84                                                                            & 38 < fm $\leq$ 42                                                                                                    & 0.18                        \\ \hline
+		0.84 < m $\leq$ 0.88                                                                            & 42 < fm $\leq$ 44                                                                                                    & 0.18                        \\ \hline
+		0.88 < m $\leq$ 0.92                                                                            & 44 < fm $\leq$ 46                                                                                                    & 0.24                        \\ \hline
+		0.92 < m $\leq$ 0.96                                                                            & 46 < fm $\leq$ 48                                                                                                    & 0.36                        \\ \hline
+		0.96 < m $\leq$ 1.04                                                                            & 48 < fm $\leq$ 52                                                                                                    & 0.64                        \\ \hline
+		1.04 < m $\leq$ 1.08                                                                            & 52 < fm $\leq$ 54                                                                                                    & 0.36                        \\ \hline
+		1.08 < m $\leq$ 1.12                                                                            & 54 < fm $\leq$ 56                                                                                                    & 0.24                        \\ \hline
+		1.12 < m $\leq$ 1.16                                                                            & 56 < fm $\leq$ 58                                                                                                    & 0.18                        \\ \hline
+		1.16 < m $\leq$ 1.24                                                                            & 58 < fm $\leq$ 62                                                                                                    & 0.18                        \\ \hline
+		1.24 < m $\leq$ 1.28                                                                            & 62 < fm $\leq$ 64                                                                                                    & 0.23                        \\ \hline
+		1.28 < m $\leq$ 1.32                                                                            & 64 < fm $\leq$ 66                                                                                                    & 0.28                        \\ \hline
+		1.32 < m $\leq$ 1.36                                                                            & 66 < fm $\leq$ 68                                                                                                    & 0.35                        \\ \hline
+		1.36 < m $\leq$ 1.40                                                                             & 68 < fm $\leq$ 70                                                                                                    & 0.43                        \\ \hline
+		1.40 < m $\leq$ 1.80                                                                              & 70 < fm $\leq$ 90                                                                                                    & 0.51                        \\ \hline
+	\end{tabular}
+	\caption{Erforderlichen Werte der subharmonischen Spannungen}\label{tab:subharmonische_Spannung}
+\end{table}
+
+Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
+\begin{itemize}
+	\item Unerwünschter Strom, der in die Versorgungsnetze fliesst, welcher zusätzlicher Energieverlust verursacht.
+	\item Subharmonische Spannungen stören den Betrieb von Leuchtstofflampen und anderen elektronischen Geräte, wie zum Beispiel Fernsehempfängern. Jede Verwendung von Strom und Spannungen, bei der die Höhe der Amplitude oder der Zeitpunkt des Nulldurchgangs wichtig ist, kann somit gestört werden, wenn die Kombination der vorhandenen unerwünschten Frequenz diese Eigenschaften der Versorgungsspannung ändern.
+	\item Je grösser der Frequenzbereich ist und je grösser die Amplitude der Spannung bei diesen Frequenzen sind, desto grösser ist das Risiko unvorhersehbare Resonanzeffekte zu erhalten. Sie verstärkt die Spannungsverzerrung der Versorgungsspannung und führen zu einer Überlast oder anderen Störung bei den elektrischen Verbrauchern.
+	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht und von der Art des beeinflussten Gerätes.
+\end{itemize}
+
 \newpage
 \section{Vergleich der Resultate von Plecs und Matlab}\label{sec:Vergleich_der_Resultate}
 
