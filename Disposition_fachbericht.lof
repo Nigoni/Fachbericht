@@ -58,6 +58,49 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{56}{figure.caption.99}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Strommessung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{57}{figure.caption.102}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{58}{figure.caption.104}
+<<<<<<< HEAD
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{88}{figure.caption.126}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.130}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.131}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Phasenanschnittsteuerung mit 120\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.132}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Schwingungspaket mit Duty Cycle 0.2 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{93}{figure.caption.133}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Schwingungspaket mit Duty Cycle 0.4 (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{93}{figure.caption.134}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Phasenanschnitt mit 30\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{93}{figure.caption.135}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Phasenanschnitt mit 45\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{94}{figure.caption.136}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Phasenanschnitt mit 120\textdegree simuliert mit Plecs (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{94}{figure.caption.137}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Schwingungspaketsteuerung mit Duty Cycle 0.2 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{94}{figure.caption.138}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Schwingungspaketsteuerung mit Duty Cycle 0.4 simuliert mit Plecs (a) Eingangssignal (b) Amplitudenspektrum\relax }}{95}{figure.caption.139}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Vergleich der Amplitudenspektrum mit Phasenwinkel von 90\textdegree \relax }}{95}{figure.caption.140}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.5\relax }}{95}{figure.caption.141}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{96}{figure.caption.142}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{96}{figure.caption.143}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Vergleich des Schwingungspaket mit Duty Cycle von 0.8\relax }}{96}{figure.caption.144}
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{97}{figure.caption.146}
+\contentsline {figure}{\numberline {C.17}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{98}{figure.caption.148}
+\contentsline {figure}{\numberline {C.18}{\ignorespaces Messung mit Schwingungspaket 50\%\relax }}{99}{figure.caption.150}
+\contentsline {figure}{\numberline {C.19}{\ignorespaces Messung mit Schwingungspaket 80\%\relax }}{100}{figure.caption.152}
+\contentsline {figure}{\numberline {C.20}{\ignorespaces Messung mit Sanft Anlasser\relax }}{101}{figure.caption.154}
+\contentsline {figure}{\numberline {C.21}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%\relax }}{102}{figure.caption.156}
+\contentsline {figure}{\numberline {C.22}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%\relax }}{102}{figure.caption.156}
+\contentsline {figure}{\numberline {C.23}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%\relax }}{102}{figure.caption.158}
+\contentsline {figure}{\numberline {C.24}{\ignorespaces Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%\relax }}{102}{figure.caption.158}
+\contentsline {figure}{\numberline {C.25}{\ignorespaces Vergleich Messung und Simulation mit hartem Auf- und Absteuern\relax }}{103}{figure.caption.160}
+\contentsline {figure}{\numberline {C.26}{\ignorespaces Vergleich Messung und Simulation mit hartem Auf- und Absteuern\relax }}{103}{figure.caption.160}
+\contentsline {figure}{\numberline {C.27}{\ignorespaces Vergleich Messung und Simulation mit sanftem Auf- und Absteuern\relax }}{103}{figure.caption.162}
+\contentsline {figure}{\numberline {C.28}{\ignorespaces Vergleich Messung und Simulation mit sanftem Auf- und Absteuern\relax }}{103}{figure.caption.162}
+\contentsline {figure}{\numberline {C.29}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \hspace {0.02cm} und zwei Thyristoren\relax }}{104}{figure.caption.164}
+\contentsline {figure}{\numberline {C.30}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \hspace {0.02cm} und zwei Thyristoren\relax }}{105}{figure.caption.166}
+\contentsline {figure}{\numberline {C.31}{\ignorespaces Messung mit Schwingungspaket 50\% und zwei Thyristoren\relax }}{106}{figure.caption.168}
+\contentsline {figure}{\numberline {C.32}{\ignorespaces Messung mit Schwingungspaket 50\% und zwei Thyristoren\relax }}{107}{figure.caption.170}
+\contentsline {figure}{\numberline {C.33}{\ignorespaces Messung mit dem harten Auf- und Absteuern und zwei Thyristoren\relax }}{107}{figure.caption.172}
+\contentsline {figure}{\numberline {C.34}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{108}{figure.caption.175}
+\contentsline {figure}{\numberline {C.35}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \hspace {0.02cm} und einem Thyristoren\relax }}{110}{figure.caption.178}
+\contentsline {figure}{\numberline {C.36}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \hspace {0.02cm} und einem Thyristoren\relax }}{111}{figure.caption.180}
+\contentsline {figure}{\numberline {C.37}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{112}{figure.caption.182}
+\contentsline {figure}{\numberline {C.38}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{113}{figure.caption.184}
+\contentsline {figure}{\numberline {C.39}{\ignorespaces Messung mit Auf- und Absteuern und einem Thyristoren\relax }}{114}{figure.caption.186}
+\contentsline {figure}{\numberline {C.40}{\ignorespaces Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren\relax }}{115}{figure.caption.188}
+=======
 \contentsline {figure}{\numberline {B.1}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{88}{figure.caption.135}
 \contentsline {figure}{\numberline {C.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.139}
 \contentsline {figure}{\numberline {C.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.140}
@@ -99,3 +142,4 @@
 \contentsline {figure}{\numberline {C.38}{\ignorespaces Messung mit Schwingungspaket 50\% und einem Thyristoren\relax }}{113}{figure.caption.193}
 \contentsline {figure}{\numberline {C.39}{\ignorespaces Messung mit Auf- und Absteuern und einem Thyristoren\relax }}{114}{figure.caption.195}
 \contentsline {figure}{\numberline {C.40}{\ignorespaces Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren\relax }}{115}{figure.caption.197}
+>>>>>>> master

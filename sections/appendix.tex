@@ -205,7 +205,7 @@ void loop() {
 
 \section{Zusammenfassung der Normen}\label{sec:Zusammenfassung_Normen}
 
-\subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen}
+\subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen_ZF}
 Diese Norm gilt für elektrische und elektronische Geräte (Betriebsmittel und Einrichtungen) bis zu einem Eingangsstrom von \SI{16}{A} je Leiter. Ausserdem ist der Anschluss des Gerätes an das öffentliche Niederspannungsverteilnetz vorgesehen. Unter dem Begriff \grqq Elektrische Einrichtung\grqq versteht man eine Anlage, welches aus einem oder mehreren voneinander unabhängigen Geräten besteht. Sie bilden eine elektrische Einrichtung, wenn nur durch deren Zusammenwirken der bestimmungsgemässe Zweck der Einrichtung erzielt werden kann. Ein Beispiel für eine elektrische Einrichtung ist, der Treppenlichtautomat zusammen mit den dazugehörigen Leuchten. Nur der Automat ohne Beleuchtung erfüllt den technischen Zweck der Bezeichnung nicht. Ein weiteres Beispiel für eine \grqq Elektrische Einrichtung \grqq wäre der motorische Antrieb. Aber auch hier gilt, dass der Motor ohne mechanische Last den technischen Nutzen nicht erfüllen würde.\\
 Die Norm definiert die Grenzwerte der Oberschwingungsanteile des Eingangsstromes bis zur 40. Harmonischen, die durch ein Gerät hervorgerufen werden können, dass unter festgelegten Bedingungen geprüft wird. Da heutzutage die Zahl der nicht linearen Verbraucher am öffentlichen Versorgungsnetz zunehmend steigen, steigt auch der Anteil des Oberschwingungsgehalts der Versorgungsspannung. Die nicht-sinusförmige und somit oberschwingungsbehaftete Stromentnahme verursacht an der Netzimpedanz Spannungsabfälle. Das Resultat ist eine Abweichung des Spannungsverlaufs von dem idealen harmonischen Verlauf des Netzes. Um normgerechte und reproduzierbare Messungen der Stromoberschwingungen durchführen zu können, muss ein ideales oberschwingungsfreies Netz zur Verfügung stehen. Laut der Norm EN 61000-3-2 darf die Prüfquelle eine bestimmten Oberwellengehalt nicht überschreiten. Es muss sichergestellt werden, dass ausschliesslich die vom Verbraucher erzeugte Stromoberschwingung gemessen werden. Beginnt man mit der Prüfung, muss der Prüfling so eingestellt werden, dass der höchste Gesamt-Oberschwingungsstrom (maximal total harmonic current) unter üblichen Betriebsbedingungen erreicht wird. Für die Quellenanforderung gelten folgende Spezifikationen, die zwingend während des zu prüfenden Geräts eingehalten werden müssen:
 
@@ -272,11 +272,11 @@ Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Ger
 		6                                            & 0.30                                                                                                                \\
 		8 $\leq$ \textit{n} $\leq$ 40                & 0.23 x 8/\textit{n}                                                                                                 \\ \hline
 	\end{tabular}
-	\caption{Grenzwerte für Geräte der Klasse A}\label{tab:Grenzwerte_Normen}
+	\caption{Grenzwerte für Geräte der Klasse A}\label{tab:Grenzwerte_Normen_ZF}
 \end{table}
 
 
-Ein weiterer wichtiger Wert ist die jeweilige Beobachtungsdauer der Endgeräte. Es sind hier verschiedene Arten von Geräteverhalten definiert und dabei die Beobachtungsdauer bestimmt. Dies sieht man in der folgenden Tabelle\ref{tab:Beobachtungsdauer_für_die_Prüfung} \cite{EMVNorm}.
+Ein weiterer wichtiger Wert ist die jeweilige Beobachtungsdauer der Endgeräte. Es sind hier verschiedene Arten von Geräteverhalten definiert und dabei die Beobachtungsdauer bestimmt. Dies sieht man in der folgenden Tabelle \ref{tab:Beobachtungsdauer_für_die_Prüfung} \cite{EMVNorm}.
 
 \begin{table}[ht!]
 	\centering
@@ -293,7 +293,7 @@ Ein weiterer wichtiger Wert ist die jeweilige Beobachtungsdauer der Endgeräte. 
 \end{table}
 
 
-\subsubsection{EN 61000-3-3 Begrenzung von Spannungsänderungen, Spannungsschwankungen und Flicker}
+\subsubsection{EN 61000-3-3 Begrenzung von Spannungsänderungen, Spannungsschwankungen} \label{sec:flickernorm}
 Auch diese Norm gilt für Geräte und Einrichtungen mit einem Nenn-Eingansstrom von bis zu \SI{16}{A} je Aussenleiter, die zum Anschluss an das öffentliche Niederspannungsnetz vorgesehen sind und keiner Sonderanschlussbedingung unterlegen. Die Flicker, die auch als repetitive Spannungsänderungen bekannt sind, können so begrenzt werden. Falls Geräte und Einrichtungen diese Norm erfüllen, dürfen sie ohne weitere Prüfung an jeden Anschlusspunkt des öffentlichen Netzes angeschlossen werden. Die Nennleistung, welche die Geräte und Einrichtungen aufweisen sollten, sind ohne Einschränkungen kleiner als \SI{11}{kW} bei Drehstromgeräten, \SI{3.7}{kW} bei Einphasengeräten und \SI{6.47}{kW} bei Zweiphasengeräten. Diese Norm trifft man unter anderem beifolgenden Geräten an:
 \begin{itemize}
 	\item Haushaltsgeräte und tragbare Elektrowerkzeuge 
@@ -337,10 +337,10 @@ Die EN 50160-Norm sagt aus, dass man 12 aufeinander folgende $Pst$-Werte zusamme
 P_{lt} = {\sqrt[3]{\frac{\sum_{i=1}^{N} {P_{st,i}}^3}{N}}}
 \end{equation}
 
-Mithilfe dieser Norm können Typenprüfung für bestimmte Geräte vorgenommen werden. Das Ziel dieser Typenprüfung ist es, die Übereinstimmung mit den Grenzwerten festzustellen. Diese werden unter Laborbedingungen an einem Bezugsnetz betrieben. Bei den festgelegten Betriebsbedingungen werden die erzeugten Spannungsschwankungen in Bezug zu den Bezugsimpedanzen gemessen und beurteilt. Falls Geräte die Grenzwerte dieser Norm einhalten, kann davon ausgegangen werden, dass sie zu keinerlei Beschwerden im Netz Anlass geben. Die elektromagnetische Verträglichkeit ist daher gewährleistet. 
+Mithilfe dieser Norm können Typenprüfung für bestimmte Geräte vorgenommen werden. Das Ziel dieser Typenprüfung ist es, die Übereinstimmung mit den Grenzwerten festzustellen. Diese werden unter Laborbedingungen an einem Bezugsnetz betrieben. Bei den festgelegten Betriebsbedingungen werden die erzeugten Spannungsschwankungen in Bezug zu den Bezugsimpedanzen gemessen und beurteilt. Falls Geräte die Grenzwerte dieser Norm einhalten, kann davon ausgegangen werden, dass sie zu keinerlei Beschwerden im Netz Anlass geben. Die elektromagnetische Verträglichkeit ist daher gewährleistet \cite{FlickerNorm}. 
 
 
-\subsubsection{EN 61000-2-2 Grenzwerte für Oberschwingungsströme}
+\subsubsection{EN 61000-2-2 Grenzwerte für Oberschwingungsspannungen}
 
 Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen. Die Werte des Verträglichkeitspegels mit ihrer Eigenschaft können für die EMV-Koordinierung von Störaussendungs- und Störfestigkeitsanforderungen für Geräte und als Planungspegel für Stromversorgungsnetze verwendet werden. In der Norm werden folgende Phänomene betrachtet:
 
@@ -357,7 +357,7 @@ Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von nied
 	\item Zweiteilige Schwankung der Netzfrequenz
 \end{itemize}
 Wobei man sagen kann, dass einige Punkt, wie zum Beispiel das Bestimmen des Flickerwertes oder die Langzeit- und die Kurzzeit Flickerstärke schon in der vorherigen Norm definiert sind.\\
-Die Tabelle \ref{tab:kompatibilitätsstufen} zeigt die verschiedenen Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz. Sie ist nur in Bezug auf Langzeiteffekte für einzelne harmonische Spannung definiert. Der Wert der gesamten harmonische Verzerrung darf hierbei höchstens einen Wert von $THD$ = 8\% betragen im stationären Betrieb.
+Die Tabelle \ref{tab:kompatibilitätsstufen_ZF} zeigt die verschiedenen Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz. Sie ist nur in Bezug auf Langzeiteffekte für einzelne harmonische Spannung definiert. Der Wert der gesamten harmonische Verzerrung darf hierbei höchstens einen Wert von $THD$ = 8\% betragen im stationären Betrieb.
 \begin{table}[ht!]
 	\centering
 	\resizebox{\textwidth}{!}{%
@@ -373,18 +373,18 @@ Die Tabelle \ref{tab:kompatibilitätsstufen} zeigt die verschiedenen Kompatibili
 			13                                                        & 3                                                     & 21                                                      & 0.3                                              & 8                                           & 0.5                                       \\
 			17 $\leq$\textit{h}$\leq$ 49                                                   & 2.27x(17/\textit{h})-0.27                                   & 21<h$\leq$45                                                 & 0.2                                              & 10$\leq$\textit{h}$\leq$50                                     & 0.25x(10/\textit{h})+0.25                       \\ \hline
 	\end{tabular}}
-	\caption{Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz}\label{tab:kompatibilitätsstufen}
+	\caption{Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz}\label{tab:kompatibilitätsstufen_ZF}
 \end{table}
 
 Bei Kurzzeiteffekten wird ein Faktor k zu den harmonischen Ordnungen hinzu multipliziert. Dieser Faktor wird wie folgt berechnet: 
-\begin{equation}\label{eq:factor_k_für_kurzzeiteffekte}
+\begin{equation}\label{eq:factor_k_für_kurzzeiteffekte_ZF}
 k = {1.3+\frac{0.7}{45}\cdot(h-5)}
 \end{equation}
 Der entsprechende Kompatibilitätsgrad für die gesamte harmonische Verzerrung liegt daher bei $THD$ = 11\%.
 
 
 
-Die Tabelle \ref{tab:subharmonische_Spannung} zeigt die erforderlichen Werte in Prozent der subharmonischen Spannung im Niederspannungsnetz bei \SI{230}{V}, bei einer Frequenz von \SI{10}{Hz} bis \SI{90}{Hz}. Sie entsprechen dem Kompatibilitätsgrad bezüglich des Flimmerns.
+Die Tabelle \ref{tab:subharmonische_Spannung_ZF} zeigt die erforderlichen Werte in Prozent der subharmonischen Spannung im Niederspannungsnetz bei \SI{230}{V}, bei einer Frequenz von \SI{10}{Hz} bis \SI{90}{Hz}. Sie entsprechen dem Kompatibilitätsgrad bezüglich des Flimmerns.
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -412,7 +412,7 @@ Die Tabelle \ref{tab:subharmonische_Spannung} zeigt die erforderlichen Werte in 
 		1.36 < m $\leq$ 1.40                                                                             & 68 < fm $\leq$ 70                                                                                                    & 0.43                        \\ \hline
 		1.40 < m $\leq$ 1.80                                                                              & 70 < fm $\leq$ 90                                                                                                    & 0.51                        \\ \hline
 	\end{tabular}
-	\caption{Erforderlichen Werte der subharmonischen Spannungen}\label{tab:subharmonische_Spannung}
+	\caption{Erforderlichen Werte der subharmonischen Spannungen}\label{tab:subharmonische_Spannung_ZF}
 \end{table}
 
 Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
