@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{12}{subsection.2.10}
 \contentsline {subsection}{\numberline {2.11}Normen}{12}{subsection.2.11}
 \contentsline {subsubsection}{\numberline {2.11.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{13}{subsubsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.2}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{14}{subsubsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.2}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsspannung}{14}{subsubsection.2.11.2}
 \contentsline {section}{\numberline {3}Simulationen}{16}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{16}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{16}{subsubsection.3.1.1}
@@ -52,20 +52,20 @@
 \contentsline {subsubsection}{\numberline {5.3.2}Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{58}{subsubsection.5.3.2}
 \contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{61}{subsection.5.4}
 \contentsline {section}{\numberline {6}Interpretation der Resultate}{62}{section.6}
-\contentsline {subsection}{\numberline {6.1}Resultate Widerstand}{62}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Resultate ASM}{63}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.1}Resultate der Ansteuerungsarten beim Widerstand}{62}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Resultate der Ansteuerungsarten bei der ASM}{63}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Vergleich der Messungen mit den Simulationen}{64}{subsection.6.3}
 \contentsline {section}{\numberline {7}Schlusswort}{65}{section.7}
-\contentsline {section}{Literatur}{67}{section*.121}
-\contentsline {section}{Abbildungsverzeichnis}{67}{section*.122}
-\contentsline {section}{Tabellenverzeichnis}{71}{section*.123}
+\contentsline {section}{Literatur}{67}{section*.108}
+\contentsline {section}{Abbildungsverzeichnis}{67}{section*.109}
+\contentsline {section}{Tabellenverzeichnis}{71}{section*.110}
 \contentsline {section}{\numberline {A}Code}{73}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{73}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Arduino-Programm}{81}{subsection.A.2}
 \contentsline {section}{\numberline {B}Zusammenfassung der Normen}{85}{appendix.B}
 \contentsline {subsubsection}{\numberline {B.0.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{85}{subsubsection.B.0.1}
-\contentsline {subsubsection}{\numberline {B.0.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen und Flicker}{87}{subsubsection.B.0.2}
-\contentsline {subsubsection}{\numberline {B.0.3}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{89}{subsubsection.B.0.3}
+\contentsline {subsubsection}{\numberline {B.0.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen}{87}{subsubsection.B.0.2}
+\contentsline {subsubsection}{\numberline {B.0.3}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsspannungen}{89}{subsubsection.B.0.3}
 \contentsline {section}{\numberline {C}Vergleich der Resultate von Plecs und Matlab}{92}{appendix.C}
 \contentsline {subsection}{\numberline {C.1}Messungen Spannungen Widerstand}{97}{subsection.C.1}
 \contentsline {subsection}{\numberline {C.2}Messungen Spannungen ASM}{99}{subsection.C.2}
