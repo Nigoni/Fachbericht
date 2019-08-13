@@ -4,9 +4,38 @@ Damit die verschiedenen simulierten Ansteuerungsarten in die Praxis umsetzen, wu
 Die Praxistests wurden mit einem \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.02cm} von der Firma Chemtronic durchgeführt. Wie der Name des Produktes sagt, arbeitet dieser Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden. Dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Jedoch kann für die Ansteuerung auch ein Spannungssignal von \SI{0}{V} - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz} \cite{Arduino_PWM}. 
 Damit der Operationsverstärker der Verstärkungsschaltung die Spannung richtig verstärkt, muss zwingend ein reines DC-Signal am Eingang des Operationsverstärkers anliegen. Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Grenzfrequenz von \SI{1}{Hz}.  
 
-\todo{Foto des Laboraufbau}
 
 
+\begin{figure}[ht!]  
+	\centering
+	\includegraphics[width=0.7\textwidth]{Laboraufbau.png}	
+	\caption{Laboraufbau mit Verstärkerschaltung und Spannungsteiler}\label{fig:Laboraufbau}
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Nummer & Bauteil                                                             \\ \hline
+		1      & PWM-Ausgang Arduino                                                 \\ \hline
+		2      & R1 des Filters                                                      \\ \hline
+		3      & R2 der Spannungsverstärkungsschaltung                               \\ \hline
+		4      & C1 des Filters                                                      \\ \hline
+		5      & R3 der Spannungsverstärkungsschaltung                               \\ \hline
+		6      & Operationsverstärker TS912                                          \\ \hline
+		7      & R4 des Spannungsteilers 											 \\ \hline
+		8      & R5 des Spannungsteilers (3 Widerstände seriell)                     \\ \hline
+		9      & Freigabe Arduino                                                    \\ \hline
+		10     & Eingang Spannungsmessung                                            \\ \hline
+		11     & Ausgang Steuerspannung                                              \\ \hline
+		12     & Abgriff Spannungsteiler                                             \\ \hline
+		13     & Speisespannung Arduino \& Spannungsverstärker                       \\ \hline
+	\end{tabular}
+	\caption{Beschreibung der Nummern}
+	\label{tab:Laboraufbau}
+\end{table}
+
+\newpage
 \subsubsection*{Filter}
 Berechnet wurden die passiven Elemente des Tiefpassfilters mit folgender Grundformel \cite{Tiefpass}:
 \begin{equation}
@@ -102,13 +131,13 @@ Bei dem sanften Auf- und Absteuern ist die Steigung des Hoch- und Runterfahrens 
 
 
 \subsubsection{Drehzahlmessung für eine Reglerauslegung}
-Um die Drehzahl des Asynchronmotors messen und regeln zu können, wurde eine Drehzahlregelung im Arduino programmiert. Dabei wird die Spannung über dem Drehzahlgeber des Asynchronmotors benötigt. Sie beträgt bei der maximalen Drehzahl von \SI{2800}{U/min} \SI{58.8}{V}. Die Spannung ist linear von der Drehzahl abhängig und beträgt so, bei zum Beispiel \SI{1400}{U/min} \SI{29.4}{V}. Da der Arduino nur eine maximale Spannung von \SI{5}{V} einlesen kann, wird mithilfe eines Spannungsteilers die Spannung des Drehzahlgebers linear reduziert. Mit der Grundformel des Spannungsteilers \ref{eq:Spannungsteiler} und des freien Wählens eines Widerstandes $R1$ konnte daraus $R2$ bestimmt werden \cite{Spannungsteiler}:
+Um die Drehzahl des Asynchronmotors messen und regeln zu können, wurde eine Drehzahlregelung im Arduino programmiert. Dabei wird die Spannung über dem Drehzahlgeber des Asynchronmotors benötigt. Sie beträgt bei der maximalen Drehzahl von \SI{2800}{U/min} \SI{58.8}{V}. Die Spannung ist linear von der Drehzahl abhängig und beträgt so, bei zum Beispiel \SI{1400}{U/min} \SI{29.4}{V}. Da der Arduino nur eine maximale Spannung von \SI{5}{V} einlesen kann, wird mithilfe eines Spannungsteilers die Spannung des Drehzahlgebers linear reduziert. Mit der Grundformel des Spannungsteilers \ref{eq:Spannungsteiler} und des freien Wählens eines Widerstandes $R_4$ konnte daraus $R_5$ bestimmt werden \cite{Spannungsteiler}:
 
 \begin{equation}\label{eq:Spannungsteiler}
-U_2=U_{Ges} \cdot\frac{R1}{R1 + R2} \Longrightarrow 4.94 V = 58.8 V \cdot \frac{56k\Omega}{56k\Omega + R2}
+U_2=U_{Ges} \cdot\frac{R_4}{R_4 + R_5} \Longrightarrow 4.94 V = 58.8 V \cdot \frac{56k\Omega}{56k\Omega + R_5}
 \end{equation}
 
-Das Resultat des Widerstands ist \SI{611}{k\Omega} und somit konnte die Spannung mit dem Arduino gemessen werden. Mit dem ADC wird sie in 1024 verschieden Werte aufgeteilt. Der Wert 512 entspricht  einer Spannung von \SI{2.5}{V} \cite{Spannungsmessung}. Danach wird dieser Wert mit den Widerstandswerten des Spannungsteilers auf die Originalspannung zurückgerechnet. Bei dem Regler wird für den Sollwert ein gewünschter Spannungswert vorgegeben. Anschliessend wird der Istwert vom Sollwert abgezogen, dadurch erhält man die Differenz. Da der Ausgabewert des Arduinos einem Wert zwischen 0 bis 255 entspricht, muss die Differenz umgerechnet werden. Zusätzlich wird ein PI-Regler benötigt, damit eine exakte und schnelle Regelung möglich ist.\\\\
+Das Resultat des Widerstands $R_5$ ist \SI{611}{k\Omega} und somit konnte die Spannung mit dem Arduino gemessen werden. Mit dem ADC wird sie in 1024 verschieden Werte aufgeteilt. Der Wert 512 entspricht  einer Spannung von \SI{2.5}{V} \cite{Spannungsmessung}. Danach wird dieser Wert mit den Widerstandswerten des Spannungsteilers auf die Originalspannung zurückgerechnet. Bei dem Regler wird für den Sollwert ein gewünschter Spannungswert vorgegeben. Anschliessend wird der Istwert vom Sollwert abgezogen, dadurch erhält man die Differenz. Da der Ausgabewert des Arduinos einem Wert zwischen 0 bis 255 entspricht, muss die Differenz umgerechnet werden. Zusätzlich wird ein PI-Regler benötigt, damit eine exakte und schnelle Regelung möglich ist.\\\\
 Mit der Formel \ref{eq:digitaler_PI_Regler} wird die Ausgangsspannung eines digitaler PI-Regler berechnet: \cite{Quelle_Marco} 
 \begin{equation}\label{eq:digitaler_PI_Regler}
 Y(k) = Y(k-1)+ B_0U(k)+B_1U(k-1)
