@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{12}{subsection.2.10}
 \contentsline {subsection}{\numberline {2.11}Normen}{12}{subsection.2.11}
 \contentsline {subsubsection}{\numberline {2.11.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{13}{subsubsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.2}EN 61000-2-2}{14}{subsubsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.2}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{14}{subsubsection.2.11.2}
 \contentsline {section}{\numberline {3}Simulationen}{16}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{16}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{16}{subsubsection.3.1.1}
@@ -62,20 +62,20 @@
 \contentsline {subsection}{\numberline {6.2}Resultate ASM}{66}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Vergleich der Messungen mit den Simulationen}{67}{subsection.6.3}
 \contentsline {section}{\numberline {7}Schlusswort}{68}{section.7}
-\contentsline {section}{Literatur}{70}{section*.118}
-\contentsline {section}{Abbildungsverzeichnis}{70}{section*.119}
-\contentsline {section}{Tabellenverzeichnis}{73}{section*.120}
-\contentsline {section}{\numberline {A}Code}{75}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{75}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{83}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}Zusammenfassung der Normen}{87}{subsection.A.3}
-\contentsline {subsubsection}{\numberline {A.3.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{87}{subsubsection.A.3.1}
-\contentsline {subsubsection}{\numberline {A.3.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen und Flicker}{89}{subsubsection.A.3.2}
-\contentsline {subsubsection}{\numberline {A.3.3}EN 61000-2-2}{91}{subsubsection.A.3.3}
-\contentsline {section}{\numberline {B}Vergleich der Resultate von Plecs und Matlab}{94}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Messungen Spannungen Widerstand}{99}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Messungen Spannungen ASM}{101}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Vergleich Messungen Widerstand mit Simulation}{104}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{106}{subsection.B.4}
-\contentsline {subsubsection}{\numberline {B.4.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{110}{subsubsection.B.4.1}
-\contentsline {subsection}{\numberline {B.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{112}{subsection.B.5}
+\contentsline {section}{Literatur}{70}{section*.121}
+\contentsline {section}{Abbildungsverzeichnis}{70}{section*.122}
+\contentsline {section}{Tabellenverzeichnis}{74}{section*.123}
+\contentsline {section}{\numberline {A}Code}{76}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Matlab Berechnungen}{76}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Arduino-Programm}{84}{subsection.A.2}
+\contentsline {section}{\numberline {B}Zusammenfassung der Normen}{88}{appendix.B}
+\contentsline {subsubsection}{\numberline {B.0.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{88}{subsubsection.B.0.1}
+\contentsline {subsubsection}{\numberline {B.0.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen und Flicker}{90}{subsubsection.B.0.2}
+\contentsline {subsubsection}{\numberline {B.0.3}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{92}{subsubsection.B.0.3}
+\contentsline {section}{\numberline {C}Vergleich der Resultate von Plecs und Matlab}{95}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Messungen Spannungen Widerstand}{100}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Messungen Spannungen ASM}{102}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}Vergleich Messungen Widerstand mit Simulation}{105}{subsection.C.3}
+\contentsline {subsection}{\numberline {C.4}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{107}{subsection.C.4}
+\contentsline {subsubsection}{\numberline {C.4.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{111}{subsubsection.C.4.1}
+\contentsline {subsection}{\numberline {C.5}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{113}{subsection.C.5}

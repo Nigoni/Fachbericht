@@ -146,6 +146,38 @@
       \field{title}{Leistungselektronik Einführung, Grundlagen, Überblick}
       \field{year}{1990}
     \endentry
+    \entry{EMVNorm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=576782c90365a550cea55918575a2c88}{%
+           family={{DIN EN 61000-3-2 (VDE 0838-2), \glqq Elektromagnetische Verträglichkeit (EMV) - Teil3-2: Grenzwerte für Oberschwingungsströme\grqq, Deutsche Norm, 2006}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{576782c90365a550cea55918575a2c88}
+      \strng{fullhash}{576782c90365a550cea55918575a2c88}
+      \strng{bibnamehash}{576782c90365a550cea55918575a2c88}
+      \strng{authorbibnamehash}{576782c90365a550cea55918575a2c88}
+      \strng{authornamehash}{576782c90365a550cea55918575a2c88}
+      \strng{authorfullhash}{576782c90365a550cea55918575a2c88}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+    \endentry
+    \entry{SpannungsNorm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=64eccf5e18711e20aca7c9470a25da3f}{%
+           family={{CEI IEC 61000-2-2, \glqq Electromagnetic compatibility (EMC) - Part 2-2: Enviroment \grqq, International Standard, 2002}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{64eccf5e18711e20aca7c9470a25da3f}
+      \strng{fullhash}{64eccf5e18711e20aca7c9470a25da3f}
+      \strng{bibnamehash}{64eccf5e18711e20aca7c9470a25da3f}
+      \strng{authorbibnamehash}{64eccf5e18711e20aca7c9470a25da3f}
+      \strng{authornamehash}{64eccf5e18711e20aca7c9470a25da3f}
+      \strng{authorfullhash}{64eccf5e18711e20aca7c9470a25da3f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+    \endentry
     \entry{Arduino_PWM}{online}{}
       \name{author}{1}{}{%
         {{hash=55611bd9f462dbb9de1d4c472852175b}{%
@@ -216,8 +248,8 @@
       \strng{authorbibnamehash}{a5112b83d536a445a3ed11347fe12a0e}
       \strng{authornamehash}{a5112b83d536a445a3ed11347fe12a0e}
       \strng{authorfullhash}{a5112b83d536a445a3ed11347fe12a0e}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Nichtinvertierender Verstärker}
@@ -245,8 +277,8 @@
       \strng{authorbibnamehash}{2800e528bee780dc9549466193f59cee}
       \strng{authornamehash}{2800e528bee780dc9549466193f59cee}
       \strng{authorfullhash}{2800e528bee780dc9549466193f59cee}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Spannungsteiler / Spannungsteilerschaltung}
@@ -336,21 +368,50 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
     \endentry
-    \entry{EMVNorm}{misc}{}
+    \entry{FlickerNorm}{misc}{}
       \name{author}{1}{}{%
-        {{hash=576782c90365a550cea55918575a2c88}{%
-           family={{DIN EN 61000-3-2 (VDE 0838-2), \glqq Elektromagnetische Verträglichkeit (EMV) - Teil3-2: Grenzwerte für Oberschwingungsströme\grqq, Deutsche Norm, 2006}},
+        {{hash=aeef01a84680f26e448e9d30dd346302}{%
+           family={{DIN EN 61000-3-3, \glqq Elektromagnetische Verträglichkeit (EMV) - Teil3-3: Grenzwerte Begrenzung von Spannungsänderungen\grqq, Deutsche Norm, 2013}},
            familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{576782c90365a550cea55918575a2c88}
-      \strng{fullhash}{576782c90365a550cea55918575a2c88}
-      \strng{bibnamehash}{576782c90365a550cea55918575a2c88}
-      \strng{authorbibnamehash}{576782c90365a550cea55918575a2c88}
-      \strng{authornamehash}{576782c90365a550cea55918575a2c88}
-      \strng{authorfullhash}{576782c90365a550cea55918575a2c88}
+      \strng{namehash}{aeef01a84680f26e448e9d30dd346302}
+      \strng{fullhash}{aeef01a84680f26e448e9d30dd346302}
+      \strng{bibnamehash}{aeef01a84680f26e448e9d30dd346302}
+      \strng{authorbibnamehash}{aeef01a84680f26e448e9d30dd346302}
+      \strng{authornamehash}{aeef01a84680f26e448e9d30dd346302}
+      \strng{authorfullhash}{aeef01a84680f26e448e9d30dd346302}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
+    \endentry
+    \entry{Spannungsqualitaet}{online}{}
+      \name{author}{1}{}{%
+        {{hash=10087e295a481e516bd5c42dee320d39}{%
+           family={{O. Lang}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{10087e295a481e516bd5c42dee320d39}
+      \strng{fullhash}{10087e295a481e516bd5c42dee320d39}
+      \strng{bibnamehash}{10087e295a481e516bd5c42dee320d39}
+      \strng{authorbibnamehash}{10087e295a481e516bd5c42dee320d39}
+      \strng{authornamehash}{10087e295a481e516bd5c42dee320d39}
+      \strng{authorfullhash}{10087e295a481e516bd5c42dee320d39}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spannungsqualität, ein Durchblick}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sf-ag.com/sites/default/files/flyer/2_Lang_DEVICE_PQ_Messung.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sf-ag.com/sites/default/files/flyer/2_Lang_DEVICE_PQ_Messung.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

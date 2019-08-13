@@ -335,7 +335,7 @@ Um die Anforderungen der Netzqualität zu gewährleisten, müssen die Normen ein
 \subsection{Normen}\label{sec:Normen}
 Bei der Formulierung \grqq Normen\grqq \hspace{0.02cm} handelt es sich um eine Herausgabe von Regeln, Merkmale oder Leitlinien, die von verschiedenen Organisatoren und deren Expertengruppen, wie die deutsche Kommission für Elektrotechnik, bestimmt wurden. Die gesicherten Ergebnisse, welche auf Wissenschaft, Technik und Erfahrung basieren, dokumentierte man sorgfältig zum Beispiel in den EN-Normen. Wie erwähnt, müssen verschiedene Geräte bestimmte Normen einhalten, um Störungen und Verzerrungen im Netz zu vermeiden. Vorliegende Arbeit stützt sich bei der Erarbeitung der Grenzwerten für harmonische Oberschwingungsströme und Oberschwingungsspannungen und Zwischenharmonische Oberschwingungsspannungen auf die Normen EN 61000 3-2 und EN 61000 2-2. \todo{quelle angeben} Die Grenzwerte von Spannungsänderungen, Spannungsschwankungen und Flicker für Geräte mit eine Bemessungsstrom von \SI{16}{A}, welche in der Norm EN 61000 3-3 aufgezeigt ist, wurden ebenfalls untersucht. Da man für diesen Vergleich einen bestimmten Versuchsaufbau und Prüfling benötigt, ging man nicht weiter auf diese Norm ein. Nachfolgend sind die für diese Arbeit relevanten Tabellen und Spezifikationen der Normen im Detail erläutert. Eine Zusammenfassung aller drei Normen, auch die der EN 61000 3-3, findet man im Anhang. \todo{Anhang} 
 
-\subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen}
+\subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec: Stromnormen}
 
 In der Norm 61000-3-2 sind 4 Geräteklassen definiert, bei denen die Oberschwingungen des Eingangsstromes die Werte nicht überschreiten dürfen. Da es sich beim vorliegenden Projekt um symmetrische, dreiphasige ohmsche Lasten handelt, fällt dies unter die Klasse A. Ausserdem beinhalten die folgenden Einrichtungen auch die Klasse A. 
 \begin{itemize}
@@ -364,7 +364,7 @@ Klasse D:
 
 \newpage
 Falls es Geräte gibt, die nicht in die Klassen B bis D fallen, müssen sie automatisch als Geräte der Klasse A definiert werden.\\
-Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Geräte sind wie folgt definiert:
+Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Geräte sind wie folgt definiert \cite{EMVNorm}:
 
 \begin{table}[ht!]
 	\centering
@@ -393,7 +393,7 @@ Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse A Ger
 
 
 
-\subsubsection{EN 61000-2-2}
+\subsubsection{EN 61000-2-2 Grenzwerte für Oberschwingungsströme}
 
 Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen. 
 
@@ -460,7 +460,7 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 	\item Unerwünschter Strom, der in die Versorgungsnetze fliesst, welcher zusätzlicher Energieverlust verursacht.
 	\item Subharmonische Spannungen stören den Betrieb von Leuchtstofflampen und anderen elektronischen Geräte, wie zum Beispiel Fernsehempfängern. Jede Verwendung von Strom und Spannungen, bei der die Höhe der Amplitude oder der Zeitpunkt des Nulldurchgangs wichtig ist, kann somit gestört werden, wenn die Kombination der vorhandenen unerwünschten Frequenz diese Eigenschaften der Versorgungsspannung ändern.
 	\item Je grösser der Frequenzbereich ist und je grösser die Amplitude der Spannung bei diesen Frequenzen sind, desto grösser ist das Risiko unvorhersehbare Resonanzeffekte zu erhalten. Sie verstärkt die Spannungsverzerrung der Versorgungsspannung und führen zu einer Überlast oder anderen Störung bei den elektrischen Verbrauchern.
-	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht und von der Art des beeinflussten Gerätes.
+	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht und von der Art des beeinflussten Gerätes \cite{SpannungsNorm}.
 \end{itemize}
 
 
