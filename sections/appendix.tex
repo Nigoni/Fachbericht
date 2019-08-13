@@ -203,7 +203,7 @@ void loop() {
 }
 \end{lstlisting}
 
-\subsection{Zusammenfassung der Normen}
+\section{Zusammenfassung der Normen}
 
 \subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen}
 Diese Norm gilt für elektrische und elektronische Geräte (Betriebsmittel und Einrichtungen) bis zu einem Eingangsstrom von \SI{16}{A} je Leiter. Ausserdem ist der Anschluss des Gerätes an das öffentliche Niederspannungsverteilnetz vorgesehen. Unter dem Begriff \grqq Elektrische Einrichtung\grqq versteht man eine Anlage, welches aus einem oder mehreren voneinander unabhängigen Geräten besteht. Sie bilden eine elektrische Einrichtung, wenn nur durch deren Zusammenwirken der bestimmungsgemässe Zweck der Einrichtung erzielt werden kann. Ein Beispiel für eine elektrische Einrichtung ist, der Treppenlichtautomat zusammen mit den dazugehörigen Leuchten. Nur der Automat ohne Beleuchtung erfüllt den technischen Zweck der Bezeichnung nicht. Ein weiteres Beispiel für eine \grqq Elektrische Einrichtung \grqq wäre der motorische Antrieb. Aber auch hier gilt, dass der Motor ohne mechanische Last den technischen Nutzen nicht erfüllen würde.\\
@@ -327,11 +327,11 @@ Die Norm schreibt eine Prüfung der zu beurteilenden Geräten, an einer Prüfung
 \end{table}
 
 Die drei Quellenspannungen $G$ entsprechen der Nennspannung. Alle Spannungen werden auf die Nennspannung $Un$ normiert: Der Prüfkreis besteht aus der Prüfspannungsquelle, dem zu prüfenden Gerät (Prüfling) und einer Messeinrichtung, zum Beispiel Strommesser, Spannungszange oder einem Flickermeter (M).\\
-Es gibt bei der Bezugsimpedanz keine Unterscheidung im Anwendungsbereich zwischen Haushaltsgeräten und gewerblich genutzten Geräten. Stattdessen wird die Langzeit-Flickerstärke eingeführt und auf 65 \% der Kurzzeit-Flickerstärke begrenzt.\\
+Es gibt bei der Bezugsimpedanz keine Unterscheidung im Anwendungsbereich zwischen Haushaltsgeräten und gewerblich genutzten Geräten. Stattdessen wird die Langzeit-Flickerstärke eingeführt und auf 65 \% der Kurzzeit-Flickerstärke begrenzt \cite{FlickerNorm}.\\
 Damit man versteht, welche Bedeutung der Flickerwert hat und wie er zustande gekommen ist, gibt es hier eine Kurze Erklärung des Begriffes:\\
 Mithilfe des Flickerwertes kann man die Störempfindlichkeit des menschlichen Auges, auf Helligkeitsschwankungen bei der Beleuchtung, durch einen messbaren Wert ermitteln. Dieser Wert ist eine dimensionslose Zahl, welche das Störempfinden des Menschen ausdrückt, wenn er sich mit einer \SI{60}{W}-Glühbirne beleuchtet. Die Helligkeit variiert dabei auf Grund von Spannungsschwankungen. Erhält man den Wert 0, so bedeutet dies, dass praktisch keine Schwankungen der Spannungshöhe vorhanden und somit auch kein Flackern der Lampe ersichtlich ist.\\
 Bei dem Wert 1 gibt es eine gewisse Helligkeitsschwankung, die als störend wahrgenommen wird. Jedoch sind die Resultate nicht aussagekräftig, da sie Orts-, Zeit- und Personen abhängig sind. Deshalb entwickelte man einen Algorithmus und ein entsprechendes Formelwerk für das Durchschnittsempfinden der Erkenntnisse. Mit Hilfe eines Flicker-Meters konnte ein geeignetes Messgerät entwickelt werden, welches mit einem Flickermessverfahren den Flickerwert berechnen konnte. Das Flicker-Meter liefert alle 10 Minuten einen Wert, der mit $Pst$ bezeichnet wird. Das $P$ steht dabei für $perceptibility units$ (Wahrnehmungseinheiten) und $st$ steht für $short time$. Der Wert, welcher man behandelt ist also der Kurzzeit-Flickerwert.\\
-Die EN 50160-Norm sagt aus, dass man 12 aufeinander folgende $Pst$-Werte zusammenfassend zu einem $Plt$-Wert (long time-Flicker = Langzeit-Flicker) verrechnen kann. Genauer bedeutet dies, dass man die 12 $Pst$-Werte, die über 2 Stunden gemessen wurden, zusammenrechnet und daraus den Durchschnitt nimmt. Jeder einzelne $Pst$-Wert geht mit einer 3. Potenz in die Bewertung ein. Der $Plt$-Wert ist also der kubische Mittelwert der 12 $Pst-Werte$ und ist in der unterstehenden Formel dargestellt.
+Die EN 50160-Norm sagt aus, dass man 12 aufeinander folgende $Pst$-Werte zusammenfassend zu einem $Plt$-Wert (long time-Flicker = Langzeit-Flicker) verrechnen kann. Genauer bedeutet dies, dass man die 12 $Pst$-Werte, die über 2 Stunden gemessen wurden, zusammenrechnet und daraus den Durchschnitt nimmt. Jeder einzelne $Pst$-Wert geht mit einer 3. Potenz in die Bewertung ein. Der $Plt$-Wert ist der kubische Mittelwert der 12 $Pst-Werte$ und ist in der unterstehenden Formel dargestellt \cite{Spannungsqualitaet}.
 
 \begin{equation}\label{eq:Plt}
 P_{lt} = {\sqrt[3]{\frac{\sum_{i=1}^{N} {P_{st,i}}^3}{N}}}
@@ -340,7 +340,7 @@ P_{lt} = {\sqrt[3]{\frac{\sum_{i=1}^{N} {P_{st,i}}^3}{N}}}
 Mithilfe dieser Norm können Typenprüfung für bestimmte Geräte vorgenommen werden. Das Ziel dieser Typenprüfung ist es, die Übereinstimmung mit den Grenzwerten festzustellen. Diese werden unter Laborbedingungen an einem Bezugsnetz betrieben. Bei den festgelegten Betriebsbedingungen werden die erzeugten Spannungsschwankungen in Bezug zu den Bezugsimpedanzen gemessen und beurteilt. Falls Geräte die Grenzwerte dieser Norm einhalten, kann davon ausgegangen werden, dass sie zu keinerlei Beschwerden im Netz Anlass geben. Die elektromagnetische Verträglichkeit ist daher gewährleistet. 
 
 
-\subsubsection{EN 61000-2-2}
+\subsubsection{EN 61000-2-2 Grenzwerte für Oberschwingungsströme}
 
 Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen. Die Werte des Verträglichkeitspegels mit ihrer Eigenschaft können für die EMV-Koordinierung von Störaussendungs- und Störfestigkeitsanforderungen für Geräte und als Planungspegel für Stromversorgungsnetze verwendet werden. In der Norm werden folgende Phänomene betrachtet:
 
@@ -420,7 +420,7 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 	\item Unerwünschter Strom, der in die Versorgungsnetze fliesst, welcher zusätzlicher Energieverlust verursacht.
 	\item Subharmonische Spannungen stören den Betrieb von Leuchtstofflampen und anderen elektronischen Geräte, wie zum Beispiel Fernsehempfängern. Jede Verwendung von Strom und Spannungen, bei der die Höhe der Amplitude oder der Zeitpunkt des Nulldurchgangs wichtig ist, kann somit gestört werden, wenn die Kombination der vorhandenen unerwünschten Frequenz diese Eigenschaften der Versorgungsspannung ändern.
 	\item Je grösser der Frequenzbereich ist und je grösser die Amplitude der Spannung bei diesen Frequenzen sind, desto grösser ist das Risiko unvorhersehbare Resonanzeffekte zu erhalten. Sie verstärkt die Spannungsverzerrung der Versorgungsspannung und führen zu einer Überlast oder anderen Störung bei den elektrischen Verbrauchern.
-	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht und von der Art des beeinflussten Gerätes.
+	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht und von der Art des beeinflussten Gerätes \cite{SpannungsNorm}.
 \end{itemize}
 
 \newpage
