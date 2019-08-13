@@ -75,13 +75,13 @@ pinMode (Switch_PI, INPUT_PULLUP);	// Schalter Eingang
 }
 
 void loop() {
-buttonState =! digitalRead(Switch_PI);	// Da Pullup wird das Signal negiert
-if(buttonState == HIGH){	// if-Schleife falls Zustand Schalter auf EIN
-digitalWrite(Controll_P, HIGH);	// Auf High schalten um Zuendwinkel von 0 Grad zu erreichen (Volle Leistung)
-delay(800);	// Warten waehrend volle Leistung
-digitalWrite(Controll_P, LOW);	// Auf Low schalten um Zuendwinkel von 180 Grad zu erreichen (Keine Leistung)
-delay(200);// Genug Zeit zwischen den Paketen weil sonst wird eine Spannung von 0V nicht erreicht     
-}
+	buttonState =! digitalRead(Switch_PI);	// Da Pullup wird das Signal negiert
+	if(buttonState == HIGH){	// if-Schleife falls Zustand Schalter auf EIN
+		digitalWrite(Controll_P, HIGH);	// Auf High schalten um Zuendwinkel von 0 Grad zu erreichen (Volle Leistung)
+		delay(800);	// Warten waehrend volle Leistung
+		digitalWrite(Controll_P, LOW);	// Auf Low schalten um Zuendwinkel von 180 Grad zu erreichen (Keine Leistung)
+		delay(200);// Genug Zeit zwischen den Paketen weil sonst wird eine Spannung von 0V nicht erreicht     
+	}
 }
 \end{lstlisting}
 
@@ -214,6 +214,7 @@ void loop() {
 }
 \end{lstlisting}
 
+\newpage
 \section{Zusammenfassung der Normen}\label{sec:Zusammenfassung_Normen}
 
 \subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen_ZF}
@@ -526,13 +527,13 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 	\label{fig:Schwingungspaketsteuerung_mit_duty_cycle_0_4 simuliert_mit_Plecs}
 \end{figure}
 
+\begin{figure}[ht!]  
+	\centering 
+	\includegraphics[scale=0.75]{Vergleich_Amplitudenspektrum_mit_Phasenwinkel_60.png}	
+	\caption{Vergleich der Amplitudenspektrum mit Phasenwinkel von 60\textdegree}
+	\label{fig:Vergleich_der_Amplitudenspektrum_mit Phasenwinkel_von_60}
+\end{figure} 
 
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[scale=0.55]{Vergleich_Amplitudenspektrum_mit_Phasenwinkel_90.png}	
-	\caption{Vergleich der Amplitudenspektrum mit Phasenwinkel von 90\textdegree}
-	\label{fig:Vergleich_der_Amplitudenspektrum_mit Phasenwinkel_von_90}
-\end{figure}
 
 \begin{figure}[ht!]
 	\centering
@@ -564,89 +565,363 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 	\label{fig:Vergleich_absolut_logarithmic_duty_cycle_von_0_8_mit_legende}
 \end{figure}
 
+\begin{minipage}{0.49\textwidth}
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz & Matlab  & Plecs     \\ \hline
+		50       & 0.8392  & 0.832293  \\ \hline
+		150      & 0.2387  & 0.236735  \\ \hline
+		250      & 0.1378  & 0.136638  \\ \hline
+		350      & 0.06892 & 0.0683341 \\ \hline
+		450      & 0.06316 & 0.0625278 \\ \hline
+		550      & 0.05513 & 0.0545493 \\ \hline
+		650      & 0.03938 & 0.0389562 \\ \hline
+		750      & 0.03716 & 0.0365021 \\ \hline
+		850      & 0.03446 & 0.0336658 \\ \hline
+		950      & 0.02757 & 0.0278878 \\ \hline
+		1050     & 0.0264  & 0.0276274 \\ \hline
+		1150     & 0.02506 & 0.0253678 \\ \hline
+		1250     & 0.0212  & 0.0213567 \\ \hline
+		1350     & 0.02049 & 0.0205108 \\ \hline
+		1450     & 0.01969 & 0.0196758 \\ \hline
+		1550     & 0.01723 & 0.0172034 \\ \hline
+		1650     & 0.01675 & 0.0166963 \\ \hline
+		1750     & 0.01622 & 0.0161076 \\ \hline
+		1850     & 0.01451 & 0.0143616 \\ \hline
+		1950     & 0.01416 & 0.0137444 \\ \hline
+	\end{tabular}
+\captionof{table}{Vergleich der Werte des Phasenanschnittes mit 60\textdegree}
+\label{tab:Phas_60_Vergleich}
+\end{minipage}
+%
+\begin{minipage}{0.49\textwidth}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz & Matlab  & Plecs     \\ \hline
+		50       & 0.5927  & 0.587846  \\ \hline
+		150      & 0.3183  & 0.3157    \\ \hline
+		250      & 0.1061  & 0.105158  \\ \hline
+		350      & 0.1061  & 0.105196  \\ \hline
+		450      & 0.06366 & 0.0630047 \\ \hline
+		550      & 0.06366 & 0.0630497 \\ \hline
+		650      & 0.04547 & 0.044839  \\ \hline
+		750      & 0.04547 & 0.0449042 \\ \hline
+		850      & 0.03537 & 0.0342252 \\ \hline
+		950      & 0.03537 & 0.0344228 \\ \hline
+		1050     & 0.02894 & 0.0296088 \\ \hline
+		1150     & 0.02894 & 0.0294399 \\ \hline
+		1250     & 0.02449 & 0.0245782 \\ \hline
+		1350     & 0.02449 & 0.0245363 \\ \hline
+		1450     & 0.02122 & 0.0212078 \\ \hline
+		1550     & 0.02122 & 0.0211877 \\ \hline
+		1650     & 0.01872 & 0.0186503 \\ \hline
+		1750     & 0.01872 & 0.0186415 \\ \hline
+		1850     & 0.01675 & 0.0165256 \\ \hline
+		1950     & 0.01675 & 0.0165378 \\ \hline
+	\end{tabular}
+\captionof{table}{Vergleich der Werte des Phasenanschnittes mit 90\textdegree}
+\label{tab:Phas_90_Vergleich}
+\end{minipage}
+
 \newpage
+\begin{minipage}{0.49\textwidth}
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz & Matlab  & Plecs     \\ \hline
+		5        & 0.06431 & 0.0637753 \\ \hline
+		15       & 0.06996 & 0.0693821 \\ \hline
+		25       & 0.08488 & 0.0841842 \\ \hline
+		35       & 0.1248  & 0.123802  \\ \hline
+		45       & 0.3351  & 0.332314  \\ \hline
+		50       & 0.5     & 0.495901  \\ \hline
+		55       & 0.3032  & 0.30067   \\ \hline
+		65       & 0.09226 & 0.09151   \\ \hline
+		75       & 0.05093 & 0.0505147 \\ \hline
+		85       & 0.03368 & 0.0334101 \\ \hline
+		95       & 0.02439 & 0.0241942 \\ \hline
+	\end{tabular}
+	\captionof{table}{Vergleich der Werte des Schwingungspaketes mit einem Duty Cycle von 0.5}
+	\label{tab:Schwing_50_Vergleich}
+\end{minipage}
+%
+\begin{minipage}{0.49\textwidth}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Frequenz & Matlab  & Plecs     \\ \hline
+		5        & 0.0378  & 0.0374862 \\ \hline
+		10       & 0.06307 & 0.0625494 \\ \hline
+		15       & 0.06653 & 0.0659863 \\ \hline
+		20       & 0.04455 & 0.0441804 \\ \hline
+		25       & 0       & 0         \\ \hline
+		30       & 0.05847 & 0.0579873 \\ \hline
+		35       & 0.1187  & 0.117742  \\ \hline
+		40       & 0.1682  & 0.166803  \\ \hline
+		45       & 0.1969  & 0.195329  \\ \hline
+		50       & 0.8     & 0.793442  \\ \hline
+		55       & 0.1782  & 0.176729  \\ \hline
+		60       & 0.1376  & 0.136479  \\ \hline
+		65       & 0.08775 & 0.0870312 \\ \hline
+		70       & 0.03898 & 0.0386607 \\ \hline
+		75       & 0       & 0         \\ \hline
+		80       & 0.02399 & 0.0237918 \\ \hline
+		85       & 0.03203 & 0.0317749 \\ \hline
+		90       & 0.02703 & 0.0268104 \\ \hline
+		95       & 0.01434 & 0.014221  \\ \hline
+		100      & 0       & 0         \\ \hline
+	\end{tabular}
+	\captionof{table}{Vergleich der Werte des des Schwingungspaketes mit einem Duty Cycle von 0.8}
+	\label{tab:Schwing_80_Vergleich}
+\end{minipage}
+
+
+
+
+\newpage
+\section{Messungen}
 \subsection{Messungen Spannungen Widerstand}\label{sec:Mess_Spannung_Widerstand}
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_60grad.png}	
+	\includegraphics[width=0.96\textwidth]{Messung_Widerstand_Phas_60grad.png}	
 	\caption{Messung mit Phasenanschnitt 60\textdegree}\label{fig:Mess_Phas_60}
 \end{figure}
-\newpage
+
 \subsubsection*{Phasenanschnitt 90\textdegree}
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_Widerstand_Phas_90grad.png}	
+	\includegraphics[width=0.96\textwidth]{Messung_Widerstand_Phas_90grad.png}	
 	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_Phas_90}
 \end{figure}
 
 \newpage
 \subsection{Messungen Spannungen ASM}\label{sec:Mess_Spannung_ASM}
-\subsubsection*{Schwingungspaket 50\%}
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.5}
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_5.png}	
-	\caption{Messung mit Schwingungspaket 50\%}\label{fig:Mess_ASM_Schwing_0_5}
+	\includegraphics[width=0.96\textwidth]{Messung_ASM_Schwing_0_5.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.5}\label{fig:Mess_ASM_Schwing_0_5}
 \end{figure}
 
-\newpage
-\subsubsection*{Schwingungspaket 80\%}
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.8}
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Schwing_0_8.png}	
-	\caption{Messung mit Schwingungspaket 80\%}\label{fig:Mess_ASM_Schwing_0_8}
+	\includegraphics[width=0.96\textwidth]{Messung_ASM_Schwing_0_8.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.8}\label{fig:Mess_ASM_Schwing_0_8}
 \end{figure}
-
 \newpage
 \subsubsection*{Auf- und Absteuern}
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\textwidth]{Messung_ASM_Sanft.png}	
+	\includegraphics[width=0.96\textwidth]{Messung_ASM_Sanft.png}	
 	\caption{Messung mit Sanft Anlasser}\label{fig:Mess_ASM_Sanft}
 \end{figure}
 
 \newpage
+\subsection{Sparvariante für den Widerstand mit zwei Thyristoren} \label{sec:Sparvariante_2Thyristoren}
+\subsubsection*{Phasenanschnitt 60\textdegree}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_2Thyristoren_Widerstand_Phas_60.png}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree \hspace{0.02cm} und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Phas_60grad}
+\end{figure}
+
+\subsubsection*{Phasenanschnitt 90\textdegree}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_2Thyristoren_Widerstand_Phas_90.png}	
+	\caption{Messung mit Phasenanschnitt 90\textdegree \hspace{0.02cm} und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Phas_90grad}
+\end{figure}
+
+\newpage
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.5}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_2Thyristoren_Widerstand_Schwing_05.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.5 und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Schwing_50}
+\end{figure}
+
+
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.8}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_2Thyristoren_Widerstand_Schwing_08.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.8 und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Schwing_80}	
+\end{figure}
+
+\newpage
+\subsubsection*{Hartes Auf- und Absteuern}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren.png}	
+	\caption{Messung mit dem harten Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren}	
+\end{figure}
+
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.65             & 68.8653                                                                             & 68.5665                                                                             & 57.1292                                                                             \\ \hline
+		49.95             & 67.5597                                                                             & 50.5713                                                                             & 74.4293                                                                             \\ \hline
+		50                & 142.7445                                                                            & 105.9402                                                                            & 157.2093                                                                            \\ \hline
+		50.05             & 35.291                                                                              & 26.4882                                                                             & 38.8518                                                                             \\ \hline
+		50.35             & 65.3531                                                                             & 65.6359                                                                             & 51.887                                                                              \\ \hline
+		149.65            & 9.7876                                                                              & 2.7987                                                                              & 11.8526                                                                             \\ \hline
+		150               & 8.3874                                                                              & 8.3817                                                                              & 7.6543                                                                              \\ \hline
+		150.35            & 11.1326                                                                             & 2.5768                                                                              & 12.4114                                                                             \\ \hline \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.65             & 48.24\%                                                                             & 64.7\%                                                                              & 36.34\%                                                                             \\ \hline
+		49.95             & 47.32\%                                                                             & 47.74\%                                                                             & 47.34\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 24.72\%                                                                             & 25\%                                                                                & 24.7\%                                                                              \\ \hline
+		50.35             & 45.78\%                                                                             & 61.96\%                                                                             & 33\%                                                                                \\ \hline
+		149.65            & 6.86\%                                                                              & 2.64\%                                                                              & 7.54\%                                                                              \\ \hline
+		150               & 5.88\%                                                                              & 7.9\%                                                                               & 4.87\%                                                                              \\ \hline
+		150.35            & 7.8\%                                                                               & 2.43\%                                                                              & 7.9\%                                                                               \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_hart}
+\end{table}
+
+\newpage
+\subsubsection{Sparvariante für die ASM mit zwei Thyristoren}
+
+\subsubsection*{Sanftes Auf- und Absteuern}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_ASM_2Thyristoren_AufAb_langsam.png}	
+	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
+\end{figure}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
+		49.9              & 37.5857                                                                             & 42.9618                                                                             & 47.1945                                                                             \\ \hline
+		49.95             & 75.5033                                                                             & 87.0174                                                                             & 77.0178                                                                             \\ \hline
+		50                & 220.7586                                                                            & 216.2571                                                                            & 227.9957                                                                            \\ \hline
+		50.05             & 111.631                                                                             & 110.0439                                                                            & 102.3768                                                                            \\ \hline
+		50.1              & 44.4045                                                                             & 65.6359                                                                             & 40.8044                                                                             \\ \hline
+		149.95            & 6.9369                                                                              & 2.1636                                                                              & 5.8686                                                                              \\ \hline
+		150               & 11.5575                                                                             & 1.4866                                                                              & 10.115                                                                              \\ \hline
+		150.05            & 6.7811                                                                              & 2.7637                                                                              & 6.5154                                                                              \\ \hline \hline
+		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
+		49.9              & 17.03\%                                                                             & 19.46\%                                                                             & 20.7\%                                                                              \\ \hline
+		49.95             & 34.2\%                                                                              & 39.42\%                                                                             & 33.78\%                                                                             \\ \hline
+		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
+		50.05             & 50.57\%                                                                             & 49.85\%                                                                             & 44.9\%                                                                              \\ \hline
+		50.1              & 20.11\%                                                                             & 29.73\%                                                                             & 17.9\%                                                                              \\ \hline
+		149.95            & 3.16\%                                                                              & 0.98\%                                                                              & 2.57\%                                                                              \\ \hline
+		150               & 5.24\%                                                                              & 0.67\%                                                                              & 4.44\%                                                                              \\ \hline
+		150.05            & 3.07\%                                                                              & 1.25\%                                                                              & 2.86\%                                                                              \\ \hline
+	\end{tabular}
+	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
+\end{table}
+
+\newpage
+\subsection{Sparvariante für den Widerstand mit einem Thyristor} \label{sec:Sparvariante_1Thyristor}
+\subsubsection*{Phasenanschnitt 60\textdegree}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_1Thyristor_Widerstand_Phas60.png}	
+	\caption{Messung mit Phasenanschnitt 60\textdegree \hspace{0.02cm} und einem Thyristoren}\label{fig:Mess_1Thyristor_Phas_60grad}
+\end{figure}
+
+
+\subsubsection*{Phasenanschnitt 90\textdegree}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.96\textwidth]{Mess_1Thyristor_Widerstand_Phas90.png}	
+	\caption{Messung mit Phasenanschnitt 90\textdegree \hspace{0.02cm} und einem Thyristoren}\label{fig:Mess_1Thyristor_Phas_90grad}
+\end{figure}
+
+\newpage
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.5}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Mess_1Thyristor_Widerstand_Schwing_05.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.5 und einem Thyristoren}\label{fig:Mess_1Thyristor_Schwing_50}
+\end{figure}
+
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.8}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Mess_1Thyristor_Widerstand_Schwing_08.png}	
+	\caption{Messung mit Schwingungspaket mit einem Duty Cycle von 0.8 und einem Thyristoren}\label{fig:Mess_1Thyristoren_Schwing_80}	
+\end{figure}
+
+\newpage
+\subsubsection*{Auf- und Absteuern}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Mess_1Thyristor_Widerstand_AufAb.png}	
+	\caption{Messung mit Auf- und Absteuern und einem Thyristoren}\label{Mess_1Thyristoren_Widerstand_AufAbFahren}	
+\end{figure}
+
+
+\subsubsection*{Langsames Auf- und Absteuern}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Mess_1Thyristor_Widerstand_AufAb_langsam.png}	
+	\caption{Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren}\label{Mess_1Thyristoren_Widerstand_AufAbFahren_langsam}	
+\end{figure}
+
+\newpage
 \subsection{Vergleich Messungen Widerstand mit Simulation}
-\subsubsection*{Schwingungspaketsteuerung 50\%} \label{sec:Vergleich_Mess_Sim_Schwing_50}
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.5} \label{sec:Vergleich_Mess_Sim_Schwing_50}
 
 \begin{figure}[ht!]
 	\begin{minipage}[b]{0.59\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Vergleich_Mess_Sim_Schwing_50.png}	
-		\caption{Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%}\label{fig:Vergleich_Schwing_50}
+		\caption{Vergleich Messung und Simulation mit Schwingungspaket mit einem Duty Cycle von 0.5}\label{fig:Vergleich_Schwing_50}
 	\end{minipage}
 	%
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
 		\begin{tabular}{|l|l|l|}
-		\hline
-		\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes\\ sung\\ {[}V{]}\end{tabular} \\ \hline
-		46                                                              & 1.676                                                            & 14.735                                                       \\ \hline
-		47                                                              & 35.352                                                           & 28                                                           \\ \hline
-		48                                                              & 1.667                                                            & 26.376                                                       \\ \hline
-		49                                                              & 102.412                                                          & 95.6                                                         \\ \hline
-		50                                                              & 161.597                                                          & 149.92                                                       \\ \hline
-		51                                                              & 101.858                                                          & 99.8                                                         \\ \hline
-		52                                                              & 1.648                                                            & 25.134                                                       \\ \hline
-		53                                                              & 33.293                                                           & 20.6                                                         \\ \hline
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes\\ sung\\ {[}V{]}\end{tabular} \\ \hline
+			46                                                              & 1.676                                                            & 14.735                                                       \\ \hline
+			47                                                              & 35.352                                                           & 28                                                           \\ \hline
+			48                                                              & 1.667                                                            & 26.376                                                       \\ \hline
+			49                                                              & 102.412                                                          & 95.6                                                         \\ \hline
+			50                                                              & 161.597                                                          & 149.92                                                       \\ \hline
+			51                                                              & 101.858                                                          & 99.8                                                         \\ \hline
+			52                                                              & 1.648                                                            & 25.134                                                       \\ \hline
+			53                                                              & 33.293                                                           & 20.6                                                         \\ \hline
 		\end{tabular}
-		\caption{Vergleich Messung und Simulation mit Schwingungspaketsteuerung 50\%}\label{tab:Vergleich_Schwing_50}
+		\caption{Vergleich Messung und Simulation mit Schwingungspaket mit einem Duty Cycle von 0.5}\label{tab:Vergleich_Schwing_50}
 	\end{minipage}
 \end{figure}
 
 
-\subsubsection*{Schwingungspaketsteuerung 80\%} \label{sec:Vergleich_Mess_Sim_Schwing_80}
+\subsubsection*{Schwingungspaket mit einem Duty Cycle von 0.8} \label{sec:Vergleich_Mess_Sim_Schwing_80}
 \begin{figure}[ht!]
 	\begin{minipage}[b]{0.59\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Vergleich_Mess_Sim_Schwing_80.png}	
-		\caption{Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%}\label{fig:Vergleich_Schwing_80}
+		\caption{Vergleich Messung und Simulation mit Schwingungspaket mit einem Duty Cycle von 0.8}\label{fig:Vergleich_Schwing_80}
 	\end{minipage}
 	%
 	\begin{minipage}[b]{0.4\textwidth}
 		\centering
-			\begin{tabular}{|l|l|l|}
+		\begin{tabular}{|l|l|l|}
 			\hline
 			\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes\\ sung\\ {[}V{]}\end{tabular} \\ \hline
 			46                                                              & 16.335                                                           & 20.173                                                       \\ \hline
@@ -658,7 +933,7 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 			52                                                              & 47.781                                                           & 43.812                                                       \\ \hline
 			53                                                              & 31.664                                                           & 21.939                                                       \\ \hline
 		\end{tabular}
-		\caption{Vergleich Messung und Simulation mit Schwingungspaketsteuerung 80\%}\label{tab:Vergleich_Schwing_80}
+		\caption{Vergleich Messung und Simulation mit Schwingungspaket mit einem Duty Cycle von 0.8}\label{tab:Vergleich_Schwing_80}
 	\end{minipage}
 \end{figure}
 
@@ -699,9 +974,9 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 		\includegraphics[width=\textwidth]{Vergleich_Mess_Sim_sanft_AufAb.png}	
 		\caption{Vergleich Messung und Simulation mit sanftem Auf- und Absteuern}\label{fig:Vergleich_sanft_AufAb}
 	\end{minipage}
-%
+	%
 	\begin{minipage}[b]{0.4\textwidth}
-	\centering
+		\centering
 		\begin{tabular}{|l|l|l|}
 			\hline
 			\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes-\\ sung\\ {[}V{]}\end{tabular} \\ \hline
@@ -718,194 +993,10 @@ Einige Effekte, die wegen subharmonische Oberschwingung entstehen können sind:
 			250                & 0.4967             & 1.158           \\ \hline
 			250.4              & 0.445              & 7.466           \\ \hline
 		\end{tabular}
-	\caption{Vergleich Messung und Simulation mit sanftem Auf- und Absteuern}\label{tab:Vergleich_sanft_AufAb}
+		\caption{Vergleich Messung und Simulation mit sanftem Auf- und Absteuern}\label{tab:Vergleich_sanft_AufAb}
 	\end{minipage}
 \end{figure}
 
-	
-
-
-%\begin{table}[]
-%	\begin{tabular}{|l|l|l|}
-%		\hline
-%		\begin{tabular}[c]{@{}l@{}}Fre-\\ quenz\\ {[}Hz{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Simu-\\ lation\\ {[}V{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mes\\ sung\\ {[}V{]}\end{tabular} \\ \hline
-%		49.8                                                            & 66.953                                                           & 18.522                                                       \\ \hline
-%		49.85                                                           & 24.870                                                           & 26.576                                                       \\ \hline
-%		49.9                                                            & 174.378                                                          & 29.507                                                       \\ \hline
-%		49.95                                                           & 314.127                                                          & 91.266                                                       \\ \hline
-%		50                                                              & 370.962                                                          & 172.241                                                      \\ \hline
-%		50.05                                                           & 314.051                                                          & 116.719                                                      \\ \hline
-%		50.1                                                            & 174.266                                                          & 28.629                                                       \\ \hline
-%		50.15                                                           & 24.871                                                           & 30.076                                                       \\ \hline
-%		50.2                                                            & 66.83                                                            & 18.72                                                        \\ \hline
-%		249.6                                                           & 0.188                                                            & 8.158                                                        \\ \hline
-%		250                                                             & 0.4967                                                           & 1.158                                                        \\ \hline
-%		250.4                                                           & 0.445                                                            & 7.466                                                        \\ \hline
-%	\end{tabular}
-%\end{table}
-
-\newpage
-\subsection{Sparvariante für den Widerstand mit zwei Thyristoren} \label{sec:Sparvariante_2Thyristoren}
-\subsubsection*{Phasenanschnitt 60\textdegree}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_Phas_60.png}	
-	\caption{Messung mit Phasenanschnitt 60\textdegree \hspace{0.02cm} und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Phas_60grad}
-\end{figure}
-
-\newpage
-\subsubsection*{Phasenanschnitt 90\textdegree}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_Phas_90.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree \hspace{0.02cm} und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Phas_90grad}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaketsteuerung 50\%}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_Schwing_05.png}	
-	\caption{Messung mit Schwingungspaket 50\% und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Schwing_50}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaketsteuerung 80\%}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_Schwing_08.png}	
-	\caption{Messung mit Schwingungspaket 50\% und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Schwing_80}	
-\end{figure}
-
-\subsubsection*{Hartes Auf- und Absteuern}
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_2Thyristoren_Widerstand_AufAbFahren.png}	
-	\caption{Messung mit dem harten Auf- und Absteuern und zwei Thyristoren}\label{Mess_2Thyristoren_Widerstand_AufAbFahren}	
-\end{figure}
-
-\newpage
-\begin{table}[ht!]
-	\centering
-	\begin{tabular}{|l|l|l|l|}
-		\hline
-		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
-		49.65             & 68.8653                                                                             & 68.5665                                                                             & 57.1292                                                                             \\ \hline
-		49.95             & 67.5597                                                                             & 50.5713                                                                             & 74.4293                                                                             \\ \hline
-		50                & 142.7445                                                                            & 105.9402                                                                            & 157.2093                                                                            \\ \hline
-		50.05             & 35.291                                                                              & 26.4882                                                                             & 38.8518                                                                             \\ \hline
-		50.35             & 65.3531                                                                             & 65.6359                                                                             & 51.887                                                                              \\ \hline
-		149.65            & 9.7876                                                                              & 2.7987                                                                              & 11.8526                                                                             \\ \hline
-		150               & 8.3874                                                                              & 8.3817                                                                              & 7.6543                                                                              \\ \hline
-		150.35            & 11.1326                                                                             & 2.5768                                                                              & 12.4114                                                                             \\ \hline \hline
-		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
-		49.65             & 48.24\%                                                                             & 64.7\%                                                                              & 36.34\%                                                                             \\ \hline
-		49.95             & 47.32\%                                                                             & 47.74\%                                                                             & 47.34\%                                                                             \\ \hline
-		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
-		50.05             & 24.72\%                                                                             & 25\%                                                                                & 24.7\%                                                                              \\ \hline
-		50.35             & 45.78\%                                                                             & 61.96\%                                                                             & 33\%                                                                                \\ \hline
-		149.65            & 6.86\%                                                                              & 2.64\%                                                                              & 7.54\%                                                                              \\ \hline
-		150               & 5.88\%                                                                              & 7.9\%                                                                               & 4.87\%                                                                              \\ \hline
-		150.35            & 7.8\%                                                                               & 2.43\%                                                                              & 7.9\%                                                                               \\ \hline
-	\end{tabular}
-	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_hart}
-\end{table}
-
-\subsubsection{Sparvariante für die ASM mit zwei Thyristoren}
-
-\subsubsection*{Sanftes Auf- und Absteuern}
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_ASM_2Thyristoren_AufAb_langsam.png}	
-	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_ASM_AufAbFahren_langsam}	
-\end{figure}
-
-\newpage
-\begin{table}[ht!]
-	\centering
-	\begin{tabular}{|l|l|l|l|}
-		\hline
-		Frequenz {[}Hz{]} & Amplitude Phase 1 {[}V{]}                                                           & Amplitude Phase 2 {[}V{]}                                                           & Amplitude Phase 3 {[}V{]}                                                           \\ \hline
-		49.9              & 37.5857                                                                             & 42.9618                                                                             & 47.1945                                                                             \\ \hline
-		49.95             & 75.5033                                                                             & 87.0174                                                                             & 77.0178                                                                             \\ \hline
-		50                & 220.7586                                                                            & 216.2571                                                                            & 227.9957                                                                            \\ \hline
-		50.05             & 111.631                                                                             & 110.0439                                                                            & 102.3768                                                                            \\ \hline
-		50.1              & 44.4045                                                                             & 65.6359                                                                             & 40.8044                                                                             \\ \hline
-		149.95            & 6.9369                                                                              & 2.1636                                                                              & 5.8686                                                                              \\ \hline
-		150               & 11.5575                                                                             & 1.4866                                                                              & 10.115                                                                              \\ \hline
-		150.05            & 6.7811                                                                              & 2.7637                                                                              & 6.5154                                                                              \\ \hline \hline
-		Frequenz {[}Hz{]} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 1\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Verhältnis zur \\ Grundschwingung\\ Phase 3\end{tabular} \\ \hline
-		49.9              & 17.03\%                                                                             & 19.46\%                                                                             & 20.7\%                                                                              \\ \hline
-		49.95             & 34.2\%                                                                              & 39.42\%                                                                             & 33.78\%                                                                             \\ \hline
-		50                & 100\%                                                                               & 100\%                                                                               & 100\%                                                                               \\ \hline
-		50.05             & 50.57\%                                                                             & 49.85\%                                                                             & 44.9\%                                                                              \\ \hline
-		50.1              & 20.11\%                                                                             & 29.73\%                                                                             & 17.9\%                                                                              \\ \hline
-		149.95            & 3.16\%                                                                              & 0.98\%                                                                              & 2.57\%                                                                              \\ \hline
-		150               & 5.24\%                                                                              & 0.67\%                                                                              & 4.44\%                                                                              \\ \hline
-		150.05            & 3.07\%                                                                              & 1.25\%                                                                              & 2.86\%                                                                              \\ \hline
-	\end{tabular}
-	\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft}
-\end{table}
-
-\newpage
-\subsection{Sparvariante für den Widerstand mit einem Thyristor} \label{sec:Sparvariante_1Thyristor}
-\subsubsection*{Phasenanschnitt 60\textdegree}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_Phas60.png}	
-	\caption{Messung mit Phasenanschnitt 60\textdegree \hspace{0.02cm} und einem Thyristoren}\label{fig:Mess_1Thyristor_Phas_60grad}
-\end{figure}
-
-\newpage
-\subsubsection*{Phasenanschnitt 90\textdegree}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_Phas90.png}	
-	\caption{Messung mit Phasenanschnitt 90\textdegree \hspace{0.02cm} und einem Thyristoren}\label{fig:Mess_1Thyristor_Phas_90grad}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaketsteuerung 50\%}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_Schwing_05.png}	
-	\caption{Messung mit Schwingungspaket 50\% und einem Thyristoren}\label{fig:Mess_1Thyristor_Schwing_50}
-\end{figure}
-
-\newpage
-\subsubsection*{Schwingungspaketsteuerung 80\%}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_Schwing_08.png}	
-	\caption{Messung mit Schwingungspaket 50\% und einem Thyristoren}\label{fig:Mess_1Thyristoren_Schwing_80}	
-\end{figure}
-
-\newpage
-\subsubsection*{Auf- und Absteuern}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_AufAb.png}	
-	\caption{Messung mit Auf- und Absteuern und einem Thyristoren}\label{Mess_1Thyristoren_Widerstand_AufAbFahren}	
-\end{figure}
-
-\newpage
-\subsubsection*{Langsames Auf- und Absteuern}
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\textwidth]{Mess_1Thyristor_Widerstand_AufAb_langsam.png}	
-	\caption{Messung mit dem langsamen Auf- und Absteuern und einem Thyristoren}\label{Mess_1Thyristoren_Widerstand_AufAbFahren_langsam}	
-\end{figure}
 
 \end{appendix}
 
