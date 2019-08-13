@@ -121,7 +121,7 @@ B_0 = \left(K_p + \frac{K_iT}{2}\right)
 B_1 = -\left(K_p - \frac{K_iT}{2}\right) 
 \end{equation}
 
-Danach muss die Spannungsdifferenz von der Ausgangsspannung subtrahiert werden. Das Resultat der Berechnung wird in die 0 bis 255 Werte umgerechnet und mit dem analogWrite() ausgegeben. Die Werte der Ausgangsspannung und der Differenzspannung werden nach der Ausgabe in den Laufparameter $k-1$ geladen. Das Problem mit dem PI-Regler ist, dass der Thyristorsteller und die Spannungsverstärkung eine Verzögerung besitzen. Ausserdem hat der Aurduino keine konstante Abtastrate bei dieser Anwendung. Dadurch ist das Auslegen eines guten Reglers nicht möglich. Der Code für die Drehzahlregelung befindet sich im Anhang im Kapitel \ref{sec:Drehzahlregelung}.
+Danach muss die Spannungsdifferenz von der Ausgangsspannung subtrahiert werden. Das Resultat der Berechnung wird in die 0 bis 255 Werte umgerechnet und mit dem analogWrite() ausgegeben. Die Werte der Ausgangsspannung und der Differenzspannung werden nach der Ausgabe in den Laufparameter $k-1$ geladen. Das Problem mit dem PI-Regler ist, dass der Thyristorsteller und die Spannungsverstärkung eine Verzögerung besitzen. Ausserdem hat der Aurduino keine konstante Abtastrate bei dieser Anwendung. Dadurch ist das Auslegen eines guten Reglers nicht möglich. Der Code für die Drehzahlregelung befindet sich im Anhang im Kapitel \ref{sec:Drehzahlregelung}. Wie das Blockdiagramm der Formel \ref{eq:digitaler_PI_Regler} ist in Abbildung \ref{fig:PIRegler}
 
 \begin{figure}[ht!]
 	\centering
