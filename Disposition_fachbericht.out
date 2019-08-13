@@ -26,51 +26,45 @@
 \BOOKMARK [3][-]{subsubsection.3.2.3}{3.2.3 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 26
 \BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260 }{subsection.3.2}% 27
 \BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}{subsection.3.2}% 28
-\BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Dreiphasige Schwingungspaketsteuerung mit duty cyclen von 0.5 und 0.8}{subsection.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Einphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 30
-\BOOKMARK [3][-]{subsubsection.3.2.8}{3.2.8 Dreiphasige Kombination des sanften Auf- und Absteuern}{subsection.3.2}% 31
-\BOOKMARK [3][-]{subsubsection.3.2.9}{3.2.9 Alternative Ansteuerungen}{subsection.3.2}% 32
-\BOOKMARK [3][-]{subsubsection.3.2.10}{3.2.10 Alternative Ansteuerungen}{subsection.3.2}% 33
-\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 34
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Laboraufbau}{section.4}% 35
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 36
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 37
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 38
-\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Phasenanschnittssteuerung mit Arduino}{subsection.4.4}% 39
-\BOOKMARK [3][-]{subsubsection.4.4.2}{4.4.2 Schwingungspaketsteuerung mit Arduino}{subsection.4.4}% 40
-\BOOKMARK [3][-]{subsubsection.4.4.3}{4.4.3 Hartes Auf- und Absteuern}{subsection.4.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.4.4}{4.4.4 Sanftes Auf- und Absteuern}{subsection.4.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.4.5}{4.4.5 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 43
-\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 44
-\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 45
-\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 46
-\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 47
-\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 48
-\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 49
-\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 50
-\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 51
-\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 52
-\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 53
-\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 54
-\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 55
-\BOOKMARK [2][-]{subsection.6.1}{6.1 Resultate Widerstand}{section.6}% 56
-\BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate ASM}{section.6}% 57
-\BOOKMARK [2][-]{subsection.6.3}{6.3 Vergleich der Messungen mit den Simulationen}{section.6}% 58
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 59
-\BOOKMARK [1][-]{section*.118}{Literatur}{}% 60
-\BOOKMARK [1][-]{section*.119}{Abbildungsverzeichnis}{}% 61
-\BOOKMARK [1][-]{section*.120}{Tabellenverzeichnis}{}% 62
-\BOOKMARK [1][-]{appendix.A}{A Code}{}% 63
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Matlab Berechnungen}{appendix.A}% 64
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 65
-\BOOKMARK [2][-]{subsection.A.3}{A.3 Zusammenfassung der Normen}{appendix.A}% 66
-\BOOKMARK [3][-]{subsubsection.A.3.1}{A.3.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{subsection.A.3}% 67
-\BOOKMARK [3][-]{subsubsection.A.3.2}{A.3.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen und Flicker}{subsection.A.3}% 68
-\BOOKMARK [3][-]{subsubsection.A.3.3}{A.3.3 EN 61000-2-2}{subsection.A.3}% 69
-\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 70
-\BOOKMARK [2][-]{subsection.B.1}{B.1 Messungen Spannungen Widerstand}{appendix.B}% 71
-\BOOKMARK [2][-]{subsection.B.2}{B.2 Messungen Spannungen ASM}{appendix.B}% 72
-\BOOKMARK [2][-]{subsection.B.3}{B.3 Vergleich Messungen Widerstand mit Simulation}{appendix.B}% 73
-\BOOKMARK [2][-]{subsection.B.4}{B.4 Sparvariante f\374r den Widerstand mit zwei Thyristoren}{appendix.B}% 74
-\BOOKMARK [3][-]{subsubsection.B.4.1}{B.4.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.B.4}% 75
-\BOOKMARK [2][-]{subsection.B.5}{B.5 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.B}% 76
+\BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Einphasige Kombination des Auf- und Absteuern}{subsection.3.2}% 29
+\BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Dreiphasige Kombination des sanften Auf- und Absteuern}{subsection.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.3.2.8}{3.2.8 Alternative Ansteuerungen}{subsection.3.2}% 31
+\BOOKMARK [1][-]{section.4}{4 Messaufbau}{}% 32
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Laboraufbau}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Laboraufbau mit einem Widerstand}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Laboraufbau mit einer ASM}{section.4}% 35
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Arduino}{section.4}% 36
+\BOOKMARK [3][-]{subsubsection.4.4.1}{4.4.1 Drehzahlmessung f\374r eine Reglerauslegung}{subsection.4.4}% 37
+\BOOKMARK [1][-]{section.5}{5 Resultate des Messaufbaus}{}% 38
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Messungen Str\366me}{section.5}% 39
+\BOOKMARK [3][-]{subsubsection.5.1.1}{5.1.1 Messungen Widerstand}{subsection.5.1}% 40
+\BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen ASM}{subsection.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 42
+\BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 43
+\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 45
+\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 46
+\BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 48
+\BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 49
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Resultate Widerstand}{section.6}% 50
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate ASM}{section.6}% 51
+\BOOKMARK [2][-]{subsection.6.3}{6.3 Vergleich der Messungen mit den Simulationen}{section.6}% 52
+\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 53
+\BOOKMARK [1][-]{section*.118}{Literatur}{}% 54
+\BOOKMARK [1][-]{section*.119}{Abbildungsverzeichnis}{}% 55
+\BOOKMARK [1][-]{section*.120}{Tabellenverzeichnis}{}% 56
+\BOOKMARK [1][-]{appendix.A}{A Code}{}% 57
+\BOOKMARK [2][-]{subsection.A.1}{A.1 Matlab Berechnungen}{appendix.A}% 58
+\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 59
+\BOOKMARK [2][-]{subsection.A.3}{A.3 Zusammenfassung der Normen}{appendix.A}% 60
+\BOOKMARK [3][-]{subsubsection.A.3.1}{A.3.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{subsection.A.3}% 61
+\BOOKMARK [3][-]{subsubsection.A.3.2}{A.3.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen und Flicker}{subsection.A.3}% 62
+\BOOKMARK [3][-]{subsubsection.A.3.3}{A.3.3 EN 61000-2-2}{subsection.A.3}% 63
+\BOOKMARK [1][-]{appendix.B}{B Vergleich der Resultate von Plecs und Matlab}{}% 64
+\BOOKMARK [2][-]{subsection.B.1}{B.1 Messungen Spannungen Widerstand}{appendix.B}% 65
+\BOOKMARK [2][-]{subsection.B.2}{B.2 Messungen Spannungen ASM}{appendix.B}% 66
+\BOOKMARK [2][-]{subsection.B.3}{B.3 Vergleich Messungen Widerstand mit Simulation}{appendix.B}% 67
+\BOOKMARK [2][-]{subsection.B.4}{B.4 Sparvariante f\374r den Widerstand mit zwei Thyristoren}{appendix.B}% 68
+\BOOKMARK [3][-]{subsubsection.B.4.1}{B.4.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.B.4}% 69
+\BOOKMARK [2][-]{subsection.B.5}{B.5 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.B}% 70
