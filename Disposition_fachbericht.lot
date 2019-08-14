@@ -29,5 +29,10 @@
 \contentsline {table}{\numberline {C.2}{\ignorespaces Beobachtungsdauer f\IeC {\"u}r die Pr\IeC {\"u}fung\relax }}{87}{table.caption.124}
 \contentsline {table}{\numberline {C.3}{\ignorespaces Kompatibilit\IeC {\"a}tsstufen f\IeC {\"u}r einzelne Oberschwingungsspannungen im Niederspannungsnetz\relax }}{90}{table.caption.127}
 \contentsline {table}{\numberline {C.4}{\ignorespaces Erforderlichen Werte der subharmonischen Spannungen\relax }}{91}{table.caption.128}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {D.1}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern\relax }}{108}{table.caption.172}
 \contentsline {table}{\numberline {D.2}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern\relax }}{109}{table.caption.175}
+=======
+\contentsline {table}{\numberline {D.1}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei hartem Auf- und Absteuern\relax }}{108}{table.caption.173}
+\contentsline {table}{\numberline {D.2}{\ignorespaces Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern\relax }}{109}{table.caption.176}
+>>>>>>> master

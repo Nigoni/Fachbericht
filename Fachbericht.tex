@@ -1,0 +1,81 @@
+\documentclass[final]{fhnwreport}       %[mode] = draft or final
+                                        %{class} = fhnwreport, article, 
+                                        %          report, book, beamer, standalone
+\input{header}			                %loads all packages, definitions and settings												
+\title{Netzrückwirkungen von Thyristorstellern mit ohmscher Last bei verschiedenen Steuerverfahren}          %Project Title
+\author{Fachbericht Projekt 6}          %Document Type => Technical Report, ...
+\date{Windisch, 16.08.2019}             %Place and Date
+
+
+\begin{document}
+
+%%---TITLEPAGE---------------------------------------------------------------------------
+\selectlanguage{ngerman}                %ngerman or english
+\maketitle
+
+\vspace*{-1cm}						    %compensates the space after the date line.
+\vfill
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{Poster_Test.png}
+\end{figure}
+\vfill
+
+{
+\renewcommand\arraystretch{2}
+\begin{center}
+\begin{tabular}{>{\bf}p{4cm} l}
+Hochschule                 &    Hochschule für Technik - FHNW\\
+Studiengang                &    Elektro- und Informationstechnik\\
+Autor   		           & 	Nando Spiegel und Bastian van Dijke\\
+Betreuer                   &    Felix Jenni\\
+%Version                    &    1.2 %Normally not used!
+\end{tabular}
+\end{center}
+}
+
+\clearpage
+			
+%%---ABSTRACT----------------------------------------------------------------------------
+\selectlanguage{ngerman}				%ngerman or english
+\thispagestyle{empty}
+\include{sections/abstract}
+%\include{sections/danksagung}
+
+%%---TABLE OF CONTENTS-------------------------------------------------------------------
+\pagenumbering{Roman}		
+\selectlanguage{ngerman}				%ngerman or english
+\tableofcontents
+\clearpage
+
+%%---TEXT--------------------------------------------------------------------------------
+\pagenumbering{arabic}
+\include{sections/einleitung}
+\include{sections/basics}
+\include{sections/konzept}
+\include{sections/history}
+\include{sections/umsetzung}
+\include{sections/validierung}
+\include{sections/schlusswort}
+\include{sections/ehrlichkeitserklaerung}
+\include{sections/bibliography}
+%%---BIBLIOGRAPHY------------------------------------------------------------------------
+{\sloppypar
+\printbibliography[heading=bibintoc]
+\label{sec:lit}
+}
+\listoffigures
+\listoftables
+%%---APPENDIX----------------------------------------------------------------------------
+\include{sections/appendix}
+
+%%---NOTES for DEBUG---------------------------------------------------------------------
+\ifdraft{%Do this only if mode=draft
+%%requires \usepackage{todonotes})
+\newpage
+%\listoftodos[\section{Todo-Notes}]
+\clearpage
+}
+{%Do this only if mode=final
+}
+\end{document}

@@ -1,0 +1,77 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Auswirkung von Oberschwingungen}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Auftreten von verzerrten Sinusschwingungen}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Definition der Oberschwingungen}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Definition der zwischen- und subharmonischen Schwingungen}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Definition der verzerrten Schwingung}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Total Harmonic Distortion}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Phasenanschnittsteuerung}{7}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Schwingungspaketsteuerung}{8}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Leistungsfaktor}{9}{subsection.2.9}
+\contentsline {subsubsection}{\numberline {2.9.1}Leistungsfaktor Phasenanschnittsteuerung}{10}{subsubsection.2.9.1}
+\contentsline {subsubsection}{\numberline {2.9.2}Leistungsfaktor Schwingungspaketsteuerung}{11}{subsubsection.2.9.2}
+\contentsline {subsection}{\numberline {2.10}Anforderung an die Netzqualit\IeC {\"a}t}{11}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Normen}{11}{subsection.2.11}
+\contentsline {subsubsection}{\numberline {2.11.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{12}{subsubsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.2}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsspannung}{13}{subsubsection.2.11.2}
+\contentsline {section}{\numberline {3}Simulationen}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{15}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{15}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{17}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Sanftes- und Hartes Hoch- und Runterfahren}{19}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{21}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{21}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{22}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Vergleich der einphasigen Resultate mit Plecs und Matlab}{22}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Dreiphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree \hspace {0.02cm}}{24}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}{26}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Einphasige Kombination des Auf- und Absteuern}{27}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Dreiphasige Kombination des sanften Auf- und Absteuern}{29}{subsubsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.8}Alternative Ansteuerungen}{30}{subsubsection.3.2.8}
+\contentsline {section}{\numberline {4}Messaufbau}{32}{section.4}
+\contentsline {subsection}{\numberline {4.1}Laboraufbau}{32}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Laboraufbau mit einem Widerstand}{34}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Laboraufbau mit einer ASM}{35}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Arduino}{35}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Drehzahlmessung f\IeC {\"u}r eine Reglerauslegung}{36}{subsubsection.4.4.1}
+\contentsline {section}{\numberline {5}Resultate des Messaufbaus}{38}{section.5}
+\contentsline {subsection}{\numberline {5.1}Messungen Str\IeC {\"o}me}{39}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Messungen Widerstand}{39}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Messungen Asynchronmaschine}{43}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Messungen Spannungen}{46}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Messungen Widerstand}{46}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Messungen ASM}{51}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Sparvariante}{56}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{56}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{57}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{59}{subsection.5.4}
+\contentsline {section}{\numberline {6}Interpretation der Resultate}{60}{section.6}
+\contentsline {subsection}{\numberline {6.1}Resultate der Ansteuerungsarten beim Widerstand}{60}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Resultate der Ansteuerungsarten bei der ASM}{61}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Vergleich der Messungen mit den Simulationen}{62}{subsection.6.3}
+\contentsline {section}{\numberline {7}Schlusswort}{63}{section.7}
+\contentsline {section}{Literatur}{65}{section*.105}
+\contentsline {section}{Abbildungsverzeichnis}{65}{section*.106}
+\contentsline {section}{Tabellenverzeichnis}{69}{section*.107}
+\contentsline {section}{\numberline {A}Projektvereinbarung}{71}{appendix.A}
+\contentsline {section}{\numberline {B}Code}{73}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Matlab Berechnungen}{73}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Arduino-Programm}{81}{subsection.B.2}
+\contentsline {section}{\numberline {C}Zusammenfassung der Normen}{86}{appendix.C}
+\contentsline {subsubsection}{\numberline {C.0.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{86}{subsubsection.C.0.1}
+\contentsline {subsubsection}{\numberline {C.0.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen}{88}{subsubsection.C.0.2}
+\contentsline {subsubsection}{\numberline {C.0.3}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsspannungen}{90}{subsubsection.C.0.3}
+\contentsline {section}{\numberline {D}Vergleich der Resultate von Plecs und Matlab}{93}{appendix.D}
+\contentsline {section}{\numberline {E}Messungen}{100}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Messungen Spannungen Widerstand}{100}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Messungen Spannungen ASM}{101}{subsection.E.2}
+\contentsline {subsection}{\numberline {E.3}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{103}{subsection.E.3}
+\contentsline {subsubsection}{\numberline {E.3.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{106}{subsubsection.E.3.1}
+\contentsline {subsection}{\numberline {E.4}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{107}{subsection.E.4}
+\contentsline {subsection}{\numberline {E.5}Vergleich Messungen Widerstand mit Simulation}{110}{subsection.E.5}
