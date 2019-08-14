@@ -41,7 +41,7 @@
 \BOOKMARK [3][-]{subsubsection.5.1.2}{5.1.2 Messungen Asynchronmaschine}{subsection.5.1}% 41
 \BOOKMARK [2][-]{subsection.5.2}{5.2 Messungen Spannungen}{section.5}% 42
 \BOOKMARK [3][-]{subsubsection.5.2.1}{5.2.1 Messungen Widerstand}{subsection.5.2}% 43
-\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen ASM}{subsection.5.2}% 44
+\BOOKMARK [3][-]{subsubsection.5.2.2}{5.2.2 Messungen Asynchronmaschine}{subsection.5.2}% 44
 \BOOKMARK [2][-]{subsection.5.3}{5.3 Sparvariante}{section.5}% 45
 \BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 46
 \BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 47
@@ -51,42 +51,17 @@
 \BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate der Ansteuerungsarten bei der ASM}{section.6}% 51
 \BOOKMARK [2][-]{subsection.6.3}{6.3 Vergleich der Messungen mit den Simulationen}{section.6}% 52
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 53
-<<<<<<< HEAD
-<<<<<<< HEAD
-\BOOKMARK [1][-]{section*.108}{Literatur}{}% 54
-\BOOKMARK [1][-]{section*.109}{Abbildungsverzeichnis}{}% 55
-\BOOKMARK [1][-]{section*.110}{Tabellenverzeichnis}{}% 56
-=======
-\BOOKMARK [1][-]{section*.117}{Literatur}{}% 54
-\BOOKMARK [1][-]{section*.118}{Abbildungsverzeichnis}{}% 55
-\BOOKMARK [1][-]{section*.119}{Tabellenverzeichnis}{}% 56
->>>>>>> master
-\BOOKMARK [1][-]{appendix.A}{A Code}{}% 57
-\BOOKMARK [2][-]{subsection.A.1}{A.1 Matlab Berechnungen}{appendix.A}% 58
-\BOOKMARK [2][-]{subsection.A.2}{A.2 Arduino-Programm}{appendix.A}% 59
-\BOOKMARK [1][-]{appendix.B}{B Zusammenfassung der Normen}{}% 60
-\BOOKMARK [2][-]{subsubsection.B.0.1}{B.0.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{appendix.B}% 61
-\BOOKMARK [3][-]{subsubsection.B.0.2}{B.0.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen}{subsubsection.B.0.1}% 62
-\BOOKMARK [3][-]{subsubsection.B.0.3}{B.0.3 EN 61000-2-2 Grenzwerte f\374r Oberschwingungsspannungen}{subsubsection.B.0.1}% 63
-\BOOKMARK [1][-]{appendix.C}{C Vergleich der Resultate von Plecs und Matlab}{}% 64
-\BOOKMARK [2][-]{subsection.C.1}{C.1 Messungen Spannungen Widerstand}{appendix.C}% 65
-\BOOKMARK [2][-]{subsection.C.2}{C.2 Messungen Spannungen ASM}{appendix.C}% 66
-\BOOKMARK [2][-]{subsection.C.3}{C.3 Vergleich Messungen Widerstand mit Simulation}{appendix.C}% 67
-\BOOKMARK [2][-]{subsection.C.4}{C.4 Sparvariante f\374r den Widerstand mit zwei Thyristoren}{appendix.C}% 68
-\BOOKMARK [3][-]{subsubsection.C.4.1}{C.4.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.C.4}% 69
-\BOOKMARK [2][-]{subsection.C.5}{C.5 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.C}% 70
-=======
-\BOOKMARK [1][-]{section*.114}{Literatur}{}% 54
-\BOOKMARK [1][-]{section*.115}{Abbildungsverzeichnis}{}% 55
-\BOOKMARK [1][-]{section*.116}{Tabellenverzeichnis}{}% 56
+\BOOKMARK [1][-]{section*.105}{Literatur}{}% 54
+\BOOKMARK [1][-]{section*.106}{Abbildungsverzeichnis}{}% 55
+\BOOKMARK [1][-]{section*.107}{Tabellenverzeichnis}{}% 56
 \BOOKMARK [1][-]{appendix.A}{A Projektvereinbarung}{}% 57
 \BOOKMARK [1][-]{appendix.B}{B Code}{}% 58
 \BOOKMARK [2][-]{subsection.B.1}{B.1 Matlab Berechnungen}{appendix.B}% 59
 \BOOKMARK [2][-]{subsection.B.2}{B.2 Arduino-Programm}{appendix.B}% 60
 \BOOKMARK [1][-]{appendix.C}{C Zusammenfassung der Normen}{}% 61
 \BOOKMARK [2][-]{subsubsection.C.0.1}{C.0.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{appendix.C}% 62
-\BOOKMARK [3][-]{subsubsection.C.0.2}{C.0.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen und Flicker}{subsubsection.C.0.1}% 63
-\BOOKMARK [3][-]{subsubsection.C.0.3}{C.0.3 EN 61000-2-2 Grenzwerte f\374r Oberschwingungsstr\366me}{subsubsection.C.0.1}% 64
+\BOOKMARK [3][-]{subsubsection.C.0.2}{C.0.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen}{subsubsection.C.0.1}% 63
+\BOOKMARK [3][-]{subsubsection.C.0.3}{C.0.3 EN 61000-2-2 Grenzwerte f\374r Oberschwingungsspannungen}{subsubsection.C.0.1}% 64
 \BOOKMARK [1][-]{appendix.D}{D Vergleich der Resultate von Plecs und Matlab}{}% 65
 \BOOKMARK [2][-]{subsection.D.1}{D.1 Messungen Spannungen Widerstand}{appendix.D}% 66
 \BOOKMARK [2][-]{subsection.D.2}{D.2 Messungen Spannungen ASM}{appendix.D}% 67
@@ -94,4 +69,3 @@
 \BOOKMARK [2][-]{subsection.D.4}{D.4 Sparvariante f\374r den Widerstand mit zwei Thyristoren}{appendix.D}% 69
 \BOOKMARK [3][-]{subsubsection.D.4.1}{D.4.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.D.4}% 70
 \BOOKMARK [2][-]{subsection.D.5}{D.5 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.D}% 71
->>>>>>> master
