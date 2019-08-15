@@ -1992,22 +1992,19 @@
     <bcf:citekey order="15">Leistungselektronik</bcf:citekey>
     <bcf:citekey order="16">EMVNorm</bcf:citekey>
     <bcf:citekey order="17">SpannungsNorm</bcf:citekey>
-    <bcf:citekey order="18">FlickerNorm</bcf:citekey>
-    <bcf:citekey order="19">EMVNorm</bcf:citekey>
-    <bcf:citekey order="20">SpannungsNorm</bcf:citekey>
-    <bcf:citekey order="21">Arduino_PWM</bcf:citekey>
-    <bcf:citekey order="22">Tiefpass</bcf:citekey>
-    <bcf:citekey order="23">Verstaerker</bcf:citekey>
-    <bcf:citekey order="24">Spannungsteiler</bcf:citekey>
-    <bcf:citekey order="25">Spannungsmessung</bcf:citekey>
-    <bcf:citekey order="26">Quelle_Marco</bcf:citekey>
-    <bcf:citekey order="27">PI_Regler</bcf:citekey>
-    <bcf:citekey order="28">PI_Regler</bcf:citekey>
-    <bcf:citekey order="35">EMVNorm</bcf:citekey>
-    <bcf:citekey order="36">FlickerNorm</bcf:citekey>
-    <bcf:citekey order="37">Spannungsqualitaet</bcf:citekey>
-    <bcf:citekey order="38">FlickerNorm</bcf:citekey>
-    <bcf:citekey order="39">SpannungsNorm</bcf:citekey>
+    <bcf:citekey order="18">Arduino_PWM</bcf:citekey>
+    <bcf:citekey order="19">Tiefpass</bcf:citekey>
+    <bcf:citekey order="20">Verstaerker</bcf:citekey>
+    <bcf:citekey order="21">Spannungsteiler</bcf:citekey>
+    <bcf:citekey order="22">Spannungsmessung</bcf:citekey>
+    <bcf:citekey order="23">Quelle_Marco</bcf:citekey>
+    <bcf:citekey order="24">PI_Regler</bcf:citekey>
+    <bcf:citekey order="25">PI_Regler</bcf:citekey>
+    <bcf:citekey order="32">EMVNorm</bcf:citekey>
+    <bcf:citekey order="33">FlickerNorm</bcf:citekey>
+    <bcf:citekey order="34">Spannungsqualitaet</bcf:citekey>
+    <bcf:citekey order="35">FlickerNorm</bcf:citekey>
+    <bcf:citekey order="36">SpannungsNorm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
