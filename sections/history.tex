@@ -1,7 +1,7 @@
 \section{Messaufbau}
 Damit die verschiedenen simulierten Ansteuerungsarten in der Praxis umgesetzt werden können, wurde ein Messaufbau aufgebaut. In diesem Kapitel sind alle Komponenten, welche für den Messaufbau benötigt wurden, aufgeführt. Dazu gehören die Spannungsverstärkerschaltung, welcher sich auf dem Arduino befindet, das eingebaute Filter sowie der Arduino selber, der für die verschiedenen Funktionen programmiert wurde.
 \subsection{Laboraufbau}
-Die Praxistests wurden mit einem \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.02cm} von der Firma Chemtronic durchgeführt. Wie der Name des Produktes sagt, arbeitet diese Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden. Dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Jedoch kann für die Ansteuerung auch ein Spannungssignal von \SI{0}{V} - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz} \cite{Arduino_PWM}. 
+Die Praxistests wurden mit einem \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.02cm} von der Firma Chemtronic durchgeführt. Wie der Name des Produktes sagt, arbeitet diese Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden. Dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Jedoch kann für die Ansteuerung auch ein Spannungssignal von 0 - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz} \cite{Arduino_PWM}. 
 Damit der Operationsverstärker der Verstärkungsschaltung die Spannung richtig verstärkt, muss zwingend ein reines DC-Signal am Eingang des Operationsverstärkers anliegen. Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Grenzfrequenz von \SI{1}{Hz}.  
 
 \begin{figure}[ht!]  
@@ -80,12 +80,12 @@ Um die Ströme klein zu halten, wurden Widerstände von \SI{12}{k\Omega} verwend
 
 
 
-Bei der Verstärkerschaltung wurde die Ausgangsspannung mit einem Duty Cycle von 1 gemessen, was in einer Spannung von \SI{9.885}{V} resultierte. Dies bedeutet, dass der Thyristorsteller nicht voll ausgesteuert wird. Damit man die vollen \SI{10}{V} erhält,wurde bei der Verstärkerschaltung die Verstärkung erhöht. Mit der Formel \ref{eq:Verstärkerschaltung} konnte sie neu berechnet werden:
+Bei der Verstärkerschaltung wurde die Ausgangsspannung mit einem Duty Cycle von 1 gemessen, was in einer Spannung von \SI{9.885}{V} resultierte. Dies bedeutet, dass der Thyristorsteller nicht voll ausgesteuert wird. Damit man die vollen \SI{10}{V} erhält,wurde bei der Verstärkerschaltung die Verstärkung erhöht. Mit der Formel \ref{eq:Verstaerkungsschaltung_neu} konnte sie neu berechnet werden:
 
-\begin{equation}
+\begin{equation}\label{eq:Verstaerkungsschaltung_neu}
 V_u = 1 + \frac{12k\Omega}{11k\Omega} = 2.09
 \end{equation}
-Mit dem neuen Widerstand $R2$ wurde am Ausgang  eine Spannung von \SI{10.2}{V} gemessen. Somit kann der gesamte Bereich von \SI{0}{V} - \SI{10}{V} benutzt werden, um den Thyristorsteller anzusteuern.
+Mit dem neuen Widerstand $R_2$ wurde am Ausgang  eine Spannung von \SI{10.2}{V} gemessen. Somit kann der gesamte Bereich von 0 - \SI{10}{V} benutzt werden, um den Thyristorsteller anzusteuern.
 
 \subsection{Laboraufbau mit einem Widerstand}
 Nach dem Verifizieren der Funktionalität der Spannnungsverstärkungsschaltung konnte mit dem eigentlichen Laboraufbau begonnen werden. Hierbei wurde ein variabler-, dreiphasiger Culatti-Widerstand als Last benutzt. Dieser hat den Vorteil, dass die Last bei allen Phasen symmetrisch sind. Um den Strom kleinzuhalten, wurde ein Widerstand von \SI{150}{\Omega} gewählt. Der Aufbau der Messschaltung ist auf der Abbildung \ref{fig:Messaufbau} ersichtlich.
@@ -110,7 +110,7 @@ Als Mikroprozessor, welcher den Thyristorsteller ansteuert, wurde ein Arduino Me
  
 
 \subsubsection*{Phasenanschnittssteuerung mit Arduino}
-Die Phasenanschnittsteuerung wird mit der einfachen \SI{0}{V} - \SI{10}{V}-Ansteuerung des Thyristorstellers realisiert. Dabei ist die Ansteuerungskennlinie linear und so entsprechen \SI{10}{V} einem Zündwinkel von 0\textdegree\hspace{0.02cm} und \SI{0}{V} einem Zündwinkel von 180\textdegree. Dieser Ansteuerungsbereich muss auf die 0 bis 255 Werte umgerechnet werden, da der analogWrite()-Bereich des Arduinos so konzipiert ist. Wenn zum Beispiel ein Winkel von 90\textdegree \hspace{0.02cm} erwünscht ist, muss ein Wert von 127 ausgegeben werden.
+Die Phasenanschnittsteuerung wird mit der einfachen 0 - \SI{10}{V}-Ansteuerung des Thyristorstellers realisiert. Dabei ist die Ansteuerungskennlinie linear und so entsprechen \SI{10}{V} einem Zündwinkel von 0\textdegree\hspace{0.02cm} und \SI{0}{V} einem Zündwinkel von 180\textdegree. Dieser Ansteuerungsbereich muss auf die 0 bis 255 Werte umgerechnet werden, da der analogWrite()-Bereich des Arduinos so konzipiert ist. Wenn zum Beispiel ein Winkel von 90\textdegree \hspace{0.02cm} erwünscht ist, muss ein Wert von 127 ausgegeben werden.
 
 \subsubsection*{Schwingungspaketsteuerung mit Arduino}
 Die Schwingungspaketsteuerung funktioniert mit dem Thyristorsteller nicht so einfach, da dieser nur für den Phasenanschnitt konzipiert ist. Jedoch kann beim Arduino zwischen HIGH und LOW mit einer bestimmten Zeitverzögerung dazwischen umgeschaltet werden. Das Problem, welches dabei auftritt, ist, dass der Thyristorsteller und die Spannungsverstärkerschaltung zusammen eine Zeitverzögerung von \SI{0.2}{s} haben. So schaltet der Sinus verzögert ein und daraus folgt ein sanftes Hochfahren von \SI{0.35}{s}. Ein hartes Zu- und Wegschalten, wie in den Simulationen gezeigt, ist deshalb nicht möglich.
@@ -136,7 +136,7 @@ U_2=U_{Ges} \cdot\frac{R_4}{R_4 + R_5} \Longrightarrow 4.94 V = 58.8 V \cdot \fr
 \end{equation}
 
 Das Resultat des Widerstands $R_5$ ist \SI{611}{k\Omega} und somit konnte die Spannung mit dem Arduino gemessen werden. Mit dem ADC wird sie in 1024 verschiedene Werte aufgeteilt. Der Wert 512 entspricht  einer Spannung von \SI{2.5}{V} \cite{Spannungsmessung}. Danach wird dieser Wert mit den Widerstandswerten des Spannungsteilers auf die Originalspannung zurückgerechnet. Beim Regler wird für den Sollwert ein gewünschter Spannungswert vorgegeben. Anschliessend wird der Istwert vom Sollwert abgezogen, dadurch erhält man die Differenz. Da der Ausgabewert des Arduinos einem Wert zwischen 0 bis 255 entspricht, muss die Differenz umgerechnet werden. Zusätzlich wird ein PI-Regler benötigt, damit eine exakte und schnelle Regelung möglich ist.\\\\
-Mit der Formel \ref{eq:digitaler_PI_Regler} wird die Ausgangsspannung eines digitaler PI-Regler berechnet: \cite{Quelle_Marco} 
+Mit der Formel \ref{eq:digitaler_PI_Regler} wird die Ausgangsspannung eines digitaler PI-Regler berechnet \cite{Quelle_Marco} : 
 \begin{equation}\label{eq:digitaler_PI_Regler}
 Y(k) = Y(k-1)+ B_0U(k)+B_1U(k-1)
 \end{equation}
@@ -153,7 +153,7 @@ Danach muss die Spannungsdifferenz von der Ausgangsspannung subtrahiert werden. 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{BlockdiagrammPI.png}	
-	\caption{Blockdiagramm eines digitalen PI-Reglers}\label{fig:PIRegler}\cite{PI_Regler}
+	\caption{Blockdiagramm eines digitalen PI-Reglers \cite{PI_Regler}}\label{fig:PIRegler}
 \end{figure}
 
 

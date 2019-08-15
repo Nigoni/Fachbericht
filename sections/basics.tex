@@ -1,6 +1,6 @@
 \section{Grundlagen}
 In diesem Kapitel werden die Grundlagen, die für das Grundverständnis dieser Arbeit relevant sind, aufgelistet. Das Hauptaugenmerk liegt dabei auf den beiden häufigsten Steuerverfahren für ohmsche Lasten: die Phasenanschnitt- und die Schwingungspaketsteuerung.\\
-Nachteile solcher Verfahren sind verzerrte Signale, die fast nicht zu vermeiden sind. Deshalb sieht das vorliegende Konzept eine Kombination beider Steuerungsverfahren vor, wodurch eine optimale Steuerung erreicht werden soll. Daher werden nachfolgend das Aufkommen und die Auswirkungen von Oberschwingungen sowie zwischen- und subharmonischen Schwingungen erläutert. Thematisiert werden auch die Normen, die zwingend eingehalten werden müssen, denn sie setzen beiden Verfahren Grenzen.
+Nachteile solcher Verfahren sind verzerrte Signale, die fast nicht zu vermeiden sind. Deshalb sieht das vorliegende Konzept eine Kombination beider Steuerungsverfahren vor, wodurch eine optimale Steuerung erreicht werden soll. Daher werden nachfolgend das Aufkommen und die Auswirkungen von Oberschwingungen sowie zwischen- und subharmonischen Schwingungen erläutert. Thematisiert werden auch die Normen, die zwingend eingehalten werden müssen, denn sie setzen beiden Verfahren Grenzen. Alle Informationen in diesem Kapitel wurden den Quellen \cite{Spannungsqualitaet} und \cite{Oberwellen2} entnommen.
 
 \subsection{Auswirkung von Oberschwingungen}
 
@@ -10,7 +10,9 @@ Falls Oberschwingungen oder andere Netzrückwirkungen bei Betriebsmitteln auftre
 
 \subsection{Auftreten von verzerrten Sinusschwingungen}
 Im Idealfall würde bei einer Stromversorgung überall eine perfekte sinusförmige Spannung vorliegen. Jedoch sieht dies in der Realität anders aus. Die Kurve der Spannung und des Stromes weichen massiv von einer Sinusfunktion ab. Man bezeichnet diese verzerrten Schwingungsformen im Allgemeinen als oberschwingungsbehaftetes Signal. Durch Oberschwingungsspannung können zum Beispiel Spannungsverzerrungen vorkommen, die das Überhitzen von Drehfeldmotoren verursachen. Ausserdem können durch Oberschwingungsströme die Neutralleiter überlastet werden. Sie verursachen so einen erheblichen Schaden an einer Schaltanlage oder einer Hausinstallation.\\
-Schon früh erkannte man diese Oberschwingungsverzerrungen am Netz, jedoch ist es erst heute ein ernst zu nehmendes Problem für die Versorgungsbetriebe, die Verteilnetzbetreiber und für den Endkunden, da fast jedes elektrische Gerät verzerrte Signale zurückspeist und so das Netz verunreinigt. Die grösste Herausforderung war früher, die Auswirkungen von Oberschwingungsverzerrungen auf elektrische Maschinen zu erkennen. Ausserdem stellte man fest, dass Störungen in den Telefonleitungen auftraten, welche die Übertragung der Sprache beeinträchtigten. Allerdings kann man sagen, dass Oberschwingungsverzerrungen früher ein geringeres Gefahrenpotenzial darstellten als heute. Die heutigen Maschinen sind so konstruiert, dass sie weniger Oberwellen erzeugen. Auch bei den Verteilnetzen wird darauf geachtet, dass sie nicht mehr an der Lastobergrenze arbeiten und so ein reineres Sinussignal verwenden. Seit einigen Jahren steigt deshalb die weltweite Nachfrage nach energieeffizienten Lösungen, um die Oberwellen im Netz zu minimieren. Dies ist jedoch nur über den vermehrten Einsatz von Leistungselektronik realisierbar. 
+Schon früh erkannte man diese Oberschwingungsverzerrungen am Netz, jedoch ist es erst heute ein ernst zu nehmendes Problem für die Versorgungsbetriebe, die Verteilnetzbetreiber und für den Endkunden, da fast jedes elektrische Gerät verzerrte Signale zurückspeist und so das Netz verunreinigt. Die grösste Herausforderung war früher, die Auswirkungen von Oberschwingungsverzerrungen auf elektrische Maschinen zu erkennen. Ausserdem stellte man fest, dass Störungen in den Telefonleitungen auftraten, welche die Übertragung der Sprache beeinträchtigten. Allerdings kann man sagen, dass Oberschwingungsverzerrungen früher ein geringeres Gefahrenpotenzial darstellten als heute. Die heutigen Maschinen sind so konstruiert, dass sie weniger Oberwellen erzeugen.
+\newpage
+Auch bei den Verteilnetzen wird darauf geachtet, dass sie nicht mehr an der Lastobergrenze arbeiten und so ein reineres Sinussignal verwenden. Seit einigen Jahren steigt deshalb die weltweite Nachfrage nach energieeffizienten Lösungen, um die Oberwellen im Netz zu minimieren. Dies ist jedoch nur über den vermehrten Einsatz von Leistungselektronik realisierbar. 
 
 
 \subsection{Definition der Oberschwingungen}
@@ -54,7 +56,7 @@ f_h = n \cdot Grundfrequenz
 	
 \end{table}
 
-Die folgenden zwei Abbildungen \ref{fig:Schwing3} und \ref{fig:Schwing11} zeigen eine Grundschwingung bei 50 Hz (blau) und die jeweilige 3. und 11. Ordnung der Grundfrequenz (gelb). Mit Hilfe der verschiedenen Ordnungen können beliebige Signale dargestellt werden. In Kapitel \ref{sec:Verzerrte_Schwingung} ist dies mit einem verzerrten Signal erläutert. 
+Die folgenden zwei Abbildungen \ref{fig:Schwing3} und \ref{fig:Schwing11} zeigen eine Grundschwingung bei 50 Hz (blau) und die jeweilige 3. und 11. Ordnung der Grundfrequenz (orange). Mit Hilfe der verschiedenen Ordnungen können beliebige Signale dargestellt werden. In Kapitel \ref{sec:Verzerrte_Schwingung} ist dies mit einem verzerrten Signal erläutert. 
 
 \begin{figure}[ht!]
 	\begin{minipage}[t]{0.49\textwidth}
@@ -71,7 +73,7 @@ Die folgenden zwei Abbildungen \ref{fig:Schwing3} und \ref{fig:Schwing11} zeigen
 \end{figure}
 
 \newpage
-\subsection{Definition der zwischen- und subharmonischen Schwingungen}
+\subsection{Definition der sub- und zwischenharmonischen Schwingungen}
 
 Die Subharmonischen sind sinusförmige Schwingungen, deren Frequenz unterhalb der Grundfrequenz entstehen. Ein Beispiel dafür sind Schwingungen bei Frequenzen von 5, 10 oder \SI{20}{Hz} bei einer Grundfrequenz von \SI{50}{Hz}. Bei den Zwischenharmonischen handelt es sich um Sinusschwingungen, welche zwischen den harmonischen Schwingungen entstehen. Ihre Frequenz ist kein ganzzahliges Vielfaches der Grundfrequenz von \SI{50}{Hz}. Die zwei Schwingungsarten sind in der Abbildung \ref{fig:Sub und Zwischenharmonische} dargestellt. Die zwischenharmonischen Frequenzen und der damit verbundene Spannungsabfall entstehen dann, wenn elektrische Geräte eine getaktete Stromaufnahme haben, deren Takt-Frequenz kein natürliches Vielfaches der Netzfrequenz ist. Ein Beispiel eines solchen Phänomens erkennt man bei direkten Umrichtern, die keinen Zwischenkreis haben. Die Folgen von zwischenharmonischen Spannungen sind Störungen auf Kommunikationseinrichtungen, die zum Beispiel Rundsteuerempfänger massiv irritieren. Die Rundsteuerempfänger hören nur auf eine bestimmte Frequenz, die kein Vielfaches von \SI{50}{Hz} ist. Sie liegen unterhalb von wenigen kHz. Fallen die Frequenzen nun genau auf die Zwischenharmonischen, so können sie vom Rundsteuerempfänger als falsche Signale interpretiert werden. Eine weitere negative Auswirkung, die Zwischenharmonische hervorrufen, sind Fehlverhalten auf die Funktion von Dimmerschaltungen. Die Thyristoren können zu früh oder zu spät zünden und so zu unfreiwilligem Lichtflackern der Beleuchtung führen. 
 
@@ -99,8 +101,8 @@ Mit der Fourier-Transformation lassen sich die Amplitudenspektren mit den Sinusk
 f(x) = {\frac{a\textsubscript{0}}{2}}+\sum_{n=1}^\infty[a\textsubscript{n} \cdot cos(nx)+b\textsubscript{n} \cdot sin(nx)]
 \end{equation}
 
-
-Mathematisch werden die Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ mit den untenstehenden Formeln berechnet. Sie gelten im Frequenzbereich von 0 bis 2$\pi$: 
+\newpage
+Mathematisch werden die Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ mit den untenstehenden Formeln \ref{a0}, \ref{an} und \ref{bn} berechnet. Sie gelten im Frequenzbereich von 0 bis 2$\pi$: 
 
 \begin{equation}\label{a0}
 a\textsubscript{0} =  {\frac{1}{2\pi} \cdot \int_{0}^{2\pi} f(x) dx}
@@ -133,7 +135,7 @@ THC = {\sqrt{\sum_{n=2}^{40} I_n^2}}
 \end{equation}
 
 
-
+\newpage
 Die Oberschwingungsströme, welche durch die Verbraucher in Netzwerken erzeugt werden, müssen durch die Impedanzen der Transformatoren oder Drosseln fliessen.  Es werden Oberschwingungsspannungen erzeugt, die im ganzen Netz verbreitet werden. Diese können an Endgeräten eine Verzerrung der Versorgungsspannung verursachen. Somit ist die harmonische Verzerrung des Stromes $THDi$ eine direkte Ursache für die Verzerrung der Spannung $THDu$. Diese gibt das Ausmass der Verzerrung der Versorgungsspannung an. Auch dieser Wert ist definiert als Quotient des Effektivwertes der Spannungsoberschwingungsanteile bis zur 40. Oberschwingung, bezogen auf den Effektivwert der Grundschwingung. 
 Folgende Formel \ref{eq:THDi} berechnet die totale Verzerrung des Stromes $(THDi)$ in Prozent:
 \begin{equation}\label{eq:THDi}
@@ -158,16 +160,18 @@ Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung harmonisc
 	\caption{Phasenanschnitt mit einem Winkel von 135\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt1}
 \end{figure}
 \newpage
+
+In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde, wodurch an der Last eine grössere Leistung resultiert.
+
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.7]{phasenanschnittsteuerung2.png}	
 	\caption{Phasenanschnitt mit einem Winkel von 45\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt2}
 \end{figure}
 
-In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde, wodurch an der Last eine grössere Leistung resultiert.
 
 
-
+\newpage
 \subsection{Schwingungspaketsteuerung}\label{sec:Schwingungspaketsteuerung}
 In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Der Vorteil dabei ist, dass nahezu keine Verschiebungsblindleistung in der Grundschwingung auftritt. Die Verluste von elektrischen Geräten können so minimiert werden. Die Paketdauer $T_0$ und die Einschaltzeit $T_E$ sind bei der Schwingungspaketsteuerung von grosser Wichtigkeit, wobei letztere verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und 5 Halbwellen eingeschaltet sind, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung entstehen bei dieser Ansteuerungsart theoretisch keine harmonischen Oberwellen, dafür treten aber sub- und zwischenharmonische Schwingungen auf. In Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlich, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung, welche ${2}/{3}$ so gross ist wie die der normalen Netzspannung.
 
@@ -177,14 +181,14 @@ In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der
 	\caption{Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite{Schwingungspaketsteuerung}}\label{fig:Schwingungspaketsteuerung}
 \end{figure}
 
-Dabei ergibt sich aus dem Verhältnis von Einschaltdauer zu Periodendauer das Tastverhältnis.
+Dabei ergibt sich aus dem Verhältnis von Einschaltdauer zu Periodendauer das Tastverhältnis $a$.
 
 \begin{equation}\label{eq:Einschaltverhältnis}
 a = \frac{T_E}{T_0}
 \end{equation}
-
+\newpage
 \subsection{Leistungsfaktor}\label{sec:Leistungsfaktor}
-Der Leistungsfaktor wird in der Leistungselektronik meistens dafür verwendet, um das Verhältnis des Betrages der Wirkleistung $P$ zur Scheinleistung $S$ anzuzeigen. Der Wert kann dabei zwischen 0 und 1 variieren. Wobei man sagen kann, dass je geringer der Wert ist, desto ineffizienter wird die Energie des Netzbetreibers genutzt. Um die beiden Ansteuerungsverfahren zu vergleichen, ist der Leistungsfaktor der Verfahren zu bestimmen. Bei der Phasenanschnittsteuerung geht der Leistungsfaktor bei einem kleinem Zündwinkel gegen 1, da das Verhältnis der umgesetzten Leistung als Funktion des Zündwinkels $P_{\alpha}$ zur maximalen Leistung $P_0$ auch 1 ist. Je grösser der Zündwinkel gewählt wird, desto kleiner wird $P_{\alpha}$ und entsprechend auch der Leistungsfaktor. Bei der Schwingungspaketsteuerung ist der Leistungsfaktor abhängig vom Verhältnis der Einschaltdauer der Pakete zu den Netzperioden. Je grösser die Einschaltzeit ist, desto grösser ist der Leistungsfaktor. Die genauere Herleitung der beiden Faktoren \ref{eq:lamda_p_n} und \ref{eq:lamda_s_n} sind im Unterkapitel \ref{sec:Leistungsfaktor_Phasenanschnittsteuerung} und \ref{sec:Leistungsfaktor_Schwingugnspaketsteuerung} beschrieben. In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich, wie sich der Leistungsfaktor bei den beiden Steuerungsarten verhält \cite{Leistungselektronik}.
+Der Leistungsfaktor wird in der Leistungselektronik meistens dafür verwendet, um das Verhältnis des Betrages der Wirkleistung $P$ zur Scheinleistung $S$ anzuzeigen. Der Wert kann dabei zwischen 0 und 1 variieren. Wobei man sagen kann, dass je geringer der Wert ist, desto ineffizienter wird die Energie des Netzbetreibers genutzt. Um die beiden Ansteuerungsverfahren zu vergleichen, ist der Leistungsfaktor der Verfahren zu bestimmen. Bei der Phasenanschnittsteuerung geht der Leistungsfaktor bei einem kleinem Zündwinkel gegen 1, da das Verhältnis der umgesetzten Leistung als Funktion des Zündwinkels $P_{\alpha}$ zur maximalen Leistung $P_0$ auch 1 ist. Je grösser der Zündwinkel gewählt wird, desto kleiner wird $P_{\alpha}$ und entsprechend auch der Leistungsfaktor. Bei der Schwingungspaketsteuerung ist der Leistungsfaktor abhängig vom Verhältnis der Einschaltdauer der Pakete zu den Netzperioden. Je grösser die Einschaltzeit ist, desto grösser ist der Leistungsfaktor. Die genauere Herleitung der beiden Faktoren \ref{eq:lamda_p_n} und \ref{eq:lamda_s_n} sind im Unterkapitel \ref{sec:Leistungsfaktor_Phasenanschnittsteuerung} beziehungsweise \ref{sec:Leistungsfaktor_Schwingugnspaketsteuerung} beschrieben. In der Abbildung \ref{fig:Leistungsfaktor} ist ersichtlich, wie sich der Leistungsfaktor bei den beiden Steuerungsarten verhält \cite{Leistungselektronik}.
 
 \begin{figure}[ht!]
 	\centering
@@ -226,7 +230,7 @@ Wenn der Zündwinkel $\alpha$ = 0 beträgt, wird im Lastwiderstand $R_L$ die max
 P_{0} = \frac{ U_{UN}^2}{R_L}  
 \end{equation}
 
-Mit den beiden Gleichung \ref{eq:Laststrom} und \ref{eq:Wirkleistung} lässt siche folgende Formel herleiten:
+Mit den beiden Gleichung \ref{eq:Laststrom} und \ref{eq:Wirkleistung} lässt sich folgende Formel herleiten:
 
 \begin{equation}\label{eq:p_alpha_neu}
 P_{\alpha} = \left(1-\frac{\alpha}{\pi}+\frac{1}{2\pi} \cdot sin(2\alpha)\right)  \cdot \frac{U_{UN}^2}{R_L}
@@ -250,8 +254,7 @@ Man erkennt, dass der Leistungsfaktor bei rein ohmschen Belastung nur vom Einsch
 \newpage
 \subsubsection{Leistungsfaktor Schwingungspaketsteuerung}\label{sec:Leistungsfaktor_Schwingugnspaketsteuerung}
 
-Das Einschaltverhältnis wird als $a$ definiert und mit der Formel \ref{eq:Einschaltverhältnis} beschrieben.
-Die Schein- und Wirkleistung haben den folgenden Bezug zum Einschaltverhältnis:\cite{Leistungselektronik}
+Das Einschaltverhältnis $a$ wird mit der Formel \ref{eq:Einschaltverhältnis} beschrieben \cite{Leistungselektronik}. Die Schein- und Wirkleistung haben den folgenden Bezug zum Einschaltverhältnis:
 
 \begin{equation}\label{eq:Schw_Scheinleistung}
 S_a = \sqrt{a} \cdot P 
@@ -334,7 +337,7 @@ Bei der Formulierung \grqq Normen\grqq \hspace{0.02cm} handelt es sich um eine H
 
 \subsubsection{EN 61000-3-2 Grenzwerte für Oberschwingungsströme}\label{sec:Stromnormen}
 
-In der Norm 61000-3-2 sind 4 Geräteklassen definiert, bei denen die Oberschwingungen des Eingangsstromes die Werte nicht überschreiten dürfen. Da es sich beim vorliegenden Projekt um symmetrische, dreiphasige ohmsche Lasten handelt, fällt dies unter die Klasse A. Ausserdem beinhalten die folgenden Einrichtungen auch die Klasse A. 
+In der Norm 61000-3-2 sind 4 Geräteklassen definiert, bei denen die Oberschwingungen des Eingangsstromes die Werte nicht überschreiten dürfen \cite{EMVNorm}. Da es sich beim vorliegenden Projekt um symmetrische, dreiphasige ohmsche Lasten handelt, fällt dies unter die Klasse A. Ausserdem beinhalten die folgenden Einrichtungen auch die Klasse A. 
 \begin{itemize}
 \item Symmetrische dreiphasige Geräte	
 \item Haushaltsgeräte (ausser die, die in Klasse D fallen)
@@ -361,7 +364,7 @@ Klasse D:
 
 
 Falls es Geräte gibt, die nicht in die Klassen B bis D fallen, müssen sie automatisch als Geräte der Klasse A definiert werden.\\
-Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse-A-Geräte sind wie folgt definiert \cite{EMVNorm}:
+Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse-A-Geräte sind wie folgt definiert:
 
 \begin{table}[ht!]
 	\centering
@@ -392,7 +395,7 @@ Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse-A-Ger
 
 \subsubsection{EN 61000-2-2 Grenzwerte für Oberschwingungsspannung}\label{sec:Spannungsnormen}
 
-Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen. 
+Die folgende Norm beinhaltet die Festlegung für Verträglichkeitspegel von niederfrequenten, leitungsgeführten Störgrössen und für Signale von Netz-Kommunikationssystemen in öffentlichen Niederspannungs- und Stromversorgungsnetzen \cite{SpannungsNorm}. 
 
 Die Tabelle \ref{tab:kompatibilitätsstufen} zeigt die verschiedenen Kompatibilitätsstufen für einzelne Oberschwingungsspannungen im Niederspannungsnetz. Sie ist nur in Bezug auf Langzeiteffekte für einzelne harmonischen Spannungen definiert. Der Wert der gesamten harmonische Verzerrung darf hierbei höchstens einen Wert von $THD$ = 8\% im stationären Betrieb betragen.
 \begin{table}[ht!]
@@ -457,7 +460,7 @@ Einige Effekte, die wegen subharmonischer Oberschwingung entstehen können sind:
 	\item Unerwünschter Strom, der in die Versorgungsnetze fliesst, welcher zusätzlicher Energieverlust verursacht.
 	\item Subharmonische Spannungen stören den Betrieb von Leuchtstofflampen und anderen elektronischen Geräten, wie zum Beispiel Fernsehempfängern. Jede Verwendung von Strom und Spannungen, bei der die Höhe der Amplitude oder der Zeitpunkt des Nulldurchgangs wichtig ist, kann somit gestört werden, wenn die Kombination der vorhandenen unerwünschten Frequenz diese Eigenschaften der Versorgungsspannung ändern.
 	\item Je grösser der Frequenzbereich ist und je grösser die Amplitude der Spannung bei diesen Frequenzen sind, desto grösser ist das Risiko, unvorhersehbare Resonanzeffekte zu erhalten. Sie verstärkt die Spannungsverzerrung der Versorgungsspannung und führen zu einer Überlast oder anderen Störungen bei den elektrischen Verbrauchern.
-	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht, sowie von der Art des beeinflussten Gerätes \cite{SpannungsNorm}.
+	\item Ein weiterer Effekt ist das Erzeugen von akustischen Geräuschen. Dies tritt jedoch vor allem bei einem Frequenzbereich von \SI{1}{kHz} bis \SI{9}{kHz} auf, bei der die Amplitude 0.5\% vom Frequenzwert abweicht, sowie von der Art des beeinflussten Gerätes.
 \end{itemize}
 
 
