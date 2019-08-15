@@ -135,7 +135,7 @@ THC = {\sqrt{\sum_{n=2}^{40} I_n^2}}
 
 
 Die Oberschwingungsströme, welche durch die Verbraucher in Netzwerken erzeugt werden, müssen durch die Impedanzen der Transformatoren oder Drosseln fliessen.  Es werden Oberschwingungsspannungen erzeugt, die im ganzen Netz verbreitet werden. Diese können an Endgeräten eine Verzerrung der Versorgungsspannung verursachen. Somit ist die harmonische Verzerrung des Stromes $THDi$ eine direkte Ursache für die Verzerrung der Spannung $THDu$. Diese gibt das Ausmass der Verzerrung der Versorgungsspannung an. Auch dieser Wert ist definiert als Quotient des Effektivwertes der Spannungsoberschwingungsanteile bis zur 40. Oberschwingung, bezogen auf den Effektivwert der Grundschwingung. 
-Folgende Formel \ref{eq:THDi} berechnet die totale Verzerrung des Stromes $(THDi)$ in Prozent.
+Folgende Formel \ref{eq:THDi} berechnet die totale Verzerrung des Stromes $(THDi)$ in Prozent:
 \begin{equation}\label{eq:THDi}
 THDi = \frac{\sqrt{\sum_{n=2}^{40} I_n^2}}{I_{(1)}} \cdot 100 \%
 \end{equation}
@@ -146,7 +146,7 @@ THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} \cdot 100\%
 \end{equation}
 
 
-Je niedriger der $THDu$-Wert ist, desto besser ist die Spannungsqualität. Die Norm besagt, dass der gesamte Oberschwingungsgehalt den Wert von 8\% nicht überschreiten darf. Dazu kommt, dass heute üblicherweise für die Verzerrung die $THD$-Werte angegeben sind und nicht wie früher die Oberschwingungsgehalte (Klirrfaktore).\\
+Je niedriger der $THDu$-Wert ist, desto besser ist die Spannungsqualität. Die Norm besagt, dass der gesamte Oberschwingungsgehalt den Wert von 8\% nicht überschreiten darf. Dazu kommt, dass heute üblicherweise für die Verzerrung die $THD$-Werte angegeben sind und nicht wie früher die Oberschwingungsgehalte (Klirrfaktor).\\
 
 \subsection{Phasenanschnittsteuerung}\label{sec:Phasenanschnittsteuerung}
 Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC besteht aus zwei antiparallel geführte Thyristoren. Die Thyristoren werden bei einem eingestellten Zündwinkel nach jedem Nulldurchgang gezündet. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} eingestellt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Der Vorteil bei einer solchen Schaltung ist der sehr geringe Leistungsverlust bei der Regelung der Spannung und des Stromes. Zudem ist die Phasenanschnittsteuerung viel kompakter aufgebaut als komplizierte regelbare Schaltnetzteile, die auch einen geringen Leistungsverlust haben.
@@ -192,7 +192,7 @@ Der Leistungsfaktor wird in der Leistungselektronik meistens dafür verwendet, u
 	\caption{Leistungsfaktor von Phasenanschnitt- und Schwingungspaketsteuerung}\label{fig:Leistungsfaktor}
 \end{figure}
 
-Der Vergleich zeigt, dass sich für beide Verfahren bei gleicher Aussteuerung der Leistung gegenüber der maximalen möglichen auch die gleichen Leistungsfaktoren ergeben. Bei der Schwingungspaketsteuerung wird die verzerrte Leistung hauptsächlich durch die subharmonischen Schwingungen verursacht, wobei bei der Anschnittsteuerung die harmonischen die Ursachen für die Verzerrleistung sind. Dies bedeutet, dass beide Verfahren einen gewissen Einfluss auf die Stabilität des Stromnetzes, die sogenannte Netzrückwirkung, haben.
+Der Vergleich zeigt, dass sich für beide Verfahren bei gleicher Aussteuerung der Leistung gegenüber der maximalen möglichen auch die gleichen Leistungsfaktoren ergeben. Bei der Schwingungspaketsteuerung wird die verzerrte Leistung hauptsächlich durch die subharmonischen \\ Schwingungen verursacht, wobei bei der Anschnittsteuerung die harmonischen die Ursachen für die Verzerrleistung sind. Dies bedeutet, dass beide Verfahren einen gewissen Einfluss auf die Stabilität des Stromnetzes, die sogenannte Netzrückwirkung, haben.
 \newpage
 \subsubsection{Leistungsfaktor Phasenanschnittsteuerung}\label{sec:Leistungsfaktor_Phasenanschnittsteuerung}
 Der Leistungsfaktor ist definiert als Verhältnis von Wirkleistung zu Scheinleistung \cite{Leistungselektronik}. 
@@ -359,7 +359,7 @@ Klasse D:
 	\item Fernseh-Rundfunkempfänger
 \end{itemize}
 
-\newpage
+
 Falls es Geräte gibt, die nicht in die Klassen B bis D fallen, müssen sie automatisch als Geräte der Klasse A definiert werden.\\
 Die Grenzwerte für den Höchstwert des Oberschwingungsstromes für Klasse-A-Geräte sind wie folgt definiert \cite{EMVNorm}:
 
@@ -420,7 +420,7 @@ k = {1.3+\frac{0.7}{45}\cdot(h-5)}
 Der entsprechende Kompatibilitätsgrad für die gesamte harmonische Verzerrung liegt daher bei $THD$ = 11\%.
 
 
-
+\newpage
 Die Tabelle \ref{tab:subharmonische_Spannung} zeigt die erforderlichen Werte in Prozent der subharmonischen Spannung im Niederspannungsnetz bei \SI{230}{V}, bei einer Frequenz von \SI{10}{Hz} bis \SI{90}{Hz}. Sie entsprechen dem Kompatibilitätsgrad bezüglich des Flimmerns.
 \begin{table}[ht!]
 	\centering
