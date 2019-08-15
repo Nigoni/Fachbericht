@@ -1,15 +1,15 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'Fachbericht.blg'
-[33] biber-MSWIN64:313> INFO - === 
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'Fachbericht.blg'
+[37] biber-MSWIN64:315> INFO - === 
 [67] Biber.pm:371> INFO - Reading 'Fachbericht.bcf'
-[165] Biber.pm:857> INFO - Found 16 citekeys in bib section 0
-[183] Biber.pm:3976> INFO - Processing section 0
-[199] Biber.pm:4136> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
-[210] bibtex.pm:1500> INFO - LaTeX decoding ...
-[253] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
-[340] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[341] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[341] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[341] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[357] bbl.pm:617> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
-[363] bbl.pm:720> INFO - Output to Fachbericht.bbl
+[172] Biber.pm:889> INFO - Found 17 citekeys in bib section 0
+[191] Biber.pm:4093> INFO - Processing section 0
+[207] Biber.pm:4254> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
+[211] bibtex.pm:1523> INFO - LaTeX decoding ...
+[244] bibtex.pm:1340> INFO - Found BibTeX data source 'literature/bibliography.bib'
+[321] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[321] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[321] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[321] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[340] bbl.pm:636> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
+[345] bbl.pm:739> INFO - Output to Fachbericht.bbl

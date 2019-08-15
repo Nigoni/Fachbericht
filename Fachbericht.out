@@ -3,7 +3,7 @@
 \BOOKMARK [2][-]{subsection.2.1}{2.1 Auswirkung von Oberschwingungen}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{2.2 Auftreten von verzerrten Sinusschwingungen}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{2.3 Definition der Oberschwingungen}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{2.4 Definition der zwischen- und subharmonischen Schwingungen}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{2.4 Definition der sub- und zwischenharmonischen Schwingungen}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.5}{2.5 Definition der verzerrten Schwingung}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.6}{2.6 Total Harmonic Distortion}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.7}{2.7 Phasenanschnittsteuerung}{section.2}% 9
@@ -24,7 +24,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Einphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260}{subsection.3.2}% 24
 \BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{subsection.3.2}% 25
 \BOOKMARK [3][-]{subsubsection.3.2.3}{3.2.3 Vergleich der einphasigen Resultate mit Plecs und Matlab}{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260 }{subsection.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.4}{3.2.4 Dreiphasige Phasenanschnittsteuerung mit 60\260 \040und 90\260}{subsection.3.2}% 27
 \BOOKMARK [3][-]{subsubsection.3.2.5}{3.2.5 Dreiphasige Schwingungspaketsteuerung mit Duty Cyclen von 0.5 und 0.8}{subsection.3.2}% 28
 \BOOKMARK [3][-]{subsubsection.3.2.6}{3.2.6 Einphasige Kombination des Auf- und Absteuerns}{subsection.3.2}% 29
 \BOOKMARK [3][-]{subsubsection.3.2.7}{3.2.7 Dreiphasige Kombination des sanften Auf- und Absteuerns}{subsection.3.2}% 30
@@ -47,15 +47,14 @@
 \BOOKMARK [3][-]{subsubsection.5.3.2}{5.3.2 Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{subsection.5.3}% 47
 \BOOKMARK [2][-]{subsection.5.4}{5.4 Leistungsfaktor}{section.5}% 48
 \BOOKMARK [1][-]{section.6}{6 Interpretation der Resultate}{}% 49
-<<<<<<< HEAD
 \BOOKMARK [2][-]{subsection.6.1}{6.1 Vergleich der Messungen mit den Simulationen}{section.6}% 50
 \BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate der Ansteuerungsarten beim Widerstand}{section.6}% 51
 \BOOKMARK [2][-]{subsection.6.3}{6.3 Resultate der Ansteuerungsarten bei der ASM}{section.6}% 52
 \BOOKMARK [2][-]{subsection.6.4}{6.4 Vergleich der verschiedenen Ansteuerungsarten}{section.6}% 53
 \BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 54
-\BOOKMARK [1][-]{section*.110}{Literatur}{}% 55
-\BOOKMARK [1][-]{section*.111}{Abbildungsverzeichnis}{}% 56
-\BOOKMARK [1][-]{section*.112}{Tabellenverzeichnis}{}% 57
+\BOOKMARK [1][-]{section*.108}{Literatur}{}% 55
+\BOOKMARK [1][-]{section*.109}{Abbildungsverzeichnis}{}% 56
+\BOOKMARK [1][-]{section*.110}{Tabellenverzeichnis}{}% 57
 \BOOKMARK [1][-]{appendix.A}{A Projektvereinbarung}{}% 58
 \BOOKMARK [1][-]{appendix.B}{B Code}{}% 59
 \BOOKMARK [2][-]{subsection.B.1}{B.1 Matlab Berechnungen}{appendix.B}% 60
@@ -72,28 +71,3 @@
 \BOOKMARK [3][-]{subsubsection.E.3.1}{E.3.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.E.3}% 71
 \BOOKMARK [2][-]{subsection.E.4}{E.4 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.E}% 72
 \BOOKMARK [2][-]{subsection.E.5}{E.5 Vergleich Messungen Widerstand mit Simulation}{appendix.E}% 73
-=======
-\BOOKMARK [2][-]{subsection.6.1}{6.1 Resultate der Ansteuerungsarten beim Widerstand}{section.6}% 50
-\BOOKMARK [2][-]{subsection.6.2}{6.2 Resultate der Ansteuerungsarten bei der ASM}{section.6}% 51
-\BOOKMARK [2][-]{subsection.6.3}{6.3 Vergleich der Messungen mit den Simulationen}{section.6}% 52
-\BOOKMARK [1][-]{section.7}{7 Schlusswort}{}% 53
-\BOOKMARK [1][-]{section*.113}{Literatur}{}% 54
-\BOOKMARK [1][-]{section*.114}{Abbildungsverzeichnis}{}% 55
-\BOOKMARK [1][-]{section*.115}{Tabellenverzeichnis}{}% 56
-\BOOKMARK [1][-]{appendix.A}{A Projektvereinbarung}{}% 57
-\BOOKMARK [1][-]{appendix.B}{B Code}{}% 58
-\BOOKMARK [2][-]{subsection.B.1}{B.1 Matlab Berechnungen}{appendix.B}% 59
-\BOOKMARK [2][-]{subsection.B.2}{B.2 Arduino-Programm}{appendix.B}% 60
-\BOOKMARK [1][-]{appendix.C}{C Zusammenfassung der Normen}{}% 61
-\BOOKMARK [2][-]{subsubsection.C.0.1}{C.0.1 EN 61000-3-2 Grenzwerte f\374r Oberschwingungsstr\366me}{appendix.C}% 62
-\BOOKMARK [3][-]{subsubsection.C.0.2}{C.0.2 EN 61000-3-3 Begrenzung von Spannungs\344nderungen, Spannungsschwankungen}{subsubsection.C.0.1}% 63
-\BOOKMARK [3][-]{subsubsection.C.0.3}{C.0.3 EN 61000-2-2 Grenzwerte f\374r Oberschwingungsspannungen}{subsubsection.C.0.1}% 64
-\BOOKMARK [1][-]{appendix.D}{D Vergleich der Resultate von Plecs und Matlab}{}% 65
-\BOOKMARK [1][-]{appendix.E}{E Messungen}{}% 66
-\BOOKMARK [2][-]{subsection.E.1}{E.1 Messungen Spannungen Widerstand}{appendix.E}% 67
-\BOOKMARK [2][-]{subsection.E.2}{E.2 Messungen Spannungen ASM}{appendix.E}% 68
-\BOOKMARK [2][-]{subsection.E.3}{E.3 Sparvariante f\374r den Widerstand mit zwei Thyristoren}{appendix.E}% 69
-\BOOKMARK [3][-]{subsubsection.E.3.1}{E.3.1 Sparvariante f\374r die ASM mit zwei Thyristoren}{subsection.E.3}% 70
-\BOOKMARK [2][-]{subsection.E.4}{E.4 Sparvariante f\374r den Widerstand mit einem Thyristor}{appendix.E}% 71
-\BOOKMARK [2][-]{subsection.E.5}{E.5 Vergleich Messungen Widerstand mit Simulation}{appendix.E}% 72
->>>>>>> master
