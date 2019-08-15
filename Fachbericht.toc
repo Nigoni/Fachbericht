@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3}Simulationen}{15}{section.3}
 \contentsline {subsection}{\numberline {3.1}Simulation mit Matlab}{15}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{15}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{17}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Einphasige Schwingungspaketsteuerung mit Duty Cycle von 0.5 und 0.8}{18}{subsubsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.3}Sanftes- und hartes Hoch- und Runterfahren}{19}{subsubsection.3.1.3}
 \contentsline {subsection}{\numberline {3.2}Simulation mit Plecs}{21}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Einphasige Phasenanschnittsteuerung mit 60\textdegree \hspace {0.02cm} und 90\textdegree }{21}{subsubsection.3.2.1}
@@ -52,6 +52,7 @@
 \contentsline {subsubsection}{\numberline {5.3.2}Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}{56}{subsubsection.5.3.2}
 \contentsline {subsection}{\numberline {5.4}Leistungsfaktor}{58}{subsection.5.4}
 \contentsline {section}{\numberline {6}Interpretation der Resultate}{59}{section.6}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {6.1}Vergleich der Messungen mit den Simulationen}{59}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Resultate der Ansteuerungsarten beim Widerstand}{59}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Resultate der Ansteuerungsarten bei der ASM}{60}{subsection.6.3}
@@ -76,3 +77,28 @@
 \contentsline {subsubsection}{\numberline {E.3.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{104}{subsubsection.E.3.1}
 \contentsline {subsection}{\numberline {E.4}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{105}{subsection.E.4}
 \contentsline {subsection}{\numberline {E.5}Vergleich Messungen Widerstand mit Simulation}{108}{subsection.E.5}
+=======
+\contentsline {subsection}{\numberline {6.1}Resultate der Ansteuerungsarten beim Widerstand}{59}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Resultate der Ansteuerungsarten bei der ASM}{60}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Vergleich der Messungen mit den Simulationen}{61}{subsection.6.3}
+\contentsline {section}{\numberline {7}Schlusswort}{62}{section.7}
+\contentsline {section}{Literatur}{64}{section*.113}
+\contentsline {section}{Abbildungsverzeichnis}{64}{section*.114}
+\contentsline {section}{Tabellenverzeichnis}{68}{section*.115}
+\contentsline {section}{\numberline {A}Projektvereinbarung}{70}{appendix.A}
+\contentsline {section}{\numberline {B}Code}{72}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Matlab Berechnungen}{72}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Arduino-Programm}{80}{subsection.B.2}
+\contentsline {section}{\numberline {C}Zusammenfassung der Normen}{84}{appendix.C}
+\contentsline {subsubsection}{\numberline {C.0.1}EN 61000-3-2 Grenzwerte f\IeC {\"u}r Oberschwingungsstr\IeC {\"o}me}{84}{subsubsection.C.0.1}
+\contentsline {subsubsection}{\numberline {C.0.2}EN 61000-3-3 Begrenzung von Spannungs\IeC {\"a}nderungen, Spannungsschwankungen}{85}{subsubsection.C.0.2}
+\contentsline {subsubsection}{\numberline {C.0.3}EN 61000-2-2 Grenzwerte f\IeC {\"u}r Oberschwingungsspannungen}{88}{subsubsection.C.0.3}
+\contentsline {section}{\numberline {D}Vergleich der Resultate von Plecs und Matlab}{90}{appendix.D}
+\contentsline {section}{\numberline {E}Messungen}{97}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Messungen Spannungen Widerstand}{97}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Messungen Spannungen ASM}{98}{subsection.E.2}
+\contentsline {subsection}{\numberline {E.3}Sparvariante f\IeC {\"u}r den Widerstand mit zwei Thyristoren}{100}{subsection.E.3}
+\contentsline {subsubsection}{\numberline {E.3.1}Sparvariante f\IeC {\"u}r die ASM mit zwei Thyristoren}{103}{subsubsection.E.3.1}
+\contentsline {subsection}{\numberline {E.4}Sparvariante f\IeC {\"u}r den Widerstand mit einem Thyristor}{104}{subsection.E.4}
+\contentsline {subsection}{\numberline {E.5}Vergleich Messungen Widerstand mit Simulation}{107}{subsection.E.5}
+>>>>>>> master
