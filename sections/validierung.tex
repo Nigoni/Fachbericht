@@ -1,5 +1,9 @@
 \section{Interpretation der Resultate}\label{sec:Interpretation_Resultate}
-Bei den Interpretationen der Resultate werden noch einmal die unterschiedliche Messungen und deren Auswertung analysiert und wichtige Schlussfolgerungen dokumentiert. Dabei hat das Einhalten der Normen die oberste Priorität. Wenn eine Ansteuerungsart die Normen bei dem Widerstand nicht einhält, muss dies bei der ASM nicht auch der Fall sein. Des Weiteren wird begründet welche Ansteuerungsarten bei den verschiedenen Lasten sinnvoll ist. Schlussendlich wird bei den Messungen der höchste beziehungsweise der niedrigste, Leistungsfaktor bestimmt.
+Bei den Interpretationen der Resultate werden noch einmal die unterschiedliche Messungen und deren Auswertung analysiert und wichtige Schlussfolgerungen dokumentiert. Dabei hat das Einhalten der Normen die oberste Priorität. Wenn eine Ansteuerungsart die Normen bei dem Widerstand nicht einhält, muss dies bei der ASM nicht auch der Fall sein. Des Weiteren wird begründet welche Ansteuerungsarten bei den verschiedenen Lasten sinnvoll ist. Schlussendlich wird bei den Messungen der höchste beziehungsweise der niedrigste, Leistungsfaktor bestimmt.\\
+Bevor die Resultate der Ansteuerungsarten beim Widerstand und der ASM aufgelistet und verglichen werden, sind die Probleme beim Vergleich der Messungen mit den Simulationen erläutert.
+
+\subsection{Vergleich der Messungen mit den Simulationen}
+Für den Vergleich der Messungen mit den Simulationen gab es grosse Abweichung zwischen den verschiedenen Werten der FFTs. Es stellte sich als schwierig heraus bei komplexeren Ansteuerungsarten, wie das sanfte und harte Auf- und Absteuern, die gleichen Zeiten für die Steigung und das Halten auf maximaler Spannung zu erreichen. Ein zusätzliches Problem stellte der Thyristorsteller und die Spannungsverstärkung dar, da diese eine Verzögerung besassen. Zusätzlich werden in der Simulation die Bauteile als ideal angenommen wobei dies bei den Messungen nicht der Fall ist. Erste Einblicke in das Simulation-Tool Plecs und das Verständnis des Verhalten von verschiedenen Ansteuerungsarten konnten trotzdem gewonnen werden. 
 
 
 \subsection{Resultate der Ansteuerungsarten beim Widerstand}
@@ -15,23 +19,16 @@ Wenn die Leistungsfaktoren des sanften und harten Auf- und Absteuerns miteinande
 
 Die Sparvariante mit zwei Thyristoren eignet sich nur bedingt für die Ansteuerung einer ohmschen Last. Das harte Auf- und Absteuern erfüllt die Grenzwerte der Oberschwingungsspannung \ref{sec:Spannungsnormen} nicht. Einzig das sanfte Auf- und Absteuern erfüllen die Spannungs- und Stromnorm. Das Problem ist jedoch, dass die Phasen stark unterschiedlich belastet werden. Beim FFT können relative Unterschiede bei den Spannungen von bis zu 10\% und bei den Strömen von bis zu 28\% festgestellt werden.\\
 
-Schlussendlich erkannte man, dass sich das sanfte Auf- und Absteuern am besten eignet um einen Widerstand anzusteuern. Dies Aufgrund der dünnen Seitenbänder bei den harmonischen Oberschwingungen, des hohen Leistungsfaktors und der kleinen Amplitude der auftretenden harmonischen Oberwellen. \todo{Tabelle einfügen oder Bulletpoint mit Resultate}
+Schlussendlich erkannte man, dass sich das sanfte Auf- und Absteuern am besten eignet um einen Widerstand anzusteuern. Dies Aufgrund der schmalen Seitenbänder bei den harmonischen Oberschwingungen, des hohen Leistungsfaktors und der kleinen Amplitude der auftretenden harmonischen Oberwellen. 
 
 \subsection{Resultate der Ansteuerungsarten bei der ASM}
 Da im Voraus die Strommessungen vollzogen wurden, welche für ihre jeweilige Last Sinn ergeben, wurden nicht mit allen Ansteuerungsarten die ASM angesteuert. Für die Schwingungspaketsteuerung und das harte Auf- und Abfahren der Leistung sind keine Anwendungen für die Maschine bekannt. Deshalb verzichtete man auf die Messungen dieser Steuerungsarten.\\
 
-
-<<<<<<< HEAD
-Bei der Asynchronmaschine wurden zuerst die Strommessungen der Phasenanschnittsteuerung mit den bekannten Winkeln von 60\textdegree und 90\textdegree \hspace{0.02cm} sowie das sanfte Auf- und Asteuern des Stromes, durchgeführt. Die Werten des Effektivstromes wurden wieder mit einem Faktor auf die \SI{16}{A} hoch skaliert, um den maximalen erlaubten Stromstromwerte zu erhalten. So konnten die Grenzwerte der Oberschwingungsströme mit den dazugehörigen Normen verglichen werden. Anders als bei dem Widerstand, erfüllen alle untersuchten Ansteuerungsarten die Grenzwerte der Normen. Deshalb konnte man in einem zweiten Messverfahren die Oberschwingungsspannungen untersuchen.\\
-
-Bei der ASM handelt es sich wie auch beim Widerstand um ein \SI{400}{V}- und nicht ein \SI{230}{V}-System. Deshalb konnten die sub- und zwischenharmonischen Schwingungen der Messungen nicht mit den Normen verglichen werden.
-Da jedoch die Schwingungspaketsteuerung und das harte Auf- und Absteuern der ASM nicht verwendet wird, schloss man daraus, dass die Ansteuerungsarten, welche kritische Seitenbänder hervorrufen, nicht mehr vorhanden sind. 
-=======
 Bei der Asynchronmaschine wurden zuerst die Strommessungen der Phasenanschnittsteuerung mit den bekannten Winkeln von 60\textdegree und 90\textdegree \hspace{0.02cm} sowie das sanfte Auf- und Asteuern des Stromes, durchgeführt. Die Werte des Effektivstromes wurde wieder mit einem Faktor auf die \SI{16}{A} hoch skaliert, um den maximalen erlaubten Stromstromwerte zu erhalten. So konnten die Grenzwerte der Oberschwingungsströme mit den dazugehörigen Normen \ref{sec:Normen} verglichen werden. Anders als bei dem Widerstand, erfüllen alle untersuchten Ansteuerungsarten die Grenzwerte der Normen. Deshalb konnte man in einem zweiten Messverfahren die Oberschwingungsspannungen untersuchen.\\
 
 Bei der ASM handelt es sich wie auch beim Widerstand um ein \SI{400}{V}- und nicht ein \SI{230}{V}-System. Deshalb konnten die sub- und zwischenharmonischen Schwingungen der Messungen nicht mit den Normen\ref{sec:Spannungsnormen} verglichen werden.
 Da jedoch die Schwingungspaketsteuerung und das harte Auf- und Abfsteuern der ASM nicht verwendet wird, schloss man daraus, dass die Ansteuerungsarten welche kritische Seitenbänder hervorruft, nicht mehr vorhanden sind. 
->>>>>>> master
+
 
 Das FFT des Phasenanschnitt 60\textdegree \hspace{0.02cm} zeigt bei allen drei Phasen, einen fast perfekten Sinus auf.
 Die harmonischen Oberschwingungen im Verhältnis zur Grundschwingung betragen desshalb nur maximal 1.5\%. Sub- und Zwischenharmonische sind ebenfalls kein vorhanden. Dies erkennt man auch nach betrachten des Spannungssignals.
@@ -42,14 +39,33 @@ Für den Leistungsfaktor verglich man nur noch das sanfte Auf- und Absteuern mit
 
 Wie auch bei der Widerstandsmessung wurde bei der ASM eine Sparvariante mit zwei Thyristoren untersucht. Sie haltet jedoch die Grenzwerte der Oberschwingungsströme nicht ein. Die Variante wurde deshalb nicht mehr aufgezeigt.\\
 
-Als Fazit für die verschiedenen Ansteuerungsarten erkannte man, dass sich das sanfte Auf- und Absteuern auch bei der ASM am besten eignet. Zwar zeigte das FFT des Phasenanschnittes mit 60\textdegree \hspace{0.02cm} keine harmonische Oberschwingungen, jedoch waren sie beim sanften Auf- und Absteuern in Rahmen der erlaubten Grenzwerte der Normen. Der Leistungsfaktor des sanften Auf- und Absteuern ist tiefer als der des Phasenanschnittes mit 60\textdegree \hspace{0.02cm} und deshalb besser. \todo{Satz no einisch aluege}
-
-\subsection{Vergleich der Messungen mit den Simulationen}
-Für den Vergleich der Messungen mit den Simulationen gab es grosse Abweichung zwischen den verschiedenen Werten der FFTs. Es stellte sich als schwierig heraus bei komplexeren Ansteuerungsarten, wie das sanfte und harte Auf- und Absteuern, die gleichen Zeiten für die Steigung und das Halten auf maximaler Spannung zu erreichen. Ein zusätzliches Problem stellte der Thyristorsteller und die Spannungsverstärkung dar, da diese eine Verzögerung besassen. Zusätzlich werden in der Simulation die Bauteile als ideal angenommen wobei dies bei den Messungen nicht der Fall ist. Erste Einblicke in das Simulation-Tool Plecs und das Verständnis des Verhalten von verschiedenen Ansteuerungsarten konnten trotzdem gewonnen werden. 
+Als Fazit für die verschiedenen Ansteuerungsarten erkannte man, dass sich das sanfte Auf- und Absteuern auch bei der ASM am besten eignet. Zwar zeigte das FFT des Phasenanschnittes mit 60\textdegree \hspace{0.02cm} keine harmonische Oberschwingungen, jedoch waren sie beim sanften Auf- und Absteuern in Rahmen der erlaubten Grenzwerte der Normen. Der Leistungsfaktor des sanften Auf- und Absteuern ist tiefer als der des Phasenanschnittes mit 60\textdegree \hspace{0.02cm} und deshalb besser.
 
 
+\newpage
+\subsection{Vergleich der verschiedenen Ansteuerungsarten}
+In der Tabelle \ref{tab:Vergleich_Ansteuerungsarten} sind die verschiedenen Ansteuerungsarten des Widerstandes und der ASM aufgelistet. Wenn eine Ansteuerungsart die Norm Grenzwerte für Oberschwingungsströme nicht erfüllt, wird diese Ansteuerungsart bei der Norm Grenzwerte für Oberschwingungsspannungen nicht mehr aufgeführt. Bei der Sparvariante mit dem sanften Auf- und Absteuern wird der Leistungsfaktor nicht aufgezeigt, da bei dieser Ansteuerungsart die Phasen unsymetrisch belastet sind und sich so nicht eignen den Widerstand anzusteuern.
+Das Fettgedruckte beim Widerstand und der ASM entspricht dabei der besten Ansteuerungsart. 
 
-
-
+\begin{table}[ht!]
+	\centering
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		\multicolumn{4}{|c|}{Widerstand}                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+		Ansteuerungsart                                                                   & \begin{tabular}[c]{@{}c@{}}Erfüllt Norm\\ Grenzwerte\\ für Oberschwingungs-\\ ströme\end{tabular}  & \begin{tabular}[c]{@{}c@{}}Erfüllt Norm \\ Grenzwerte\\ für Oberschwingungs-\\ spannungen\end{tabular} & \begin{tabular}[c]{@{}c@{}}Leistungsfaktor\\ /\\ Breite der \\ Seitenbänder\end{tabular} \\ \hline
+		Phasenanschnitt 60 Grad                                                           & Nein                                                                                               & -                                                                                                      & -                                                                                        \\ \hline
+		Phasenanschnitt 90 Grad                                                           & Nein                                                                                               & -                                                                                                      & -                                                                                        \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Sanftes Auf-\\ und Absteuern\end{tabular}}     & \textbf{Ja}                                                                                        & \textbf{Ja}                                                                                            & \textbf{\begin{tabular}[c]{@{}c@{}}0.9987\\ /\\ schmal\end{tabular}}                     \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Hartes Auf-\\ und Absteuern\end{tabular}               & Ja                                                                                                 & Ja                                                                                                     & \begin{tabular}[c]{@{}c@{}}0.9988\\ /\\ breit\end{tabular}                               \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Sparvariante sanftes\\ Auf- und Absteuern\end{tabular} & Ja                                                                                                 & Ja                                                                                                     & -                                                                                        \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Sparvariante hartes\\ Auf- und Absteuern\end{tabular}  & Nein                                                                                               & -                                                                                                      & -                                                                                        \\ \hline \hline
+		\multicolumn{4}{|c|}{ASM}                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
+		Ansteuerungsart                                                                   & \begin{tabular}[c]{@{}c@{}}Erfüllt Norm \\ Grenzwerte\\ für Oberschwingungs-\\ ströme\end{tabular} & \begin{tabular}[c]{@{}c@{}}Erfüllt Norm \\ Grenzwerte\\ für Oberschwingungs-\\ spannungen\end{tabular} & \begin{tabular}[c]{@{}c@{}}Leistungsfaktor\\ /\\ Breite der \\ Seitenbänder\end{tabular} \\ \hline
+		Phasenanschnitt 60 Grad                                                           & Ja                                                                                                 & Ja                                                                                                     & \begin{tabular}[c]{@{}c@{}}0.4155\\ /\\ schmal\end{tabular}                              \\ \hline
+		Phasenaschnitt 90 Grad                                                            & Ja                                                                                                 & Nein                                                                                                   & -                                                                                        \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Sanftes Auf-\\  und Absteuern\end{tabular}}    & \textbf{Ja}                                                                                        & \textbf{Ja}                                                                                            & \textbf{\begin{tabular}[c]{@{}c@{}}0.2947\\ /\\ schmal\end{tabular}}                     \\ \hline
+	\end{tabular}
+	\caption{Vergleich der verschiedenen Ansteuerungsarten mit den Normen und dem Leistungsfaktor}\label{tab:Vergleich_Ansteuerungsarten}
+\end{table}
 
 
