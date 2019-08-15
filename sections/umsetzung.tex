@@ -1,5 +1,5 @@
 \section{Resultate des Messaufbaus}
-In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Werten der Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als csv-Datei gespeichert und anschliessend mit Matlab dargestellt. Ausserdem ist es möglich die FFTs der Signale zu berechnen.\\
+In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Werten der Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als csv-Datei gespeichert und anschliessend mit Matlab dargestellt. Ausserdem ist es möglich die FFTs der Signale zu berechnen. Der Laboraufbau ist in Abbildung \ref{fig:Aufbau Messung} ersichtlich.\\
 Es sind nur die Messungen des Widerstandes und der ASM, die in Stern geschaltet sind, aufgelistet. Die Messungen in Dreieck sind hier nicht aufgeführt, sie  befinden sich als Matlabdateien digital auf dem USB-Stick. \todo{angeben ob als USB Stick/CD oder sonst abgegeben}
 
 \begin{figure}[ht!]
@@ -14,13 +14,13 @@ Es sind nur die Messungen des Widerstandes und der ASM, die in Stern geschaltet 
 	\begin{tabular}{|l|l|}
 		\hline
 		Nummer & Bauteil                                       \\ \hline
-		1      & Eingangskabel Thyristorsteller                \\ \hline
+		1      & Zuleitung Thyristorsteller                \\ \hline
 		2      & Thyristorsteller                              \\ \hline
 		3      & Freigabe Thyristorsteller                     \\ \hline
 		4      & Arduino Mega2560                              \\ \hline
 		5      & Lochraster Print							   \\ \hline
 		6      & Ansteuerung Thyristorsteller                  \\ \hline
-		7      & Ausgang Thyristorsteller                      \\ \hline
+		7      & Ausgang Last                      \\ \hline
 	\end{tabular}
 	\caption{Beschreibung der Nummern des Laboraufbaus}\label{tab:Nummern_Laboraufbau}
 \end{table}
@@ -31,7 +31,7 @@ Es sind nur die Messungen des Widerstandes und der ASM, die in Stern geschaltet 
 
 \newpage
 \subsection{Messungen Ströme}
-Die Ströme der verschiedenen Ansteuerungarten und Verbrauchern sind auf zu- und unzulässige Oberschwingungen zu untersuchen. Sie müssen zwingend die Werte der Normen \ref{sec:Normen} einhalten. Ist dies der Fall, werden anschliessend noch die Spannungen untersucht. Halten Ansteuerungsarten die Normen nicht ein, werden die Spannungen nicht behandelt. Bei den Schwingungspaketsteuerungen werden die Ströme nicht angeschaut, da die nicht von Interesse sind. Damit man jedoch einen Vergleich zur Simulation hat ist diese Ansteuerung bei der Spannung aufgelistet. Die Vergleiche werden immer mit Hilfe der FFT-Funktion von Matlab durchgeführt. 
+Die Ströme der verschiedenen Ansteuerungarten und Verbrauchern sind auf zu- und unzulässige Oberschwingungen zu untersuchen. Sie müssen zwingend die Werte der Normen \ref{sec:Stromnormen} einhalten. Ist dies der Fall, werden anschliessend noch die Spannungen untersucht. Halten Ansteuerungsarten die Norm \ref{sec:Stromnormen} nicht ein, werden die Spannungen nicht behandelt. Bei den Schwingungspaketsteuerungen werden die Ströme nicht angeschaut, da die nicht von Interesse sind. Damit man jedoch einen Vergleich zur Simulation hat ist diese Ansteuerung bei der Spannung aufgelistet. Die Vergleiche werden immer mit Hilfe der FFT-Funktion von Matlab durchgeführt. 
 
 \subsubsection{Messungen Widerstand}
 
@@ -88,7 +88,7 @@ Die Abbildung \ref{fig:Mess_Widerstand_Phas_90grad_stroeme} zeigt die Ansteuerun
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_Stroeme}
 \end{table}
 
-Die Amplitudenwerte der 5. bis 11. Oberschwingungsanordnung, erkennbar in der Tabelle \ref{tab:Phas_90_Stroeme}, sind auch bei dieser Ansteuerung, im Vergleich zu den Normen \ref{tab:Grenzwerte_Normen}, zu hoch. Somit eignet sich auch der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht, um den Widerstand anzusteuern. Auf die Spannung wird ebenfalls hier nicht mehr eingegangen. 
+Die Amplitudenwerte der 5. bis 11. Oberschwingungsanordnung, erkennbar in der Tabelle \ref{tab:Phas_90_Stroeme}, sind auch bei dieser Ansteuerung, im Vergleich zu den Normen \ref{tab:Grenzwerte_Normen}, zu hoch. Somit eignet sich auch der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht, um den Widerstand anzusteuern. Auf die Spannung wird hier ebenfalls nicht mehr eingegangen. 
 
 
 \newpage
@@ -121,7 +121,7 @@ In der Abbildung \ref{fig:Mess_Widerstand_Sanft_stroeme} ist das harte Auf- und 
 	\end{tabular}
 	\caption{Amplitudenwerte bei verschiedenen Frequenzen beim hartem Auf- und Absteuern}\label{tab:Sanft_stroeme}
 \end{table}
-Da beim harten Auf- und Absteuern bereits die 5. harmonische Oberschwingung einen Amplitudenwert von  \SI{0.1}{A} hat, wurde darauf verzichtet weitere Werte der harmonischen Schwingungen tabellarisch aufzulisten. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. Diese sind in der Tabelle \ref{tab:Sanft_stroeme} aufgeführt. Es ist ersichtlich, dass die Werte der Sub- und Zwischenharmonischen um \SI{50}{Hz}, mehr als die Hälfte der Grundschwingung, entsprechen. Diese sogenannten Seiten sind auch bei den weiteren harmonischen Oberwellen erkennbar. Sie sind jedoch kleiner als die, um die \SI{50}{Hz}. Vergleicht man die Werte der Amplitude der Harmonischen sind sie im Bereich der erlaubten Grenzwerte. Deshalb wird noch eine Untersuchung der Spannung vorgenommen.
+Da beim harten Auf- und Absteuern bereits die 5. harmonische Oberschwingung einen Amplitudenwert von  \SI{0.1}{A} hat, wurde darauf verzichtet weitere Werte der harmonischen Schwingungen tabellarisch aufzulisten. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. Diese sind in der Tabelle \ref{tab:Sanft_stroeme} aufgeführt. Es ist ersichtlich, dass die Werte der Sub- und Zwischenharmonischen um \SI{50}{Hz}, mehr als die Hälfte der Grundschwingung, entsprechen. Diese sogenannten Seitenbänder sind auch bei den weiteren harmonischen Oberwellen erkennbar. Sie sind jedoch kleiner als die, um die \SI{50}{Hz}. Vergleicht man die Werte der Amplitude der Harmonischen sind sie im Bereich der erlaubten Grenzwerte. Deshalb wird noch eine Untersuchung der Spannung vorgenommen.
 
 
 \newpage
@@ -159,11 +159,11 @@ Es ist zu erkennen, dass auch hier fast keine harmonische Oberwellen vorhanden s
 
 \newpage
 \subsubsection{Messungen Asynchronmaschine}
-Um zu analysieren, wie sich das Signal bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einem Asynchronmotor wiederholt. Die Strommessung der ASM wurde mit den bekannten Phasenanschnittswinkeln und mit dem sanften Auf- und Absteuern vorgenommen. Dies hat den Grund, dass keine Anwendungen für das harte Auf- und Absteuern oder der Schwingungspaketsteuerung vorhanden sind. Ausserdem wird in der Praxis meistens der Phasenanschnitt verwendet. Wie auch schon beim Widerstand muss der Strom bei der ASM auf die \SI{16}{A} hochgerechnet werden, um diese mit den Norm tabellarisch vergleichen zu können. Die Messungen der Asynchronmaschine sind ähnlich aufgebaut wie die des Widerstands. Einzig das Spannungssignal des Drehzahlgebers wurde hinzugefügt. Es ist erkennbar, dass das jeweilige Hochfahren des Stromes einen Einfluss auf das Spannungssignal des Drehgeber hat. Je harter man hochfährt desto steiler wird die Kurve des Spannungssignal des Drehgeber. 
+Um zu analysieren, wie sich das Signal bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einem Asynchronmotor wiederholt. Die Strommessung der ASM wurde mit den bekannten Phasenanschnittswinkeln und mit dem sanften Auf- und Absteuern vorgenommen. Dies hat den Grund, dass keine Anwendungen für das harte Auf- und Absteuern oder der Schwingungspaketsteuerung bei Asynchronmaschinen bekannt sind. Ausserdem wird in der Praxis meistens der Phasenanschnitt verwendet. Wie auch schon beim Widerstand muss der Strom bei der ASM auf die \SI{16}{A} hochgerechnet werden, um diese mit den Norm tabellarisch vergleichen zu können. Die Messungen der Asynchronmaschine sind ähnlich aufgebaut wie die des Widerstands. Einzig das Spannungssignal des Drehzahlgebers wurde hinzugefügt. Es ist erkennbar, dass das jeweilige Hochfahren des Stromes einen Einfluss auf das Spannungssignal des Drehgeber hat. Je harter man hochfährt desto steiler wird die Kurve des Spannungssignal des Drehgeber. 
 
 
 \subsubsection*{Phasenaschnitt 60\textdegree}
-In Abbildung \ref{fig:Mess_Phas_60grad_stroeme} erkennt man ein einen Phasenanschnitt von 60\textdegree der Ströme.
+In Abbildung \ref{fig:Mess_Phas_60grad_stroeme} erkennt man die Strommessung der ASM mit einer Phasenanschnittsteuerung von 60\textdegree\hspace{0.02cm}.
 
 \begin{figure}[ht!]
 	\centering
@@ -185,7 +185,7 @@ In Abbildung \ref{fig:Mess_Phas_60grad_stroeme} erkennt man ein einen Phasenansc
 	\end{tabular}
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_ASM_stroeme}
 \end{table}
-Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM praktisch keine harmonischen Oberwellen sondern fast nur Sub- und Zwischenharmonische. Dies hat den Grund, dass ein reiner Sinus von einer Frequenz von \SI{50}{Hz} bei der maximalen Drehzahl entsteht. Die fünfte harmonische Schwingung hat eine Amplitude von \SI{0.07}{A} und hält somit die Normen \ref{sec:Stromnormen} ein. Weitere Harmonische sind nicht zu erkennen. Die Peaks des Seitenbandes um die Grundschwingung sind im Verhältnis mit bis zu 70\% sehr hoch.
+Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM praktisch keine harmonischen Oberwellen sondern fast nur Sub- und Zwischenharmonische. Dies hat den Grund, dass ein reiner Sinus mit einer Frequenz von \SI{50}{Hz} bei der maximalen Drehzahl entsteht. Die fünfte harmonische Schwingung hat eine Amplitude von \SI{0.07}{A} und hält somit die Normen \ref{sec:Stromnormen} ein. Weitere Harmonische sind nicht zu erkennen. Die Peaks des Seitenbandes um die Grundschwingung sind im Verhältnis mit bis zu 70\% sehr hoch. Die Spannung dieser Ansteuerung wird deshalb noch untersucht.
 
 
 \subsubsection*{Phasenaschnitt 90\textdegree}
@@ -216,8 +216,8 @@ In Abbildung \ref{fig:Mess_Phas_90grad_stroeme} erkennt man einen Phasenanschnit
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_ASM_stroeme}
 \end{table}
 
-Anders als bei der Ansteuerung mit dem Phasennaschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der fünften Harmonischen grössere harmonische Oberwellen auf. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_90grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine schwingt. Dies wurde auch beim Testen festgestellt, dass die ASM nicht konstant auf der gleichen Drehzahl drehte. So kann diese Ansteuerungsart nicht verwendet werden um die Maschine anzusteuern. 
-Im Vergleich zum Phasenanschnitt mit 60\textdegree sind die Peaks des Seitenbandes um die Grundschwingung noch höher. Auch die fünfte Harmonische entspricht im Verhältnis zur Grundschwingung 20.5\%. Die Amplitude jedoch ist immer noch kleiner als der erlaubte Grenzwert der Norm \ref{sec:Stromnormen}. 
+Anders als bei der Ansteuerung mit dem Phasennaschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der 5. Ordnung grössere harmonische Oberwellen auf. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_90grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine schwingt. Dies wurde auch beim Testen festgestellt, dass die ASM nicht konstant auf der gleichen Drehzahl drehte. So kann diese Ansteuerungsart nicht verwendet werden um die Maschine anzusteuern. 
+Im Vergleich zum Phasenanschnitt mit 60\textdegree\hspace{0.02cm} sind die Peaks des Seitenbandes um die Grundschwingung noch höher. Auch die 5. Harmonische entspricht im Verhältnis zur Grundschwingung 20.5\%. Die Werte der Amplituden sind jedoch immer noch kleiner als der erlaubte Grenzwert der Norm \ref{sec:Stromnormen}. Deshalb wir auch bei dieser Ansteuerung noch die Spannung untersucht. 
 
 
 
@@ -248,13 +248,13 @@ In Abbildung \ref{fig:Mess_Sanft_langsam_stroeme} erkennt man ein sanftes Auf- u
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei sanftem Auf- und Absteuern}\label{tab:Sanft_langsam_ASM_stroeme}
 \end{table}
 Wie schon bei der Widerstandsmessung mit dem sanftem Auf- und Absteuern im Kapitel \ref{sec:Sanft_Widerstand_stroeme}, sind bei dieser Messung, mit der ASM, die harmonische Oberschwingungen sehr klein. Sie halten somit die Norm \ref{sec:Stromnormen} ein. In der Tabelle \ref{tab:Sanft_langsam_ASM_stroeme} sind bei verschiedenen Frequenzen die Werte der Amplituden des FFTs aufgelistet.
-Die Peaks des Seitenbandes um \SI{50}{Hz} haben ein Verhältnis von bis zu 40\% zur Grundfrequenz.
+Die Peaks des Seitenbandes um \SI{50}{Hz} haben ein Verhältnis von bis zu 40\% zur Grundfrequenz. Auch hier werden die Spannungen noch kontrolliert. 
 
 
 \newpage
 \subsection{Messungen Spannungen}
 
-Damit man die Funktionen des Laboraufbaues mit den Simulationen vergleichen kann, wurden die Spannungen über dem Widerstand und der Asynchronmaschine mit den verschiedenen Ansteuerungsarten gemessen. Dafür wurden die Spannungssignale und das FFT als Grafik und die interessanten Werte der sub-, zwischenharmonischen und harmonischen Schwingungen tabellarisch aufgelistet. Damit auch die Spannungen mit den Normen verglichen werden können, wurde das Verhältnis der verschiedenen Oberschwingungen zur Grundschwingung in Prozent in die Tabellen eingefügt. Da die Phasenanschnittsteureungen die Normen der harmonischen Oberwellen des Stromes nicht einhalten, werden die Spannungssignale bei diesen Verfahren nicht mehr aufgezeigt. Sie sind jedoch im Anhang \ref{sec:Mess_Spannung_Widerstand} ersichtlich. Die Abbildungen in diesem Kapitel sind so aufgebaut, dass zuerst das Spannungssignal über dem Widerstand und anschliessend das daraus berechnete FFT dargestellt wurde.
+Damit man die Funktionen des Laboraufbaues mit den Simulationen vergleichen kann, wurden die Spannungen über dem Widerstand und der Asynchronmaschine mit den verschiedenen Ansteuerungsarten gemessen. Dafür wurden die Spannungssignale und das FFT als Grafik und die interessanten Werte der sub-, zwischenharmonischen und harmonischen Schwingungen tabellarisch aufgelistet. Damit auch die Spannungen mit den Normen verglichen werden können, wurde das Verhältnis der verschiedenen Oberschwingungen zur Grundschwingung in Prozent in die Tabellen eingefügt. Da die Phasenanschnittsteureungen die Normen der harmonischen Oberwellen des Stromes nicht einhalten, werden die Spannungssignale bei diesen Verfahren nicht mehr aufgezeigt. Sie sind jedoch im Anhang \ref{sec:Mess_Spannung_Widerstand} ersichtlich. Die Abbildungen sind in diesem Kapitel so aufgebaut, dass zuerst das Spannungssignal über dem Widerstand und anschliessend das daraus berechnete FFT dargestellt wurde.
 
 \subsubsection{Messungen Widerstand}
 
@@ -262,7 +262,7 @@ Zuerst wird die Spannung der Schwingungspaketsteuerung mit einem Duty Cycle von 
 
 \subsubsection*{Schwingungspaket mit Duty Cycle von 0.5}
 
-In Abbildung \ref{fig:Mess_Schwing_50} ist die Schwingungspaketsteuerung mit einem Duty Cycle von 0.5 dargestellt.
+In Abbildung \ref{fig:Mess_Schwing_50} ist das Spannungssignal der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5 dargestellt.
 
 
 \begin{figure}[ht!]
@@ -297,7 +297,7 @@ Die Werte der Tabelle \ref{tab:Mess_Spannung_Schwing_50} wurden mit denen des FF
 
 \newpage
 \subsubsection*{Schwingungspaketsteuerung mit Duty Cycle von 0.8}
-In der Abbildung \ref{fig:Mess_Schwing_80} ist die Schwingungspaketsteuerung mit einem Duty Cycle von 0.8 ersichtlich.
+In der Abbildung \ref{fig:Mess_Schwing_80} ist das Spannungssignal der Schwingungspaketsteuerung mit einem Duty Cycle von 0.8 ersichtlich.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\textwidth]{Messung_Widerstand_Schwing_0_8.png}	
@@ -397,11 +397,11 @@ Im visuellen Vergleich mit dem hartem Auf- und Abfahren zeigt das FFT, dass die 
 
 \subsubsection{Messungen Asynchronmaschine}
 
-Auch bei der Asynchronmaschine wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit Duty Cycle von 0.5 und 0.8 und dem harten und sanften Auf- und Absteuern durchgeführt. Dabei stellte man fest, dass sich die Schwingungspaketsteuerungen und das harte Auf- und Absteuern nicht für einen Asynchronmotor eignen. Der Motor fährt zu schnell Hinauf und Hinunter und befindet sich nie in einem geeigneten stationären Zustand. Deshalb verzichtete man bei der Messung auf diese Verfahren. Der Aufbau der Abbildungen und Tabellen ist gleich wie bei dem Widerstand.
+Auch bei der Asynchronmaschine wurden die verschiedenen Ansteuerungsarten, Phasenanschnitt mit 60\textdegree \hspace{0.02cm} und 90\textdegree \hspace{0.02cm}, Schwingungspaket mit Duty Cycle von 0.5 und 0.8 und dem harten und sanften Auf- und Absteuern durchgeführt. Dabei stellte man fest, dass sich die Schwingungspaketsteuerungen und das harte Auf- und Absteuern nicht für einen Asynchronmotor eignen. Der Motor fährt zu schnell Hinauf und Hinunter und befindet sich nie in einem geeigneten stationären Zustand. Deshalb verzichtete man bei der Messung auf diese Verfahren.
 
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
-Bei der Abbildung \ref{fig:Mess_ASM_Phas60} verwendete man einen Phasenanschnittswinkel von 60\textdegree.
+Bei der Abbildung \ref{fig:Mess_ASM_Phas60} ist das Spannungssignale der Phasenanschnittsteuerung mit einem Winkel von 60\textdegree\hspace{0.02cm} dargestellt.
 
 \begin{figure}[ht!]
 	\centering
@@ -424,12 +424,12 @@ Bei der Abbildung \ref{fig:Mess_ASM_Phas60} verwendete man einen Phasenanschnitt
 \caption{Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 60\textdegree}\label{tab:Mess_Spannung_ASM_Phas60}
 \end{table}
 
-Anders als beim Phasenanschnitt von 60\textdegree\hspace{0.02cm} mit dem ohmschen Widerstand, treten bei dem Asynchronmotor fast keine harmonischen Oberschwingungen auf. Da diese Peaks im FFT nicht ersichtlich sind, wurden die Amplituden der Oberschwingungen bis zur 11. Ordnung in der Tabelle \ref{tab:Mess_Spannung_ASM_Phas60} aufgeführt. 
+Anders als beim Phasenanschnitt von 60\textdegree\hspace{0.02cm} mit dem ohmschen Widerstand, treten bei dem Asynchronmotor fast keine harmonischen Oberschwingungen auf. Da diese Peaks im FFT nicht ersichtlich sind, wurden nur die Amplitudenwerte der Oberschwingungen bis zur 11. Ordnung in die Tabelle \ref{tab:Mess_Spannung_ASM_Phas60} aufgeführt. 
 Beim Ansteuern mit dem Winkel von 60\textdegree \hspace{0.02cm} wurde bemerkt, dass die Maschine bereits mit maximaler Drehzahl dreht. Es macht bei den Spannungssignalen keinen Unterschied ob die ASM mit einem Winkel von 60\textdegree \hspace{0.02cm} oder 0\textdegree \hspace{0.02cm} angesteuert wird. Anders als beim Phasenanschnitt mit 60\textdegree\hspace{0.02cm} bei ohmscher Last, sind mit dem gleichen Anschnitswinkel bei der ASM keine Sub- und Zwischenharmonische in der Nähe der Grundfrequenz ersichtlich. Im Verhältnis zur Grundschwingung hat die 7. Ordnung die maximale Abweichung von 1.58\%. Die Werte der harmonischen Schwingungen halten somit die Normen in der Tabelle \ref{tab:kompatibilitätsstufen} ein. 
 
 \newpage
 \subsubsection*{Phasenanschnitt 90\textdegree}
-Die Abbildung \ref{fig:Mess_ASM_Phas90} zeigt eine Steuerung mit einem Phasenanschnitt von 90\textdegree.
+Die Abbildung \ref{fig:Mess_ASM_Phas90} zeigt das Spannungssignal der Phasenanschnittsteuerung mit einem Winkel von 90\textdegree.
 
 \begin{figure}[ht!]
 	\centering
@@ -488,7 +488,7 @@ Die Abbildung \ref{fig:Mess_ASM_Sanft_langsam} zeigt ein sanftes Auf- und Absteu
 \end{table}
 
 
-Bei diesem Steuerungsverfahren sind die harmonischen Schwingungen mit den dazu gehörigen Seitenbänder nur noch minimal erkennbar. Die Resultate der Amplitudenwerte und das Verhältnis zur Grundschwingung befinden sich in der Tabelle \ref{tab:Mess_Spannung_ASM_AufAb_sanft}. Die meisten zwischenharmonischen Schwingungen treten um bei der Grundfrequenz von \SI{50}{Hz} auf. Es ist eine Ähnlichkeit der Seitenbänder zum Verfahren mit dem Widerstand ersichtlich. Vergleicht man die Werte der harmonischen Schwingungen mit den Normen \ref{sec:Spannungsnormen}, befinden diese sich unter den Grenzwerten.
+Bei diesem Steuerungsverfahren sind die harmonischen Schwingungen mit den dazu gehörigen Seitenbänder nur noch minimal erkennbar. Die Resultate der Amplitudenwerte und das Verhältnis zur Grundschwingung befinden sich in der Tabelle \ref{tab:Mess_Spannung_ASM_AufAb_sanft}. Die meisten zwischenharmonischen Schwingungen treten um die Grundfrequenz von \SI{50}{Hz} auf. Es ist eine Ähnlichkeit der Seitenbänder zum gleichen Verfahren mit dem Widerstand ersichtlich. Vergleicht man die Werte der Amplitude der harmonischen Schwingungen mit den Normen \ref{sec:Spannungsnormen}, befinden sich diese unter den Grenzwerten.
 
 
 
@@ -534,12 +534,12 @@ In der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam_stroe
 	\caption{Amplitudenwerte bei der Strommessung mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme}
 \end{table}
 
-Damit die Oberschwingungsströme mit den  Grenzwerten der Normen \ref{sec:Stromnormen} verglichen werden können, wurde der Effektivwert des Stromes auf \SI{16}{A} hochgerechnet. Betrachtet man die verschiedenen FFTs der Phasen sind unterschiedliche Peak-Werte zu erkennen. Dies kommt zustande, da es sich um eine unsymmetrische Belastung handelt und die Phase 3 als Rückleiter fungiert. In der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme} werden die Werte der Amplituden bei verschiedenen Frequenzen und das Verhältnis zur Grundschwingung aufgelistet. Vergleicht man die Werte der 3. und 5. Harmonischen mit den Normen \ref{sec:Stromnormen}, so halten sie die Grenzwerte bei allen drei Phasen ein. Die anderen harmonischen Schwingungen, die nicht in der Tabelle sind, halten die Normen ebenfalls ein.
+Damit die Oberschwingungsströme mit den  Grenzwerten der Normen \ref{sec:Stromnormen} verglichen werden können, wurde der Effektivwert des Stromes auf \SI{16}{A} hochgerechnet. Betrachtet man die verschiedenen FFTs der Phasen sind unterschiedliche Peak-Werte zu erkennen. Dies kommt zustande, da es sich um eine unsymmetrische Belastung handelt und die Phase 3 als Rückleiter fungiert. In der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme} werden die Werte der Amplituden bei verschiedenen Frequenzen und das Verhältnis zur Grundschwingung aufgelistet. Vergleicht man die Werte der 3. und 5. Harmonischen mit den Normen \ref{sec:Stromnormen}, so halten sie die Grenzwerte bei allen drei Phasen ein. Die anderen harmonischen Schwingungen, die nicht in der Tabelle sind, wurden auch verglichen und halten die Normen ebenfalls ein.
 
 \newpage
 \subsubsection{Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}
 
-Die Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} zeigt das Spannungssignal über dem Widerstand. 
+Die Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} zeigt das sanfte Hoch- und Herunterfahren des Spannungssignal über dem Widerstand. 
 
 \begin{figure}[ht!]
 	\centering
@@ -547,7 +547,6 @@ Die Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} zeigt d
 	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam}	
 \end{figure}
 
-Die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} sehen visuell ähnlich aus wie das sanfte Auf- und Absteuern mit drei Thyristoren, ersichtlich in der Abbildung \ref{fig:Mess_Sanft_langsam}.  Der einziger Unterschied ist, dass beim Hoch- und Runterfahren die drei Phasen nicht alle gleich hoch sind. Dies resultiert in einem FFT mit unterschiedlichen Amplitudenhöhen für die verschiedenen Phasen. Die Werte des FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. \\\\
 
 \begin{table}[ht!]
 	\centering
@@ -578,20 +577,20 @@ Die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_A
 \caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
 \end{table}
 
-Das Spannungssignal, welches mit nur zwei Thyristoren angesteuert wurde, hat eine visuelle Ähnlichkeit mit dem sanften Auf- und Absteuern der drei Thyristoren \ref{fig:Mess_Sanft_langsam}. Der einzige Unterschied entsteht beim Hoch- und Runterfahren. Die drei Phasen erreichen wegen der unsymmetrischen Belastung nicht die gleiche Höhe. Dies ist bei den FFT ebenfalls ersichtlich. Es sind unterschiedliche Amplitudenhöhen aufgezeigt. Die Werte der FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. Vergleicht man wiederum die Werte der harmonischen Schwingungen mit den Grenzwerten der Normen, erfüllen sie jedoch den einzuhaltenden Bereich.
+Das Spannungssignal, welches mit nur zwei Thyristoren angesteuert wurde, hat eine visuelle Ähnlichkeit mit dem sanften Auf- und Absteuern der drei Thyristoren \ref{fig:Mess_Sanft_langsam}. Der einzige Unterschied entsteht beim Hoch- und Runterfahren. Die drei Phasen erreichen wegen der unsymmetrischen Belastung nicht die gleiche Höhe. Dies ist bei den FFT ebenfalls ersichtlich. Es sind unterschiedliche Amplitudenhöhen aufgezeigt. Die Werte der FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft} aufgelistet. Vergleicht man wiederum die Werte der harmonischen Schwingungen mit den Grenzwerten der Normen, erfüllen sie jedoch den einzuhaltenden Bereich.
 
 
 \newpage
 \subsection{Leistungsfaktor}
-Um den Leistungsfaktor für den Phasenanschnitt berechnen zu können, werden die Formeln im Kapitel \ref{sec:Leistungsfaktor} verwendet. Jedoch funktionieren diese Formeln bei der Kombination der verschiedenen Verfahren oder dem Hochfahren durch den Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
+Um den Leistungsfaktor für den Phasenanschnitt berechnen zu können, werden die Formeln im Kapitel \ref{sec:Leistungsfaktor} verwendet. Jedoch funktionieren diese Formeln bei der Kombination der verschiedenen Verfahren oder dem Hochfahren mit dem Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
 \begin{equation}
 \lambda = \frac{P}{S}
 \end{equation}
-Um die Wirkleistung zu erhalten, können die Strom- und Spannungswerte multipliziert werden:
+Um die Wirkleistung zu erhalten, können die Strom- und Spannungswerte in Abhängigkeit der Zeit  multipliziert werden:
 \begin{equation}
 P = u(t) \cdot i(t)
 \end{equation}
-Für die Scheinleistung müssen die Effektivwerte der Spannung und des Stromes multipliziert werden:
+Für die Scheinleistung werden die Effektivwerte der Spannung und des Stromes multipliziert:
 \begin{equation}
 S = U_{rms} \cdot I_{rms}
 \end{equation}
@@ -616,9 +615,9 @@ Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leist
 	\end{tabular}
 \caption{Leistungsfaktor mit verschiedene Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
 \end{table}
-Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn die Leistungsfaktoren der verschiedenen Ansteuerungsarten miteinander verglichen werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
+Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand von \SI{150}{\Omega} in den Stromkreis hinzugeschaltet. Dabei konnte festgestellt werden, dass sich, wie erwartet, der Leistungsfaktor erhöht. Es wird zusätzlich Wirkleistung im Widerstand verheizt. Wenn die Leistungsfaktoren der verschiedenen Ansteuerungsarten miteinander verglichen werden, ist ersichtlich, dass sich das sanfte Auf- und  Absteuern am besten für die ASM eignet.
 
-Bei Ohmschen Lasten gilt jedoch, je näher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch verbieten die Normen den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden. Deshalb macht es Sinn, nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+Bei ohmschen Lasten gilt, je näher der Leistungsfaktor bei 1 ist, desto weniger Verluste hat der Widerstand. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch sind laut Normen, der Gebrauch der Phasenanschnittsteuerung mit einem Winkeln von 90\textdegree \hspace{0.02cm} nicht erlaubt. Da die Amplitudenwerte der Oberschwingungsspannungen zu hoch sind. Deshalb macht es Sinn, nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
  
 
 
