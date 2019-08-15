@@ -50,16 +50,16 @@
     \endentry
     \entry{analysi3}{misc}{}
       \name{author}{1}{}{%
-        {{hash=e03938db1d5efc4904d63a261068302b}{%
-           family={{C. Beneduce, \glqq Analysis 3, Vorlesungsscript Teil 3\grqq , Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
+        {{hash=86140d506a6db25e138051051eb0e590}{%
+           family={{C. Beneduce, \glqq Analysis 3, Vorlesungsskript Teil 3\grqq , Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e03938db1d5efc4904d63a261068302b}
-      \strng{fullhash}{e03938db1d5efc4904d63a261068302b}
-      \strng{bibnamehash}{e03938db1d5efc4904d63a261068302b}
-      \strng{authorbibnamehash}{e03938db1d5efc4904d63a261068302b}
-      \strng{authornamehash}{e03938db1d5efc4904d63a261068302b}
-      \strng{authorfullhash}{e03938db1d5efc4904d63a261068302b}
+      \strng{namehash}{86140d506a6db25e138051051eb0e590}
+      \strng{fullhash}{86140d506a6db25e138051051eb0e590}
+      \strng{bibnamehash}{86140d506a6db25e138051051eb0e590}
+      \strng{authorbibnamehash}{86140d506a6db25e138051051eb0e590}
+      \strng{authornamehash}{86140d506a6db25e138051051eb0e590}
+      \strng{authorfullhash}{86140d506a6db25e138051051eb0e590}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -131,7 +131,7 @@
            giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer Verlag, Berlin et. al}%
+        {Springer Verlag, Berlin et al}%
       }
       \strng{namehash}{485df3f926f96d147cac52c554f9248a}
       \strng{fullhash}{485df3f926f96d147cac52c554f9248a}
@@ -178,22 +178,6 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
     \endentry
-    \entry{FlickerNorm}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=107c88f2b5acd22f30aca1c6ce18dbeb}{%
-           family={{DIN EN 61000-3-3, \glqq Elektromagnetische Verträglichkeit (EMV) - Teil 3-3: Grenzwerte Begrenzung von Spannungsänderungen\grqq, Deutsche Norm, 2013}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \strng{fullhash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \strng{bibnamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \strng{authorbibnamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \strng{authornamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \strng{authorfullhash}{107c88f2b5acd22f30aca1c6ce18dbeb}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-    \endentry
     \entry{Arduino_PWM}{online}{}
       \name{author}{1}{}{%
         {{hash=55611bd9f462dbb9de1d4c472852175b}{%
@@ -206,8 +190,8 @@
       \strng{authorbibnamehash}{55611bd9f462dbb9de1d4c472852175b}
       \strng{authornamehash}{55611bd9f462dbb9de1d4c472852175b}
       \strng{authorfullhash}{55611bd9f462dbb9de1d4c472852175b}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Arduino Tutorial - Pulsweitenmodulation (PWM)}
@@ -235,8 +219,8 @@
       \strng{authorbibnamehash}{506a619276ba8fec7a6fc58485cfd9d8}
       \strng{authornamehash}{506a619276ba8fec7a6fc58485cfd9d8}
       \strng{authorfullhash}{506a619276ba8fec7a6fc58485cfd9d8}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Passiver Tiefpass / Tiefpass-Filter}
@@ -370,18 +354,34 @@
     \endentry
     \entry{PI_Regler}{misc}{}
       \name{author}{1}{}{%
-        {{hash=4b453ff8b3080d8482fad598c0db4ff6}{%
-           family={{M. Wassmer, \glqq Funktionsmuster eines Dreiphasigen PFC Gleichrichters\grqq, Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
+        {{hash=0048590a95afafa94d76447d615c77b4}{%
+           family={{M. Wassmer, \glqq Funktionsmuster eines dreiphasigen PFC Gleichrichters\grqq, Windisch: Hochschule für Technik der Fachhochschule Nordwestschweiz (FHNW), 2018}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{4b453ff8b3080d8482fad598c0db4ff6}
-      \strng{fullhash}{4b453ff8b3080d8482fad598c0db4ff6}
-      \strng{bibnamehash}{4b453ff8b3080d8482fad598c0db4ff6}
-      \strng{authorbibnamehash}{4b453ff8b3080d8482fad598c0db4ff6}
-      \strng{authornamehash}{4b453ff8b3080d8482fad598c0db4ff6}
-      \strng{authorfullhash}{4b453ff8b3080d8482fad598c0db4ff6}
+      \strng{namehash}{0048590a95afafa94d76447d615c77b4}
+      \strng{fullhash}{0048590a95afafa94d76447d615c77b4}
+      \strng{bibnamehash}{0048590a95afafa94d76447d615c77b4}
+      \strng{authorbibnamehash}{0048590a95afafa94d76447d615c77b4}
+      \strng{authornamehash}{0048590a95afafa94d76447d615c77b4}
+      \strng{authorfullhash}{0048590a95afafa94d76447d615c77b4}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+    \endentry
+    \entry{FlickerNorm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=107c88f2b5acd22f30aca1c6ce18dbeb}{%
+           family={{DIN EN 61000-3-3, \glqq Elektromagnetische Verträglichkeit (EMV) - Teil 3-3: Grenzwerte Begrenzung von Spannungsänderungen\grqq, Deutsche Norm, 2013}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \strng{fullhash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \strng{bibnamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \strng{authorbibnamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \strng{authornamehash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \strng{authorfullhash}{107c88f2b5acd22f30aca1c6ce18dbeb}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
     \endentry
     \entry{Spannungsqualitaet}{online}{}

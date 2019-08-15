@@ -2,6 +2,32 @@
 In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Werten der Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als csv-Datei gespeichert und anschliessend mit Matlab dargestellt. Ausserdem ist es möglich die FFTs der Signale zu berechnen.\\
 Es sind nur die Messungen des Widerstandes und der ASM, die in Stern geschaltet sind, aufgelistet. Die Messungen in Dreieck sind hier nicht aufgeführt, sie  befinden sich als Matlabdateien digital auf dem USB-Stick. \todo{angeben ob als USB Stick/CD oder sonst abgegeben}
 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{Aufbau_Messung.png}	
+	\caption{Aufbau der Messung}\label{fig:Aufbau Messung}
+\end{figure}
+\todo{besserer Titel wählen}
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Nummer & Bauteil                                       \\ \hline
+		1      & Eingangskabel Thyristorsteller                \\ \hline
+		2      & Thyristorsteller                              \\ \hline
+		3      & Freigabe Thyristorsteller                     \\ \hline
+		4      & Arduino Mega2560                              \\ \hline
+		5      & Steckbrett mit Spannungsverstärkungsschaltung \\ \hline
+		6      & Ansteuerung Thyristorsteller                  \\ \hline
+		7      & Ausgang Thyristorsteller                      \\ \hline
+	\end{tabular}
+	\caption{Beschreibung der Nummern des Laboraufbaus}\label{tab:Nummern_Laboraufbau}
+\end{table}
+
+
+
+
 
 \newpage
 \subsection{Messungen Ströme}
@@ -411,9 +437,6 @@ Die Abbildung \ref{fig:Mess_ASM_Phas90} zeigt eine Steuerung mit einem Phasenans
 	\caption{Messung mit Phasenanschnitt 90\textdegree}\label{fig:Mess_ASM_Phas90}
 \end{figure}
 
-\newpage
-
-
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -471,7 +494,7 @@ Bei diesem Steuerungsverfahren sind die harmonischen Schwingungen mit den dazu g
 
 \newpage
 \subsection{Sparvariante}
-Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angesteuert. Das Spannungs- und Stromsignal sollen dabei etwa die gleiche Form besitzen wie bei der dreiphasigen Ansteuerung. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, sind die Messresultate bei diesem Verfahren nicht aufgeführt. Für die Sparvarianten wurden die Verfahren des sanften und harten Auf- und Absteuern betrachtet, da hauptsächlich diese von Interesse sind. Bei den Messung erkennt man, dass die harmonischen Oberwellen der Spannung des Asynchronmotors nicht mit den Normen übereinstimmten. Das gleiche Verhalten wurde bei der ohmschen Last mit harter Ansteuerung bemerkt. Daher wird nur noch das sanfte Hoch- und Runterfahren beim Widerstand analysiert. Alle anderen Messungen die nicht den Normen entsprechen, sind im Anhang im Kapitel \ref{sec:Sparvariante_2Thyristoren} ersichtlich. Die Abbildungen \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam_stroeme} und \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} sind so aufgebaut, dass zuerst das Spannungs- oder Stromsignal ersichtlich ist. Anschliessend werden die FFT der drei Phasen berechnet und dargestellt. Da es sich um eine unsymmetrische Belastung handelt, wurden alle Phasen separat mit den Normen \ref{sec:Normen} verglichen.
+Wie im Kapitel \ref{Spar-Ansteuerung} beschrieben, werden bei der Sparvariante nur ein oder zwei Thyristoren angesteuert. Die Spannungs- und Stromsignale müssen dabei etwa die gleiche Form besitzen wie bei der dreiphasigen Ansteuerung. Da dies bei der Ansteuerung mit einem Thyristor nicht der Fall ist, sind die Messresultate bei diesem Verfahren nicht aufgeführt. Für die Sparvarianten wurden die Verfahren des sanften und harten Auf- und Absteuern betrachtet, da hauptsächlich diese von Interesse sind. Bei den Messungen ist ersichtlich, dass die harmonischen Oberwellen der Spannung des Asynchronmotors die Vorgaben der Normen nicht erfüllt. Das gleiche Verhalten wurde bei der ohmschen Last mit harter Ansteuerung bemerkt. Daher wird nur noch das sanfte Hoch- und Runterfahren beim Widerstand analysiert. Alle anderen Messungen, die nicht den Normen entsprechen, sind im Anhang im Kapitel \ref{sec:Sparvariante_2Thyristoren} ersichtlich. Die Abbildungen \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam_stroeme} und \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} sind so aufgebaut, dass zuerst das Spannungs- oder Stromsignal ersichtlich ist. Anschliessend werden die FFT der drei Phasen berechnet und dargestellt. Da es sich um eine unsymmetrische Belastung handelt, wurden alle Phasen separat mit den Normen \ref{sec:Normen} verglichen.
 
 \subsubsection{Strommessung Sparvariante mit einem Widerstand und zwei Thyristoren}
 
@@ -511,7 +534,7 @@ In der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam_stroe
 	\caption{Amplitudenwerte bei der Strommessung mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme}
 \end{table}
 
-Damit die Oberschwingungsströme mit den  Grenzwerten der Normen \ref{sec:Stromnormen} verglichen werden kann, wurde der Effektivwert des Stromes auf die \SI{16}{A} hochgerechnet. Betrachtet man die verschiedenen FFTs der Phasen sind unterschiedliche Peak-Werte zu erkennen. Dies kommt zustande, da es sich um eine unsymmetrische Belastung handelt und die Phase 3 als Rückleiter fungiert. In der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme} werden die Werte der Amplituden bei verschiedenen Frequenzen und das Verhältnis zur Grundschwingung aufgelistet. Vergleicht man die Werte der 3. und 5. Harmonischen mit den Normen \ref{sec:Stromnormen}, so halten sie die Grenzwerte bei allen drei Phasen ein. Die anderen harmonischen Schwingungen, die nicht in der Tabelle sind, halten die Normen ebenfalls ein.
+Damit die Oberschwingungsströme mit den  Grenzwerten der Normen \ref{sec:Stromnormen} verglichen werden können, wurde der Effektivwert des Stromes auf \SI{16}{A} hochgerechnet. Betrachtet man die verschiedenen FFTs der Phasen sind unterschiedliche Peak-Werte zu erkennen. Dies kommt zustande, da es sich um eine unsymmetrische Belastung handelt und die Phase 3 als Rückleiter fungiert. In der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft_stroeme} werden die Werte der Amplituden bei verschiedenen Frequenzen und das Verhältnis zur Grundschwingung aufgelistet. Vergleicht man die Werte der 3. und 5. Harmonischen mit den Normen \ref{sec:Stromnormen}, so halten sie die Grenzwerte bei allen drei Phasen ein. Die anderen harmonischen Schwingungen, die nicht in der Tabelle sind, halten die Normen ebenfalls ein.
 
 \newpage
 \subsubsection{Spannungsmessung Sparvariante mit einem Widerstand und zwei Thyristoren}
@@ -524,7 +547,7 @@ Die Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} zeigt d
 	\caption{Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren}\label{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam}	
 \end{figure}
 
-Die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} sehen visuell ähnlich aus wie das sanfte Auf- und Absteuern mit drei Thyristoren, ersichtlich in der Abbildung \ref{fig:Mess_Sanft_langsam}.  Der einziger Unterschied ist, das beim Hoch- und Runterfahren die drei Phasen nicht alle gleich hoch sind. Dies resultiert in einem FFT mit unterschiedlichen Amplitudenhöhen für die verschiedenen Phasen. Die Werte des FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. \\\\
+Die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} sehen visuell ähnlich aus wie das sanfte Auf- und Absteuern mit drei Thyristoren, ersichtlich in der Abbildung \ref{fig:Mess_Sanft_langsam}.  Der einziger Unterschied ist, dass beim Hoch- und Runterfahren die drei Phasen nicht alle gleich hoch sind. Dies resultiert in einem FFT mit unterschiedlichen Amplitudenhöhen für die verschiedenen Phasen. Die Werte des FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. \\\\
 
 \begin{table}[ht!]
 	\centering
@@ -555,12 +578,12 @@ Die Spannungsverläufe auf der Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_A
 \caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
 \end{table}
 
-Das Spannungssignal, welches mit nur zwei Thyristoren angesteuert wurde, hat eine visuelle Ähnlichkeit mit dem sanften Auf- und Absteuern der drei Thyristoren \ref{fig:Mess_Sanft_langsam}. Der einzige Unterschied entsteht beim Hoch- und Runterfahren. Die drei Phasen erreichen wegen der unsymmetrischen Belastung nicht die gleiche Höhe. Dies ist bei den FFT ebenfalls ersichtlich. Es sind unterschiedliche Amplitudenhöhen aufgezeigt. Die Werte der FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. Vergleicht man wiederum die Werte der Harmonischen Schwingungen mit den Grenzwerten der Normen, erfüllen sie jedoch den einzuhaltenden Bereich.
+Das Spannungssignal, welches mit nur zwei Thyristoren angesteuert wurde, hat eine visuelle Ähnlichkeit mit dem sanften Auf- und Absteuern der drei Thyristoren \ref{fig:Mess_Sanft_langsam}. Der einzige Unterschied entsteht beim Hoch- und Runterfahren. Die drei Phasen erreichen wegen der unsymmetrischen Belastung nicht die gleiche Höhe. Dies ist bei den FFT ebenfalls ersichtlich. Es sind unterschiedliche Amplitudenhöhen aufgezeigt. Die Werte der FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_ASM_AufAb_sanft} aufgelistet. Vergleicht man wiederum die Werte der harmonischen Schwingungen mit den Grenzwerten der Normen, erfüllen sie jedoch den einzuhaltenden Bereich.
 
 
 \newpage
 \subsection{Leistungsfaktor}
-Um den Leistungsfaktor für den Phasenanschnitt berechnen zu können, wird die Formeln im Kapitel \ref{sec:Leistungsfaktor} verwendet. Jedoch funktioniert diese Formeln bei der Kombination der verschiedenen Verfahren oder dem Hochfahren durch den Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
+Um den Leistungsfaktor für den Phasenanschnitt berechnen zu können, werden die Formeln im Kapitel \ref{sec:Leistungsfaktor} verwendet. Jedoch funktionieren diese Formeln bei der Kombination der verschiedenen Verfahren oder dem Hochfahren durch den Phasenanschnitt nicht. Mit folgender Formel kann der Leistungsfaktor ebenfalls berechnet werden:
 \begin{equation}
 \lambda = \frac{P}{S}
 \end{equation}
@@ -591,11 +614,11 @@ Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leist
 		Phasenanschnitt 90\textdegree                         		& 0.9953          \\ \hline
 		Phasenanschnitt 60\textdegree                         		& 0.999           \\ \hline
 	\end{tabular}
-\caption{Leistungsfaktor mit verschiedenen Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
+\caption{Leistungsfaktor mit verschiedene Ansteuerungsverfahren bei der ASM und dem Widerstand}\label{tab:Leistungsfaktor_ASM_Widerstand}
 \end{table}
-Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn der Leistungsfaktor der verschiedenen Ansteuerungsarten analysiert werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
+Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand mit \SI{150}{\Omega} in den Stromkreis geschaltet. Dabei konnte festgestellt werden, dass sich wie erwartet mit dem Vorwiderstand der Leistungsfaktor erhöht, da zusätzlich Wirkleistung im Widerstand verheizt wird. Wenn die Leistungsfaktoren der verschiedenen Ansteuerungsarten miteinander verglichen werden, kann klar gesagt werden, dass sich das sanfte Auf- und  Absteuern am besten eignet für die ASM.
 
-Bei Ohmschen Lasten gilt jedoch, je näher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch verbietet die Normen den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden. Deshalb macht es Sinn nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+Bei Ohmschen Lasten gilt jedoch, je näher der Leistungsfaktor bei 1 ist, desto besser. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch verbieten die Normen den Gebrauch des Phasenanschnittes mit den Winkeln von 90\textdegree \hspace{0.02cm} wegen den erhöhten Werten der Amplituden. Deshalb macht es Sinn, nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
  
 
 
