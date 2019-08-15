@@ -11,10 +11,9 @@ Falls Oberschwingungen oder andere Netzrückwirkungen bei Betriebsmitteln auftre
 \subsection{Auftreten von verzerrten Sinusschwingungen}
 Im Idealfall würde bei einer Stromversorgung überall eine perfekte sinusförmige Spannung vorliegen. Jedoch sieht dies in der Realität anders aus. Die Kurve der Spannung und des Stromes weichen massiv von einer Sinusfunktion ab. Man bezeichnet diese verzerrten Schwingungsformen im Allgemeinen als oberschwingungsbehaftetes Signal. Durch Oberschwingungsspannung können zum Beispiel Spannungsverzerrungen vorkommen, die das Überhitzen von Drehfeldmotoren verursachen. Ausserdem können durch Oberschwingungsströme die Neutralleiter überlastet werden. Sie verursachen so einen erheblichen Schaden an einer Schaltanlage oder einer Hausinstallation.\\
 Schon früh erkannte man diese Oberschwingungsverzerrungen am Netz, jedoch ist es erst heute ein ernst zu nehmendes Problem für die Versorgungsbetriebe, die Verteilnetzbetreiber und für den Endkunden, da fast jedes elektrische Gerät verzerrte Signale zurückspeist und so das Netz verunreinigt. Die grösste Herausforderung war früher, die Auswirkungen von Oberschwingungsverzerrungen auf elektrische Maschinen zu erkennen. Ausserdem stellte man fest, dass Störungen in den Telefonleitungen auftraten, welche die Übertragung der Sprache beeinträchtigten. Allerdings kann man sagen, dass Oberschwingungsverzerrungen früher ein geringeres Gefahrenpotenzial darstellten als heute. Die heutigen Maschinen sind so konstruiert, dass sie weniger Oberwellen erzeugen.
+
+
 \newpage
-Auch bei den Verteilnetzen wird darauf geachtet, dass sie nicht mehr an der Lastobergrenze arbeiten und so ein reineres Sinussignal verwenden. Seit einigen Jahren steigt deshalb die weltweite Nachfrage nach energieeffizienten Lösungen, um die Oberwellen im Netz zu minimieren. Dies ist jedoch nur über den vermehrten Einsatz von Leistungselektronik realisierbar. 
-
-
 \subsection{Definition der Oberschwingungen}
 Die Oberschwingungen gehören in den Themenbereich \grqq physische Eigenwertprobleme\grqq, folglich Wellen, deren Frequenz ganzzahlige Vielfache der Grundschwingungen sind. In der Musikwelt hört man Oberschwingungsfrequenzen vor allem bei Saiteninstrumenten, wie zum Beispiel bei einer Gitarre oder einer Geige.\\
 Die meisten elektrischen Geräte halten nach der perfekten Welle Ausschau. Bei Wechselstrom definiert diese Perfektion eine saubere Sinuskurve. Die daraus verwendete elektrische Spannung wechselt gleichmässig zwischen der positiven und der negativen Halbwelle hin und her. Bei einer Frequenz von \SI{50}{Hz} geschieht dies genau 50-mal pro Sekunde. Eine Welle hat eine räumliche und zeitliche Ausdehnung. Bei den hier betrachteten Schwingungen können die räumliche Ausdehnung vernachlässigt werden. Die Oberschwingungsanteile in einem Wechselstromsystem sind also definiert als sinusförmige Anteile einer periodischen Schwingung, deren Frequenz einem ganzzahligen Vielfachen (Ordnungszahl) der Grundfrequenz entspricht. Die Tabelle \ref{tab:Oberschwingungfrequenz} beinhaltet die Ordnungszahlen $(n)$ in Bezug zur Frequenz $(fh)$. Es ist ersichtlich, dass zum Beispiel die 5. Oberschwingung eine Frequenz von \SI{250}{Hz} hat. Die Berechnung der Oberschwingungsfrequenz erkennt man in der Formel \ref{eq:Oberschwingungsfrequenz}.
@@ -89,6 +88,7 @@ Die Subharmonischen sind sinusförmige Schwingungen, deren Frequenz unterhalb de
 \subsection{Definition der verzerrten Schwingung}\label{sec:Verzerrte_Schwingung}
 Eine verzerrte Schwingung entsteht durch Überlagerungen von verschiedenen sinusförmigen Wellen mit unterschiedlichen Frequenzen und Amplituden. Man kann eine solche Schwingung mit den unterschiedlichen Oberschwingungskomponenten zusammensetzen, indem man eine Sinusschwingung mit mehreren Oberschwingungen addiert. Ein wellenförmiges verzerrtes Signal lässt sich so zu einer Grundschwingung mit mehreren harmonischen Oberschwingungen zerlegen. In Abbildung \ref{fig:Addition Oberwellen} ist diese ersichtlich, wobei die rote Kurve das verzerrte Signal darstellt. Die drei blauen Sinusschwingungen bilden die Zerlegungen zur Grundschwingung, zur 3. und 5. harmonischen Oberschwingung. Addiert man die drei blauen Kurven, so erhält man wiederum das verzerrte rote Signal.
 
+\newpage
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.7]{verzerrtes_Signal_analysis.png}	
@@ -101,7 +101,6 @@ Mit der Fourier-Transformation lassen sich die Amplitudenspektren mit den Sinusk
 f(x) = {\frac{a\textsubscript{0}}{2}}+\sum_{n=1}^\infty[a\textsubscript{n} \cdot cos(nx)+b\textsubscript{n} \cdot sin(nx)]
 \end{equation}
 
-\newpage
 Mathematisch werden die Fourier-Koeffizienten $a\textsubscript{0}$, $a\textsubscript{n}$ und $b\textsubscript{n}$ mit den untenstehenden Formeln \ref{a0}, \ref{an} und \ref{bn} berechnet. Sie gelten im Frequenzbereich von 0 bis 2$\pi$: 
 
 \begin{equation}\label{a0}
@@ -135,7 +134,6 @@ THC = {\sqrt{\sum_{n=2}^{40} I_n^2}}
 \end{equation}
 
 
-\newpage
 Die Oberschwingungsströme, welche durch die Verbraucher in Netzwerken erzeugt werden, müssen durch die Impedanzen der Transformatoren oder Drosseln fliessen.  Es werden Oberschwingungsspannungen erzeugt, die im ganzen Netz verbreitet werden. Diese können an Endgeräten eine Verzerrung der Versorgungsspannung verursachen. Somit ist die harmonische Verzerrung des Stromes $THDi$ eine direkte Ursache für die Verzerrung der Spannung $THDu$. Diese gibt das Ausmass der Verzerrung der Versorgungsspannung an. Auch dieser Wert ist definiert als Quotient des Effektivwertes der Spannungsoberschwingungsanteile bis zur 40. Oberschwingung, bezogen auf den Effektivwert der Grundschwingung. 
 Folgende Formel \ref{eq:THDi} berechnet die totale Verzerrung des Stromes $(THDi)$ in Prozent:
 \begin{equation}\label{eq:THDi}
@@ -149,7 +147,7 @@ THDu = \frac{\sqrt{\sum_{n=2}^{40} U_n^2}}{U_{(1)}} \cdot 100\%
 
 
 Je niedriger der $THDu$-Wert ist, desto besser ist die Spannungsqualität. Die Norm besagt, dass der gesamte Oberschwingungsgehalt den Wert von 8\% nicht überschreiten darf. Dazu kommt, dass heute üblicherweise für die Verzerrung die $THD$-Werte angegeben sind und nicht wie früher die Oberschwingungsgehalte (Klirrfaktor).\\
-
+\newpage
 \subsection{Phasenanschnittsteuerung}\label{sec:Phasenanschnittsteuerung}
 Bei der Phasenanschnittsteuerung wird das Sinussignal über einen TRIAC geführt. Ein TRIAC besteht aus zwei antiparallel geführte Thyristoren. Die Thyristoren werden bei einem eingestellten Zündwinkel nach jedem Nulldurchgang gezündet. Je später der TRIAC eingeschaltet wird, desto kleiner wird die mittlere Leistung über der Last. Der Zündwinkel kann von 0\textdegree \hspace{0.02cm} bis 180\textdegree \hspace{0.02cm} eingestellt werden, wobei bei 0\textdegree \hspace{0.02cm} die maximale Leistung und bei 180\textdegree \hspace{0.02cm} keine Leistung über der Last anliegt. Der Vorteil bei einer solchen Schaltung ist der sehr geringe Leistungsverlust bei der Regelung der Spannung und des Stromes. Zudem ist die Phasenanschnittsteuerung viel kompakter aufgebaut als komplizierte regelbare Schaltnetzteile, die auch einen geringen Leistungsverlust haben.
 Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung harmonische Oberschwingungen produziert und so unerwünschte Effekte für den Netzbetreiber verursacht. Ein weiteres Problem betrifft den nicht-sinusförmigen Stromverlauf. Da Strom und Spannung nicht den gleichen Verlauf haben, tritt Verzerrungsblindleistung auf. Der Strom eilt zeitlich der Spannung nach und die Last wirkt so wie eine Induktivität. Deshalb wird dieses Verfahren von den Elektrizitätswerken nur bei kleinen Leistungen, bei symmetrischen Anschnittsteuerung von Wärmegeräten toleriert. Bei grösseren Leistungen wird die Schwingungspaketsteuerung verwendet. In Abbildung \ref{fig:Phasenanschnitt1} ist ersichtlich, wie der Phasenanschnitt bei einer Netzspannung aussieht. Die grau gezeichnete Kurve ist die normale Netzspannung und die rote ist die Spannung, welche an der Last anliegt bei einem Winkel von 135\textdegree\hspace{0.02cm}. Die Netzspannung wird somit nach \SI{7.5}{ms} eingeschaltet und nach dem Nulldurchgang wieder gelöscht. Dies wiederholt sich bei jeder Halbwelle. Man erkennt anhand der Fläche unter den Kurven, dass die Leistung der zwei Phasenanschnittswinkeln von 135\textdegree\hspace{0.02cm} und 45\textdegree\hspace{0.02cm} kleiner ist als die der Netzspannung. 
@@ -160,7 +158,6 @@ Das Problem bei der Phasenanschnittsteuerung ist, dass diese Schaltung harmonisc
 	\caption{Phasenanschnitt mit einem Winkel von 135\textdegree \cite{Phasenanschnittsteuerung}}\label{fig:Phasenanschnitt1}
 \end{figure}
 \newpage
-
 In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase früher gezündet wurde, wodurch an der Last eine grössere Leistung resultiert.
 
 \begin{figure}[ht!]
@@ -171,13 +168,12 @@ In der Abbildung \ref{fig:Phasenanschnitt2} ist ersichtlich, dass die Phase frü
 
 
 
-\newpage
 \subsection{Schwingungspaketsteuerung}\label{sec:Schwingungspaketsteuerung}
 In diesem Verfahren wird nicht wie bei der Phasenanschnittsteuerung die Form der Halbwellen verändert, sondern die Zeitdauer der Halbwellen, welche an der Last anliegen. Der Vorteil dabei ist, dass nahezu keine Verschiebungsblindleistung in der Grundschwingung auftritt. Die Verluste von elektrischen Geräten können so minimiert werden. Die Paketdauer $T_0$ und die Einschaltzeit $T_E$ sind bei der Schwingungspaketsteuerung von grosser Wichtigkeit, wobei letztere verändert wird. Wenn z.B. eine Paketdauer 10 Halbwellen hat, und 5 Halbwellen eingeschaltet sind, liegt die halbe Leistung über der Last an. Anders als bei der Phasenanschnittsteuerung entstehen bei dieser Ansteuerungsart theoretisch keine harmonischen Oberwellen, dafür treten aber sub- und zwischenharmonische Schwingungen auf. In Abbildung \ref{fig:Schwingungspaketsteuerung} ist ersichtlich, wie vier von den total sechs Halbwellen pro Paket eingeschaltet sind. Dies ergibt eine Leistung, welche ${2}/{3}$ so gross ist wie die der normalen Netzspannung.
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.5]{Schwingungspaketsteuerung.png}	
+	\includegraphics[scale=0.42]{Schwingungspaketsteuerung.png}	
 	\caption{Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite{Schwingungspaketsteuerung}}\label{fig:Schwingungspaketsteuerung}
 \end{figure}
 
