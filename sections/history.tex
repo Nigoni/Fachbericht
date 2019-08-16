@@ -135,7 +135,9 @@ Um die Drehzahl des Asynchronmotors messen und regeln zu können, wurde eine Dre
 U_2=U_{Ges} \cdot\frac{R_4}{R_4 + R_5} \Longrightarrow 4.94 V = 58.8 V \cdot \frac{56k\Omega}{56k\Omega + R_5}
 \end{equation}
 
-Das Resultat des Widerstands $R_5$ ist \SI{611}{k\Omega} und somit konnte die Spannung mit dem Arduino gemessen werden. Mit dem ADC wird sie in 1024 verschiedene Werte aufgeteilt. Der Wert 512 entspricht  einer Spannung von \SI{2.5}{V} \cite{Spannungsmessung}. Danach wird dieser Wert mit den Widerstandswerten des Spannungsteilers auf die Originalspannung zurückgerechnet. Beim Regler wird für den Sollwert ein gewünschter Spannungswert vorgegeben. Anschliessend wird der Istwert vom Sollwert abgezogen, dadurch erhält man die Differenz. Da der Ausgabewert des Arduinos einem Wert zwischen 0 bis 255 entspricht, muss die Differenz umgerechnet werden. Zusätzlich wird ein PI-Regler benötigt, damit eine exakte und schnelle Regelung möglich ist.\\\\
+Das Resultat des Widerstands $R_5$ ist \SI{611}{k\Omega} und somit konnte die Spannung mit dem Arduino gemessen werden. Mit dem ADC wird sie in 1024 verschiedene Werte aufgeteilt. Der Wert 512 entspricht  einer Spannung von \SI{2.5}{V} \cite{Spannungsmessung}. Danach wird dieser Wert mit den Widerstandswerten des Spannungsteilers auf die Originalspannung zurückgerechnet. Beim Regler wird für den Sollwert ein gewünschter Spannungswert vorgegeben. Anschliessend wird der Istwert vom Sollwert abgezogen, dadurch erhält man die Differenz. Da der Ausgabewert des Arduinos einem Wert zwischen 0 bis 255 entspricht, muss die Differenz umgerechnet werden. Zusätzlich wird ein PI-Regler benötigt, damit eine exakte und schnelle Regelung möglich ist.
+
+\newpage
 Mit der Formel \ref{eq:digitaler_PI_Regler} wird die Ausgangsspannung eines digitaler PI-Regler berechnet \cite{Quelle_Marco} : 
 \begin{equation}\label{eq:digitaler_PI_Regler}
 Y(k) = Y(k-1)+ B_0U(k)+B_1U(k-1)

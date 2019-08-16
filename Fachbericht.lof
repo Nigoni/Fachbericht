@@ -3,12 +3,18 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Grundschwingung mit 3. Ordnung \cite {Oberwellen}\relax }}{4}{figure.caption.4}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Grundschwingung mit 11. Ordnung \cite {Oberwellen}\relax }}{4}{figure.caption.4}
+=======
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Grundschwingung mit 3. Ordnung \cite {Oberwellen}\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Grundschwingung mit 11. Ordnung \cite {Oberwellen}\relax }}{3}{figure.caption.4}
+>>>>>>> master
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Sub- und Zwischenharmonische mit einer Grundfrequenz von 50 Hz\relax }}{4}{figure.caption.5}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Addition der verschiedenen Oberwellen \cite {analysi3}\relax }}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Phasenanschnitt mit einem Winkel von 135\textdegree \cite {Phasenanschnittsteuerung}\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Phasenanschnitt mit einem Winkel von 135\textdegree \cite {Phasenanschnittsteuerung}\relax }}{7}{figure.caption.7}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Phasenanschnitt mit einem Winkel von 45\textdegree \cite {Phasenanschnittsteuerung}\relax }}{8}{figure.caption.8}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite {Schwingungspaketsteuerung}\relax }}{9}{figure.caption.9}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Leistungsfaktor von Phasenanschnitt- und Schwingungspaketsteuerung\relax }}{10}{figure.caption.10}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Einganssignal mit Phasenanschnitt (a) $60^\circ $ (b) $90^\circ $\relax }}{16}{figure.caption.14}
@@ -61,6 +67,60 @@
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{55}{figure.caption.99}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Strommessung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{56}{figure.caption.101}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{58}{figure.caption.103}
+=======
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schwingungspaketsteuerung ${2}/{3}$ der Leistung \cite {Schwingungspaketsteuerung}\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Leistungsfaktor von Phasenanschnitt- und Schwingungspaketsteuerung\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Einganssignal mit Phasenanschnitt (a) $60^\circ $ (b) $90^\circ $\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Amplituden- und Phasenspektrum (a) 60\textdegree \hspace {0.02cm} (b) 90\textdegree \relax }}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Rekonstruiertes Signal (a) 60\textdegree \hspace {0.02cm} (b) 90\textdegree \relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces FFT der Matlabfunktion mit einem Winkel von (a) 60\textdegree \hspace {0.02cm} (b) 90\textdegree \relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schwingungspaket mit einem Duty Cycle von (a) 0.5 (b) 0.8\relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sanftes Hoch- und Runterfahren der Leistung\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hartes Hoch- und Runterfahren der Leistung\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Eingangssignal mit Phasenanschnitt (a) 60\textdegree (b) 90\textdegree \relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Amplitudenspektrum Phasenanschnitt (a) 60\textdegree (b) 90\textdegree \relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Schwingungspaket mit einem Duty Cycle (a) 0.5 (b) 0.8\relax }}{23}{figure.caption.26}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Amplitudenspektrum mit einem Duty Cycle 0.5 von (a) 0 - 100 Hz (b) 0 - 1000 Hz\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Amplitudenspektrum mit einem Duty Cycle 0.8 von (a) 0 - \SI {100}{Hz} (b) 0 - \SI {1000}{Hz}\relax }}{24}{figure.caption.28}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Lineares absolutes Spektrum mit einem Duty Cycle von (a) 0.5 (b) 0.8\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Amplitudenspektrum mit Phasenwinkel 90\textdegree \relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Dreiphasige Phasenanschnittsteuerung mit 60\textdegree (a) Signal (b) FFT\relax }}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Dreiphasige Phasenanschnittsteuerung mit 90\textdegree (a) Signal (b) FFT\relax }}{26}{figure.caption.32}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Dreiphasige Schwingungspaketsteuerung mit Duty Cycle 0.5 (a) Signal (b) FFT\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Dreiphasige Schwingungspaketsteuerung mit Duty Cycle 0.8 (a) Signal (b) FFT\relax }}{27}{figure.caption.34}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Einphasiges Hoch- und Runterfahren mit einem Duty Cycle von 0.5 (a) Eingangssignal (b) Ausschnitt eines Paketes\relax }}{28}{figure.caption.35}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces FTT des einphasigen Hoch- und Runterfahrens mit einem Duty Cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 40 - 170 Hz\relax }}{28}{figure.caption.36}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Dreiphasiges Auf- und Absteuern mit einem Duty Cycle von 0.5 (a) Eingangssignal (b) Ausschnitt\relax }}{29}{figure.caption.37}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces FTT des dreiphasigen Hoch- und Runterfahrens mit einem Duty Cycle von 0.5 (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz - 300 Hz\relax }}{29}{figure.caption.38}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Zweiphasige Ansteuerung mit Last in Stern (a) Eingangssignal (b) Ausschnitt\relax }}{30}{figure.caption.41}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces FTT der zweiphasigen Ansteuerung (a) 0 - 2000 Hz (b) Ausschnitt 0 Hz -280 Hz\relax }}{31}{figure.caption.42}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Simulation mit der Halbwellensteuerung\relax }}{31}{figure.caption.44}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Lochraster Print mit Verst\IeC {\"a}rkerschaltung und Spannungsteiler\relax }}{32}{figure.caption.45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schema Verst\IeC {\"a}rkerschaltung\relax }}{34}{figure.caption.49}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Werte der Bauteile\relax }}{34}{figure.caption.49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schema Laboraufbau mit einem dreiphasigen Widerstand in Stern geschaltet\relax }}{34}{figure.caption.50}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Hartes Auf-und Absteuern Arduinocode\relax }}{36}{figure.caption.54}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Blockdiagramm eines digitalen PI-Reglers \cite {PI_Regler}\relax }}{37}{figure.caption.56}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Laboraufbau f\IeC {\"u}r die Messungen\relax }}{38}{figure.caption.57}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{39}{figure.caption.60}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Phasenanschnitt 90\textdegree \relax }}{40}{figure.caption.63}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Messung mit dem harten Auf- und Absteuern\relax }}{41}{figure.caption.66}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{42}{figure.caption.69}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{43}{figure.caption.72}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{44}{figure.caption.75}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{45}{figure.caption.78}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Messung mit der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5\relax }}{46}{figure.caption.81}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Messung mit der Schwingungspaketsteuerung mit einem Duty Cycle von 0.8\relax }}{48}{figure.caption.84}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Messung mit Auf- und Absteuern\relax }}{49}{figure.caption.87}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{50}{figure.caption.90}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Messung mit Phasenanschnitt 60\textdegree \relax }}{51}{figure.caption.93}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Messung mit Phasenanschnitt 90\textdegree \relax }}{53}{figure.caption.96}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Messung mit sanftem Auf- und Absteuern\relax }}{54}{figure.caption.99}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Strommessung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{55}{figure.caption.101}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Messung mit dem sanften Auf- und Absteuern und zwei Thyristoren\relax }}{57}{figure.caption.103}
+>>>>>>> master
 \contentsline {figure}{\numberline {C.1}{\ignorespaces Pr\IeC {\"u}fspannungsquelle mit der Bezugsimpedanz\relax }}{89}{figure.caption.128}
 \contentsline {figure}{\numberline {D.1}{\ignorespaces Phasenanschnittsteuerung mit 30\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.132}
 \contentsline {figure}{\numberline {D.2}{\ignorespaces Phasenanschnittsteuerung mit 45\textdegree (a) Eingangssignal (b) Amplituden- und Phasenspektrum\relax }}{92}{figure.caption.133}
