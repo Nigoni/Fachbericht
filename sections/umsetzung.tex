@@ -1,5 +1,5 @@
 \section{Resultate des Messaufbaus}
-In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Werten der Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als csv-Datei gespeichert und anschliessend mit Matlab dargestellt. Ausserdem ist es möglich die FFTs der Signale zu berechnen. In der Abbildung \ref{fig:Aufbau Messung} ist der verwendete Messaufbau ersichtlich.\\
+In diesem Kapitel werden die Messresultate des Laboraufbaus analysiert und mit den Werten der Simulationen und den Normen verglichen. Hierbei wurden die Daten der Messungen als csv-Datei gespeichert und anschliessend mit Matlab grafisch dargestellt. Ausserdem ist es möglich die FFTs der Signale zu berechnen. In der Abbildung \ref{fig:Aufbau Messung} ist der verwendete Messaufbau ersichtlich.\\
 Es sind nur die Messungen des Widerstandes und der ASM, die in Stern geschaltet sind, aufgelistet. Die Messungen in Dreieck sind hier nicht aufgeführt, sie befinden sich als Matlabdateien digital auf dem USB-Stick. 
 
 \begin{figure}[ht!]
@@ -35,7 +35,7 @@ Die Ströme der verschiedenen Ansteuerungarten und Verbrauchern sind auf zu- und
 
 \subsubsection{Messungen Widerstand}
 
-Die Resultate der Strommessungen sind wie folgt aufgebaut: Bei den Abbildungen \ref{fig:Mess_Widerstand_Phas_60grad_stroeme}, \ref{fig:Mess_Widerstand_Phas_90grad_stroeme}, \ref{fig:Mess_Widerstand_Sanft_stroeme} und \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme} sind zuerst die Ströme, die durch den Culatti fliessen dargestellt. Der Culatti ist ein ohmscher Widerstand mit dem Wert von \SI{150}{\Omega} pro Strang. Der maximale Effektivstrom, der dabei durchgelassen werden darf, ist \SI{2.4}{A}. Die zweite Grafik zeigt das FFT des gemessenen Stromes, jedoch nur von einer Phase an. Da sich alle drei Phasen gleich verhalten, werden die anderen zwei nicht angezeigt. Da die Grenzwerte der Oberschwingungsströme einen maximalen Wert von bis zu \SI{16}{A} Effektivwert behandelt, wurde der gemessene Wert auf die \SI{16}{A} hochgerechnet. Dies ist in der dritten Grafik der jeweiligen Abbildung ersichtlich. Anschliessend berechnete man von diesen Ströme das FFT und verglich die Werte der Amplitude tabellarisch mit den dazugehörigen Normen \ref{sec:Stromnormen}, ersichtlich in der Tabelle \ref{tab:Grenzwerte_Normen}.
+Die Resultate der Strommessungen sind wie folgt aufgebaut: Bei den Abbildungen \ref{fig:Mess_Widerstand_Phas_60grad_stroeme}, \ref{fig:Mess_Widerstand_Phas_90grad_stroeme}, \ref{fig:Mess_Widerstand_Sanft_stroeme} und \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme} sind zuerst die Ströme, die durch den Culatti fliessen dargestellt. Der Culatti ist ein symetrischer ohmscher Widerstand mit dem Wert von \SI{150}{\Omega} pro Strang. Der maximale Effektivstrom, der dabei durchgelassen werden darf, ist \SI{2.4}{A}. Die zweite Grafik zeigt das FFT des gemessenen Stromes, jedoch nur von einer Phase an. Da sich alle drei Phasen gleich verhalten, werden die anderen zwei nicht angezeigt. Weil die Grenzwerte der Oberschwingungsströme einen maximalen Wert von bis zu \SI{16}{A} Effektivwert behandelt, wurde der gemessene Wert auf die \SI{16}{A} hochgerechnet. Dies ist in der dritten Grafik der jeweiligen Abbildung ersichtlich. Anschliessend berechnete man von diesen Ströme das FFT und verglich die Werte der Amplitude tabellarisch mit den dazugehörigen Normen \ref{sec:Stromnormen}, ersichtlich in der Tabelle \ref{tab:Grenzwerte_Normen}.
 
 \subsubsection*{Phasenanschnitt 60\textdegree}
 
@@ -89,7 +89,7 @@ Die Abbildung \ref{fig:Mess_Widerstand_Phas_90grad_stroeme} zeigt das Stromsigna
 	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_Stroeme}
 \end{table}
 
-Die Amplitudenwerte der 5. bis 11. Oberschwingungsanordnung, erkennbar in der Tabelle \ref{tab:Phas_90_Stroeme}, sind auch bei dieser Ansteuerung, im Vergleich zu den Normen in der Tabelle \ref{tab:Grenzwerte_Normen}, zu hoch. Somit eignet sich auch der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht, um den Widerstand anzusteuern. Auf die Spannung wird hier ebenfalls nicht mehr eingegangen. 
+Die Amplitudenwerte der 5. bis 11. Oberschwingungsordnung, erkennbar in der Tabelle \ref{tab:Phas_90_Stroeme}, sind auch bei dieser Ansteuerung, im Vergleich zu den Normen in der Tabelle \ref{tab:Grenzwerte_Normen}, zu hoch. Somit eignet sich auch der Phasenanschnitt mit 90\textdegree \hspace{0.02cm} nicht, um den Widerstand anzusteuern. Auf die Spannung wird hier ebenfalls nicht mehr eingegangen. 
 
 
 \newpage
@@ -122,7 +122,7 @@ In der Abbildung \ref{fig:Mess_Widerstand_Sanft_stroeme} ist das harte Auf- und 
 	\end{tabular}
 	\caption{Amplitudenwerte bei verschiedenen Frequenzen beim hartem Auf- und Absteuern}\label{tab:Sanft_stroeme}
 \end{table}
-Da beim harten Auf- und Absteuern bereits die 5. harmonische Oberschwingung einen Amplitudenwert von unter \SI{0.1}{A} hat, wurde darauf verzichtet weitere Werte der harmonischen Schwingungen tabellarisch aufzulisten. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. Diese sind in der Tabelle \ref{tab:Sanft_stroeme} aufgeführt. Es ist ersichtlich, dass die Werte der Sub- und Zwischenharmonischen um \SI{50}{Hz}, mehr als die Hälfte der Grundschwingung, entsprechen. Diese sogenannten Seitenbänder sind auch bei den weiteren harmonischen Oberwellen erkennbar. Sie sind jedoch kleiner als die, um die \SI{50}{Hz}. Vergleicht man die Werte der Amplitude der Harmonischen sind sie im Bereich der erlaubten Grenzwerte. Deshalb wird noch eine Untersuchung der Spannung vorgenommen.
+Da beim harten Auf- und Absteuern bereits die 5. harmonischen Oberschwingung einen Amplitudenwert von unter \SI{0.1}{A} hat, wurde darauf verzichtet weitere Werte der harmonischen Schwingungen tabellarisch aufzulisten. Jedoch sind bei dieser Messung die Sub- und Zwischenharmonische sehr interessant. Diese sind in der Tabelle \ref{tab:Sanft_stroeme} aufgeführt. Es ist ersichtlich, dass die Werte der Sub- und Zwischenharmonischen um \SI{50}{Hz}, mehr als die Hälfte der Grundschwingung, entsprechen. Diese sogenannten Seitenbänder sind auch bei den weiteren harmonischen Oberwellen erkennbar. Sie sind jedoch kleiner als die, um die \SI{50}{Hz}. Vergleicht man die Werte der Amplitude der Harmonischen sind sie im Bereich der erlaubten Grenzwerte. Deshalb wird noch eine Untersuchung der Spannung vorgenommen.
 
 
 \newpage
@@ -152,15 +152,15 @@ In Abbildung \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme} erkennt man ein san
 		250               & 0.186             & 1.59\%							\\ \hline
 		250.35            & 0.559             & 4.77\%							\\ \hline
 	\end{tabular}
-	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen beim sanftem Auf- und Absteuern}\label{tab:Sanft_langsam_stroeme}
+	\caption{Amplitudenwerte bei verschiedenen Frequenzen beim sanftem Auf- und Absteuern}\label{tab:Sanft_langsam_stroeme}
 \end{table}
-Es ist zu erkennen, dass auch hier fast keine harmonische Oberwellen vorhanden sind. Die Amplitude der Grundschwingung ist jedoch höher als beim harten Auf- und Absteuern. Dies hat den Grund, dass länger auf der vollen Leistung gefahren wurde. Beim sanften Auf- und Absteuern ist das Hoch- und Runtergefahren langsamer, deshalb ist das Seitenband bei \SI{50}{Hz} kleiner. Dies erkennt man auch schon beim visuellen Vergleich der beiden Abbildungen \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme} und \ref{fig:Mess_Widerstand_Sanft_stroeme}. In der Tabelle \ref{tab:Sanft_langsam_stroeme} sind die Werten der Seitenbänder und der Harmonischen ersichtlich. Im Vergleich zum harten Auf- und Absteuern in der Tabelle \ref{tab:Sanft_stroeme}, ist die 5. Harmonische 0.39\% grösser, welches einem sehr kleinen Unterschied entspricht. Jedoch sind die Peaks der Seitenbänder näher bei \SI{50}{Hz}. Die Peaks des Seitenbandes bei \SI{250}{Hz} sind bei dem sanften Auf- und Absteuern kleiner als die beim harten Auf- und Absteuern.
+Es ist zu erkennen, dass auch hier fast keine harmonische Oberwellen vorhanden sind. Die Amplitude der Grundschwingung ist jedoch höher als beim harten Auf- und Absteuern. Dies hat den Grund, dass länger auf der vollen Leistung gefahren wurde. Beim sanften Auf- und Absteuern ist das Hoch- und Runterfahren langsamer, deshalb ist das Seitenband bei \SI{50}{Hz} schmaler. Dies erkennt man auch schon beim visuellen Vergleich der beiden Abbildungen \ref{fig:Mess_Widerstand_Sanft_stroeme} und \ref{fig:Mess_Widerstand_Sanft_langsam_stroeme}. In der Tabelle \ref{tab:Sanft_langsam_stroeme} sind die Werten der Seitenbänder und der Harmonischen ersichtlich. Im Vergleich zum harten Auf- und Absteuern in der Tabelle \ref{tab:Sanft_stroeme}, ist die 5. Harmonische 0.39\% grösser, welches einem sehr kleinen Unterschied entspricht. Jedoch sind die Peaks der Seitenbänder näher bei \SI{50}{Hz}. Die Peaks des Seitenbandes bei \SI{250}{Hz} sind bei dem sanften Auf- und Absteuern kleiner als die beim harten Auf- und Absteuern.
 
 
 
 \newpage
 \subsubsection{Messungen Asynchronmaschine}
-Um zu analysieren, wie sich das Signal bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einem Asynchronmotor wiederholt. Die Strommessung der ASM wurde nur mit den bekannten Phasenanschnittswinkeln und mit dem sanften Auf- und Absteuern vorgenommen. Dies hat den Grund, da keine Anwendungen für hartes Auf- und Absteuern oder der Schwingungspaketsteuerungen bei Asynchronmaschinen bekannt sind. Ausserdem wird in der Praxis meistens der Phasenanschnitt verwendet. Wie auch schon beim Widerstand muss der Strom bei der ASM auf die \SI{16}{A} hochgerechnet werden, um diese mit den Norm tabellarisch vergleichen zu können. Die Messungen der Asynchronmaschine sind ähnlich aufgebaut wie die des Widerstands. Einzig das Spannungssignal des Drehzahlgebers wurde hinzugefügt. Es ist erkennbar, dass das jeweilige Hochfahren des Stromes einen Einfluss auf das Spannungssignal des Drehgeber hat. Je harter man hochfährt desto steiler wird die Kurve des Spannungssignal des Drehgeber. 
+Um zu analysieren, wie sich das Signal bei einer ohmsch-induktiver Last verhält, wurden die Messungen mit einer Asynchronmaschine wiederholt. Die Strommessung der ASM wurde nur mit den bekannten Phasenanschnittswinkeln und mit dem sanften Auf- und Absteuern vorgenommen. Dies hat den Grund, da keine Anwendungen für hartes Auf- und Absteuern oder der Schwingungspaketsteuerungen bei Asynchronmaschinen bekannt sind. Ausserdem wird in der Praxis meistens der Phasenanschnitt verwendet. Wie auch schon beim Widerstand muss der Strom bei der ASM auf die \SI{16}{A} hochgerechnet werden, um diese mit den Norm tabellarisch vergleichen zu können. Die Messungen der Asynchronmaschine sind ähnlich aufgebaut wie die des Widerstands. Einzig das Spannungssignal des Drehzahlgebers wurde hinzugefügt. Es ist erkennbar, dass das jeweilige Hochfahren des Stromes einen Einfluss auf das Spannungssignal des Drehgeber hat. Je harter man hochfährt desto steiler wird die Kurve des Spannungssignals des Drehgebers. 
 
 
 \subsubsection*{Phasenaschnitt 60\textdegree}
@@ -184,12 +184,12 @@ In Abbildung \ref{fig:Mess_Phas_60grad_stroeme} erkennt man die Strommessung der
 		50.3              & 0.675             & 31.56\%							\\ \hline
 		250               & 0.07              & 3.27\%							\\ \hline
 	\end{tabular}
-	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_ASM_stroeme}
+	\caption{Amplitudenwerte bei verschiedenen Frequenzen bei Phasenanschnitt 60\textdegree}\label{tab:Phas_60_ASM_stroeme}
 \end{table}
-Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM praktisch keine harmonischen Oberwellen sondern fast nur Sub- und Zwischenharmonische. Dies hat den Grund, dass ein reiner Sinus mit einer Frequenz von \SI{50}{Hz} bei der maximalen Drehzahl entsteht. Die fünfte harmonische Schwingung hat eine Amplitude von \SI{0.07}{A} und hält somit die Normen \ref{sec:Stromnormen} ein. Weitere Harmonische sind nicht zu erkennen. Die Peaks des Seitenbandes um die Grundschwingung sind im Verhältnis mit bis zu 70\% sehr hoch. Die Spannung dieser Ansteuerung wird deshalb noch untersucht.
+
 
 \newpage
-Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM praktisch keine harmonischen Oberwellen sondern fast nur Sub- und Zwischenharmonische. Dies hat den Grund, dass ein reiner Sinus mit einer Frequenz von \SI{50}{Hz} bei der maximalen Drehzahl entsteht. In der Tabelle \ref{tab:Phas_60_ASM_stroeme} sind die Amplitudenwerte des Seitenbandes aufgelistet. Die fünfte harmonische Schwingung hat eine Amplitude von \SI{0.07}{A} und hält somit die Normen \ref{sec:Stromnormen} ein. Weitere Harmonische sind nicht zu erkennen. Die Peaks des Seitenbandes um die Grundschwingung sind im Verhältnis mit bis zu 70\% sehr hoch. Die Spannung dieser Ansteuerung wird deshalb noch untersucht.
+Entgegen den Vorkenntnissen bei Phasenanschnitt mit einem Winkel von 60\textdegree, gibt es bei der Ansteuerung der ASM praktisch keine harmonischen Oberwellen sondern fast nur Sub- und Zwischenharmonische. Dies hat den Grund, dass ein reiner Sinus mit einer Frequenz von \SI{50}{Hz} bei der maximalen Drehzahl entsteht. In der Tabelle \ref{tab:Phas_60_ASM_stroeme} sind die Amplitudenwerte des Seitenbandes aufgelistet. Die 5. Harmonische hat eine Amplitude von \SI{0.07}{A} und hält somit die Normen \ref{sec:Stromnormen} ein. Weitere Harmonische sind nicht zu erkennen. Die Peaks des Seitenbandes um die Grundschwingung sind im Verhältnis mit bis zu 70\% sehr hoch. Die Spannung dieser Ansteuerung wird deshalb noch untersucht.
 
 
 \subsubsection*{Phasenaschnitt 90\textdegree}
@@ -217,10 +217,10 @@ In Abbildung \ref{fig:Mess_Phas_90grad_stroeme} erkennt man die Strommessung der
 		250.1             & 0.959             & 29.2\%							\\ \hline
 		250.2             & 0.687             & 20.92\%							\\ \hline
 	\end{tabular}
-	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_ASM_stroeme}
+	\caption{Amplitudenwerte bei verschiedenen Frequenzen bei Phasenanschnitt 90\textdegree}\label{tab:Phas_90_ASM_stroeme}
 \end{table}
 
-Anders als bei der Ansteuerung mit dem Phasennaschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der 5. Ordnung grössere harmonische Oberwellen auf. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_90grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine schwingt. Dies wurde auch beim Testen festgestellt, dass die ASM nicht konstant auf der gleichen Drehzahl drehte. So kann diese Ansteuerungsart nicht verwendet werden um die Maschine anzusteuern. 
+Anders als bei der Ansteuerung mit dem Phasenanschnitt von 60\textdegree, treten mit 90\textdegree \hspace{0.02cm} bei der 5. Harmonischen grössere Amplituden auf, siehe Tabelle \ref{tab:Phas_90_ASM_stroeme}. Zusätzlich sind auch die Sub- und Zwischenharmonischen grösser als bei 60\textdegree. Auf der Abbildung \ref{fig:Mess_Phas_90grad_stroeme} ist beim Stromsignal ersichtlich, dass die Maschine schwingt. Dies wurde auch beim Testen festgestellt, dass die ASM nicht konstant auf der gleichen Drehzahl drehte. So kann diese Ansteuerungsart nicht verwendet werden um die Maschine anzusteuern. 
 Im Vergleich zum Phasenanschnitt mit 60\textdegree\hspace{0.02cm} sind die Peaks des Seitenbandes um die Grundschwingung noch höher. Auch die 5. Harmonische entspricht im Verhältnis zur Grundschwingung 20.5\%. Die Werte der Amplituden sind jedoch immer noch kleiner als der erlaubte Grenzwert der Norm \ref{sec:Stromnormen}. Deshalb wir auch bei dieser Ansteuerung noch die Spannung untersucht. 
 
 
@@ -249,7 +249,7 @@ In Abbildung \ref{fig:Mess_Sanft_langsam_stroeme} erkennt man ein sanftes Auf- u
 		50.2              & 0.878             & 21.88\%							\\ \hline
 		250               & 0.28              & 6.98\%							\\ \hline
 	\end{tabular}
-	\caption{Amplitudenwerte bei den harmonischen Oberschwingungen bei sanftem Auf- und Absteuern}\label{tab:Sanft_langsam_ASM_stroeme}
+	\caption{Amplitudenwerte bei verschiedenen Frequenzen bei sanftem Auf- und Absteuern}\label{tab:Sanft_langsam_ASM_stroeme}
 \end{table}
 Wie schon bei der Widerstandsmessung mit dem sanftem Auf- und Absteuern im Kapitel \ref{sec:Sanft_Widerstand_stroeme}, sind bei dieser Messung, mit der ASM, die harmonische Oberschwingungen sehr klein. Sie halten somit die Norm \ref{sec:Stromnormen} ein. In der Tabelle \ref{tab:Sanft_langsam_ASM_stroeme} sind bei verschiedenen Frequenzen die Werte der Amplituden des FFTs aufgelistet.
 Die Peaks des Seitenbandes um \SI{50}{Hz} haben ein Verhältnis von bis zu 40\% zur Grundfrequenz. Auch hier werden die Spannungen noch untersucht. 
@@ -258,11 +258,11 @@ Die Peaks des Seitenbandes um \SI{50}{Hz} haben ein Verhältnis von bis zu 40\% 
 \newpage
 \subsection{Messungen Spannungen}
 
-Damit man die Funktionen des Laboraufbaues mit den Simulationen vergleichen kann, wurden die Spannungen über dem Widerstand und der Asynchronmaschine mit den verschiedenen Ansteuerungsarten gemessen. Dafür wurden die Spannungssignale und das FFT als Grafik und die interessanten Werte der sub-, zwischenharmonischen und harmonischen Schwingungen tabellarisch aufgelistet. Damit auch die Spannungen mit den Normen verglichen werden können, wurde das Verhältnis der verschiedenen Oberschwingungen zur Grundschwingung in Prozent in die Tabellen eingefügt. Da die Phasenanschnittsteureung beim Widerstand die Normen der harmonischen Oberwellen des Stromes nicht einhalten, werden die Spannungssignale bei diesen Verfahren nicht mehr aufgezeigt. Sie sind jedoch im Anhang \ref{sec:Mess_Spannung_Widerstand} ersichtlich. Die Abbildungen sind in diesem Kapitel so aufgebaut, dass zuerst das Spannungssignal über dem Widerstand und anschliessend das daraus berechnete FFT dargestellt wurde.
+Damit man die Funktionen des Laboraufbaues mit den Simulationen vergleichen kann, wurden die Spannungen über dem Widerstand und der Asynchronmaschine mit den verschiedenen Ansteuerungsarten gemessen. Dafür wurden die Spannungssignale und das FFT als Grafik und die interessanten Werte der sub-, zwischenharmonischen und harmonischen Schwingungen tabellarisch aufgelistet. Damit auch die Spannungen mit den Normen verglichen werden können, wurde das Verhältnis der verschiedenen Oberschwingungen zur Grundschwingung in Prozent in die Tabellen eingefügt. Da die Phasenanschnittsteuerung beim Widerstand die Normen der harmonischen Oberwellen des Stromes nicht einhalten, werden die Spannungssignale bei diesen Verfahren nicht mehr aufgezeigt. Sie sind jedoch im Anhang \ref{sec:Mess_Spannung_Widerstand} ersichtlich. Die Abbildungen sind in diesem Kapitel so aufgebaut, dass zuerst das Spannungssignal über der Last und anschliessend das daraus berechnete FFT dargestellt wurde.
 
 \subsubsection{Messungen Widerstand}
 
-Zuerst wird die Spannung der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5 und 0.8 über dem ohmschen Widerstand untersucht. Anschliessend betrachtet man das harte und sanfte Auf- und Absteuern der Spannung über dem Widerstand. Da bei diesen Verfahren fast keine harmonischen Schwingungen auftreten, halten sie die Normen im Kapitel \ref{sec:Spannungsnormen} zu den Harmonischen ein. Die Erkenntnisse zu den Sub- und Zwischenharmonischen werden im Kapitel \ref{sec:Interpretation_Resultate} Interpretation der Resultate erläutert.
+Zuerst wird die Spannung der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5 und 0.8 über dem Widerstand untersucht. Anschliessend betrachtet man das harte und sanfte Auf- und Absteuern der Spannung über dem Widerstand. Da bei diesen Verfahren fast keine harmonischen Schwingungen auftreten, halten sie die Normen im Kapitel \ref{sec:Spannungsnormen} zu den Harmonischen ein. Die Erkenntnisse zu den Sub- und Zwischenharmonischen werden im Kapitel \ref{sec:Interpretation_Resultate} Interpretation der Resultate erläutert.
 
 \subsubsection*{Schwingungspaket mit Duty Cycle von 0.5}
 
@@ -291,10 +291,10 @@ In Abbildung \ref{fig:Mess_Schwing_50} ist das Spannungssignal der Schwingungspa
 		52                & 25.134            & 16.76\%                        \\ \hline
 		53                & 20.6              & 13.74\%                        \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5}\label{tab:Mess_Spannung_Schwing_50}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen bei der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5}\label{tab:Mess_Spannung_Schwing_50}
 \end{table}
 
-Wie bei den Simulationen im Kapitel \ref{sec:Schwingungspaketsteuerung_Simulation} gezeigt, treten bei der Schwingungspaketsteuerung fast keine harmonischen Oberwellen auf. Bei dem FFT erkennt man, dass das Seitenband bei der Grundschwingung relativ breit ist. In der Tabelle \ref{tab:Mess_Spannung_Schwing_50} sind die Werte der Amplituden der Sub- und Zwischenharmonischen aufgelistet. Dabei wurden die Werte aus dem FFT ausgelesen, welche sich in der Nähe der Grundschwingung von \SI{50}{Hz} befinden und einen hohen Amplitudenwert besitzen. \\
+Wie bei den Simulationen im Kapitel \ref{sec:Schwingungspaketsteuerung_Simulation} gezeigt, treten bei der Schwingungspaketsteuerung fast keine harmonischen Oberwellen auf. Beim FFT erkennt man, dass das Seitenband bei der Grundschwingung relativ breit ist. In der Tabelle \ref{tab:Mess_Spannung_Schwing_50} sind die Werte der Amplituden der Sub- und Zwischenharmonischen aufgelistet. Dabei wurden die Werte aus dem FFT ausgelesen, welche sich in der Nähe der Grundschwingung von \SI{50}{Hz} befinden und einen hohen Amplitudenwert besitzen. \\
 Die Werte der Tabelle \ref{tab:Mess_Spannung_Schwing_50} wurden mit denen des FFTs der Plecs-Simulation verglichen. Die Grafik und die Werte der Messung und der Simulation befinden sich im Anhang \ref{sec:Vergleich_Mess_Sim_Schwing_50}. Dabei wurde festgestellt, dass sich die Kurvenformen der FFT ähnlich aussehen. Jedoch bei näherem betrachten gibt es grosse Unterschiede zwischen den Peak-Werten. In der Simulation schnellen, nach dem Einschalten eines Paketes, die Spannungen sogleich an den Spitzenwert, wobei dies beim Laboraufbau nicht der Fall ist. Deshalb ist bei der Simulation, bei gleicher Zeitdauer, die Spannung länger auf dem Spitzenwert als beim Laboraufbau. Des Weiteren sind alle Bauteile in der Simulation ideal, wobei dies in der Praxis nicht der Fall ist. Deshalb ist auch eine minimale Abweichung des Spitzenwertes ersichtlich.
 
 
@@ -323,12 +323,12 @@ In der Abbildung \ref{fig:Mess_Schwing_80} ist das Spannungssignal der Schwingun
 		52                & 43.812            & 16.47\%                        \\ \hline
 		53                & 21.939            & 8.25\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei Schwingungspaket 80\%}\label{tab:Mess_Spannung_Schwing_80}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen bei der Schwingungspaketsteuerung mit einem Duty Cycle von 0.8}\label{tab:Mess_Spannung_Schwing_80}
 \end{table}
 
 Anders als beim Schwingungspaket mit einem Duty Cycle von 0.5, ist bei 0.8 der Peak bei der Grundfrequenz von \SI{50}{Hz} deutlich höher. Das kommt davon, da die Spannung eine längere Zeit auf dem Maximum ist.
 In der Tabelle \ref{tab:Mess_Spannung_Schwing_80} befinden sich die Werte der Amplituden und deren Verhältnis zur Grundschwingung.\\
-Wie bei der Schwingungspaketsteuerung mit Duty Cycle von 0.5 wurden auch die Resultate der Messung mit 0.8 mit der Simulation verglichen. Die Tabelle mit den Werte und der grafische Vergleich befindet sich im Anhang \ref{sec:Vergleich_Mess_Sim_Schwing_80}. Auch hier gab es Abweichungen bei den verschiedenen Frequenzen zwischen der Simulation und der Messung. Diese waren jedoch bedeutend kleiner als bei der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5. Der Grund, für die niedrigere Abweichung ist, dass die Schwingungspakete eine längere Zeit auf dem Maximum bleiben. Das Hoch- und Herunterfahren haben somit einen kleineren Einfluss auf die Amplitudenwerte. Deshalb ist eine grössere Ähnlichkeit zur Simulation ersichtlich.
+Wie bei der Schwingungspaketsteuerung mit Duty Cycle von 0.5 wurden auch die Resultate der Messung mit 0.8 mit der Simulation verglichen. Die Tabelle mit den Werte und der grafische Vergleich befindet sich im Anhang im Kapitel \ref{sec:Vergleich_Mess_Sim_Schwing_80}. Auch hier gab es Abweichungen bei den verschiedenen Frequenzen zwischen der Simulation und der Messung. Diese waren jedoch bedeutend kleiner als bei der Schwingungspaketsteuerung mit einem Duty Cycle von 0.5. Der Grund, für die niedrigere Abweichung ist, dass die Schwingungspakete eine längere Zeit auf dem Maximum bleiben. Das Hoch- und Herunterfahren haben somit einen kleineren Einfluss auf die Amplitudenwerte. Deshalb ist eine grössere Ähnlichkeit zur Simulation ersichtlich.
 
 
 
@@ -357,7 +357,7 @@ Die Abbildung \ref{fig:Mess_Sanft} zeigt ein hartes Auf- und Absteuern der Spann
 		250               & 1.0487            & 0.94\%                         \\ \hline
 		251 		      & 1.8206            & 1.63\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei hartes Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_hart}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen beim harten Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_hart}
 \end{table}
 
 Für die Tabelle \ref{tab:Mess_Spannung_AufAb_hart} wurden die höchsten Amplitudenwerte bei der Grundschwingung von \SI{50}{Hz} und bei der 5. Harmonische bei \SI{250}{Hz} aufgelistet.
@@ -393,10 +393,10 @@ Die Abbildung \ref{fig:Mess_Sanft_langsam} zeigt ein sanftes Auf- und Absteuern 
 		250               & 1.158             & 0.67\%                         \\ \hline
 		250.4             & 7.466             & 4.33\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen beim sanften Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_sanft}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen beim sanften Auf- und Absteuern}\label{tab:Mess_Spannung_AufAb_sanft}
 \end{table}
 
-Im visuellen Vergleich mit dem hartem Auf- und Abfahren zeigt das FFT, dass die Seitenbänder schmaler und der Peak bei \SI{50}{Hz} grösser geworden sind. In der Tabelle \ref{tab:Mess_Spannung_AufAb_sanft} sind die höchsten Amplitudenwerte der Frequenzen, die sich in der Nähe der Grundschwingung von \SI{50}{Hz} und der 5. Harmonischen bei \SI{250}{Hz} aufhalten, aufgelistet. Der Vergleich mit der Simulation, befindet sich im Anhang im Kapitel \ref{sec:Vergleich_Mess_Sim_sanft_AufAb}, zeigt grosse Unterschiede der Amplitudenwerte auf. Ein Grund dafür ist, dass die Simulation für das Hoch- und Runterfahren eine Zeitdauer von \SI{0.3}{s} benötigt, wobei sie bei der Messung \SI{3}{s} beträgt. Zusätzlich ist bei der Simulation während \SI{6}{s} die Spannung auf dem Spitzenwert, beim Laboraufbau sind es jedoch \SI{7}{s}. Es ist ersichtlich, dass die beiden Funktionen nicht miteinander verglichen werden können, da die Abweichung zu gross ist.
+Im visuellen Vergleich mit dem hartem Auf- und Abfahren zeigt das FFT, dass die Seitenbänder schmaler und der Peak bei \SI{50}{Hz} grösser geworden sind. In der Tabelle \ref{tab:Mess_Spannung_AufAb_sanft} sind die höchsten Amplitudenwerte der Frequenzen, die sich in der Nähe der Grundschwingung von \SI{50}{Hz} und der 5. Harmonischen bei \SI{250}{Hz} aufhalten, aufgelistet. Der Vergleich mit der Simulation, welches sich im Anhang im Kapitel \ref{sec:Vergleich_Mess_Sim_sanft_AufAb} befindet, zeigt grosse Unterschiede der Amplitudenwerte auf. Ein Grund dafür ist, dass die Simulation für das Hoch- und Runterfahren eine Zeitdauer von \SI{0.3}{s} benötigt, wobei sie bei der Messung \SI{3}{s} beträgt. Zusätzlich ist bei der Simulation während \SI{6}{s} die Spannung auf dem Spitzenwert, beim Laboraufbau sind es jedoch \SI{7}{s}. Es ist ersichtlich, dass die beiden Funktionen nicht miteinander verglichen werden können, da die Abweichung zu gross ist.
 
 
 \subsubsection{Messungen Asynchronmaschine}
@@ -425,10 +425,10 @@ Bei der Abbildung \ref{fig:Mess_ASM_Phas60} ist das Spannungssignale der Phasena
 		7                      & 2.8728            & 1.58\%                         \\ \hline
 		11                     & 1.4537            & 0.8\%                          \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 60\textdegree}\label{tab:Mess_Spannung_ASM_Phas60}
+\caption{Amplitudenwerte bei den Harmonischen bei Phasenanschnitt 60\textdegree}\label{tab:Mess_Spannung_ASM_Phas60}
 \end{table}
 
-Anders als bei der Ansteuerung mit dem Phasenanschnittswinkel von 60\textdegree\hspace{0.02cm} mit dem Widerstand, treten bei dem Asynchronmotor fast keine harmonischen Oberschwingungen auf. Da diese Peaks im FFT fast nicht ersichtlich sind, wurden nur die Amplitudenwerte der Oberschwingungen bis zur 11. Ordnung in die Tabelle \ref{tab:Mess_Spannung_ASM_Phas60} aufgeführt. 
+Anders als bei der Ansteuerung mit dem Phasenanschnittswinkel von 60\textdegree\hspace{0.02cm} mit dem Widerstand, welches sich im Anhang im Kapitel \ref{sec:Mess_Spannung_Widerstand} befindet, treten bei dem Asynchronmotor fast keine harmonischen Oberschwingungen auf. Da diese Peaks im FFT fast nicht ersichtlich sind, wurden nur die Amplitudenwerte der Oberschwingungen bis zur 11. Ordnung in die Tabelle \ref{tab:Mess_Spannung_ASM_Phas60} aufgeführt. 
 Beim Ansteuern mit dem Winkel von 60\textdegree \hspace{0.02cm} wurde bemerkt, dass die Maschine bereits mit maximaler Drehzahl dreht. Es macht bei den Spannungssignalen keinen Unterschied ob die ASM mit einem Winkel von 60\textdegree \hspace{0.02cm} oder 0\textdegree \hspace{0.02cm} angesteuert wird. Anders als beim Phasenanschnitt mit 60\textdegree\hspace{0.02cm} bei ohmscher Last, sind mit dem gleichen Anschnitswinkel bei der ASM keine Sub- und Zwischenharmonische in der Nähe der Grundfrequenz ersichtlich. Im Verhältnis zur Grundschwingung hat die 7. Ordnung die maximale Abweichung von 1.58\%. Die Werte der harmonischen Schwingungen halten somit die Normen in der Tabelle \ref{tab:kompatibilitätsstufen} ein. 
 
 \newpage
@@ -456,7 +456,7 @@ Die Abbildung \ref{fig:Mess_ASM_Phas90} zeigt das Spannungssignal der Phasenansc
 		350               & 6.8988            & 4.88\%                         \\ \hline
 		356               & 2.3509            & 1.66\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei Phasenanschnitt 90\textdegree}\label{tab:Mess_Spannung_ASM_Phas90}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen bei Phasenanschnitt 90\textdegree}\label{tab:Mess_Spannung_ASM_Phas90}
 \end{table}
 
 Anders als bei der vorherigen Ansteuerung mit einem Phasenanschnittswinkel von 60\textdegree, beginnt der Asynchronmotor bei einem Winkel von 90\textdegree \hspace{0.02cm} zu schwingen. Dieses Schwingen ist in der Abbildung \ref{fig:Mess_ASM_Phas90} beim Spannungsverlauf ersichtlich. Wird das FFT betrachtet, sind sub- und zwischenharmonische, sowie harmonische Oberwellen erkennbar. Die Amplitudenwerte und das Verhältnis zur Grundschwingung ist für die 1., 5. und 7. Harmonischen, sowie deren Seitenbänder in der Tabelle \ref{tab:Mess_Spannung_ASM_Phas90} aufgelistet. Betrachtet man die Verhältnisse der harmonischen Oberwellen, sind die deutlich über den Werten der vorgeschriebenen Normen \ref{sec:Spannungsnormen}. Somit kann der Asynchronmotor nicht mit diesem Verfahren betrieben werden.  
@@ -488,7 +488,7 @@ Die Abbildung \ref{fig:Mess_ASM_Sanft_langsam} zeigt ein sanftes Auf- und Absteu
 		250               & 1.689             & 1.64\%                         \\ \hline
 		250.05            & 2.5084            & 2.43\%                         \\ \hline
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen bei sanftem Auf- und Absteuern}\label{tab:Mess_Spannung_ASM_AufAb_sanft}
+\caption{Amplitudenwerte bei verschiedenen Frequenzen bei sanftem Auf- und Absteuern}\label{tab:Mess_Spannung_ASM_AufAb_sanft}
 \end{table}
 
 
@@ -579,7 +579,7 @@ Die Abbildung \ref{fig:Mess_2Thyristoren_Widerstand_AufAbFahren_langsam} zeigt d
 		250             & 1.07\%                                                                              & 0.38\%                                                                              & 1.13\%                                                                              \\ \hline
 		
 	\end{tabular}
-\caption{Amplitudenwerte bei der Frequenzen mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
+\caption{Amplitudenwerte bei der Spannungsmessung mit zwei Thyristoren bei sanftem Auf- und Absteuern}\label{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft}
 \end{table}
 
 Das Spannungssignal, welches mit nur zwei Thyristoren angesteuert wurde, hat eine visuelle Ähnlichkeit mit dem sanften Auf- und Absteuern der drei Thyristoren, in der Abbildung \ref{fig:Mess_Sanft_langsam}. Der einzige Unterschied entsteht beim Hoch- und Runterfahren. Die drei Phasen erreichen wegen der unsymmetrischen Belastung nicht die gleiche Höhe. Dies ist bei den FFT ebenfalls ersichtlich. Es sind unterschiedliche Amplitudenhöhen aufgezeigt. Die Werte der FFTs sind in der Tabelle \ref{tab:Mess_2Thyristoren_Spannung_Widerstand_AufAb_sanft} aufgelistet. Vergleicht man wiederum die Werte der harmonischen Schwingungen mit den Grenzwerten der Normen, erfüllen sie jedoch den einzuhaltenden Bereich.
@@ -622,7 +622,7 @@ Die Resultate der Leistungsfaktorberechnungen sind in der Tabelle \ref{tab:Leist
 \end{table}
 Bei der ASM im Leerlauf gilt, je näher der Leistungsfaktor bei 0 ist desto besser. Da der Leistungsfaktor das Verhältnis von Wirk- zu Scheinleistung ist und sich die Maschine im Leerlauf befindet, wird die Wirkleistung nur für die Ummagnetisierungs- und Eisenverluste benötigt. Wenn der Leistungsfaktor höher ist, heisst dies, dass mehr Verlustleistung entsteht. Um dies zu beweisen wurde ein Vorwiderstand von \SI{150}{\Omega} in den Stromkreis hinzugeschaltet. Dabei konnte festgestellt werden, dass sich, wie erwartet, der Leistungsfaktor erhöht. Es wird zusätzlich Wirkleistung im Widerstand verheizt. Wenn die Leistungsfaktoren der verschiedenen Ansteuerungsarten miteinander verglichen werden, ist ersichtlich, dass sich das sanfte Auf- und  Absteuern am besten für die ASM eignet.
 
-Bei ohmschen Lasten gilt, je näher der Leistungsfaktor bei 1 ist, desto weniger Verluste hat der Widerstand. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch sind laut Normen, der Gebrauch der Phasenanschnittsteuerung mit einem Winkeln von 90\textdegree \hspace{0.02cm} nicht erlaubt. Da die Amplitudenwerte der Oberschwingungsspannungen zu hoch sind. Deshalb macht es Sinn, nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
+Bei ohmschen Lasten gilt, je näher der Leistungsfaktor bei 1 ist, desto weniger Verluste hat der Widerstand. Bei den Messungen mit den verschiedenen Ansteuerungsarten wurde festgestellt, dass der Leistungsfaktor beim Phasenanschnitt mit einem Winkel von 60\textdegree \hspace{0.02cm} am höchsten ist. Jedoch sind laut Normen, der Gebrauch der Phasenanschnittsteuerung mit einem Winkeln von 90\textdegree \hspace{0.02cm} nicht erlaubt, da die Amplitudenwerte der Oberschwingungsspannungen zu hoch sind. Deshalb macht es Sinn, nur das sanfte und harte Auf- und Abfahren zu vergleichen. Bei diesen zwei Ansteuerungsverfahren hat das harte Auf- und Absteuern einen höheren Leistungsfaktor. Jedoch ist der Unterschied von 0.0001 sehr klein und kann praktisch vernachlässigt werden.
  
 
 

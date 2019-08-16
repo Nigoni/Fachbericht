@@ -1,7 +1,7 @@
 \section{Messaufbau}
 Damit die verschiedenen simulierten Ansteuerungsarten in der Praxis umgesetzt werden können, wurde ein Messaufbau aufgebaut. In diesem Kapitel sind alle Komponenten, welche für den Messaufbau benötigt wurden, aufgeführt. Dazu gehören die Spannungsverstärkerschaltung, welcher sich auf dem Arduino befindet, das eingebaute Filter sowie der Arduino selber, der für die verschiedenen Funktionen programmiert wurde.
 \subsection{Laboraufbau}
-Die Praxistests wurden mit einem \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.02cm} von der Firma Chemtronic durchgeführt. Wie der Name des Produktes sagt, arbeitet diese Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden. Dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Jedoch kann für die Ansteuerung auch ein Spannungssignal von 0 - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega 2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz} \cite{Arduino_PWM}. 
+Die Praxistests wurden mit einem \grqq T-Drive 3Ph compact Thyristorsteller\grqq \hspace{0.02cm} von der Firma Chemtronic durchgeführt. Wie der Name des Produktes sagt, arbeitet diese Thyristorschaltung mit drei Phasen. Für die Ansteuerung des Zündwinkels kann ein Potenziometer verwendet werden. Dies hat jedoch den Nachteil, dass der Zündwinkel von Hand eingestellt werden muss. Zusätzlich kann für die Ansteuerung auch ein Spannungssignal von 0 - \SI{10}{V} benutzt werden. Dieses Spannungssignal entspricht linear dem Zündwinkel 180\textdegree \hspace{0.02cm} bis 0\textdegree \hspace{0.02cm} der Thyristoren. Um dieses Spannungssignal erzeugen zu können, wurde ein Arduino Mega2560 verwendet. Er erzeugt jedoch nur eine Ausgangsspannung von \SI{5}{V}. Deshalb wurde eine Spannungsverstärkungsschaltung entworfen, die die Spannung verdoppelt. Die PWM-Funktion im Arduino konnte genutzt werden, damit die Spannung variabel bleibt. Das PWM-Signal läuft mit einer Frequenz von \SI{490}{Hz} \cite{Arduino_PWM}. 
 Damit der Operationsverstärker der Verstärkungsschaltung die Spannung richtig verstärkt, muss zwingend ein reines DC-Signal am Eingang des Operationsverstärkers anliegen. Deshalb wurde zusätzlich ein Tiefpass-Filter erster Ordnung am Ausgang des Arduinos eingebaut, mit einer Grenzfrequenz von \SI{1}{Hz}.  
 
 \begin{figure}[ht!]  
@@ -61,7 +61,7 @@ Um die Ströme klein zu halten, wurden Widerstände von \SI{12}{k\Omega} verwend
 	\begin{minipage}[t]{.76\textwidth} \centering 
 		\centering
 		\includegraphics[scale=0.555]{Schema_Verstaerkerschaltung.png}	
-		\caption{Schema Verstärkerschaltung}\label{fig:Verstaerkerschaltung}
+		\caption{Schema der Verstärkerschaltung und des Filters}\label{fig:Verstaerkerschaltung}
 	\end{minipage}	
 	% 
 	\begin{minipage}[b]{.23\textwidth}
